@@ -1,0 +1,85 @@
+{
+    "key": "group_64634ae6596b8",
+    "title": "共通_医院情報",
+    "fields": [
+        {
+            "key": "field_64634ae69a3d2",
+            "label": "クリニックID",
+            "name": "clinic_id",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "IDを入力すると、クリニックマスタからデータが読み出されます",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64634af19a3d3",
+            "label": "医療法人名",
+            "name": "group_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "クリニックマスタより自動入力",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64634afe9a3d4",
+            "label": "医院名",
+            "name": "clinic_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "クリニックマスタより自動入力",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "clinic"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1687051317
+}
