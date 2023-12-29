@@ -1,6 +1,7 @@
 <?php
   $custom_functions_dir = 'services/';
   $custom_functions_files = array(
+    // 'plugins.php',
     'style.php',
     'shortcode.php',
     'acf-json.php',
