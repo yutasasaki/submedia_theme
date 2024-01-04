@@ -270,6 +270,6 @@
 <p>では、どの矯正歯科で初診を受ければいいのでしょうか？</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:sgb/headings {"headingText":"%%area:全国%%でおすすめの矯正歯科一覧","headingStyle":"hh hh26","headingIconName":"","headingTextColor":"","headingBgColor1":"","headingBorderColor1":""} -->
-<h2 class="wp-block-sgb-headings sgb-heading" style="text-align: center;"><span class="sgb-heading__inner hh hh26" style="font-size: 1.2em;"><span class="sgb-heading__text">%%area:全国%%でおすすめの矯正歯科一覧</span></span></h2>
+<!-- wp:sgb/headings {"headingText":"<?php echo esc_attr($atts['area'] ?? '全国'); ?>でおすすめの矯正歯科一覧","headingStyle":"hh hh26","headingIconName":"","headingTextColor":"","headingBgColor1":"","headingBorderColor1":""} -->
+<h2 class="wp-block-sgb-headings sgb-heading" style="text-align: center;"><span class="sgb-heading__inner hh hh26" style="font-size: 1.2em;"><span class="sgb-heading__text"><?php echo esc_attr($atts['area'] ?? '全国'); ?>でおすすめの矯正歯科一覧</span></span></h2>
 <!-- /wp:sgb/headings -->
