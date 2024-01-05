@@ -21,8 +21,12 @@
     <!-- wp:heading {"level":5} -->
     <h5 class="wp-block-heading" style="margin-bottom: 10px;">院長からのコメント</h5>
     <!-- /wp:heading -->
-
-    <p><?php echo esc_html($clinic_data->director_introduction); ?></p>
+    <?php if (!empty($clinic_data->director_introduction_url)) : ?>
+      <blockquote cite="<?php echo esc_url($clinic_data->director_introduction_url); ?>">
+    <?php else: ?>
+      <p>
+    <?php endif; ?>
+    <?php echo esc_html($clinic_data->director_introduction); ?></p>
   </div>
 </div>
 <?php endif; ?>

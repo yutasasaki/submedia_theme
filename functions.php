@@ -2,9 +2,10 @@
   $custom_functions_dir = 'services/';
   $custom_functions_files = array(
     // 'plugins.php',
+    // 'acf-json.php',
     'style.php',
+    'custom_cta.php',
     'shortcode.php',
-    'acf-json.php',
     'clinic_info.php',
   );
   foreach ($custom_functions_files as $custom_functions_file) {

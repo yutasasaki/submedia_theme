@@ -9,6 +9,12 @@
     <?php include(get_stylesheet_directory() . '/views/components/review.php'); ?>
     <?php include(get_stylesheet_directory() . '/views/components/access.php'); ?>
     <?php include(get_stylesheet_directory() . '/views/components/business_hour.php'); ?>
+    <?php include(get_stylesheet_directory() . '/views/components/price.php'); ?>
+    <?php include(get_stylesheet_directory() . '/views/components/payment_method.php'); ?>
     <?php #include(get_stylesheet_directory() . '/views/components/map.php'); ?>
-    <?php include(get_stylesheet_directory() . '/views/components/cta.php'); ?>
+    <?php if (!empty($clinic_data->cta)) : ?>
+      <?php include(get_stylesheet_directory() . '/views/components/cta.php'); ?>
+    <?php else : ?>
+      <?php include(get_stylesheet_directory() . '/views/components/cta_clinic_website.php'); ?>
+    <?php endif; ?>
   </section>
