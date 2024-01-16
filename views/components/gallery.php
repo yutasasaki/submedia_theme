@@ -6,10 +6,9 @@ $default_image_url = get_stylesheet_directory_uri() . '/images/clinic_images/not
 
 
 for ($i = 1; $i <= 4; $i++) {
-    $image_file_name = esc_attr($clinic_data->clinic_name) . 'の院内写真' . $i . '.webp';
+    $image_file_name = esc_attr($clinic_data->clinic_name) . 'の院内写真' . $i . '枚目.webp';
     $image_path = $base_path . $image_file_name;
     $image_url = $base_url . $image_file_name;
-
     if (file_exists($image_path)) {
         $image_links[] = esc_url($image_url);
     }
