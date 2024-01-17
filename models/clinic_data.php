@@ -71,6 +71,8 @@ class ClinicData {
       $this->place_id = $row[66] ?? '' ; //PlaceID
       // $this->remarks = $row[67] ?? '' ; //備考
       $this->cta = $row[68] ?? '' ; //CTA
+      $this->clinic_name_romaji = $row[69] ?? '' ;
+      $this->doctor_name_romaji = $row[70] ?? '' ; 
     }
 
     // 必要に応じて追加のメソッドを定義

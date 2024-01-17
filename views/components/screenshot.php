@@ -1,8 +1,8 @@
 <div class="wp-block-columns" style="gap: 20px;">
 <?php
 $image_links = [];
-$screenshot_link_path = get_stylesheet_directory() . '/images/clinic_images/' . esc_attr($clinic_data->clinic_name) . '/' . esc_attr($clinic_data->clinic_name) . 'のウェブサイト.webp';
-$screenshot_link_url = get_stylesheet_directory_uri() . '/images/clinic_images/' . esc_attr($clinic_data->clinic_name) . '/' . esc_attr($clinic_data->clinic_name) . 'のウェブサイト.webp';
+$screenshot_link_path = get_stylesheet_directory() . '/images/clinic_images/' . esc_attr($clinic_data->clinic_name_romaji) . '/' . esc_attr($clinic_data->clinic_name_romaji) . '_website_in_2024.webp';
+$screenshot_link_url = get_stylesheet_directory_uri() . '/images/clinic_images/' . esc_attr($clinic_data->clinic_name_romaji) . '/' . esc_attr($clinic_data->clinic_name_romaji) . '_website_in_2024.webp';
 $default_image_url = get_stylesheet_directory_uri() . '/images/clinic_images/notfound.webp'; // 固定の画像URL
 
 if (!file_exists($screenshot_link_path)) {
