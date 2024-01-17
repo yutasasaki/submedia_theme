@@ -6,9 +6,9 @@ if (!function_exists('breadcrumb')) {
     $str = '<nav id="breadcrumb" class="breadcrumb"><ul itemscope itemtype="http://schema.org/BreadcrumbList">';
 
     /*下記を追加する*/
-    $str .= '<li><a href="https://' . $_SERVER['HTTP_HOST'] . '">'. get_bloginfo('name').'</a></li>';
+    $str .= '<li><a href="https://' . $_SERVER['HTTP_HOST'] . '">ホーム</a></li>';
 
-    $str .= sng_bc_item("ホーム", home_url(), "1"); // ホームのパンくずは共通して表示
+    $str .= sng_bc_item(get_bloginfo('name'), home_url(), "1"); // ホームのパンくずは共通して表示
     if ( is_category() ) {
       $str .= sng_get_bc_category();
     } elseif ( is_tag() ) {
