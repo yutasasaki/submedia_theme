@@ -5,7 +5,7 @@ class ClinicData {
       $this->uid = $row[0] ?? '' ; //uid
       $this->clinic_name = $row[1] ?? '' ; //歯科医院名
       $this->clinic_website_link = $row[2] ?? '' ; //医院HPのリンク
-      // $this->article_region_name = $row[3] ?? '' ; //記事地域名１
+      $this->article_region_name = $row[3] ?? '' ; //記事地域名１
       $this->orthodontics_front = $row[4] ?? '' ; //表側矯正
       $this->orthodontics_back = $row[5] ?? '' ; //裏側矯正
       $this->invisalign = $row[6] ?? '' ; //インビザライン

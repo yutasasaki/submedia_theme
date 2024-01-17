@@ -18,4 +18,5 @@
     <?php else : ?>
       <?php include(get_stylesheet_directory() . '/views/components/cta_clinic_website.php'); ?>
     <?php endif; ?>
+    <?php #include(get_stylesheet_directory() . '/views/components/structured_markup.php'); ?>
   </section>
