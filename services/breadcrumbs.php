@@ -21,7 +21,12 @@ if (!function_exists('breadcrumb')) {
       $str .= sng_get_bc_page();
     } elseif ( is_single() ) {
       $str .= sng_get_bc_single();
-      $str .= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">' . get_the_title() . '</li>';
+      $str .= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">';
+      $str .= '<a href="' . esc_url( get_permalink() ) . '" itemprop="item">';
+      $str .= '<span itemprop="name">' . get_the_title() . '</span>';
+      $str .= '</a>';
+      $str .= '<meta itemprop="position" content="適切な位置情報" />';
+      $str .= '</li>';
     } else {
       $str .= '<li>'.wp_title('', false).'</li>';
     }
