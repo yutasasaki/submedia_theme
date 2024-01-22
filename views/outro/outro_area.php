@@ -2,86 +2,98 @@
 <p class="wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner sgb-heading--type1 sgb-heading__inner--center" style="background-color:transparent;border-color:transparent;font-size:1.2em;text-align:center"><span class="sgb-heading__text" style="color:#333">さいごに</span></span></p>
 <!-- /wp:sgb/headings -->
 
-<!-- wp:paragraph -->
-<p>「いつか矯正したいけど、歯医者に行くのはまた後でいいや…」</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">「いつか矯正したいけど、歯医者に行くのはまた後でいいや…」</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">という方へ。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">もしあなたが、少しでも歯並びを治したいと思っているなら</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">ぜひ<span class="keiko_yellow">”今”、初診の予約を取ること</span>をオススメします。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>という方へ。</p>
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">矯正歯科治療では、費用や期間など</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">歯科医師にしか分からないことも多いです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">たしかに初診に行くのは少し面倒だし、</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">どの矯正歯科に行けばいいか迷うかもしれません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">でも、今少しだけ勇気を出して</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"><span class="keiko_yellow">“予約をする”</span>という小さな一歩を踏み出せたら、</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">将来の自分が必ず</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">「あの時矯正を始めてよかった！」</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">と喜んでくれるはずです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>もしあなたが、少しでも歯並びを治したいと思っているなら</p>
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">想像してみてください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">矯正が終わった日、鏡に映る自分を見て</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"><span class="keiko_blue">「歯並びキレイになった！」</span></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"><span class="keiko_red">「矯正してよかった！」</span></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">と思えてたら、嬉しいと思いませんか？</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ぜひ”今”、初診の予約を取ることをオススメします。</p>
+<p></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>矯正歯科治療では、費用や期間など</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">少しでも矯正しようと思った”今”が</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>歯科医師にしか分からないことも多いです。</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"><span class="keiko_yellow">自分を変える最大のチャンス</span>です！</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>たしかに初診に行くのは少し面倒だし、</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>どの矯正歯科に行けばいいか迷うかもしれません。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>でも、今少しだけ勇気を出して</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>“予約をする”という小さな一歩を踏み出せたら、</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>将来の自分が必ず</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>「あの時矯正を始めてよかった！」</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>と喜んでくれるはずです。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>想像してみてください。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>矯正が終わった日、鏡に映る自分を見て</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>「歯並びキレイになった！」</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>「矯正してよかった！」</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>と思えてたら、嬉しいと思いませんか？</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>少しでも矯正しようと思った”今”が</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>自分を変える最大のチャンスです！</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>ぜひ一度、初診に行ってみてください。</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">ぜひ一度、初診に行ってみてください。</p>
 <!-- /wp:paragraph -->

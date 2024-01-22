@@ -1,7 +1,8 @@
 
-  <!-- wp:heading {"level":3} -->
-  <h3 class="wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner hh hh15" style="font-size:1.2em"><span class="sgb-heading__text"><?php echo esc_html($clinic_data->clinic_name); ?></span></span></h3>
-  <!-- /wp:heading -->
+<!-- wp:sgb/headings {"headingText":"<?php echo esc_html($clinic_data->clinic_name); ?>","headingStyle":"sgb-heading\u002d\u002dtype4","headingIconName":"","headingTextColor":"#fff","headingBgColor1":"#7fbae9","headingBorderColor1":"#7fbae9"} -->
+<h3 class="wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner sgb-heading--type4" style="background-color:#7fbae9;border-color:#7fbae9;font-size:1.2em"><span class="sgb-heading__text" style="color:#fff"><?php echo esc_html($clinic_data->clinic_name); ?></span></span></h3>
+<!-- /wp:sgb/headings -->
+
   <?php include(get_stylesheet_directory() . '/views/components/screenshot.php'); ?>
   <section style="padding: 20px; border: 1.5px solid #d8d8d8; border-radius: 0.5rem; margin-top:20px;">
     <?php include(get_stylesheet_directory() . '/views/components/gallery.php'); ?>
