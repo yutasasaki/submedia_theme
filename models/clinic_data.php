@@ -1,6 +1,6 @@
 <?php
 class ClinicData {
-    public $uid,$clinic_name,$clinic_website_link,$article_region_name,$orthodontics_front,$orthodontics_back,$invisalign,$kireilign_orthodontics,$unknown_type,$type1,$type1_cost,$type2,$type2_cost,$type3,$type3_cost,$type4,$type4_cost,$catchphrase,$headline1,$paragraph1,$headline2,$paragraph2,$headline3,$paragraph3,$memo,$review1,$review1_source,$review1_link,$review2,$review2_source,$review2_link,$image1_link,$image2_link,$image3_link,$image4_link,$director_photo_link,$director_name,$director_introduction,$director_introduction_url,$payment_cash,$payment_credit_card,$payment_dental_loan,$payment_unionpay,$payment_e_money,$payment_bank_transfer,$nearest_station_access,$parking_availability,$morning_hours,$afternoon_hours,$monday_morning,$monday_afternoon,$tuesday_morning,$tuesday_afternoon,$wednesday_morning,$wednesday_afternoon,$thursday_morning,$thursday_afternoon,$friday_morning,$friday_afternoon,$saturday_morning,$saturday_afternoon,$sunday_morning,$sunday_afternoon,$holiday_morning,$holiday_afternoon,$additional_notes,$place_id,$remarks,$cta;
+    public $uid,$clinic_name,$clinic_website_link,$article_region_name,$orthodontics_front,$orthodontics_back,$invisalign,$kireilign_orthodontics,$unknown_type,$type1,$type1_cost,$type2,$type2_cost,$type3,$type3_cost,$type4,$type4_cost,$catchphrase,$headline1,$paragraph1,$headline2,$paragraph2,$headline3,$paragraph3,$memo,$review1,$review1_source,$review1_link,$review2,$review2_source,$review2_link,$image1_link,$image2_link,$image3_link,$image4_link,$director_photo_link,$director_name,$director_introduction,$director_introduction_url,$payment_cash,$payment_credit_card,$payment_dental_loan,$payment_unionpay,$payment_e_money,$payment_bank_transfer,$nearest_station_access,$parking_availability,$morning_hours,$afternoon_hours,$monday_morning,$monday_afternoon,$tuesday_morning,$tuesday_afternoon,$wednesday_morning,$wednesday_afternoon,$thursday_morning,$thursday_afternoon,$friday_morning,$friday_afternoon,$saturday_morning,$saturday_afternoon,$sunday_morning,$sunday_afternoon,$holiday_morning,$holiday_afternoon,$additional_notes,$place_id,$remarks,$cta ,$clinic_name_romaji , $doctor_name_romaji, $is_reserve, $is_submedia ;
     public function __construct($row) {
       $this->uid = $row[0] ?? '' ; //uid
       $this->clinic_name = $row[1] ?? '' ; //歯科医院名
@@ -71,8 +71,11 @@ class ClinicData {
       $this->place_id = $row[66] ?? '' ; //PlaceID
       // $this->remarks = $row[67] ?? '' ; //備考
       $this->cta = $row[68] ?? '' ; //CTA
-      $this->clinic_name_romaji = $row[69] ?? '' ;
-      $this->doctor_name_romaji = $row[70] ?? '' ; 
+      $this->clinic_name_romaji = $row[69] ?? '' ; // ローマ字クリニック名
+      $this->doctor_name_romaji = $row[70] ?? '' ;  // ローマ字歯科医
+      $this->is_submedia = ($row[72] === 'あり') ? true : false;  // サブメディア契約ステータス
+      $this->is_reserve = ($row[73] === 'あり') ? true : false;  // 予約契約ステータス
+
     }
 
     // 必要に応じて追加のメソッドを定義
