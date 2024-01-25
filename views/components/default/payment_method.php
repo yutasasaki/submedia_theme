@@ -8,12 +8,12 @@
   <table>
     <thead>
       <tr>
-        <th>現金</th>
-        <th>クレジットカード</th>
-        <th>デンタルローン</th>
-        <th>デビット・銀聯カード</th>
-        <th>電子マネー</th>
-        <th>銀行振込</th>
+        <th style="color:#333;">現金</th>
+        <th style="color:#333;">クレジットカード</th>
+        <th style="color:#333;">デンタルローン</th>
+        <th style="color:#333;">デビット・銀聯カード</th>
+        <th style="color:#333;">電子マネー</th>
+        <th style="color:#333;">銀行振込</th>
       </tr>
     </thead>
     <tbody>
