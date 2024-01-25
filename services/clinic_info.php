@@ -19,11 +19,13 @@ add_action('wp_enqueue_scripts', 'splide_js_library_loader');
 
 
 require_once get_stylesheet_directory() . '/models/clinic_data.php';
+
 function show_clinic_db_shortcode($atts) {
     // ショートコード属性を解析
     $atts = shortcode_atts(array(
         'table_id' => '', // TablePressテーブルのID
-        'row_id' => ''    // 表示したい行のID
+        'row_id' => '',    // 表示したい行のID
+        'view' => 'default',
     ), $atts);
 
     // row_idを整数にキャスト
@@ -40,7 +42,7 @@ function show_clinic_db_shortcode($atts) {
 
     // ビューファイルの読み込み
     ob_start(); // 出力バッファリング開始
-    include(get_stylesheet_directory() . '/views/clinic_casette.php'); // ファイルパスを修正
+    include(get_stylesheet_directory() . '/views/clinic_casette/'.$atts['view'].'.php'); // ファイルパスを修正
     return ob_get_clean(); // バッファの内容を取得し、バッファを消去
 }
 add_shortcode('show_clinic_db', 'show_clinic_db_shortcode');
