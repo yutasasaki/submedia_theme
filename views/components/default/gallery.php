@@ -1,7 +1,7 @@
 <?php
 $image_links = [];
-$base_path = get_stylesheet_directory() . '/images/clinic_images/' . esc_attr($clinic_data->clinic_name_romaji) . '/';
-$base_url = get_stylesheet_directory_uri() . '/images/clinic_images/' . esc_attr($clinic_data->clinic_name_romaji) . '/';
+$base_path = WP_CONTENT_DIR . '/clinic_images/' . esc_attr($clinic_data->clinic_name_romaji) . '/';
+$base_url = home_url( '/wp-content/clinic_images/' . esc_attr($clinic_data->clinic_name_romaji) . '/' );
 
 for ($i = 1; $i <= 4; $i++) {
     $image_file_name = esc_attr($clinic_data->clinic_name_romaji) . '_clinic_in_operation_' . $i . '_at_2024.webp';
