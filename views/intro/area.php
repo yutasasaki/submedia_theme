@@ -123,7 +123,7 @@
 <p>値段が違う理由は、単に”治療範囲が違うから”であり、治療の質とは関係ありません。</p>
 <!-- /wp:paragraph -->
 
-<?php include(get_stylesheet_directory() . '/views/components/intro/compare.php'); ?>
+<?php include(get_stylesheet_directory() . '/views/components/intro/compare.php');?>
 
 <!-- wp:paragraph -->
 <p>ただ残念ながら、認知度や利益率が高いため、ほとんどの矯正歯科では普通のマウスピース矯正（インビザライン）しか扱っていません…。</p>

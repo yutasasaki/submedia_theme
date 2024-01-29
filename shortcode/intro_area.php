@@ -3,6 +3,7 @@ function show_intro_area_shortcode($atts) {
     // ショートコード属性を解析
     $atts = shortcode_atts(array(
         'area' => '', // 地域名
+        'compare' => '', // 比較ブランド。kireilign, invisalign_express, invisalign_light
     ), $atts);
     
 
@@ -17,6 +18,7 @@ function show_intro_kireilign_shortcode($atts) {
     // ショートコード属性を解析
     $atts = shortcode_atts(array(
         'area' => '', // 地域名
+        'compare' => '', // 比較ブランド。kireilign, invisalign_express, invisalign_light
     ), $atts);
     
 
