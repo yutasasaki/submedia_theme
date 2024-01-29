@@ -11,7 +11,8 @@
             width="400"
             height="250"
             frameborder="0" style="border:0"
-            src="https://www.google.com/maps/embed/v1/place?key=abc123&maptype=roadmap&zoom=15&q=place_id:<?php echo esc_html($clinic_data->place_id); ?>" allowfullscreen>
+            src="https://www.google.com/maps/embed/v1/place?key=<?php echo esc_html(GOOGLE_MAPS_API_KEY); ?>&maptype=roadmap&zoom=15&q=place_id:<?php echo esc_html($clinic_data->place_id); ?>"
+            allowfullscreen>
           </iframe>
         </div>
         <?php endif; ?>
