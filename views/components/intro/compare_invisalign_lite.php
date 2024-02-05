@@ -13,10 +13,10 @@
         <td class="has-text-align-center" data-align="center">&nbsp;</td>
         <td class="has-text-align-center" data-align="center"><img class="wp-image-301 aligncenter"
             alt="普通のマウスピース矯正（インビザライン）"
-            src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro_area/mouthpiece_invisalign.webp'); ?>"
+            src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/mouthpiece_invisalign.webp'); ?>"
             width="160" height="150"></td>
         <td class="has-text-align-center" data-align="center"><img class="wp-image-302 aligncenter"
-            alt="低価格マウスピース矯正（（インビザラインExpress）"
+            alt="低価格マウスピース矯正（インビザラインExpress）"
             src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/invisalign/invisalign-lite.webp'); ?>"
             width="165" height="150"></td>
       </tr>
@@ -44,7 +44,7 @@
       <tr>
         <td class="has-text-align-center" data-align="center">代表例</td>
         <td class="has-text-align-center" data-align="center">インビザライン など</td>
-        <td class="has-text-align-center" data-align="center">キレイライン矯正 など</td>
+        <td class="has-text-align-center" data-align="center">インビザラインExpress など</td>
       </tr>
     </tbody>
   </table>

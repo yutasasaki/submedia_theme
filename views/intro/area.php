@@ -74,7 +74,7 @@
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center" style="margin:0;">
   <img alt="2種類のマウスピース矯正サービス"
-    src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro_area/mouthpiece.webp'); ?>" width="347"
+    src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/mouthpiece.webp'); ?>" width="347"
     height="216"
     style="width:100%;height:auto;"></p>
 </p>
@@ -139,7 +139,7 @@
 
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center" style="margin:0 10%;"><img
-    src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro_area/chart_light_middle.webp'); ?>"
+    src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/chart_light_middle.webp'); ?>"
     alt="軽度〜中度と診断された場合" width="321" height="379" style="width:100%;height:auto;"></p>
 <!-- /wp:paragraph -->
 
@@ -175,7 +175,7 @@
 
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center"><img
-    src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro_area/doctor_check.webp'); ?>"
+    src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/doctor_check.webp'); ?>"
     alt="歯科矯正の診察風景" width="355" height="236" style="width:100%;height:auto;"></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
@@ -215,7 +215,7 @@
 
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center"><img alt="矯正診断に利用するCT画像とCT診断装置"
-    src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro_area/cepharo_xray.webp'); ?>" width="341"
+    src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/cepharo_xray.webp'); ?>" width="341"
     height="170" /></p>
 <!-- /wp:paragraph -->
 

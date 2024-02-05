@@ -13,11 +13,11 @@
         <td class="has-text-align-center" data-align="center">&nbsp;</td>
         <td class="has-text-align-center" data-align="center"><img class="wp-image-301 aligncenter"
             alt="普通のマウスピース矯正（インビザライン）"
-            src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro_area/mouthpiece_invisalign.webp'); ?>"
+            src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/mouthpiece_invisalign.webp'); ?>"
             width="160" height="150"></td>
         <td class="has-text-align-center" data-align="center"><img class="wp-image-302 aligncenter"
             alt="低価格マウスピース矯正（キレイライン矯正）"
-            src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro_area/mouthpiece_kireilign.webp'); ?>"
+            src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/mouthpiece_kireilign.webp'); ?>"
             width="165" height="150"></td>
       </tr>
       <tr>

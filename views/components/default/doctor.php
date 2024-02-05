@@ -21,8 +21,8 @@
     <?php if ($has_director_photo) : ?>
         <div class="wp-block-columns" style="gap: 20px;">
             <div class="wp-block-column" style="padding-right: 10px;">
-                <figure class="wp-block-image size-large" style="width: 100%; height: 300px; overflow: hidden;">
-                    <img src="<?php echo $director_photo_link_url; ?>" alt="<?php echo esc_attr($clinic_data->clinic_name); ?>の医師の<?php echo esc_attr($clinic_data->director_name); ?>先生" style="width: 100%; height: auto; max-height: 300px; object-fit: cover;" />
+                <figure class="wp-block-image size-large" style="width: 100%; height: 300px; overflow: hidden;max-height: 300px;">
+                    <img src="<?php echo $director_photo_link_url; ?>" alt="<?php echo esc_attr($clinic_data->clinic_name); ?>の医師の<?php echo esc_attr($clinic_data->director_name); ?>先生" style="width: 100%; height: auto; object-fit: contain;" />
                 </figure>
             </div>
             <div class="wp-block-column" style="padding-left: 10px;">
