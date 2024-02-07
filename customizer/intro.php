@@ -1,5 +1,5 @@
 <?php
-function submedia_common_customize_register($wp_customize)
+function submedia_intro_customizer($wp_customize)
 {
   // 新しいセクションを追加
   $wp_customize->add_section('submedia_common', array(
@@ -82,9 +82,5 @@ function submedia_common_customize_register($wp_customize)
     'section'  => 'submedia_common',
     'settings' => 'sm_intro_seimitsu',
   )));
-
-
-
 }
-
-add_action('customize_register', 'submedia_common_customize_register');
+add_action('customize_register', 'submedia_intro_customizer');
