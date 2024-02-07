@@ -5,9 +5,10 @@
   $custom_functions_dir = 'services/';
   // 呼び出すfunctionを指定
   $custom_functions_files = array(
-    // 'plugins.php',
-    // 'acf-json.php',
-    'style.php',
+    'customizer.php',
+  // 'plugins.php',
+  // 'acf-json.php',
+    'css_loader.php',
     'custom_cta.php',
     'shortcode.php',
     'clinic_info.php',
