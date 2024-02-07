@@ -244,8 +244,7 @@ alt="歯科矯正の診察風景" width="355" height="236" style="width:100%;hei
 
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center">
-<img alt="矯正診断に利用するCT画像とCT診断装置" src="<?php echo esc_url(get_theme_mod('sm_intro_seimitsu',get_stylesheet_directory_uri() . '/images/intro/cepharo_xray.webp')); ?>" 
-width="341" height="170" />
+<img alt="矯正診断に利用するCT画像とCT診断装置" src="<?php echo esc_url(get_theme_mod('sm_intro_seimitsu',get_stylesheet_directory_uri() . '/images/intro/cepharo_xray.webp')); ?>"  />
 </p>
 <!-- /wp:paragraph -->
 
