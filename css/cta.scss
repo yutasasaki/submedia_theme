@@ -20,11 +20,23 @@
   /* 大きいサイズに調整する例 */
 }
 
+.mx-auto{
+  margin: auto;
+}
+.text-center{
+  text-align: center;
+}
+.inline-block{
+  display: inline-block;
+}
+
 .sm-clinics-table {
   display: block;
   overflow-x: auto;
   max-width: 100%;
-
+  p{
+    margin: 0 !important;
+  }
   table {
     border-collapse: collapse;
     width: 100%;
