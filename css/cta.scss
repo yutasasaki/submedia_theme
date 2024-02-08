@@ -10,8 +10,10 @@
 
 /* マーカー（黄色背景） */
 .marker-yellow {
-  background: linear-gradient(transparent 40%, yellow 80%);
-
+  background-image: linear-gradient(90deg, #fcf69f, yellow);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 60%;
 }
 
 /* 大きいテキスト */
@@ -59,7 +61,8 @@
   }
 
   img {
-    width: 150px; // 画像サイズを統一
+    width: 100%;
+    max-width: 300px; // 画像サイズを統一
     height: auto; // 高さは自動調整
   }
 }

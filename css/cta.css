@@ -11,7 +11,10 @@
 
 /* マーカー（黄色背景） */
 .marker-yellow {
-  background: linear-gradient(transparent 40%, yellow 80%);
+  background-image: linear-gradient(90deg, #fcf69f, yellow);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 60%;
 }
 
 /* 大きいテキスト */
@@ -60,7 +63,8 @@
   z-index: 2;
 }
 .sm-clinics-table img {
-  width: 150px;
+  width: 100%;
+  max-width: 300px;
   height: auto;
 }
 
