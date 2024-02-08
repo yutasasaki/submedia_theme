@@ -1,0 +1,113 @@
+/* 太字 */
+.font-bold {
+  font-weight: bold;
+}
+
+/* 赤文字 */
+.color-red {
+  color: red;
+}
+
+/* マーカー（黄色背景） */
+.marker-yellow {
+  background: linear-gradient(transparent 40%, yellow 80%);
+
+}
+
+/* 大きいテキスト */
+.text-lg {
+  font-size: 1.25em;
+  /* 大きいサイズに調整する例 */
+}
+
+.sm-clinics-table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    text-align: center; // 全て中央揃えに統一
+    position: relative;
+    padding: 10px; // 適切なスペーシングを提供
+
+    &:first-child {
+      background: white;
+      white-space: nowrap;
+      position: sticky;
+      left: 0;
+      z-index: 2;
+    }
+  }
+
+  img {
+    width: 150px; // 画像サイズを統一
+    height: auto; // 高さは自動調整
+  }
+}
+.sm-catchcopy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0!important;
+  font-size: 0.75em;
+
+  &::before,
+  &::after {
+    content: '';
+    width: 3px;
+    height: 20px;
+    background-color: #333;
+  }
+
+  &::before {
+    margin-right: 20px;
+    transform: rotate(-35deg);
+  }
+
+  &::after {
+    margin-left: 20px;
+    transform: rotate(35deg);
+  }
+}
+
+
+.sm-cta-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background: radial-gradient(circle, rgba(255, 65, 150, 1) 0%, rgba(255, 0, 76, 1) 100%);
+  box-shadow: 0px 4px 8px #f64cac4f;
+  text-shadow: -1px -1px 1px #96003e9c;
+  border-bottom: 5px solid #96003e3d;
+  transition: margin-top 0.2s;
+  white-space: nowrap;
+
+  &:hover {
+    margin-top: 3px;
+  }
+
+  &:after {
+    content: url('../images/icon/external.svg');
+    display: inline-block;
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+    padding-bottom: 4px;
+    color: white;
+  }
+}
