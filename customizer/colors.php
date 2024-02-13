@@ -10,11 +10,11 @@ function submedia_colors_customizer($wp_customize)
 
   // メインカラーの設定を追加
   $wp_customize->add_setting('submedia_main_color_setting', array(
-    'default' => '#ff0000',
+    'default' => '##009EF3',
     'sanitize_callback' => 'sanitize_hex_color',
   ));
 
-  $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'submedia_main_color_setting', array(
+  $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'submedia_main_color', array(
     'label' => __('メインカラー', 'submedia_theme'),
     'section' => 'submedia_article_colors',
     'settings' => 'submedia_main_color_setting',
@@ -22,7 +22,7 @@ function submedia_colors_customizer($wp_customize)
 
 
   $wp_customize->add_setting('submedia_light_color_setting', array(
-    'default' => '#ff5e5e',
+    'default' => '##b4e0fa',
     'sanitize_callback' => 'sanitize_hex_color',
   ));
 

@@ -6,10 +6,10 @@ function theme_enqueue_styles() {
   wp_enqueue_style( 'cta-style', get_stylesheet_directory_uri() . '/css/cta.css');
 
   // customizer css
-  $submedia_main_color_setting =  get_theme_mod('submedia_main_color_setting', '#ff0000');
-  $submedia_light_color_setting =  get_theme_mod('submedia_light_color_setting', '#ff0000');
-  $submedia_main_text_color_setting =  get_theme_mod('submedia_main_text_color_setting', '#ff0000');
-  $submedia_light_text_color_setting = get_theme_mod('submedia_light_text_color_setting', '#ff0000');
+  $submedia_main_color_setting =  get_theme_mod('submedia_main_color_setting', '#009EF3');
+  $submedia_light_color_setting =  get_theme_mod('submedia_light_color_setting', '#b4e0fa');
+  $submedia_main_text_color_setting =  get_theme_mod('submedia_main_text_color_setting', '#b4e0fa');
+  $submedia_light_text_color_setting = get_theme_mod('submedia_light_text_color_setting', '#333');
   echo '<style type="text/css">
     .sm-hh18{
       border-bottom: 3px solid '. esc_attr($submedia_light_color_setting) . '!important ;
