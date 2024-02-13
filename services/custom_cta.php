@@ -30,3 +30,23 @@ function generate_cta_url($clinic_cta_path) {
     return $url;
 }
 
+
+function generate_kireilign_cta_url()
+{
+  $cta_url = esc_url(get_theme_mod('kireilign_cta_url_setting'));
+  if (empty($cta_url)) {
+    return 'https://kyosei-guide.com/a/?'; // $cta_url が空の場合はトップを返す。view側で別途分岐制御
+  }
+  $url_params = array(
+    'k' => esc_html(get_theme_mod('submedia_keyword_code_setting', '')),
+    'a' => esc_html(get_theme_mod('submedia_agent_code_setting', '')),
+  );
+
+  // 配列からURLエンコードされたクエリ文字列を生成
+  $url_query = http_build_query($url_params);
+
+  // URLを組み立てる
+  $url = $cta_url . '?' . $url_query;
+
+  return $url;
+}

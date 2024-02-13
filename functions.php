@@ -1,7 +1,4 @@
 <?php
-  // mapのAPIキー変数定義
-  define('GOOGLE_MAPS_API_KEY', 'AIzaSyBrMdDdJgrvcRWAKv-1FL6Ac1lsZP4MxnU');
-
 
 /**
  * services
@@ -28,8 +25,12 @@ foreach ($custom_functions_files as $custom_functions_file) {
 $customizer_dir = 'customizer/';
 // 呼び出すfunctionを指定
 $customizer_files = array(
+  'panel.php',
+  'system.php',
   'intro.php',
+  'clinic.php',
   'colors.php',
+  'cta.php',
 );
 foreach ($customizer_files as $customizer_file) {
   locate_template($customizer_dir . $customizer_file, true);

@@ -65,6 +65,9 @@
     max-width: 300px; // 画像サイズを統一
     height: auto; // 高さは自動調整
   }
+  .sm-cta-btn{
+    white-space: nowrap;
+  }
 }
 .sm-catchcopy {
   display: flex;
@@ -110,7 +113,7 @@
   text-shadow: -1px -1px 1px #96003e9c;
   border-bottom: 5px solid #96003e3d;
   transition: margin-top 0.2s;
-  white-space: nowrap;
+  // white-space: nowrap;
 
   &:hover {
     margin-top: 3px;

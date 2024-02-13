@@ -3,8 +3,9 @@ function submedia_intro_customizer($wp_customize)
 {
   // 新しいセクションを追加
   $wp_customize->add_section('submedia_common', array(
-    'title' => __('サブメディア共通設定', 'mytheme'),
-    'priority' => 30,
+    'title' => __('💻 イントロ共通設定', 'mytheme'),
+    'priority' => 1,
+    'panel' => 'submedia_settings',
   ));
 
   // 解説者アイコン

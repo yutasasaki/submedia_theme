@@ -6,15 +6,11 @@
     <div class="wp-block-sgb-custom">
       <div>
         <?php if (!empty($clinic_data->place_id)) : ?>
-        <div class="gmap">
-          <iframe
-            width="400"
-            height="250"
-            frameborder="0" style="border:0"
-            src="https://www.google.com/maps/embed/v1/place?key=<?php echo esc_html(GOOGLE_MAPS_API_KEY); ?>&maptype=roadmap&zoom=15&q=place_id:<?php echo esc_html($clinic_data->place_id); ?>"
-            allowfullscreen>
-          </iframe>
-        </div>
+          <div class="gmap">
+            <iframe width="400" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=<?php echo esc_html(get_theme_mod('google_place_api_key', '')); ?>
+&maptype=roadmap&zoom=15&q=place_id:<?php echo esc_html($clinic_data->place_id); ?>" allowfullscreen>
+            </iframe>
+          </div>
         <?php endif; ?>
       </div>
     </div>
@@ -26,9 +22,7 @@
   <!-- wp:column {"width":"40%"} -->
   <div class="wp-block-column" style="flex-basis:40%">
     <!-- wp:sgb/headings {"headingText":"SANGO動物病院","headingIconName":"paw","css":".sgb-heading {\n    margin-top: 0;\n}","scopedCSS":"#id-88445641-d7c0-40ef-a01e-ac7c74c16b11 .sgb-heading {\n    margin-top: 0;\n}","blockId":"id-88445641-d7c0-40ef-a01e-ac7c74c16b11"} -->
-    <p class="wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner sgb-heading--type1 with-icon"
-        style="background-color:transparent;border-color:transparent;font-size:1.2em"><span class="sgb-heading__text"
-          style="color:#333"><?php echo esc_html($clinic_data->clinic_name); ?></span></span></p>
+    <p class="wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner sgb-heading--type1 with-icon" style="background-color:transparent;border-color:transparent;font-size:1.2em"><span class="sgb-heading__text" style="color:#333"><?php echo esc_html($clinic_data->clinic_name); ?></span></span></p>
     <!-- /wp:sgb/headings -->
 
     <!-- wp:paragraph {"style":{"typography":{"fontSize":"15px"}}} -->
@@ -38,8 +32,7 @@
     <!-- wp:sgb/message {"boxColor":"#0099dd","bgColor":"whitesmoke","icon":"fas fa-train","borderRadius":10,"css":".sng-box-msg__title {\n    display: none;\n}\n.memo_ttl {\n\tfont-size: 1em;\n}\n\n.memo {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n\tgap: .35em;\n}\n\n.wp-block-sgb-message .sng-box-msg__contents {\n    padding: 0;\n}\n\n.sng-box-msg__icon i {\n    color: inherit;\n}\n\n.sng-box-msg__icon {\n    background: transparent !important;\n}\n\n.sng-box-msg__icon {\n    font-size: 21px;\n}","scopedCSS":"#id-8b2d9a4e-debe-4f8e-ba57-78a99f73911b .sng-box-msg__title {\n    display: none;\n}\n#id-8b2d9a4e-debe-4f8e-ba57-78a99f73911b .memo_ttl {\n\tfont-size: 1em;\n}\n\n#id-8b2d9a4e-debe-4f8e-ba57-78a99f73911b .memo {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n\tgap: .35em;\n}\n\n#id-8b2d9a4e-debe-4f8e-ba57-78a99f73911b .wp-block-sgb-message .sng-box-msg__contents {\n    padding: 0;\n}\n\n#id-8b2d9a4e-debe-4f8e-ba57-78a99f73911b .sng-box-msg__icon i {\n    color: inherit;\n}\n\n#id-8b2d9a4e-debe-4f8e-ba57-78a99f73911b .sng-box-msg__icon {\n    background: transparent !important;\n}\n\n#id-8b2d9a4e-debe-4f8e-ba57-78a99f73911b .sng-box-msg__icon {\n    font-size: 21px;\n}","blockId":"id-8b2d9a4e-debe-4f8e-ba57-78a99f73911b"} -->
     <div class="wp-block-sgb-message">
       <div class="memo sng-shadow-0" style="border-radius:10px;background-color:whitesmoke;color:#0099dd">
-        <div class="memo_ttl dfont"><span class="sng-box-msg__icon" style="background:#0099dd"><i
-              class="fas fa-train"></i></span>
+        <div class="memo_ttl dfont"><span class="sng-box-msg__icon" style="background:#0099dd"><i class="fas fa-train"></i></span>
           <div class="sng-box-msg__title"></div>
         </div>
         <div class="sng-box-msg__contents">

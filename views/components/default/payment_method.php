@@ -1,5 +1,5 @@
 <!-- wp:heading {"level":4,"className":"wp-block-sgb-headings sgb-heading"} -->
-<h4 class="wp-block-heading wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner hh hh18"
+<h4 class="wp-block-heading wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner hh hh18 sm-hh18"
     style="font-size:1.2em"><span class="sgb-heading__text">お支払い方法</span></span></h4>
 <!-- /wp:heading -->
 

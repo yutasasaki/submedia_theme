@@ -67,6 +67,9 @@
   max-width: 300px;
   height: auto;
 }
+.sm-clinics-table .sm-cta-btn {
+  white-space: nowrap;
+}
 
 .sm-catchcopy {
   display: flex;
@@ -107,7 +110,6 @@
   text-shadow: -1px -1px 1px rgba(150, 0, 62, 0.6117647059);
   border-bottom: 5px solid rgba(150, 0, 62, 0.2392156863);
   transition: margin-top 0.2s;
-  white-space: nowrap;
 }
 .sm-cta-btn:hover {
   margin-top: 3px;

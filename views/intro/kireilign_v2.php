@@ -109,10 +109,10 @@
 
 <!-- wp:sgb/headings {"headingText":"矯正歯科選びで大事なポイント2つ","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('main_color', '#009EF3'); ?>"} -->
 <h2 class="wp-block-sgb-headings sgb-heading">
-  <span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:<?php echo get_theme_mod('main_color', '#009EF3'); ?>;border-color:transparent;font-size:1.2em">
-    <i class="fa fa-chevron-circle-right" style="color:rgba(255,255,255,.6)">
+  <span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;border-color:transparent;font-size:1.2em">
+    <i class="fa fa-chevron-circle-right" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>;">
     </i>
-    <span class="sgb-heading__text" style="color:#FFF">矯正歯科選びで大事なポイント2つ</span>
+    <span class="sgb-heading__text" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>">矯正歯科選びで大事なポイント2つ</span>
   </span>
 </h2>
 <!-- /wp:sgb/headings -->
@@ -132,8 +132,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
-<h3 class="wp-block-heading">
-  1.複数のマウスピース矯正を扱っている所</h3>
+<h3 class="wp-block-heading has-sango-silver-background-color  has-background sm-border-main sm-color-sub">1.複数のマウスピース矯正を扱っている所</h3>
 <!-- /wp:heading -->
 
 <!-- wp:image -->
@@ -321,11 +320,7 @@
     <p class="has-text-align-center">\歯並びを安く治せるチャンス！/</p>
     <!-- /wp:paragraph -->
 
-    <!-- wp:sgb/btn {"btnColor":"#90d581","label":"キレイライン矯正について\u003cbr\u003e詳しく見てみる","align":"center"} -->
-    <p class="wp-block-sgb-btn sng-align-center">
-      <a style="background-color:#90d581" class="btn normal raised" href="">キレイライン矯正について<br>詳しく見てみる</a>
-    </p>
-    <!-- /wp:sgb/btn -->
+    <?php include(get_stylesheet_directory() . '/views/components/default/cta_kireilign.php'); ?>
   </div>
 </div>
 <!-- /wp:sgb/block-simple -->
@@ -336,7 +331,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
-<h3 class="wp-block-heading has-sango-blue-color has-sango-silver-background-color has-text-color has-background">
+<h3 class="wp-block-heading has-sango-silver-background-color  has-background sm-border-main sm-color-sub">
   2.定期的な通院が必要な所</h3>
 <!-- /wp:heading -->
 
@@ -379,10 +374,10 @@
 
 <!-- wp:sgb/headings {"headingText":"最終的には精密検査が必要な理由","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('main_color', '#009EF3'); ?>"} -->
 <h2 class="wp-block-sgb-headings sgb-heading">
-  <span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:<?php echo get_theme_mod('main_color', '#009EF3'); ?>;border-color:transparent;font-size:1.2em">
-    <i class="fa fa-chevron-circle-right" style="color:rgba(255,255,255,.6)">
+  <span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;border-color:transparent;font-size:1.2em">
+    <i class="fa fa-chevron-circle-right" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>;">
     </i>
-    <span class="sgb-heading__text" style="color:#FFF">最終的には精密検査が必要な理由</span>
+    <span class="sgb-heading__text" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>">最終的には精密検査が必要な理由</span>
   </span>
 </h2>
 <!-- /wp:sgb/headings -->
@@ -466,10 +461,10 @@
 
 <!-- wp:sgb/headings {"headingText":"どんな矯正歯科で初診を受ければいい？","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('main_color', '#009EF3'); ?>"} -->
 <h2 class="wp-block-sgb-headings sgb-heading">
-  <span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:<?php echo get_theme_mod('main_color', '#009EF3'); ?>;border-color:transparent;font-size:1.2em">
-    <i class="fa fa-chevron-circle-right" style="color:rgba(255,255,255,.6)">
+  <span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;border-color:transparent;font-size:1.2em">
+    <i class="fa fa-chevron-circle-right" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>;">
     </i>
-    <span class="sgb-heading__text" style="color:#FFF">どんな矯正歯科で初診を受ければいい？</span>
+    <span class="sgb-heading__text" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>">どんな矯正歯科で初診を受ければいい？</span>
   </span>
 </h2>
 <!-- /wp:sgb/headings -->
@@ -485,8 +480,10 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
-<h3 class="wp-block-heading has-sango-blue-color has-sango-silver-background-color has-text-color has-background">
-  <strong>オススメな理由①：初診料が安い</strong>
+<h3 class="wp-block-heading has-sango-blue-color has-sango-silver-background-color has-text-color has-background sm-border-main">
+  <span class="sgb-heading__text" style="color:#333">
+    <strong>オススメな理由①：初診料が安い</strong>
+  </span>
 </h3>
 <!-- /wp:heading -->
 
@@ -522,8 +519,10 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
-<h3 class="wp-block-heading has-sango-blue-color has-sango-silver-background-color has-text-color has-background">
-  <strong>オススメな理由②：キレイラインで治療できない場合、他の治療法を提案</strong>
+<h3 class="wp-block-heading has-sango-blue-color has-sango-silver-background-color has-text-color has-background sm-border-main">
+  <span class="sgb-heading__text" style="color:#333">
+    <strong>オススメな理由②：キレイラインで治療できない場合、他の治療法を提案</strong>
+  </span>
 </h3>
 <!-- /wp:heading -->
 
@@ -558,11 +557,7 @@
 <p>キレイライン矯正の提携クリニックは全国150ヶ所以上にあるので、気になる方はぜひ行ってみてください！</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:sgb/btn {"btnColor":"#90d581","label":"キレイライン矯正の詳細\u003cbr\u003e＆提携クリニック一覧　を見る"} -->
-<p class="wp-block-sgb-btn sng-align-left">
-  <a style="background-color:#90d581" class="btn normal raised" href="">キレイライン矯正の詳細<br>＆提携クリニック一覧　を見る</a>
-</p>
-<!-- /wp:sgb/btn -->
+<?php include(get_stylesheet_directory() . '/views/components/default/cta_kireilign.php'); ?>
 
 <!-- wp:paragraph -->
 <p>■あわせてコチラもチェック！</p>
@@ -610,7 +605,7 @@
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_10.webp'); ?>);padding-bottom:100%" href="https://kireilign.com/lp/a/lp189/">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_kireilign_cta_url()); ?>">
           </a>
         </div>
       </div>
@@ -623,13 +618,12 @@
 <p>※右スワイプで続きを読めます</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:sgb/headings {"headingText":"<?php echo esc_attr($atts['area']); ?>でオススメの矯正歯科一覧","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('main_color', '#009EF3'); ?>"} -->
+<!-- wp:sgb/headings {"headingText":"<?php echo esc_attr($atts['area']); ?>でオススメの矯正歯科一覧</span>","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('main_color', '#009EF3'); ?>"} -->
 <h2 class="wp-block-sgb-headings sgb-heading">
-  <span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:<?php echo get_theme_mod('main_color', '#009EF3'); ?>;border-color:transparent;font-size:1.2em">
-    <i class="fa fa-chevron-circle-right" style="color:rgba(255,255,255,.6)">
+  <span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;border-color:transparent;font-size:1.2em">
+    <i class="fa fa-chevron-circle-right" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>;">
     </i>
-    <span class="sgb-heading__text" style="color:#FFF">
-      <?php echo esc_attr($atts['area']); ?>でオススメの矯正歯科一覧</span>
+    <span class="sgb-heading__text" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>"><?php echo esc_attr($atts['area']); ?>でオススメの矯正歯科一覧</span></span>
   </span>
 </h2>
 <!-- /wp:sgb/headings -->
