@@ -53,55 +53,53 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div class="wp-block-sgb-splide">
-  <div class="js-sng-splide splide">
-    <div class="splide__track">
-      <div class="splide__list">
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/1.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/2.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/3.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/4.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/5.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/6.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/7.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/8.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/9.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/10.webp'); ?>);padding-bottom:100%" href="https://kireilign.com/lp/a/lp189/">
-          </a>
-        </div>
+<div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false}'>
+  <div class="splide__track">
+    <div class="splide__list">
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/1.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/2.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/3.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/4.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/5.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/6.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/7.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/8.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/9.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/10.webp'); ?>);padding-bottom:100%" href="https://kireilign.com/lp/a/lp189/">
+        </a>
       </div>
     </div>
   </div>
 </div>
-<!-- /wp:sgb/splide -->
+<!-- /wp:html -->
 
 <!-- wp:paragraph -->
 <p>※右スワイプで続きを読めます</p>
@@ -423,35 +421,34 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div class="wp-block-sgb-splide">
-  <div class="js-sng-splide splide">
-    <div class="splide__track">
-      <div class="splide__list">
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_1.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_2.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_3.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_4.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_5.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
+<div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false}'>
+  <div class="splide__track">
+    <div class="splide__list">
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_1.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_2.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_3.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_4.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_5.webp'); ?>);padding-bottom:100%">
+        </a>
       </div>
     </div>
   </div>
 </div>
 <!-- /wp:html -->
+
 
 <!-- wp:paragraph -->
 <p>
@@ -564,50 +561,48 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div class="wp-block-sgb-splide">
-  <div class="js-sng-splide splide">
-    <div class="splide__track">
-      <div class="splide__list">
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_1.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_2.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_3.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_4.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_5.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_6.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_7.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_8.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_9.webp'); ?>);padding-bottom:100%">
-          </a>
-        </div>
-        <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_kireilign_cta_url()); ?>">
-          </a>
-        </div>
+<div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false}'>
+  <div class="splide__track">
+    <div class="splide__list">
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_1.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_2.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_3.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_4.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_5.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_6.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_7.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_8.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_9.webp'); ?>);padding-bottom:100%">
+        </a>
+      </div>
+      <div class="splide__slide">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_kireilign_cta_url()); ?>">
+        </a>
       </div>
     </div>
   </div>
@@ -635,3 +630,12 @@
 <!-- wp:paragraph -->
 <p>一番良いと思ったところに、ぜひ話を聞きに行ってみてください！</p>
 <!-- /wp:paragraph -->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elms = document.getElementsByClassName('splide');
+    for (var i = 0; i < elms.length; i++) {
+      new Splide(elms[i]).mount();
+    }
+  });
+</script>
