@@ -58,7 +58,7 @@
     <div class="splide__track">
       <div class="splide__list">
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/1.webp'); ?>;padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/1.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
