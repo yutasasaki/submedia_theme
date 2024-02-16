@@ -52,7 +52,7 @@
 <p>■合わせてこちらもチェック！</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:sgb/splide {"items":[{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/1.webp'); ?>","id":"fDmY1p9i8"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/2.webp'); ?>","id":"0nPQaI7e-"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/3.webp'); ?>","id":"dlbBfTwMF"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/4.webp'); ?>","id":"d1pYOj10C"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/5.webp'); ?>","id":"ZslFDKyj4"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/6.webp'); ?>","id":"J1C-5PA2L"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/7.webp'); ?>","id":"X0RbjcWCw"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/8.webp'); ?>","id":"bjBNJpySe"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/9.webp'); ?>","id":"8fwPOUekw"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/10.webp'); ?>","id":"sTZ2k2wlJ","url":"https://kireilign.com/lp/a/lp189/"}],"sliderHeight":100,"autoplay":false} -->
+<!-- wp:html -->
 <div class="wp-block-sgb-splide">
   <div class="js-sng-splide splide">
     <div class="splide__track">
@@ -422,7 +422,7 @@
 <p>■初診の詳しい内容はこちら！</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:sgb/splide {"items":[{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_1.webp'); ?>","id":"S08dvIY5J"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_2.webp'); ?>","id":"gfNz9Uh2E"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_3.webp'); ?>","id":"HLpTltO4U"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_4.webp'); ?>","id":"QEp5ocnX-"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_5.webp'); ?>","id":"40AVc8_gp"}],"sliderHeight":100} -->
+<!-- wp:html -->
 <div class="wp-block-sgb-splide">
   <div class="js-sng-splide splide">
     <div class="splide__track">
@@ -451,7 +451,7 @@
     </div>
   </div>
 </div>
-<!-- /wp:sgb/splide -->
+<!-- /wp:html -->
 
 <!-- wp:paragraph -->
 <p>
@@ -563,7 +563,7 @@
 <p>■あわせてコチラもチェック！</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:sgb/splide {"items":[{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_1.webp'); ?>","id":"UVBBpmpbN"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_2.webp'); ?>","id":"uNT6R6CJJ"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_3.webp'); ?>","id":"IrVX_1mB3"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_4.webp'); ?>","id":"0GM5inlRT"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_5.webp'); ?>","id":"wrMKiKInr"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_6.webp'); ?>","id":"pzsMLsH_9"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_7.webp'); ?>","id":"s79VyzevN"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_8.webp'); ?>","id":"AIYsP-mIw"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_9.webp'); ?>","id":"HzRdSDROh"},{"image":"<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_10.webp'); ?>","id":"e8STGy9eS","url":"https://kireilign.com/lp/a/lp189/"}],"sliderHeight":100} -->
+<!-- wp:html -->
 <div class="wp-block-sgb-splide">
   <div class="js-sng-splide splide">
     <div class="splide__track">
@@ -612,7 +612,7 @@
     </div>
   </div>
 </div>
-<!-- /wp:sgb/splide -->
+<!-- /wp:html -->
 
 <!-- wp:paragraph -->
 <p>※右スワイプで続きを読めます</p>
