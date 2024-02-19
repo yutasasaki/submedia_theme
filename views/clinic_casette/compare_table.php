@@ -45,7 +45,7 @@
                   <span class="small">
                   <?php endif; ?>
                   <?php if (!empty($clinic_data->type1)) : ?>
-                    <strong><?php echo esc_html($clinic_data->type1_cost); ?>円(税抜目安)</strong>
+                    <strong><?php echo esc_html($clinic_data->type1_cost); ?>円(目安)</strong>
                   <?php endif; ?>
                   </span>
             </td>

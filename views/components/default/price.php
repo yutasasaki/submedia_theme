@@ -73,7 +73,7 @@
         <td class="has-text-align-center" data-align="center">
           <?php echo esc_html($clinic_data->type1); ?></td>
         <td class="has-text-align-center" data-align="center">
-          <?php echo esc_html($clinic_data->type1_cost); ?>円(税抜目安)
+          <?php echo esc_html($clinic_data->type1_cost); ?>円(目安)
         </td>
       </tr>
       <?php endif;?>
@@ -82,7 +82,7 @@
         <td class="has-text-align-center" data-align="center">
           <?php echo esc_html($clinic_data->type2); ?></td>
         <td class="has-text-align-center" data-align="center">
-          <?php echo esc_html($clinic_data->type2_cost); ?>円(税抜目安)
+          <?php echo esc_html($clinic_data->type2_cost); ?>円(目安)
         </td>
       </tr>
       <?php endif;?>
@@ -91,7 +91,7 @@
         <td class="has-text-align-center" data-align="center">
           <?php echo esc_html($clinic_data->type3); ?></td>
         <td class="has-text-align-center" data-align="center">
-          <?php echo esc_html($clinic_data->type3_cost); ?>円(税抜目安)
+          <?php echo esc_html($clinic_data->type3_cost); ?>円(目安)
         </td>
       </tr>
       <?php endif;?>
@@ -100,7 +100,7 @@
         <td class="has-text-align-center" data-align="center">
           <?php echo esc_html($clinic_data->type4); ?></td>
         <td class="has-text-align-center" data-align="center">
-          <?php echo esc_html($clinic_data->type4_cost); ?>円(税抜目安)
+          <?php echo esc_html($clinic_data->type4_cost); ?>円(目安)
         </td>
       </tr>
       <?php endif;?>
