@@ -569,7 +569,7 @@
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_2.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_2.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
