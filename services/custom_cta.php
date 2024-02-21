@@ -38,8 +38,8 @@ function generate_kireilign_cta_url()
     return 'https://kyosei-guide.com/a/?'; // $cta_url が空の場合はトップを返す。view側で別途分岐制御
   }
   $url_params = array(
-    'k' => esc_html(get_theme_mod('submedia_keyword_code_setting', '')),
-    'a' => esc_html(get_theme_mod('submedia_agent_code_setting', '')),
+    // 'k' => esc_html(get_theme_mod('submedia_keyword_code_setting', '')),
+    'ads' => 'a-'.esc_html(get_theme_mod('submedia_agent_code_setting', '')),
   );
 
   // 配列からURLエンコードされたクエリ文字列を生成

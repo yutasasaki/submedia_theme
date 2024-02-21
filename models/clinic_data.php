@@ -75,6 +75,7 @@ class ClinicData {
       $this->doctor_name_romaji = $row[70] ?? '' ;  // ローマ字歯科医
       $this->is_submedia = ($row[72] === 'あり') ? true : false;  // サブメディア契約ステータス
       $this->is_reserve = ($row[73] === 'あり') ? true : false;  // 予約契約ステータス
+      $this->is_kireilign = ($row[74] === 'あり') ? true : false;  // KL契約ステータス
 
     }
 

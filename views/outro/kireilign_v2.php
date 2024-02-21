@@ -1,7 +1,5 @@
 <!-- wp:sgb/headings {"headingText":"さいごに","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"#009EF3"} -->
-<h2 class="wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner sgb-heading--type2 with-icon"
-    style="background-color:#009EF3;border-color:transparent;font-size:1.2em"><i class="fa fa-chevron-circle-right"
-      style="color:rgba(255,255,255,.6)"></i><span class="sgb-heading__text" style="color:#FFF">さいごに</span></span></h2>
+<h2 class="wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:#009EF3;border-color:transparent;font-size:1.2em"><i class="fa fa-chevron-circle-right" style="color:rgba(255,255,255,.6)"></i><span class="sgb-heading__text" style="color:#FFF">さいごに</span></span></h2>
 <!-- /wp:sgb/headings -->
 
 <!-- wp:paragraph -->
@@ -25,8 +23,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>将来の自分が必ず<br><strong><span class="keiko_yellow">「あの</span><span class="keiko_yellow">とき</span><span
-      class="keiko_yellow">矯正を始めてよかった！」</span></strong><br>と喜んでくれるはずです。</p>
+<p>将来の自分が必ず<br><strong><span class="keiko_yellow">「あの</span><span class="keiko_yellow">とき</span><span class="keiko_yellow">矯正を始めてよかった！」</span></strong><br>と喜んでくれるはずです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -50,6 +47,5 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:sgb/btn {"btnColor":"#90d581","label":"キレイライン矯正の詳細\u003cbr\u003e＆提携クリニック一覧　を見る"} -->
-<p class="wp-block-sgb-btn sng-align-left"><a style="background-color:#90d581" class="btn normal raised"
-    href="">キレイライン矯正の詳細<br>＆提携クリニック一覧　を見る</a></p>
+<p class="wp-block-sgb-btn sng-align-left"><a style="background-color:#90d581" class="btn normal raised" href="<?php echo esc_url(generate_kireilign_cta_url()); ?>">キレイライン矯正の詳細<br>＆提携クリニック一覧　を見る</a></p>
 <!-- /wp:sgb/btn -->

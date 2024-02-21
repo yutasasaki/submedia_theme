@@ -1,10 +1,12 @@
 <?php
 require_once get_stylesheet_directory() . '/models/clinic_data.php';
+require_once get_stylesheet_directory() . '/models/clinic_pr_data.php';
 
 function show_clinic_db_shortcode($atts) {
 // ショートコード属性を解析
 $atts = shortcode_atts(array(
 'table_id' => '', // TablePressテーブルのID
+'pr_table_id' => '', // PRがある場合のテーブルID
 'place_id' => '', // 検索したいPlaceId
 'view' => 'default',
 ), $atts);
@@ -12,28 +14,59 @@ $atts = shortcode_atts(array(
 // PlaceIdを取得
 $searched_place_id = $atts['place_id'];
 
-// TablePressテーブルのデータを取得
-$table = TablePress::$model_table->load($atts['table_id']);
-if (is_wp_error($table)) {
-return '指定されたテーブルが見つかりません。';
+// デフォルト値はtable_idに設定する
+if($atts['pr_table_id'] == ''){
+  $atts['pr_table_id'] = $atts['table_id'];
+}
+
+$table = [];
+if ($atts['table_id'] !== '') {
+  $table = TablePress::$model_table->load($atts['table_id']);
+  if (is_wp_error($table)) {
+    return '指定されたクリニックテーブルが見つかりません。';
+  }
 }
 
 // PlaceIdに対応する行を探索
-$found_row = null;
+$target_row = null;
 foreach ($table['data'] as $row) {
-if (isset($row[66]) && $row[66] == $searched_place_id) {
-$found_row = $row;
-break;
-}
-}
-
-if ($found_row === null) {
-return '指定されたPlaceIdに対応する行が見つかりません。';
+  if (isset($row[66]) && $row[66] == $searched_place_id) {
+    $target_row = $row;
+    break;
+  }
 }
 
+if (
+  $target_row === null
+) {
+  return '指定されたPlaceIdに対応する行が見つかりません。';
+}
 // 変数の定義
-$clinic_data = new ClinicData($found_row);
-$clinic_data->place_id = $found_row[66] ?? ''; // PlaceIDを設定
+$clinic_data = new ClinicData($target_row);
+$clinic_data->place_id = $target_row[66] ?? ''; // PlaceIDを設定
+
+
+$pr_table = [];
+$clinic_pr_data = null;
+if ($atts['pr_table_id'] !== '') {
+  $pr_table = TablePress::$model_table->load($atts['pr_table_id']);
+  if (is_wp_error($pr_table)) {
+    return '指定されたPRテーブルが見つかりません。';
+  }
+  foreach ($pr_table['data'] as $row) {
+    if (isset($row[1]) && $row[1] == $searched_place_id) {
+      $clinic_pr_data = new ClinicPRData($row);
+      $clinic_data->catchphrase = $clinic_pr_data->catchphrase;
+      $clinic_data->headline1 = $clinic_pr_data->headline1;
+      $clinic_data->paragraph1 = $clinic_pr_data->paragraph1;
+      $clinic_data->headline2 = $clinic_pr_data->headline2;
+      $clinic_data->paragraph2 = $clinic_pr_data->paragraph2;
+      $clinic_data->headline3 = $clinic_pr_data->headline3;
+      $clinic_data->paragraph3 = $clinic_pr_data->paragraph3;
+      break;
+    }
+  }
+}
 
 // ビューファイルの読み込み
 ob_start(); // 出力バッファリング開始

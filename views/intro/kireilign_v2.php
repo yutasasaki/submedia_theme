@@ -93,7 +93,7 @@
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/10.webp'); ?>);padding-bottom:100%" href="https://kireilign.com/lp/a/lp189/">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_kireilign_cta_url()); ?>">
         </a>
       </div>
     </div>
