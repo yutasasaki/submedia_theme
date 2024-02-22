@@ -26,11 +26,13 @@
   <?php include(get_stylesheet_directory() . '/views/components/default/payment_method.php'); ?>
   <?php #include(get_stylesheet_directory() . '/views/components/default/map.php'); 
   ?>
+  <?php if (!empty($clinic_data->is_kireilign)) : ?>
+    <?php include(get_stylesheet_directory() . '/views/components/default/cta_kireilign.php'); ?>
+  <?php endif; ?>
   <?php if (!empty($clinic_data->cta)) : ?>
     <?php include(get_stylesheet_directory() . '/views/components/default/cta.php'); ?>
-  <?php elseif (!empty($clinic_data->is_kireilign)) : ?>
-    <?php include(get_stylesheet_directory() . '/views/components/default/cta_kireilign.php'); ?>
-  <?php else : ?>
+  <?php endif; ?>
+  <?php if (empty($clinic_data->is_kireilign) && empty($clinic_data->cta)) : ?>
     <?php include(get_stylesheet_directory() . '/views/components/default/cta_clinic_website.php'); ?>
   <?php endif; ?>
   <?php #include(get_stylesheet_directory() . '/views/components/default/structured_markup.php'); 

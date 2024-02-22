@@ -96,7 +96,6 @@
   }
 }
 
-
 .sm-cta-btn {
   display: inline-flex;
   justify-content: center;
@@ -104,7 +103,7 @@
   margin: 10px auto;
   padding: 10px 20px;
   border-radius: 50px;
-  font-size: 1em;
+  font-size: 1.25em;
   font-weight: bold;
   text-decoration: none;
   color: white;
@@ -115,6 +114,7 @@
   transition: margin-top 0.2s;
   // white-space: nowrap;
 
+  
   &:hover {
     margin-top: 3px;
   }
@@ -123,8 +123,8 @@
     content: url('../images/icon/external.svg');
     display: inline-block;
     margin-left: 8px;
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     padding-bottom: 4px;
     color: white;
   }

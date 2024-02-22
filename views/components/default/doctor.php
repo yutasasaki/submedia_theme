@@ -30,15 +30,17 @@
         <h5 class="wp-block-sgb-headings sgb-heading" style="margin-top:0;"><span class="sgb-heading__inner hh1" style="font-size:1.2em"><span class="sgb-heading__text"><?php echo esc_html($clinic_data->director_name); ?>先生</span></span></h5>
         <!-- /wp:heading -->
 
-        <!-- wp:heading {"level":5} -->
-        <h5 class="wp-block-heading" style="margin-bottom: 10px;">院長からのコメント</h5>
-        <!-- /wp:heading -->
-        <?php if (!empty($clinic_data->director_introduction_url)) : ?>
-          <blockquote cite="<?php echo esc_url($clinic_data->director_introduction_url); ?>">
+        <?php if (!empty($clinic_data->director_introduction)) : ?>
+          <!-- wp:heading {"level":5} -->
+          <h5 class="wp-block-heading" style="margin-bottom: 10px;">院長からのコメント</h5>
+          <!-- /wp:heading -->
+          <?php if (!empty($clinic_data->director_introduction_url)) : ?>
+            <blockquote cite="<?php echo esc_url($clinic_data->director_introduction_url); ?>">
           <?php else : ?>
             <p>
-            <?php endif; ?>
-            <?php echo esc_html($clinic_data->director_introduction); ?></p>
+          <?php endif; ?>
+          <?php echo esc_html($clinic_data->director_introduction); ?></p>
+        <?php endif; ?>
       </div>
     </div>
   <?php else : ?>

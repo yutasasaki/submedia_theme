@@ -1,6 +1,6 @@
 <!-- wp:paragraph -->
 <p>矯正を始めるなら、<strong>
-    <span class="red_000">できるだけ安い矯正歯科</span>
+    <span class="color-red">できるだけ安い矯正歯科</span>
   </strong>に通いたいですよね。</p>
 <!-- /wp:paragraph -->
 
@@ -17,9 +17,9 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>（近年、<span class="red_000">
-    <strong>マウスピース矯正に関する金銭トラブル</strong>
-  </span>が多数報告されています。）</p>
+<p>（近年、
+  <strong class="color-red">マウスピース矯正に関する金銭トラブル</strong>が多数報告されています。）
+</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -48,8 +48,9 @@
 <?php include(get_stylesheet_directory() . '/views/components/intro/kansyui.php'); ?>
 
 
+
 <!-- wp:paragraph -->
-<p>■合わせてこちらもチェック！</p>
+<p class="font-bold marker-yellow inline-block">■あわせてこちらもチェック！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -117,15 +118,15 @@
 
 <!-- wp:paragraph -->
 <p>それでは早速、矯正歯科を選ぶ上で<span class="red_000">
-    <strong>絶対に押さえておくべきポイント</strong>
+    <strong class="color-red">絶対に押さえておくべきポイント</strong>
   </span>を2つ紹介します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>これを知らずに選んでしまうと、<span class="red_000">
-    <strong>高額な費用がかかる</strong>
+    <strong class="color-red">高額な費用がかかる</strong>
   </span>・<span class="red_000">
-    <strong>歯並びがキレイに治らない</strong>
+    <strong class="color-red">歯並びがキレイに治らない</strong>
   </span>など、様々な失敗につながる可能性があるので、必ずチェックしてくださいね！</p>
 <!-- /wp:paragraph -->
 
@@ -167,9 +168,9 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>
+<p class="font-bold">
   <span class="keiko_yellow">値段が違う理由は、単に<strong>
-      <span class="red_000">"治療範囲が違うから"</span>
+      <span class="color-red">"治療範囲が違うから"</span>
     </strong>であり、治療の質とは関係ありません。</span>
 </p>
 <!-- /wp:paragraph -->
@@ -195,7 +196,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>ただ残念ながら、<span class="keiko_yellow">ほとんどの矯正歯科では普通のマウスピース矯正（インビザライン）しか扱っていません。</span>
+<p>ただ残念ながら、<span class="keiko_yellow font-bold">ほとんどの矯正歯科では普通のマウスピース矯正（インビザライン）しか扱っていません。</span>
   <br>その方が歯医者にとっての利益が大きいからです。
 </p>
 <!-- /wp:paragraph -->
@@ -254,7 +255,7 @@
     <div class="sng-box-msg__contents">
       <!-- wp:paragraph -->
       <p>低価格マウスピース矯正は、<strong>
-          <span class="red_000">すべての歯並びを治せるわけではありません。</span>
+          <span class="color-red">すべての歯並びを治せるわけではありません。</span>
         </strong>
       </p>
       <!-- /wp:paragraph -->
@@ -293,7 +294,7 @@
 
     <!-- wp:paragraph -->
     <p>また、キレイライン矯正は治療の質が高いだけでなく、<strong>
-        <span class="red_000">"支払いやすさ"</span>
+        <span class="color-red">"支払いやすさ"</span>
       </strong>もポイント！</p>
     <!-- /wp:paragraph -->
 
@@ -340,10 +341,10 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>近年、<span class="red_000">
+<p>近年、<span class="color-red">
     <strong>「通院不要」「オンライン治療」</strong>
   </span>という宣伝文句で患者さんを集めるマウスピース矯正サービスが増えています。<br>それらは一見、とても便利で手軽そうに見えますが、<span class="keiko_yellow">このようなマウスピース矯正は<strong>
-      <span class="red_000">絶対に選ばないでください。</span>
+      <span class="color-red">絶対に選ばないでください。</span>
     </strong>
   </span>
 </p>
@@ -391,7 +392,7 @@
     <span class="keiko_yellow">あなたが対象外の歯並びの場合、残念ながら治療費用は約100万円かかってしまいます。</span>
   </strong>
   <br>低価格マウスピース矯正は治療範囲が限られており、<strong>
-    <span class="red_000">全員を治すことはできない</span>
+    <span class="color-red">全員を治すことはできない</span>
   </strong>からです。
 </p>
 <!-- /wp:paragraph -->
@@ -417,7 +418,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>■初診の詳しい内容はこちら！</p>
+<p class="font-bold marker-yellow inline-block">■初診の詳しい内容はこちら！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -492,7 +493,7 @@
 
 <!-- wp:paragraph -->
 <p>知っている方もいるかもしれませんが、歯科矯正の初診料は<strong>
-    <span class="red_000">2〜5万円程度かかるのが普通</span>
+    <span class="color-red">2〜5万円程度かかるのが普通</span>
   </strong>です。</p>
 <!-- /wp:paragraph -->
 
@@ -505,7 +506,7 @@
 
 <!-- wp:paragraph -->
 <p>一方、キレイライン矯正の提携クリニックでは初診料（精密検査も含む）が、<span class="keiko_yellow">
-    <strong>なんと<span class="red_000">3,500円</span>程度！</strong>
+    <strong>なんと<span class="color-red">3,500円</span>程度！</strong>
   </span>
   <br>※クリニックによって若干異なります
 </p>
@@ -557,7 +558,7 @@
 <?php include(get_stylesheet_directory() . '/views/components/default/cta_kireilign.php'); ?>
 
 <!-- wp:paragraph -->
-<p>■あわせてコチラもチェック！</p>
+<p class="font-bold marker-yellow inline-block">■あわせてこちらもチェック！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
