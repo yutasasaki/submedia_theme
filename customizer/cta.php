@@ -9,16 +9,16 @@ $wp_customize->add_section('submedia_cta', array(
 ));
 
 // URL設定の追加
-$wp_customize->add_setting('kireilign_cta_url_setting', array(
+$wp_customize->add_setting('click_cta_url_setting', array(
 'default' => '',
 'sanitize_callback' => 'esc_url_raw', // URLのサニタイズに esc_url_raw を使用
 ));
 
 // テキストフィールドのコントロールを追加
-$wp_customize->add_control('kireilign_cta_url_field', array(
+$wp_customize->add_control('click_cta_url_field', array(
 'label' => __('キレイラインCTA先URL', 'submedia_theme'),
 'section' => 'submedia_cta',
-'settings' => 'kireilign_cta_url_setting',
+'settings' => 'click_cta_url_setting',
 'description' => __('キレイラインのCTA導線に対してのURLを指定ください。以下で設定したクエリパラメーターは自動的に付与されます。'),
 'type' => 'url', // HTML5のurlタイプを指定して、URL入力を促す
 ));

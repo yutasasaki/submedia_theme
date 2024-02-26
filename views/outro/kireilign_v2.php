@@ -47,5 +47,5 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:sgb/btn {"btnColor":"#90d581","label":"キレイライン矯正の詳細\u003cbr\u003e＆提携クリニック一覧　を見る"} -->
-<p class="wp-block-sgb-btn sng-align-left"><a style="background-color:#90d581" class="btn normal raised" href="<?php echo esc_url(generate_kireilign_cta_url()); ?>">キレイライン矯正の詳細<br>＆提携クリニック一覧　を見る</a></p>
+<p class="wp-block-sgb-btn sng-align-left"><a style="background-color:#90d581" class="btn normal raised" data-position="outro" data-cta="kireilign" href="<?php echo esc_url(generate_click_cta_url()); ?>">キレイライン矯正の詳細<br>＆提携クリニック一覧　を見る</a></p>
 <!-- /wp:sgb/btn -->

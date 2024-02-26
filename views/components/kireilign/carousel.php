@@ -83,7 +83,7 @@ box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);">
 を目指しませんか？" style="width: 100%; height: auto;">
         </li>
         <li class="splide__slide" style="min-height: 400px;">
-          <a href="<?php echo esc_url(generate_kireilign_cta_url()); ?>">
+          <a href="<?php echo esc_url(generate_click_cta_url()); ?>">
             <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/carousel/kireilign/carousel_10.webp'); ?>" alt="どんな些細なことでも
 ご相談お待ちしております。" style="width: 100%; height: auto;">
           </a>

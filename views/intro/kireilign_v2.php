@@ -94,7 +94,7 @@
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_kireilign_cta_url()); ?>">
+        <a data-position="carousel_1" class="sng-slider-item click_cta" data-cta="kireilign" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
         </a>
       </div>
     </div>
@@ -319,7 +319,11 @@
     <p class="has-text-align-center">\歯並びを安く治せるチャンス！/</p>
     <!-- /wp:paragraph -->
 
-    <?php include(get_stylesheet_directory() . '/views/components/default/cta_kireilign.php'); ?>
+    <!-- wp:html -->
+    <div class="text-center">
+      <a data-position="chance_banner" class="mx-auto inline-block sm-cta-btn sm_kl_cta click_cta" data-cta="kireilign" href="<?php echo esc_url(generate_click_cta_url()); ?>">キレイライン矯正について詳しく見てみる</a>
+    </div>
+    <!-- /wp:html -->
   </div>
 </div>
 <!-- /wp:sgb/block-simple -->
@@ -555,7 +559,11 @@
 <p>キレイライン矯正の提携クリニックは全国150ヶ所以上にあるので、気になる方はぜひ行ってみてください！</p>
 <!-- /wp:paragraph -->
 
-<?php include(get_stylesheet_directory() . '/views/components/default/cta_kireilign.php'); ?>
+<!-- wp:html -->
+<div class="text-center">
+  <a data-position="inline_button" class="mx-auto inline-block sm-cta-btn sm_kl_cta click_cta" data-cta="kireilign" href="<?php echo esc_url(generate_click_cta_url()); ?>">キレイライン矯正について詳しく見てみる</a>
+</div>
+<!-- /wp:html -->
 
 <!-- wp:paragraph -->
 <p class="font-bold marker-yellow inline-block">■あわせてこちらもチェック！</p>
@@ -602,7 +610,7 @@
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_kireilign_cta_url()); ?>">
+        <a data-position="carousel_2" data-cta="kireilign" class="sng-slider-item click_cta" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
         </a>
       </div>
     </div>
