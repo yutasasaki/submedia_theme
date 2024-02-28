@@ -1,6 +1,6 @@
 <?php if (!empty($clinic_data->director_name)) : ?>
   <!-- wp:heading {"level":4} -->
-  <h4 class="wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner hh hh18 sm-hh18 sm-hh18 sm-hh18" style="font-size:1.2em"><span class="sgb-heading__text"><?php echo esc_html($clinic_data->clinic_name); ?>の医師のご紹介</span></span></h4>
+  <h4 class="wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner hh hh18 sm-hh18 sm-hh18 sm-hh18" style="font-size:1.2em"><span class="sgb-heading__text"><?php echo esc_html($clinic_data->clinic_name); ?>の歯科医師のご紹介</span></span></h4>
   <!-- /wp:heading -->
 
   <?php
@@ -22,7 +22,7 @@
     <div class="wp-block-columns" style="gap: 20px;">
       <div class="wp-block-column" style="padding-right: 10px;">
         <figure class="wp-block-image size-large" style="width: 100%; overflow: hidden;">
-          <img src="<?php echo $director_photo_link_url; ?>" alt="<?php echo esc_attr($clinic_data->clinic_name); ?>の医師の<?php echo esc_attr($clinic_data->director_name); ?>先生" style="width: 100%; max-height: 450px; height: auto; object-fit: contain;" />
+          <img src="<?php echo $director_photo_link_url; ?>" alt="<?php echo esc_attr($clinic_data->clinic_name); ?>の歯科医師の<?php echo esc_attr($clinic_data->director_name); ?>先生" style="width: 100%; max-height: 450px; height: auto; object-fit: contain;" />
         </figure>
       </div>
       <div class="wp-block-column" style="padding-left: 10px;">
