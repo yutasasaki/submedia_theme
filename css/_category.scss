@@ -1,0 +1,59 @@
+.sm_category_wrapper {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #efefef;
+  border-radius: 20px;
+
+  .sm_category_header {
+    text-align: center;
+    font-size: 1.1em;
+    color: #111;
+    margin: 0 0 1rem 0 !important;
+  }
+
+  .sm_categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 3列に配置 */
+    gap: 10px;
+    /* グリッドアイテム間の隙間 */
+    /* リストスタイルを無効にする */
+    padding: 0;
+
+    .sm_category {
+      all: unset;
+      box-sizing: border-box;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px 30px;
+      position: relative;
+      border-radius: 10px;
+      border: 2px solid;
+      border-color: #555;
+      background-color: #fff;
+    }
+
+    .sm_category .caret-circle-right {
+      position: relative;
+      width: 24px;
+      height: 24px;
+    }
+
+    .sm_category .text-wrapper {
+      position: relative;
+      width: fit-content;
+      font-family: "Noto Sans JP-Black", Helvetica;
+      font-weight: 900;
+      color: #555;
+      font-size: 1.2rem;
+      text-align: center;
+      letter-spacing: 3.36px;
+      line-height: 24px;
+      white-space: nowrap;
+    }
+
+  }
+
+}

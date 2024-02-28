@@ -23,7 +23,7 @@ $table = [];
 if ($atts['table_id'] !== '') {
   $table = TablePress::$model_table->load($atts['table_id']);
   if (is_wp_error($table)) {
-    return '指定されたクリニックテーブルが見つかりません。';
+    return '';
   }
 }
 
@@ -39,7 +39,7 @@ foreach ($table['data'] as $row) {
 if (
   $target_row === null
 ) {
-  return '指定されたPlaceIdに対応する行が見つかりません。';
+  return '';
 }
 // 変数の定義
 $clinic_data = new ClinicData($target_row);
