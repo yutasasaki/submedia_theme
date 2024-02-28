@@ -1,4 +1,4 @@
-<section id="clinic_<?php echo esc_html($clinic_data->uid); ?>">
+<section id="clinic_<?php echo esc_html($clinic_data->clinic_name_romaji); ?>">
   <!-- wp:sgb/headings {"headingText":"<?php echo esc_html($clinic_data->clinic_name); ?>","headingStyle":"hh hh13","headingIconName":"","headingTextColor":"","headingBgColor1":"","headingBorderColor1":""} -->
   <h3 class="wp-block-sgb-headings sgb-heading">
     <span class="sgb-heading__inner hh hh13" style="font-size:1.2em; 
