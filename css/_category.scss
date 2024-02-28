@@ -52,6 +52,7 @@
   @media (max-width: 480px) {
     .sm_categories {
       grid-template-columns: 1fr;
+      display: none;
     }
   }
 
