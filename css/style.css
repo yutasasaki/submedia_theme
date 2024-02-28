@@ -125,27 +125,58 @@
 }
 
 .sm_category_wrapper {
-  margin: 1rem;
+  margin: 0rem;
   padding: 1rem;
   background-color: #efefef;
   border-radius: 20px;
+  /* 画面幅が768px未満の場合に2列にする */
+  /* 画面幅が480px未満の場合に1列にする */
 }
 .sm_category_wrapper .sm_category_header {
   text-align: center;
-  font-size: 1.1em;
+  width: 100%;
   color: #111;
   margin: 0 0 1rem 0 !important;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sm_category_wrapper .sm_category_header h2 {
+  font-size: 1rem;
+  display: inline-block;
+  margin: 0 !important;
+}
+.sm_category_wrapper .sm_category_header .caret-circle-down {
+  position: relative;
+  width: 24px;
+  height: 24px;
 }
 .sm_category_wrapper .sm_categories {
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(4, 1fr);
-  /* 3列に配置 */
+  /* デフォルトは4列 */
   gap: 10px;
   /* グリッドアイテム間の隙間 */
-  /* リストスタイルを無効にする */
   padding: 0;
+  transition-property: opacity;
+  /* 透明度の変化を適用 */
+  transition-duration: 0.3s;
+  /* 300ミリ秒の持続時間 */
+  transition-timing-function: ease;
+  /* タイミング関数を指定 */
 }
-.sm_category_wrapper .sm_categories .sm_category {
+@media (max-width: 768px) {
+  .sm_category_wrapper .sm_categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .sm_category_wrapper .sm_categories {
+    grid-template-columns: 1fr;
+  }
+}
+.sm_category_wrapper .sm_category {
   all: unset;
   box-sizing: border-box;
   display: inline-flex;
@@ -158,13 +189,17 @@
   border: 2px solid;
   border-color: #555;
   background-color: #fff;
+  width: 100%;
+  /* グリッドセルに合わせて調整 */
+  min-width: 150px;
+  /* 最小幅を設定 */
 }
-.sm_category_wrapper .sm_categories .sm_category .caret-circle-right {
+.sm_category_wrapper .sm_category .caret-circle-right {
   position: relative;
   width: 24px;
   height: 24px;
 }
-.sm_category_wrapper .sm_categories .sm_category .text-wrapper {
+.sm_category_wrapper .sm_category .text-wrapper {
   position: relative;
   width: fit-content;
   font-family: "Noto Sans JP-Black", Helvetica;
