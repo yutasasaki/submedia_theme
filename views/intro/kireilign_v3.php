@@ -23,11 +23,6 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>
-</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 <p>そこでこの記事では、<br>
   <strong>
     <span class="keiko_yellow">✓失敗しない矯正歯科の選び方<br>✓<?php echo esc_attr($atts['area']); ?>のおすすめ矯正歯科</span>

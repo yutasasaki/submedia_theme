@@ -226,6 +226,18 @@
   text-align: left;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-gray {
   color: #555;
+}
+
+.entry-content > p:first-child {
+  display: none;
+}
+
+.post-thumbnail {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
