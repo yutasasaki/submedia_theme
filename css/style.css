@@ -215,4 +215,17 @@
 
 .inline-block {
   display: inline-block;
+}
+
+.text-xs {
+  font-size: 10px;
+  line-height: 0.75rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-gray {
+  color: #555;
 }/*# sourceMappingURL=style.css.map */

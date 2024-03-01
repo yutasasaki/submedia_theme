@@ -26,3 +26,9 @@ function show_intro_kireilign_v2_shortcode($atts) {
     return show_intro_shortcode($atts, 'kireilign_v2');
 }
 add_shortcode('show_intro_kireilign_v2', 'show_intro_kireilign_v2_shortcode');
+
+function show_intro_kireilign_v3_shortcode($atts)
+{
+  return show_intro_shortcode($atts, 'kireilign_v3');
+}
+add_shortcode('show_intro_kireilign_v3', 'show_intro_kireilign_v3_shortcode');

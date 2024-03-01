@@ -58,43 +58,40 @@
   <div class="splide__track">
     <div class="splide__list">
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/1.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/guide_1.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/2.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/guide_2.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/3.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/guide_3.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/4.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/guide_4.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/5.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/guide_5.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/6.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/guide_6.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/7.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/guide_7.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/8.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/guide_8.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/9.webp'); ?>);padding-bottom:100%">
+        <a data-position="carousel_1" class="sng-slider-item click_cta" data-cta="kireilign" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/guide_9.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
         </a>
-      </div>
-      <div class="splide__slide">
-        <a data-position="carousel_1" class="sng-slider-item click_cta" data-cta="kireilign" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
         </a>
       </div>
     </div>
@@ -151,14 +148,14 @@
 
 <!-- wp:paragraph -->
 <p>実は、マウスピース矯正は2つのタイプに分けることができ、<strong>
-    <span class="keiko_yellow">「普通のマウスピース矯正」</span>
+    <span class="keiko_yellow">「歯全体を治療するマウスピース矯正」</span>
   </strong>と<strong>
-    <span class="keiko_yellow">「低価格マウスピース矯正」</span>
-  </strong>があります。<br>普通のマウスピース矯正の相場は<strong>
-    <span class="keiko_yellow">70〜120万円</span>
-  </strong>で、低価格マウスピース矯正の相場は<strong>
-    <span class="keiko_yellow">20〜40万円</span>
-  </strong>です。</p>
+    <span class="keiko_yellow">「気になる部分だけ治療できるマウスピース矯正」</span>
+  </strong>があります。<br>歯全体のマウスピース矯正の相場は<strong>
+    <span class="keiko_yellow">約40〜100万</span>
+  </strong>で、部分的なマウスピース矯正の相場は<strong>
+    <span class="keiko_yellow">約20〜45万円</span>
+  </strong>です。（自社調べ）</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -177,7 +174,7 @@
 
 <!-- wp:image {"id":8496,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large">
-  <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/compare_table.webp'); ?>" alt="費用
+  <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/compare_table_proof.webp'); ?>" alt="費用
 治療範囲
 治療可能な
 歯並び
@@ -196,25 +193,29 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>ただ残念ながら、<span class="keiko_yellow font-bold">ほとんどの矯正歯科では普通のマウスピース矯正（インビザライン）しか扱っていません。</span>
-  <br>その方が歯医者にとっての利益が大きいからです。
+<p style="text-align: right; font-size: 10px;">（自社調べ）</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>ただ残念ながら、部分的な治療ができるマウスピース矯正を扱っている矯正歯科はまだまだ少ないのが現状です。<br>
+  その方が歯医者にとっての利益が大きいからです。
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そのため歯並びのズレが<strong>軽度〜中度</strong>だとしても、普通のマウスピース矯正をすることになります。</p>
+<p>そのため歯並びのズレが<strong>軽度〜中度</strong>で部分矯正で対応できるとしても、部分的な治療をするマウスピース矯正が選べない場合も...。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>
   <span class="keiko_yellow">
-    <strong>本来ならもっと安くできるのに、70〜120万円も払うことになる</strong>のは非常にもったいないですよね…。</span>
+    <strong>本来ならもっと安くできるのに、約40〜100万円も払うことになる</strong>のは非常にもったいないですよね…。</span>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image -->
 <figure class="wp-block-image">
-  <img style="width: 100%;height: auto;" src="<?php echo esc_url(get_theme_mod('sm_keido_chart', get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/flow.webp')); ?>" alt="軽度～中度
+  <img style="width: 100%;height: auto;" src="<?php echo esc_url(get_theme_mod('sm_keido_chart', get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/flow_proof.webp')); ?>" alt="軽度～中度
 と診断された場合
 2種を扱っている所
 約20～40万円
@@ -232,7 +233,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そうすれば、<span class="keiko_yellow">もしあなたが<strong>"低価格マウスピース矯正で治せる"</strong>と診断された場合、<strong>治療費用を安く抑えることができますよ！</strong>
+<p>そうすれば、<span class="keiko_yellow">もしあなたが<strong>"部分的なマウスピース矯正で治せる"</strong>と診断された場合、<strong>治療費用を安く抑えることができますよ！</strong>
   </span>
 </p>
 <!-- /wp:paragraph -->
@@ -254,7 +255,7 @@
     </div>
     <div class="sng-box-msg__contents">
       <!-- wp:paragraph -->
-      <p>低価格マウスピース矯正は、<strong>
+      <p>部分的なマウスピース矯正は、<strong>
           <span class="color-red">すべての歯並びを治せるわけではありません。</span>
         </strong>
       </p>
@@ -270,24 +271,24 @@
 
 <!-- wp:sgb/block-simple {"boxTitle":"低価格マウスピース矯正の中でオススメは？","boxTitleStyle":"sgb-box-simple\u002d\u002dtitle-overwrap","boxColor":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>","boxTitleColor":"#ffffff","blockId":"id-2be6de7d-d5d6-46ff-bc42-4e3046bed0ac","css":".sgb-box-simple {\n    margin: 1.4em 0 1.4em 0.45em;\n}\n\n.sgb-box-simple\u002d\u002dtitle-overwrap .sgb-box-simple__title {\n    background: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dbg-color,<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>)!important;\n\tborder-radius: 30px;\n\tfont-size: 16px;\n    padding: 4px 16px;\n\tleft: calc(var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dfuki,-13)*1px);\n\tmin-width: 5em;\n\ttext-align: center;\n}\n\n.sgb-box-simple\u002d\u002dtitle-overwrap .sgb-box-simple__title:after {\n    border: 10px solid transparent;\n    border-top-color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dbg-color,<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>)!important;\n    content: \u0022\u0022;\n    height: 0;\n    left: 30px;\n    position: absolute;\n    top: 100%;\n    top: calc(100% - 1px);\n    width: 0;\n}","scopedCSS":"#id-2be6de7d-d5d6-46ff-bc42-4e3046bed0ac .sgb-box-simple {\n    margin: 1.4em 0 1.4em 0.45em;\n}\n\n#id-2be6de7d-d5d6-46ff-bc42-4e3046bed0ac .sgb-box-simple\u002d\u002dtitle-overwrap .sgb-box-simple__title {\n    background: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dbg-color,<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>)!important;\n\tborder-radius: 30px;\n\tfont-size: 16px;\n    padding: 4px 16px;\n\tleft: calc(var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dfuki,-13)*1px);\n\tmin-width: 5em;\n\ttext-align: center;\n}\n\n#id-2be6de7d-d5d6-46ff-bc42-4e3046bed0ac .sgb-box-simple\u002d\u002dtitle-overwrap .sgb-box-simple__title:after {\n    border: 10px solid transparent;\n    border-top-color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dbg-color,<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>)!important;\n    content: \u0022\u0022;\n    height: 0;\n    left: 30px;\n    position: absolute;\n    top: 100%;\n    top: calc(100% - 1px);\n    width: 0;\n}","customControls":[{"name":"吹き出し背景色","variableName":"bgColor","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":0,"max":0,"step":1,"label":"","variableType":"color","disableJS":true},{"name":"吹き出し位置(px)","variableName":"fuki","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":-30,"max":30,"step":1,"label":"","variableType":"number","disableJS":true,"value":8}]} -->
 <div class="wp-block-sgb-block-simple sgb-box-simple sgb-box-simple--title-overwrap sgb-box-simple--with-border">
-  <div style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;color:#ffffff" class="sgb-box-simple__title">低価格マウスピース矯正の中でオススメは？</div>
+  <div style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;color:#ffffff" class="sgb-box-simple__title">部分的なマウスピース矯正の中でオススメは？</div>
   <div class="sgb-box-simple__body" style="border-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;background-color:#FFF">
     <!-- wp:paragraph -->
-    <p>「安くてもちゃんとキレイな歯並びにしたい」<br>「信頼できる方法で治療したい」<br>という方には、キレイライン矯正がオススメ！</p>
+    <p>「価格を抑えてキレイな歯並びを目指したい」<br>「信頼できる方法で治療したい」<br>という方には、キレイライン矯正がオススメ！</p>
     <!-- /wp:paragraph -->
 
     <!-- wp:paragraph -->
-    <p>なぜならキレイライン矯正は、日本で最初に誕生した低価格マウスピース矯正ブランドで、同ジャンルの中では最も有名だからです！</p>
+    <p>なぜならキレイライン矯正は、日本で最初に誕生した「LCM(格安マウスピース矯正)」といわれるブランドで、同ジャンルの中では知名度が高いからです!</p>
     <!-- /wp:paragraph -->
 
     <!-- wp:paragraph -->
-    <p>今まで10万人以上の症例があり、豊富な歯列データを利用して緻密な治療計画を立てることができます。</p>
+    <p>今まで11万人以上（※1）の症例があり、豊富な歯列データを利用して緻密な治療計画を立てることができます。</p>
     <!-- /wp:paragraph -->
 
     <!-- wp:paragraph -->
     <p>
     <figure class="wp-block-image">
-      <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/kireilign/banner_kireilign.webp'); ?>" alt="">
+      <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/banner_kireilign.webp'); ?>" alt="">
     </figure>
     </p>
     <!-- /wp:paragraph -->
@@ -301,9 +302,9 @@
     <!-- wp:paragraph -->
     <p>
       <strong>
-        <span class="keiko_yellow">「マウスピースを交換するたびに少しずつ支払う方法」</span>
+        <span class="keiko_yellow">「マウスピースを交換するたびに1回分ずつ支払う方法」</span>
       </strong>や<span class="keiko_yellow">
-        <strong>「月々3000円〜の月額払い」</strong>
+        <strong>「月々約3,000円~の分割払い(※3)」</strong>
       </span>もでき、あなたのお財布事情に合わせた支払い方法を選択できます。
     </p>
     <!-- /wp:paragraph -->
@@ -311,18 +312,22 @@
     <!-- wp:paragraph -->
     <p>
       <span class="keiko_yellow">
-        <strong>「一気に約20〜40万円を支払うのは大変…」</strong>という方には嬉しい特徴ですね！</span>
+        <strong>「一気に大きな金額を支払うのは大変...」</strong>という方には嬉しい特徴ですね！</span>
     </p>
     <!-- /wp:paragraph -->
 
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">\歯並びを安く治せるチャンス！/</p>
+    <p class="has-text-align-center">\リーズナブルに治療できるチャンス！/</p>
     <!-- /wp:paragraph -->
 
     <!-- wp:html -->
     <div class="text-center">
       <a data-position="chance_banner" class="mx-auto inline-block sm-cta-btn sm_kl_cta click_cta" data-cta="kireilign" href="<?php echo esc_url(generate_click_cta_url()); ?>">キレイライン矯正について詳しく見てみる</a>
     </div>
+    <p class="text-left text-xs text-gray">※保険適用外の自由診療となります。<br>
+      ※1 2017年6月〜2022年11月の契約者様の合計数<br>
+      ※2 2024年3月現在。最新の提携院情報は予約フォームよりご確認ください。<br>
+      ※3 デンタルローンを利用して7回コース(税込319,000円)を頭金なし・96回払いで支払う場合の手数料抜き・税別の分割支払金額です。一部クリニックはローン非対応。信販会社や手数料はクリニックにより異なります。</p>
     <!-- /wp:html -->
   </div>
 </div>
@@ -333,7 +338,7 @@
 </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
+<!-- wp:heading {" level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
 <h3 class="wp-block-heading has-sango-silver-background-color  has-background sm-border-main sm-color-sub">
   2.定期的な通院が必要な所</h3>
 <!-- /wp:heading -->
@@ -347,9 +352,8 @@
 <!-- wp:paragraph -->
 <p>近年、<span class="color-red">
     <strong>「通院不要」「オンライン治療」</strong>
-  </span>という宣伝文句で患者さんを集めるマウスピース矯正サービスが増えています。<br>それらは一見、とても便利で手軽そうに見えますが、<span class="keiko_yellow">このようなマウスピース矯正は<strong>
-      <span class="color-red">絶対に選ばないでください。</span>
-    </strong>
+  </span>を掲げているマウスピース矯正サービスが増えています。<br>それらは一見、とても便利で手軽そうに見えますが、<strong><span class="keiko_yellow">このようなマウスピース矯正を<span class="color-red">選ぶのは避けましょう</span></span></strong>
+  </strong>
   </span>
 </p>
 <!-- /wp:paragraph -->
@@ -393,16 +397,16 @@
 
 <!-- wp:paragraph -->
 <p>どんなに「低価格マウスピース矯正をやりたい」と思っていたとしても、<strong>
-    <span class="keiko_yellow">あなたが対象外の歯並びの場合、残念ながら治療費用は約100万円かかってしまいます。</span>
+    <span class="keiko_yellow">あなたが対象外の歯並びの場合、残念ながら治療費用は40〜100万円程度かかってしまいます。</span>
   </strong>
-  <br>低価格マウスピース矯正は治療範囲が限られており、<strong>
+  <br>部分的なマウスピース矯正は治療範囲が限られており、<strong>
     <span class="color-red">全員を治すことはできない</span>
   </strong>からです。
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そのため、「低価格マウスピース矯正で治療できるかどうか」は<strong>
+<p>そのため、「部分的なマウスピース矯正で治療できるかどうか」は<strong>
     <span class="keiko_yellow">精密検査をしないと分かりません。</span>
   </strong>
 </p>
@@ -456,9 +460,8 @@
 
 
 <!-- wp:paragraph -->
-<p>
-  <br>※右スワイプで続きが読めます
-</p>
+<p style="margin:1.5em 0 0;">※右スワイプで続きが読めます</p>
+<p class="text-left text-xs text-gray">※初回検診の流れはクリニックにより異なります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:sgb/headings {"headingText":"どんな矯正歯科で初診を受ければいい？","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"} -->
@@ -484,36 +487,31 @@
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
 <h3 class="wp-block-heading has-sango-blue-color has-sango-silver-background-color has-text-color has-background sm-border-main">
   <span class="sgb-heading__text" style="color:#333">
-    <strong>オススメな理由①：初診料が安い</strong>
+    <strong>オススメな理由①：初回検診料が比較的リーズナブル</strong>
   </span>
 </h3>
 <!-- /wp:heading -->
 
 <!-- wp:image -->
 <figure class="wp-block-image">
-  <img src="https://lh4.googleusercontent.com/N8nP1prUcsCEsQ1tyJ82SnwniCYjqKHOUFKVu3CSb_gyVG16aa5CK5Wwrzk_Ny4z49_GnEc_im8UV_XP6AFyUWUMMXcHfZQVpZFAYBA2Mt-tF0UYfd-AbgSYU_1rwYUjOMnTgKj9Yp3HnDmox27fXqM" alt="" />
+  <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/reasonable.webp'); ?>" alt="" />
 </figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>知っている方もいるかもしれませんが、歯科矯正の初診料は<strong>
-    <span class="color-red">2〜5万円程度かかるのが普通</span>
-  </strong>です。</p>
+<p>知っている方もいるかもしれませんが、歯科矯正の初診料は<strong><span class="color-red">2〜5万円程度かかることもあります。</span></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>中には「カウンセリング無料」と書かれている所もありますが、<strong>
-    <span class="keiko_yellow">「カウンセリング」だけが無料であって、精密検査には数万円かかるんです。</span>
+    <span class="keiko_yellow">「カウンセリング」だけが無料であって、精密検査には数万円かかるということも。</span>
   </strong>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>一方、キレイライン矯正の提携クリニックでは初診料（精密検査も含む）が、<span class="keiko_yellow">
-    <strong>なんと<span class="color-red">3,500円</span>程度！</strong>
-  </span>
-  <br>※クリニックによって若干異なります
-</p>
+<p style="margin:0;">一方、キレイライン矯正の提携クリニックでは初診料（精密検査も含む）が、<span class="keiko_yellow"><strong>なんと<span class="color-red">3,300円（税込）</span>〜！</strong></span></p>
+<p class="text-left text-xs text-gray">※金額はクリニックにより異なりますので、予約画面にてご確認ください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -535,16 +533,16 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>キレイライン矯正はマウスピース矯正の1つであり、普通の矯正歯科で行われる治療です。<br>（キレイライン矯正だけを行っている所はありません）</p>
+<p>キレイライン矯正はマウスピース矯正ブランドの1つであり、治療は提携している歯科クリニックで行われます。<br>(キレイライン矯正だけを行っている所はありません)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>そのため、初診では<strong>「キレイライン矯正で治せるかどうか」</strong>だけでなく、もし治せない場合は<strong>
-    <span class="keiko_yellow">「どれが最適な治療法なのか」</span>
+    <span class="keiko_yellow">「どれが適した治療法なのか」</span>
   </strong>が分かります。<br>
   <span class="keiko_yellow">
     <strong>自分に合った治療法・</strong>
-    <strong>費用</strong>がその場で分かるので、</span>
+    <strong>費用の目安</strong>を歯科医師が教えてくれるので、</span>
   <strong>
     <span class="keiko_yellow">わざわざ複数のクリニックに行く必要がありません！</span>
   </strong>
@@ -556,7 +554,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>キレイライン矯正の提携クリニックは全国150ヶ所以上にあるので、気になる方はぜひ行ってみてください！</p>
+<p>キレイライン矯正の提携クリニックは全国140ヶ所以上(2024年3月現在)にあるので、気になる方はぜひ行ってみてください!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -574,43 +572,43 @@
   <div class="splide__track">
     <div class="splide__list">
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_1.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/know_1.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_2.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/know_2.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_3.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/know_3.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_4.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/know_4.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_5.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/know_5.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_6.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/know_6.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_7.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/know_7.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_8.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/know_8.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_9.webp'); ?>);padding-bottom:100%">
+        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/know_9.webp'); ?>);padding-bottom:100%">
         </a>
       </div>
       <div class="splide__slide">
-        <a data-position="carousel_2" data-cta="kireilign" class="sng-slider-item click_cta" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
+        <a data-position="carousel_2" data-cta="kireilign" class="sng-slider-item click_cta" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v3/know_10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
         </a>
       </div>
     </div>
