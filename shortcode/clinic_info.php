@@ -30,7 +30,7 @@ if ($atts['table_id'] !== '') {
 // PlaceIdに対応する行を探索
 $target_row = null;
 foreach ($table['data'] as $row) {
-  if (isset($row[66]) && $row[66] == $searched_place_id) {
+  if (isset($row[66]) && !empty($row[66]) && $row[66] == $searched_place_id) {
     $target_row = $row;
     break;
   }
