@@ -152,7 +152,12 @@
   height: 24px;
 }
 .sm_category_wrapper .sm_categories {
-  display: grid;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+  flex-direction: row;
   width: 100%;
   grid-template-columns: repeat(4, 1fr);
   /* デフォルトは4列 */
@@ -179,18 +184,16 @@
 }
 .sm_category_wrapper .sm_category {
   all: unset;
-  box-sizing: border-box;
+  box-sizing: content-box;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
   padding: 10px 30px;
   position: relative;
   border-radius: 10px;
   border: 2px solid;
   border-color: #555;
   background-color: #fff;
-  width: 100%;
   /* グリッドセルに合わせて調整 */
   min-width: 150px;
   /* 最小幅を設定 */

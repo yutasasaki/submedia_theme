@@ -56,6 +56,7 @@ function sibling_categories_shortcode($atts)
   // ショートコードの属性を解析
   $attributes = shortcode_atts(array(
     'area' => '同じ地域', // デフォルト値
+    'exclude'  => '1', // 必要に応じて除外するカテゴリのIDを指定
   ), $atts);
 
   // 投稿が属するカテゴリを取得
