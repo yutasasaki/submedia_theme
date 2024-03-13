@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+// 中央寄せCSS
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+// position属性のアタッチ
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+.wrap-keep{
+  word-break: keep-all;
+}
+.inline-block{
+  display: inline-block;
+}
+.inline{
+  display: inline;
+}
+.block{
+  display: block;
+}
+.center{
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}

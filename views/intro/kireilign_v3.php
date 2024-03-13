@@ -34,6 +34,9 @@
 <!-- wp:paragraph -->
 <p>矯正を始めようとしている方は、ぜひ読んでみてください！</p>
 <!-- /wp:paragraph -->
+
+<?php include(get_stylesheet_directory() . '/views/components/cta/kireilign.php'); ?>
+
 <?php include(get_stylesheet_directory() . '/views/components/intro/recommend.php'); ?>
 
 <!-- wp:paragraph -->
@@ -374,6 +377,8 @@
 </p>
 <!-- /wp:paragraph -->
 
+<?php include(get_stylesheet_directory() . '/views/components/cta/clinic_list.php'); ?>
+
 <!-- wp:sgb/headings {"headingText":"最終的には精密検査が必要な理由","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"} -->
 <h2 class="wp-block-sgb-headings sgb-heading">
   <span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;border-color:transparent;font-size:1.2em">
@@ -552,11 +557,7 @@
 <p>キレイライン矯正の提携クリニックは全国140ヶ所以上(2024年3月現在)にあるので、気になる方はぜひ行ってみてください!</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:html -->
-<div class="text-center">
-  <a data-position="inline_button" class="mx-auto inline-block sm-cta-btn sm_kl_cta click_cta" data-cta="kireilign" href="<?php echo esc_url(generate_click_cta_url()); ?>">キレイライン矯正について詳しく見てみる</a>
-</div>
-<!-- /wp:html -->
+<?php include(get_stylesheet_directory() . '/views/components/cta/kireilign.php'); ?>
 
 <!-- wp:paragraph -->
 <p class="font-bold marker-yellow inline-block">■あわせてこちらもチェック！</p>

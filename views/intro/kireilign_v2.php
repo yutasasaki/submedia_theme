@@ -39,6 +39,10 @@
 <!-- wp:paragraph -->
 <p>矯正を始めようとしている方は、ぜひ読んでみてください！</p>
 <!-- /wp:paragraph -->
+
+<?php include(get_stylesheet_directory() . '/views/components/cta/kireilign.php'); ?>
+
+
 <?php include(get_stylesheet_directory() . '/views/components/intro/recommend.php'); ?>
 
 <!-- wp:paragraph -->
@@ -46,6 +50,7 @@
 <!-- /wp:paragraph -->
 
 <?php include(get_stylesheet_directory() . '/views/components/intro/kansyui.php'); ?>
+
 
 
 
@@ -285,11 +290,9 @@
     <!-- /wp:paragraph -->
 
     <!-- wp:paragraph -->
-    <p>
     <figure class="wp-block-image">
       <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/kireilign/banner_kireilign.webp'); ?>" alt="">
     </figure>
-    </p>
     <!-- /wp:paragraph -->
 
     <!-- wp:paragraph -->
@@ -374,6 +377,7 @@
   </strong>
 </p>
 <!-- /wp:paragraph -->
+<?php include(get_stylesheet_directory() . '/views/components/cta/clinic_list.php'); ?>
 
 <!-- wp:sgb/headings {"headingText":"最終的には精密検査が必要な理由","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"} -->
 <h2 class="wp-block-sgb-headings sgb-heading">
@@ -559,11 +563,8 @@
 <p>キレイライン矯正の提携クリニックは全国150ヶ所以上にあるので、気になる方はぜひ行ってみてください！</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:html -->
-<div class="text-center">
-  <a data-position="inline_button" class="mx-auto inline-block sm-cta-btn sm_kl_cta click_cta" data-cta="kireilign" href="<?php echo esc_url(generate_click_cta_url()); ?>">キレイライン矯正について詳しく見てみる</a>
-</div>
-<!-- /wp:html -->
+
+<?php include(get_stylesheet_directory() . '/views/components/cta/kireilign.php'); ?>
 
 <!-- wp:paragraph -->
 <p class="font-bold marker-yellow inline-block">■あわせてこちらもチェック！</p>
@@ -633,7 +634,7 @@
 <!-- /wp:sgb/headings -->
 
 <!-- wp:paragraph -->
-<p>先ほど説明したポイントを押さえている<?php echo esc_attr($atts['area']); ?>の矯正歯科一覧です。</p>
+<p id="clinic_list">先ほど説明したポイントを押さえている<?php echo esc_attr($atts['area']); ?>の矯正歯科一覧です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

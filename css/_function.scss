@@ -1,0 +1,140 @@
+@charset "UTF-8";
+// スムーズなスクロールを実現する
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+// paddingも同様にpx-10などが使用可能になります。
+@for $i from 0 through 100 {
+  .px-#{$i} {
+    padding-left: #{$i}px!important;
+    padding-right: #{$i}px!important;
+  }
+
+  .py-#{$i} {
+    padding-top: #{$i}px!important;
+    padding-bottom: #{$i}px!important;
+  }
+
+  .pt-#{$i} {
+    padding-top: #{$i}px!important;
+  }
+
+  .pb-#{$i} {
+    padding-bottom: #{$i}px!important;
+  }
+
+  .pl-#{$i} {
+    padding-left: #{$i}px!important;
+  }
+
+  .pr-#{$i} {
+    padding-right: #{$i}px!important;
+  }
+}
+@for $i from 0 through 100 {
+  .mx-#{$i} {
+    margin-left: #{$i}px!important;
+    margin-right: #{$i}px!important;
+  }
+  .my-#{$i} {
+    margin-top: #{$i}px!important;
+    margin-bottom: #{$i}px!important;
+  }
+  .mt-#{$i} {
+    margin-top: #{$i}px!important;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i}px!important;
+  }
+  .ml-#{$i} {
+    margin-left: #{$i}px!important;
+  }
+  .mr-#{$i} {
+    margin-right: #{$i}px!important;
+  }
+}
+@for $i from 0 through 100 {
+  .-translate-py-#{$i} {
+    --tw-translate-y: -#{$i}%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+  .translate-py-#{$i} {
+    --tw-translate-y: #{$i}%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+  .-translate-px-#{$i} {
+    --tw-translate-x: -#{$i}%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+  .translate-px-#{$i} {
+    --tw-translate-x: #{$i}%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+}
+// my-10とかの指示で、ピクセル分マージンが使えます。my-1000まで。
+@for $i from 0 through 100 {
+  .mvx-#{$i} {
+    margin-left: #{$i}vw;
+    margin-right: #{$i}vw;
+  }
+
+  .mvy-#{$i} {
+    margin-top: #{$i}vw;
+    margin-bottom: #{$i}vw;
+  }
+
+  .mvt-#{$i} {
+    margin-top: #{$i}vw;
+  }
+
+  .mvb-#{$i} {
+    margin-bottom: #{$i}vw;
+  }
+
+  .mvl-#{$i} {
+    margin-left: #{$i}vw;
+  }
+
+  .mvr-#{$i} {
+    margin-right: #{$i}vw;
+  }
+}
+
+// paddingも同様にpx-10などが使用可能になります。
+@for $i from 0 through 100 {
+  .pvx-#{$i} {
+    padding-left: #{$i}vw;
+    padding-right: #{$i}vw;
+  }
+
+  .pvy-#{$i} {
+    padding-top: #{$i}vw;
+    padding-bottom: #{$i}vw;
+  }
+
+  .pvt-#{$i} {
+    padding-top: #{$i}vw;
+  }
+
+  .pvb-#{$i} {
+    padding-bottom: #{$i}vw;
+  }
+
+  .pvl-#{$i} {
+    padding-left: #{$i}vw;
+  }
+
+  .pvr-#{$i} {
+    padding-right: #{$i}vw;
+  }
+}
+
+// my-10とかの指示で、ピクセル分マージンが使えます。my-1000まで。
+@for $i from 0 through 100 {
+  .lh-#{$i} {
+    line-height: #{calc($i / 10)}rem;
+  }
+}
