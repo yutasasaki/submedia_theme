@@ -5,13 +5,9 @@
   box-shadow:0 0 0 5px <?php echo get_theme_mod('submedia_light_color_setting', '#009EF3'); ?>;
   background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;">
       <span class="sgb-heading__text">
-        <?php if ($clinic_data->is_submedia) : ?>
-          <a style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>;text-decoration: none; cursor: default;" href="<?php echo esc_url($clinic_data->clinic_website_link); ?>">
-            <?php echo esc_html($clinic_data->clinic_name); ?>
-          </a>
-        <?php else : ?>
-          <span style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>;"><?php echo esc_html($clinic_data->clinic_name); ?></span>
-        <?php endif; ?>
+        <a style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>;text-decoration: none; cursor: pointer;" href="#clinic_<?php echo esc_html($clinic_data->clinic_name_romaji); ?>">
+        <?php echo esc_html($clinic_data->clinic_name); ?>
+        </a>
       </span>
     </span>
   </h3>
