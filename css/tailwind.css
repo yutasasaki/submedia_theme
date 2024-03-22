@@ -13346,7 +13346,6 @@ html {
   font-size: 20px;
   line-height: 1.8;
   border-bottom: 2px dashed rgb(0, 151, 216);
-  padding: clamp(0px, 4%, 10px) 0;
 }
 @media screen and (max-width: 640px) {
   .diagnose #modal .question-text,
@@ -13364,13 +13363,6 @@ html {
   border-radius: 24px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
   padding: 3%;
-}
-@media screen and (max-width: 640px) {
-  .diagnose #modal .options button,
-  .diagnose #cta_modal .options button {
-    padding: 4%;
-    margin: 7% auto;
-  }
 }
 .diagnose #cta_modal {
   padding: 0;
