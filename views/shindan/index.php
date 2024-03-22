@@ -1,14 +1,23 @@
 <!-- wp:html -->
+<style>
+  .diag-question-balloon::before {
+    border-top: 10px solid <?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?> !important;
+  }
+
+  #question {
+    border-bottom: 2px dashed <?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?> !important;
+  }
+</style>
 <div class="diagnose shadow">
-  <div class="diagnose_tit">
-    あなたに合う矯正方法を診断！
-    <div class="label">
+  <div class="diagnose_tit" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>; color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>">
+    あなたに合う矯正方法をチェック
+    <div class=" label">
       カンタン４問
     </div>
   </div>
   <div id="modal" class="">
     <section class="">
-      <div id="question-number" class="diag-question-balloon">
+      <div id="question-number" class="diag-question-balloon" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>; color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>">
         <p></p>
       </div>
       <p id="question" class=""></p>
@@ -18,9 +27,9 @@
   <div id="cta_modal" class="" style="display:none;">
     <!-- インビザライン -->
     <section id="invisalign" style="display:none;">
-      <div class="result_message">
+      <div class="result_message pt-20">
         <p class="lh-20 mx-20 wrap-keep">
-          <span class="color-gray">アンケートの回答ありがとうございます!</span><br>
+          <span class="text-gray-500">アンケートの回答ありがとうございます!</span><br>
           <span class="marker-yellow bold semilarge">目立たず歯列全体を治療</span>できる<span class="bold large">『インビザライン』</span>はいかがですか?
         </p>
       </div>
@@ -49,9 +58,9 @@
 
     <!-- キレイライン -->
     <section id="kireilign" style="display:none;">
-      <div class="result_message semilarge color-gray ">
+      <div class="result_message semilarge color-gray pt-20">
         <p class="lh-20 mx-20 wrap-keep">
-          <span class="color-gray">アンケートの回答ありがとうございます!</span><br>
+          <span class="text-gray-500">アンケートの回答ありがとうございます!</span><br>
           <span class="marker-yellow bold semilarge">気軽な値段で始められる</span><span class="bold large">『キレイライン矯正』</span>はいかがですか?
         </p>
       </div>
@@ -76,9 +85,9 @@
 
     <!-- ワイヤー矯正 -->
     <section id="wire" style="display:none;">
-      <div class="result_message">
+      <div class="result_message pt-20">
         <p class="lh-20 mx-20 wrap-keep">
-          <span class="color-gray">アンケートの回答ありがとうございます!</span><br>
+          <span class="text-gray-500">アンケートの回答ありがとうございます!</span><br>
           <span class="marker-yellow bold semilarge">リーズナブルに歯列全体を治療</span>できる<span class="bold large">『ワイヤー矯正』</span>はいかがですか?
         </p>
       </div>
@@ -105,20 +114,20 @@
 </div>
 <script type="text/javascript">
   const questions = [{
-      text: "Q1. あなたの歯並びで最も気になる症状はどれですか？",
+      text: "問1 最も気になる歯の状態はどれですか？",
       options: ["ガタガタ・八重歯", "出っ歯", "すきっ歯", "口ゴボ", "受け口", "その他"]
     },
     {
-      text: "Q2. 歯列矯正に1年を通して何円までなら払おうと思いますか？",
+      text: "問2 歯科矯正の予算はいくらですか？",
       options: ["10万円〜30万円", "31万円〜50万円", "51万円〜70万円", "71万円〜"],
       results: ["kireilign", "wire", "invisalign", "invisalign"]
     },
     {
-      text: "Q3. 過去に歯列矯正をした経験はありますか？",
-      options: ["ワイヤー矯正治療をしたことがある", "マウスピース矯正治療をしたことがある", "裏側矯正治療をしたことがある", "セラミック矯正治療をしたことがある", "矯正治療をしたことはない"]
+      text: "問3 過去に歯科矯正をしたことはありますか？",
+      options: ["ワイヤー矯正治療経験あり", "マウスピース矯正経験あり", "裏側矯正治経験あり", "セラミック矯正経験あり", "矯正経験なし"]
     },
     {
-      text: "Q4. 最後にあなたのご年齢を教えてください。",
+      text: "問4 あなたのご年齢を教えてください。",
       options: ["20歳以下", "21歳〜30歳", "31歳〜40歳", "41歳〜50歳", "51歳〜60歳", "61歳以上"]
     }
   ];
