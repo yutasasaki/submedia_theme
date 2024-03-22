@@ -16,169 +16,120 @@
     </div>
   </div>
   <div id="modal" class="">
-    <section class="">
-      <div id="question-number" class="diag-question-balloon" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>; color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>">
-        <p></p>
-      </div>
-      <p id="question" class=""></p>
-      <div id="options" class=""></div>
-    </section>
+    <div id="questions-container">
+      <?php include(get_stylesheet_directory() . '/views/components/shindan/questions/q1.php'); ?>
+      <?php include(get_stylesheet_directory() . '/views/components/shindan/questions/q2.php'); ?>
+      <?php include(get_stylesheet_directory() . '/views/components/shindan/questions/q3.php'); ?>
+      <?php include(get_stylesheet_directory() . '/views/components/shindan/questions/q4.php'); ?>
+      <?php include(get_stylesheet_directory() . '/views/components/shindan/questions/q5.php'); ?>
+    </div>
+    <?php include(get_stylesheet_directory() . '/views/components/shindan/cta/kireilign.php'); ?>
   </div>
-  <div id="cta_modal" class="" style="display:none;">
-    <!-- インビザライン -->
-    <section id="invisalign" style="display:none;">
-      <div class="result_message pt-20">
-        <p class="lh-20 mx-20 wrap-keep">
-          <span class="text-gray-500">アンケートの回答ありがとうございます!</span><br>
-          <span class="marker-yellow bold semilarge">目立たず歯列全体を治療</span>できる<span class="bold large">『インビザライン』</span>はいかがですか?
-        </p>
-      </div>
-      <div class="content_img mb-20">
-        <img class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/invisalign.webp'); ?>" alt="" style="width: 100%; height: auto;">
-        <p class="mb-1 mx-10 color-gray text-left text-xs">※1 インビザライン・ライトパッケージの料金。<br>
-          ※1 上記に記載している料金以外に、再診料やリテーナー費用、症状によっては追加治療の費用が別途かかります。<br>
-          ※2 2022年9月時点における「インビザライン・システム」および「インビザライン Goシステム」の合計</p>
-      </div>
-      <div class="cta_button">
-        <p class="cta_text_before">
-          ＼まずは自分に合った治療かどうかをチェック!／
-        </p>
-        <div class="btn poyo">
-          <a href="/media/diagnose/invisalign_cta/" class="btn_booking">
-            <img data-track data-value="インビザラインCTAクリック" class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/btn_dia_iv.webp'); ?>" alt="まずは気軽にご相談ください">
-          </a>
-        </div>
-        <p class="my-20 mx-10 color-gray text-left text-xs">※Q1で選択した症状が強い場合は適応外になる場合がございます。<br>
-          ※骨格に問題のある歯並びは矯正歯科治療のみでは修正が困難な場合がございます。<br>
-          ※実際に治療を勧めるものではありません。ご自身に合った治療法については、歯科医師にご相談ください。<br>
-          ※保険適用外の自由診療となります。<br>
-          ※実際の治療法を確定するものではありません。ご自身に合った治療法については、歯科医師にご相談ください。</p>
-      </div>
-    </section>
 
-    <!-- キレイライン -->
-    <section id="kireilign" style="display:none;">
-      <div class="result_message semilarge color-gray pt-20">
-        <p class="lh-20 mx-20 wrap-keep">
-          <span class="text-gray-500">アンケートの回答ありがとうございます!</span><br>
-          <span class="marker-yellow bold semilarge">気軽な値段で始められる</span><span class="bold large">『キレイライン矯正』</span>はいかがですか?
-        </p>
-      </div>
-      <div class="content_img mb-20">
-        <img class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/kireilign.webp'); ?>" alt="" style="width: 100%; height: auto;">
-      </div>
-      <div class="cta_button">
-        <p class="cta_text_before">
-          ＼まずは自分に合った治療かどうかをチェック!／
-        </p>
-        <div class="btn poyo">
-          <a href="/media/diagnose/kireilign_cta/" class="btn_booking">
-            <img data-track data-value="キレイラインCTAクリック" class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/btn_dia_kl.webp'); ?>" alt="まずは気軽にご相談ください">
-          </a>
-        </div>
-        <p class="my-20 mx-10 color-gray text-left text-xs">※Q1で選択した症状が強い場合は適応外になる場合がございます。<br>
-          ※骨格に問題のある歯並びは矯正歯科治療のみでは修正が困難な場合がございます。<br>
-          ※実際に治療を勧めるものではありません。ご自身に合った治療法については、歯科医師にご相談ください。<br>
-          ※保険適用外の自由診療となります。<br>
-          ※実際の治療法を確定するものではありません。ご自身に合った治療法については、歯科医師にご相談ください。</p>
-    </section>
-
-    <!-- ワイヤー矯正 -->
-    <section id="wire" style="display:none;">
-      <div class="result_message pt-20">
-        <p class="lh-20 mx-20 wrap-keep">
-          <span class="text-gray-500">アンケートの回答ありがとうございます!</span><br>
-          <span class="marker-yellow bold semilarge">リーズナブルに歯列全体を治療</span>できる<span class="bold large">『ワイヤー矯正』</span>はいかがですか?
-        </p>
-      </div>
-      <div class="content_img mb-20">
-        <img class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/wire.webp'); ?>" alt="" style="width: 100%; height: auto;">
-      </div>
-      <div class="cta_button">
-        <p class="cta_text_before">
-          ＼まずは自分に合った治療かどうかをチェック!／
-        </p>
-        <div class="btn poyo">
-          <a href="/media/diagnose/wire_cta/" class="btn_booking">
-            <img data-track data-value="ワイヤCTAクリック" class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/btn_dia_wire.webp'); ?>" alt="まずは気軽にご相談ください">
-          </a>
-        </div>
-        <p class="my-20 mx-10 color-gray text-left text-xs">※Q1で選択した症状が強い場合は適応外になる場合がございます。<br>
-          ※骨格に問題のある歯並びは矯正歯科治療のみでは修正が困難な場合がございます。<br>
-          ※実際に治療を勧めるものではありません。ご自身に合った治療法については、歯科医師にご相談ください。<br>
-          ※保険適用外の自由診療となります。<br>
-          ※実際の治療法を確定するものではありません。ご自身に合った治療法については、歯科医師にご相談ください。</p>
-      </div>
-    </section>
-  </div>
-</div>
-<script type="text/javascript">
-  const questions = [{
-      text: "問1 最も気になる歯の状態はどれですか？",
-      options: ["ガタガタ・八重歯", "出っ歯", "すきっ歯", "口ゴボ", "受け口", "その他"]
-    },
-    {
-      text: "問2 歯科矯正の予算はいくらですか？",
-      options: ["10万円〜30万円", "31万円〜50万円", "51万円〜70万円", "71万円〜"],
-      results: ["kireilign", "wire", "invisalign", "invisalign"]
-    },
-    {
-      text: "問3 過去に歯科矯正をしたことはありますか？",
-      options: ["ワイヤー矯正治療経験あり", "マウスピース矯正経験あり", "裏側矯正治経験あり", "セラミック矯正経験あり", "矯正経験なし"]
-    },
-    {
-      text: "問4 あなたのご年齢を教えてください。",
-      options: ["20歳以下", "21歳〜30歳", "31歳〜40歳", "41歳〜50歳", "51歳〜60歳", "61歳以上"]
-    }
-  ];
-
-  let currentQuestionIndex = 0;
-
-  function loadQuestion() {
-    const question = questions[currentQuestionIndex];
-    const questionNumber = document.getElementById("question-number").firstChild;
-    const questionText = document.getElementById("question");
-    const optionsDiv = document.getElementById("options");
-
-    // Clear previous options and remove fade-in class to reset the animation
-    optionsDiv.innerHTML = '';
-    optionsDiv.classList.remove('fade-in');
-
-    questionNumber.textContent = 'Q' + (currentQuestionIndex + 1);
-    questionText.textContent = question.text;
-
-    question.options.forEach((option, optionIndex) => {
-      const optionButton = document.createElement("button");
-      optionButton.textContent = option;
-      optionButton.setAttribute("data-track", "");
-      optionButton.setAttribute("data-value", option);
-
-      optionButton.addEventListener('click', function() {
-        question.selectedOption = optionIndex;
-        if (currentQuestionIndex < questions.length - 1) {
-          currentQuestionIndex++;
-          loadQuestion();
-        } else {
-          document.getElementById("modal").style.display = 'none';
-          document.getElementById("cta_modal").style.display = 'inline-block';
-          let treatment = questions[1].results[questions[1].selectedOption];
-          document.getElementById(treatment).style.display = 'inline-block';
-        }
-        // Add fade-in class after setting display to ensure animation plays
-        setTimeout(() => {
-          optionsDiv.classList.add('fade-in');
-        }, 10); // short delay to ensure the class is added after the element is visible
+  <script>
+    let currentQuestionIndex = 1;
+    const totalQuestions = 5; // ここで質問の総数を設定
+    let selectedOptions = {};
+    document.addEventListener("DOMContentLoaded", function() {
+      // 全ての質問を一旦非表示にする
+      document.querySelectorAll('.question').forEach(question => {
+        question.style.display = 'none';
       });
-      optionsDiv.appendChild(optionButton);
+
+      // 最初の質問のみ表示
+      showQuestion(currentQuestionIndex);
+      document.querySelectorAll('.option').forEach((option, index) => {
+        option.addEventListener('click', function(e) {
+          // 現在の質問のIDを取得
+          const questionId = this.closest('.question').id;
+          // data-selected-answer属性の値を取得
+          const selectedAnswer = this.dataset.selectedAnswer;
+
+          // 選択したオプションのdata属性を保存
+          selectedOptions[questionId] = selectedAnswer;
+
+
+          // 全てのオプションから選択スタイルをリセット
+          document.querySelectorAll(`#${questionId} .option`).forEach(button => {
+            button.style.border = "none"; // 既存の選択スタイルをリセット
+          });
+
+          // クリックされたボタンにボーダースタイルを適用
+          this.style.border = "4px solid";
+          this.style.borderColor = "<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>";
+          this.style.backgroundColor = "<?php echo get_theme_mod('submedia_light_color_setting', '#009EF3'); ?>";
+
+          // 次の質問へ移動する関数を呼び出す（存在する場合）
+          goToNextQuestion();
+
+          // 選択したオプションをコンソールに表示して確認
+          console.log(selectedOptions);
+        });
+      });
     });
 
-    // Ensure fade-in class is added for initial load or after resetting classes
-    setTimeout(() => {
-      optionsDiv.classList.add('fade-in');
-    }, 10);
-  }
+    function showQuestion(index) {
+      const currentQuestion = document.querySelector('.question:not([style*="display: none"])');
+      if (currentQuestion) {
+        // 現在の質問をフェードアウト
+        currentQuestion.style.animation = 'fadeOut 0.5s forwards';
+        setTimeout(() => {
+          currentQuestion.style.display = 'none';
+          fadeInNewQuestion(index);
+        }, 500); // 1秒後に次の質問を表示
+      } else {
+        fadeInNewQuestion(index);
+      }
+    }
 
+    function fadeInNewQuestion(index) {
+      // 現在の質問を表示
+      const newQuestion = document.getElementById(`question${index}`);
+      if (newQuestion) {
+        newQuestion.style.display = 'block';
+        newQuestion.style.animation = 'fadeIn 1s forwards'; // 新しい質問をフェードイン
+      }
+    }
 
-  loadQuestion();
-</script>
-<!-- /wp:html -->
+    function goToNextQuestion() {
+      updateAnswersDisplay(); // ここで回答を更新
+      if (currentQuestionIndex < totalQuestions) {
+        currentQuestionIndex++;
+        showQuestion(currentQuestionIndex);
+      } else {
+        showResults(); // 結果表示関数を呼び出す
+      }
+    }
+
+    function showResults() {
+      // 回答に基づいて表示するCTAを決定
+      document.getElementById("questions-container").style.display = 'none'; // 質問を非表示
+
+      // ここでfinalAnswerの値に基づいて、どのCTAを表示するか決定する
+      if (selectedOptions['question1'] == "矯正の費用はなるべく安くしたい") {
+        document.getElementById("cost_true").style.display = 'block'; // CTAを表示
+      } else {
+        document.getElementById("cost_false").style.display = 'block'; // CTAを表示
+      }
+
+      // 結果セクションをフェードインで表示
+      const resultsSection = document.getElementById("shindan_kireilign");
+      resultsSection.style.display = 'block';
+      resultsSection.style.opacity = 0; // アニメーションのために透明度を0に設定
+      setTimeout(() => {
+        resultsSection.style.animation = 'fadeIn 0.5s forwards'; // フェードインアニメーションを適用
+      }, 500); // 1秒後に次の質問を表示
+
+    }
+
+    function updateAnswersDisplay() {
+      // 選択されたオプションに基づいてテキストを更新
+      document.getElementById('answer1').textContent = selectedOptions['question1'] || '未回答';
+      document.getElementById('answer2').textContent = selectedOptions['question2'] || '未回答';
+      document.getElementById('answer3').textContent = selectedOptions['question3'] || '未回答';
+      document.getElementById('answer4').textContent = selectedOptions['question4'] || '未回答';
+      document.getElementById('answer5').textContent = selectedOptions['question5'] || '未回答';
+    }
+  </script>
+
+  <!-- /wp:html -->

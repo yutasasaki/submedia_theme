@@ -85,7 +85,7 @@
       }
     }
 
-    #question {
+    .question-text {
       font-size: 20px;
       line-height: 1.8;
       border-bottom: 2px dashed rgb(0 151 216);
@@ -96,19 +96,16 @@
       }
     }
 
-    #options {
+    .options {
       button {
         display: block;
         font-weight: bold;
         font-size: 16px;
         color: rgb(80 80 80);
-        background-color: rgb(255, 255, 255);
         border-style: unset;
         border-radius: 24px;
         box-shadow: 2px 2px 8px rgba(0, 0, 0, .1);
-        width: 100%;
         padding: 3%;
-        margin: 4% auto;
 
         @media screen and (max-width: 640px) {
           padding: 4%;
@@ -155,11 +152,8 @@
       }
     }
   }
-  .fade-in {
-    animation: fadeInAnimation 0.8s ease-in-out forwards;
-  }
-
-  @keyframes fadeInAnimation {
+  /* CSSでフェードイン・フェードアウトのキーフレームを定義 */
+  @keyframes fadeIn {
     from {
       opacity: 0;
     }
@@ -167,5 +161,20 @@
     to {
       opacity: 1;
     }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 0;
+    }
+  }
+
+  .question {
+    animation: fadeIn 1s forwards;
+    /* 質問が表示されるときのアニメーション */
   }
 }

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-@import "./tailwind";
 @import "./base";
+@import "./sango";
 @import "./font";
 @import "./function";
 @import "./cta";
@@ -9,7 +9,10 @@
 @import "./shindan";
 @import "./animate";
 
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*# sourceMappingURL=tailwind.css.map */
 
 .text-gray{
   color: #555;
