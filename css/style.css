@@ -13286,7 +13286,6 @@ html {
 
 .diagnose {
   text-align: center;
-  max-width: 650px;
   margin: auto;
   border-radius: 10px;
   /* CSSでフェードイン・フェードアウトのキーフレームを定義 */
@@ -14055,12 +14054,9 @@ video {
   margin: 0px;
 }
 
-.m-8{
-  margin: 2rem;
-}
-
-.m-16{
-  margin: 4rem;
+.mx-0{
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .mx-10{
@@ -14078,23 +14074,26 @@ video {
   margin-right: auto;
 }
 
-.my-20{
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
-.my-8{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .my-12{
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
+.my-20{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.mb-0{
+  margin-bottom: 0px;
+}
+
 .mb-1{
   margin-bottom: 0.25rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
 }
 
 .mb-20{
@@ -14109,20 +14108,8 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mb-2{
-  margin-bottom: 0.5rem;
-}
-
-.mb-0{
-  margin-bottom: 0px;
-}
-
 .mb-8{
   margin-bottom: 2rem;
-}
-
-.mb-16{
-  margin-bottom: 4rem;
 }
 
 .block{
@@ -14131,10 +14118,6 @@ video {
 
 .inline-block{
   display: inline-block;
-}
-
-.inline{
-  display: inline;
 }
 
 .flex{
@@ -14153,68 +14136,36 @@ video {
   display: none;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
 .h-32{
   height: 8rem;
-}
-
-.h-auto{
-  height: auto;
-}
-
-.h-6{
-  height: 1.5rem;
-}
-
-.h-4{
-  height: 1rem;
 }
 
 .h-5{
   height: 1.25rem;
 }
 
-.h-8{
-  height: 2rem;
+.h-auto{
+  height: auto;
 }
 
-.h-12{
-  height: 3rem;
-}
-
-.h-10{
-  height: 2.5rem;
+.w-10{
+  width: 2.5rem;
 }
 
 .w-32{
   width: 8rem;
 }
 
-.w-full{
-  width: 100%;
-}
-
-.w-6{
-  width: 1.5rem;
-}
-
-.w-4{
-  width: 1rem;
-}
-
 .w-5{
   width: 1.25rem;
 }
 
-.w-8{
-  width: 2rem;
-}
-
-.w-12{
-  width: 3rem;
-}
-
-.w-10{
-  width: 2.5rem;
+.w-full{
+  width: 100%;
 }
 
 .transform{
@@ -14249,10 +14200,6 @@ video {
   flex-direction: row;
 }
 
-.flex-col{
-  flex-direction: column;
-}
-
 .items-start{
   align-items: flex-start;
 }
@@ -14261,12 +14208,12 @@ video {
   justify-items: start;
 }
 
-.gap-4{
-  gap: 1rem;
-}
-
 .gap-2{
   gap: 0.5rem;
+}
+
+.gap-4{
+  gap: 1rem;
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]){
@@ -14279,16 +14226,12 @@ video {
   white-space: normal;
 }
 
-.rounded-xl{
-  border-radius: 0.75rem;
-}
-
 .rounded-2xl{
   border-radius: 1rem;
 }
 
-.rounded-lg{
-  border-radius: 0.5rem;
+.rounded-xl{
+  border-radius: 0.75rem;
 }
 
 .border{
@@ -14300,21 +14243,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-slate-50{
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
-}
-
-.p-20{
-  padding: 5rem;
-}
-
 .p-4{
   padding: 1rem;
-}
-
-.p-8{
-  padding: 2rem;
 }
 
 .pt-20{
@@ -14351,20 +14281,8 @@ video {
   font-weight: 600;
 }
 
-.leading-8{
-  line-height: 2rem;
-}
-
-.leading-6{
-  line-height: 1.5rem;
-}
-
 .leading-7{
   line-height: 1.75rem;
-}
-
-.tracking-widest{
-  letter-spacing: 0.1em;
 }
 
 .tracking-wider{

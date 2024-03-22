@@ -40,7 +40,7 @@
 <p>矯正を始めようとしている方は、ぜひ読んでみてください！</p>
 <!-- /wp:paragraph -->
 
-<?php include(get_stylesheet_directory() . '/views/components/cta/kireilign.php'); ?>
+<?php include(get_stylesheet_directory() . '/views/shindan/index.php'); ?>
 
 
 <?php include(get_stylesheet_directory() . '/views/components/intro/recommend.php'); ?>

@@ -13258,7 +13258,6 @@ html {
 ------------------------------------ */
 .diagnose {
   text-align: center;
-  max-width: 650px;
   margin: auto;
   border-radius: 10px;
   /* CSSでフェードイン・フェードアウトのキーフレームを定義 */

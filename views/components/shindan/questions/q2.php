@@ -3,7 +3,7 @@
   <div id="question-number" class="diag-question-balloon" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>; color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>">
     <p>Q2</p>
   </div>
-  <p class="question-text font-semibold">気になっている歯並びは？</p>
+  <p class="question-text font-semibold mb-8">気になっている歯並びは？</p>
   <div class="options grid grid-cols-2 gap-4">
     <button class="option bg-white m-0 h-32" data-selected-answer="ガタガタの歯並びが気になる">
       <img class="w-32 h-auto mx-auto" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/teethtype/gatagata.webp'); ?>" alt="">
