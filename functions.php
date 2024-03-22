@@ -43,6 +43,7 @@ $custom_shortcode_dir = 'shortcode/';
 $custom_shortcode_files = array(
   'intro.php',
   'outro.php',
+  'shindan.php',
   'compare_table.php',
   'clinic_info.php',
   'category.php',
