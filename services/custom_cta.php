@@ -33,6 +33,15 @@ function generate_cta_url($clinic_cta_path) {
 
 function generate_click_cta_url()
 {
+
+  // ACFからcustom_ctaフィールドの値を取得
+  $custom_cta = get_field('custom_cta');
+
+  // custom_ctaが設定されている場合、その値をURLとして返す
+  if (!empty($custom_cta)) {
+    return esc_url($custom_cta);
+  }
+
   $cta_url = esc_url(get_theme_mod('click_cta_url_setting'));
   if (empty($cta_url)) {
     return 'https://kyosei-guide.com/a/?'; // $cta_url が空の場合はトップを返す。view側で別途分岐制御
@@ -49,4 +58,17 @@ function generate_click_cta_url()
   $url = $cta_url . '?' . $url_query;
 
   return $url;
+}
+
+function get_custom_cta_href($original_cta)
+{
+  // ACFのcustom_ctaフィールドから値を取得
+  $custom_cta = get_field('custom_cta');
+
+  // custom_ctaが空でなければその値を使用し、空であればデフォルトのURLを使用
+  if (!empty($custom_cta)) {
+    return $custom_cta; // ACFフィールドの値がある場合
+  } else {
+    return $original_cta; // デフォルトのURL
+  }
 }

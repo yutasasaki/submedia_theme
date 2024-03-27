@@ -14,7 +14,7 @@
       ＼まずは自分に合った治療かどうかをチェック!／
     </p>
     <div class="btn poyo">
-      <a href="/media/diagnose/wire_cta/" class="btn_booking">
+      <a href="<?php echo get_custom_cta_href('/media/diagnose/wire_cta/'); ?>" class="btn_booking">
         <img data-track data-value="ワイヤCTAクリック" class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/btn_dia_wire.webp'); ?>" alt="まずは気軽にご相談ください">
       </a>
     </div>
