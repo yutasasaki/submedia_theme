@@ -8,8 +8,8 @@ function get_domain_from_url() {
     // 必要に応じてさらに加工することができます。
     return $host;
 }
-function generate_cta_url($clinic_cta_path) {
-    if (empty($clinic_cta_path)) {
+function generate_cta_url($clinic_cta_path , $is_check_cta = false) {
+    if (empty($clinic_cta_path) && !$is_check_cta) {
         return 'https://kyosei-guide.com/a/'; // $clinic_cta_path が空の場合はトップを返す。view側で別途分岐制御
     }
 
