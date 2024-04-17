@@ -42,7 +42,7 @@
   <div class="cta_button">
     <div class="btn poyo">
       <a href="<?php echo get_custom_cta_href('/media/diagnose/kireilign_cta/'); ?>" class="btn_booking click_cta" data-position="shindan" data-cta="kireilign">
-        <img data-track data-value="キレイラインCTAクリック" class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/btn_dia_kl.png'); ?>" alt="まずは気軽にご相談ください">
+        <img data-track data-value="キレイラインCTAクリック" class="lazyload mx-auto" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/btn_dia_kl.png'); ?>" alt="まずは気軽にご相談ください">
       </a>
     </div>
     <p class="my-20 mx-10 color-gray text-left text-xs">※症状が強い場合は適応外になる場合がございます。<br>
