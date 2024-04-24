@@ -13,6 +13,7 @@ $custom_functions_files = array(
   'custom_cta.php',
   'splide.php',
   'breadcrumbs.php',
+  'rest_api_extend.php',
 );
 foreach ($custom_functions_files as $custom_functions_file) {
   locate_template($custom_functions_dir . $custom_functions_file, true);
@@ -43,7 +44,7 @@ $custom_shortcode_dir = 'shortcode/';
 $custom_shortcode_files = array(
   'intro.php',
   'outro.php',
-  'shindan.php',
+  // 'shindan.php',
   'compare_table.php',
   'clinic_info.php',
   'category.php',
@@ -52,4 +53,12 @@ $custom_shortcode_files = array(
 foreach ($custom_shortcode_files as $custom_shortcode_file) {
   locate_template($custom_shortcode_dir . $custom_shortcode_file, true);
 }
+
+
+
+function ns_enqueue_styles() {
+    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+}
+
+add_action( 'wp_enqueue_scripts', 'ns_enqueue_styles' );
 ?>
