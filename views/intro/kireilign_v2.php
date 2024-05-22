@@ -55,11 +55,11 @@
 
 
 <!-- wp:paragraph -->
-<p class="font-bold marker-yellow inline-block">■あわせてこちらもチェック！</p>
+<p class="text-base font-bold"><span class="marker-yellow">マウスピース矯正を検討している方</span>は<br><span class="marker-yellow">コチラもチェック</span>↓</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false}'>
+<div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false, "padding":0}'>
   <div class="splide__track">
     <div class="splide__list">
       <div class="splide__slide">
@@ -108,7 +108,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>※右スワイプで続きを読めます</p>
+<p>スワイプすると続きが読めます</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:sgb/headings {"headingText":"矯正歯科選びで大事なポイント2つ","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"} -->
@@ -136,7 +136,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
-<h3 class="wp-block-heading has-sango-silver-background-color  has-background sm-border-main sm-color-sub">1.複数のマウスピース矯正を扱っている所</h3>
+<h3 class="wp-block-heading has-sango-silver-background-color  has-background sm-border-main sm-color-sub">1.複数のマウスピース矯正を扱っている所を選ぶ</h3>
 <!-- /wp:heading -->
 
 <!-- wp:image -->
@@ -166,20 +166,6 @@
   </strong>です。</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>これを聞くと、<br>
-  <strong>「低価格なものは、治療の質が悪いんじゃ…？」</strong>と不安に思う方もいるかもしれませんが、それは間違いです！
-</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p class="font-bold">
-  <span class="keiko_yellow">値段が違う理由は、単に<strong>
-      <span class="color-red">"治療範囲が違うから"</span>
-    </strong>であり、治療の質とは関係ありません。</span>
-</p>
-<!-- /wp:paragraph -->
-
 <!-- wp:image {"id":8496,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large">
   <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/compare_table.webp'); ?>" alt="費用
@@ -198,6 +184,27 @@
 軽度～中度
 キレイライン矯正など" class="wp-image-8496" />
 </figure>
+<!-- /wp:image -->
+
+
+<!-- wp:paragraph -->
+<p>これを聞くと、<br>
+  <strong>「低価格なものは、治療の質が悪いんじゃ…？」</strong>と不安に思う方もいるかもしれませんが、それは間違いです！
+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p class="font-bold">
+  <span class="keiko_yellow">値段が違う理由は、<strong>
+      <span class="color-red">"治療範囲が違うから"</span>
+    </strong>であり、治療の質とは関係ありません。</span>
+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":8496,"sizeSlug":"large","linkDestination":"none"} -->
+<!-- <figure class="wp-block-image size-large">
+  <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/yasui_banner.webp'); ?>" alt="安い = 質が悪いは間違いです！" />
+</figure> -->
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -278,11 +285,13 @@
   <div style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;color:#ffffff" class="sgb-box-simple__title">低価格マウスピース矯正の中でオススメは？</div>
   <div class="sgb-box-simple__body" style="border-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;background-color:#FFF">
     <!-- wp:paragraph -->
-    <p>「安くてもちゃんとキレイな歯並びにしたい」<br>「信頼できる方法で治療したい」<br>という方には、キレイライン矯正がオススメ！</p>
+    <p><span class="marker-yellow">「安くてもちゃんとキレイな歯並びにしたい」</span><br>
+      <span class="marker-yellow">「信頼できる方法で治療したい」</span><br>という方には、キレイライン矯正がオススメ！
+    </p>
     <!-- /wp:paragraph -->
 
     <!-- wp:paragraph -->
-    <p>なぜならキレイライン矯正は、日本で最初に誕生した低価格マウスピース矯正ブランドで、同ジャンルの中では最も有名だからです！</p>
+    <p>なぜならキレイライン矯正は、<span class="marker-yellow font-bold">日本で最初に誕生した低価格マウスピース矯正ブランド</span>で、<span class="marker-yellow font-bold">同ジャンルの中では最も有名</span>だからです！</p>
     <!-- /wp:paragraph -->
 
     <!-- wp:paragraph -->
@@ -292,6 +301,7 @@
     <!-- wp:paragraph -->
     <figure class="wp-block-image">
       <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/kireilign/banner_kireilign.webp'); ?>" alt="">
+      <p class="pt-4 text-center text-sm">公式サイトは<a href="<?php echo esc_url(generate_click_cta_url()); ?>">こちら</a></p>
     </figure>
     <!-- /wp:paragraph -->
 
@@ -338,7 +348,7 @@
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
 <h3 class="wp-block-heading has-sango-silver-background-color  has-background sm-border-main sm-color-sub">
-  2.定期的な通院が必要な所</h3>
+  2.定期的な通院が必要な所を選ぶ</h3>
 <!-- /wp:heading -->
 
 <!-- wp:image -->
@@ -377,14 +387,13 @@
   </strong>
 </p>
 <!-- /wp:paragraph -->
-<?php include(get_stylesheet_directory() . '/views/components/cta/clinic_list.php'); ?>
 
-<!-- wp:sgb/headings {"headingText":"最終的には精密検査が必要な理由","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"} -->
+<!-- wp:sgb/headings {"headingText":"マウスピース矯正を始める前には「精密検査」が必要","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"} -->
 <h2 class="wp-block-sgb-headings sgb-heading">
   <span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;border-color:transparent;font-size:1.2em">
     <i class="fa fa-chevron-circle-right" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>;">
     </i>
-    <span class="sgb-heading__text" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>">最終的には精密検査が必要な理由</span>
+    <span class="sgb-heading__text" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>">マウスピース矯正を始める前には「精密検査」が必要</span>
   </span>
 </h2>
 <!-- /wp:sgb/headings -->
@@ -406,17 +415,6 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そのため、「低価格マウスピース矯正で治療できるかどうか」は<strong>
-    <span class="keiko_yellow">精密検査をしないと分かりません。</span>
-  </strong>
-</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>もし安く矯正したいなら、先ほどのポイントを押さえた矯正歯科に行って初診を受けてみましょう。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 <p>初診を受けることで初めて<br>
   <strong>
     <span class="keiko_yellow">✓どんな治療法が適しているか<br>✓費用はいくらかかるか<br>✓治療期間はどのくらいか<br>
@@ -426,44 +424,42 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p class="font-bold marker-yellow inline-block">■初診の詳しい内容はこちら！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false}'>
-  <div class="splide__track">
-    <div class="splide__list">
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_1.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_2.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_3.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_4.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_5.webp'); ?>);padding-bottom:100%">
-        </a>
+<div style="background-color: #298BB3;">
+  <p style="color:white;" class="font-bold text-center mb-8 pt-12">■初診の詳しい内容はこちら！</p>
+  <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false, "padding":0}'>
+    <div class="splide__track">
+      <div class="splide__list">
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_1.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_2.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_3.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_4.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/初診の内容_5.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
       </div>
     </div>
   </div>
+  <p style="color:white;" class="px-20 py-5 text-sm">スワイプすると続きが読めます</p>
 </div>
 <!-- /wp:html -->
 
 
-<!-- wp:paragraph -->
-<p>
-  <br>※右スワイプで続きが読めます
-</p>
-<!-- /wp:paragraph -->
 
 <!-- wp:sgb/headings {"headingText":"どんな矯正歯科で初診を受ければいい？","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"} -->
 <h2 class="wp-block-sgb-headings sgb-heading">
@@ -479,10 +475,6 @@
 <p>オススメは<strong>
     <span class="keiko_yellow">キレイライン矯正の提携クリニック</span>
   </strong>です！</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>理由は2つあります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
@@ -521,20 +513,20 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>この価格で他のクリニックと同じ検査内容なので、非常にオススメです！</p>
+<p class="text-md font-bold"><span class="marker-yellow font-bold">この価格で他のクリニックと同じ検査内容なので、非常にオススメです！</span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
 <h3 class="wp-block-heading has-sango-blue-color has-sango-silver-background-color has-text-color has-background sm-border-main">
   <span class="sgb-heading__text" style="color:#333">
-    <strong>オススメな理由②：キレイラインで治療できない場合、他の治療法を提案</strong>
+    <strong>オススメな理由②：他の矯正方法も提案してくれる</strong>
   </span>
 </h3>
 <!-- /wp:heading -->
 
 <!-- wp:image -->
-<figure class="wp-block-image">
-  <img src="https://lh4.googleusercontent.com/rsLVgznQ-bjnxv9-n8tvnxzWLGBzn-ELR7d3lyTxoCQ0R-kFRtiH0kQgWLwG4PqOAmMNE3O4VICWy-GG6V8TfJYou1ljvrxHYsBdQQhJt88vEhMc24jK8PC4ARnDRgBe4QuoSxwju3ViPzOy_AOKOw8" alt="" />
+<figure class="wp-block-image mb-20">
+  <img alt="他の矯正方法も提案してくれる" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/reason_2.webp'); ?>" />
 </figure>
 <!-- /wp:image -->
 
@@ -566,62 +558,59 @@
 
 <?php include(get_stylesheet_directory() . '/views/components/cta/kireilign.php'); ?>
 
-<!-- wp:paragraph -->
-<p class="font-bold marker-yellow inline-block">■あわせてこちらもチェック！</p>
-<!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false}'>
-  <div class="splide__track">
-    <div class="splide__list">
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_1.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_2.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_3.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_4.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_5.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_6.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_7.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_8.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_9.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a data-position="carousel_2" data-cta="kireilign" class="sng-slider-item click_cta" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
-        </a>
+<div style="background-color: #298BB3;" class="mt-20">
+  <p style="color:white;" class="font-bold text-center mb-8 pt-12">出っ歯でお悩みの方はコチラもチェック↓</p>
+  <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false , "padding":0}'>
+    <div class="splide__track">
+      <div class="splide__list">
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_1.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_2.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_3.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_4.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_5.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_6.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_7.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_8.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_9.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a data-position="carousel_2" data-cta="kireilign" class="sng-slider-item click_cta" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/出っ歯_10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
+          </a>
+        </div>
       </div>
     </div>
   </div>
+  <p style="color:white;" class="px-20 py-5 text-sm">スワイプすると続きが読めます</p>
 </div>
 <!-- /wp:html -->
-
-<!-- wp:paragraph -->
-<p>※右スワイプで続きを読めます</p>
-<!-- /wp:paragraph -->
 
 <!-- wp:sgb/headings {"headingText":"<?php echo esc_attr($atts['area']); ?>でオススメの矯正歯科一覧</span>","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"} -->
 <h2 class="wp-block-sgb-headings sgb-heading">
