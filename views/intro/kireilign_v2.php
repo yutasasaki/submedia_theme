@@ -51,65 +51,58 @@
 
 <?php include(get_stylesheet_directory() . '/views/components/intro/kansyui.php'); ?>
 
-
-
-
-<!-- wp:paragraph -->
-<p class="text-base font-bold"><span class="marker-yellow">マウスピース矯正を検討している方</span>は<br><span class="marker-yellow">コチラもチェック</span>↓</p>
-<!-- /wp:paragraph -->
-
 <!-- wp:html -->
-<div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false, "padding":0}'>
-  <div class="splide__track">
-    <div class="splide__list">
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/1.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/2.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/3.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/4.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/5.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/6.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/7.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/8.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/9.webp'); ?>);padding-bottom:100%">
-        </a>
-      </div>
-      <div class="splide__slide">
-        <a data-position="carousel_1" class="sng-slider-item click_cta" data-cta="kireilign" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
-        </a>
+<div style="background-color: #FF5386;" class="mt-20">
+  <p style="color:white;" class="font-bold text-center mb-8 pt-12">マウスピース矯正を検討している方は<br>コチラもチェック↓</p>
+  <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false, "padding":0}'>
+    <div class="splide__track">
+      <div class="splide__list">
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/1.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/2.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/3.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/4.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/5.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/6.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/7.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/8.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/9.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a data-position="carousel_1" class="sng-slider-item click_cta" data-cta="kireilign" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/10.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </div>
+<p class="px-20 py-5 text-sm">※キレイライン矯正の公式サイトは<a href="<?php echo esc_url(generate_click_cta_url()); ?>">こちら</a></p>
 <!-- /wp:html -->
-
-<!-- wp:paragraph -->
-<p>スワイプすると続きが読めます</p>
-<!-- /wp:paragraph -->
 
 <!-- wp:sgb/headings {"headingText":"矯正歯科選びで大事なポイント2つ","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"} -->
 <h2 class="wp-block-sgb-headings sgb-heading">
@@ -159,11 +152,7 @@
     <span class="keiko_yellow">「普通のマウスピース矯正」</span>
   </strong>と<strong>
     <span class="keiko_yellow">「低価格マウスピース矯正」</span>
-  </strong>があります。<br>普通のマウスピース矯正の相場は<strong>
-    <span class="keiko_yellow">70〜120万円</span>
-  </strong>で、低価格マウスピース矯正の相場は<strong>
-    <span class="keiko_yellow">20〜40万円</span>
-  </strong>です。</p>
+  </strong>があります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8496,"sizeSlug":"large","linkDestination":"none"} -->
@@ -283,7 +272,7 @@
 <!-- wp:sgb/block-simple {"boxTitle":"低価格マウスピース矯正の中でオススメは？","boxTitleStyle":"sgb-box-simple\u002d\u002dtitle-overwrap","boxColor":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>","boxTitleColor":"#ffffff","blockId":"id-2be6de7d-d5d6-46ff-bc42-4e3046bed0ac","css":".sgb-box-simple {\n    margin: 1.4em 0 1.4em 0.45em;\n}\n\n.sgb-box-simple\u002d\u002dtitle-overwrap .sgb-box-simple__title {\n    background: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dbg-color,<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>)!important;\n\tborder-radius: 30px;\n\tfont-size: 16px;\n    padding: 4px 16px;\n\tleft: calc(var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dfuki,-13)*1px);\n\tmin-width: 5em;\n\ttext-align: center;\n}\n\n.sgb-box-simple\u002d\u002dtitle-overwrap .sgb-box-simple__title:after {\n    border: 10px solid transparent;\n    border-top-color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dbg-color,<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>)!important;\n    content: \u0022\u0022;\n    height: 0;\n    left: 30px;\n    position: absolute;\n    top: 100%;\n    top: calc(100% - 1px);\n    width: 0;\n}","scopedCSS":"#id-2be6de7d-d5d6-46ff-bc42-4e3046bed0ac .sgb-box-simple {\n    margin: 1.4em 0 1.4em 0.45em;\n}\n\n#id-2be6de7d-d5d6-46ff-bc42-4e3046bed0ac .sgb-box-simple\u002d\u002dtitle-overwrap .sgb-box-simple__title {\n    background: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dbg-color,<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>)!important;\n\tborder-radius: 30px;\n\tfont-size: 16px;\n    padding: 4px 16px;\n\tleft: calc(var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dfuki,-13)*1px);\n\tmin-width: 5em;\n\ttext-align: center;\n}\n\n#id-2be6de7d-d5d6-46ff-bc42-4e3046bed0ac .sgb-box-simple\u002d\u002dtitle-overwrap .sgb-box-simple__title:after {\n    border: 10px solid transparent;\n    border-top-color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dbg-color,<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>)!important;\n    content: \u0022\u0022;\n    height: 0;\n    left: 30px;\n    position: absolute;\n    top: 100%;\n    top: calc(100% - 1px);\n    width: 0;\n}","customControls":[{"name":"吹き出し背景色","variableName":"bgColor","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":0,"max":0,"step":1,"label":"","variableType":"color","disableJS":true},{"name":"吹き出し位置(px)","variableName":"fuki","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":-30,"max":30,"step":1,"label":"","variableType":"number","disableJS":true,"value":8}]} -->
 <div class="wp-block-sgb-block-simple sgb-box-simple sgb-box-simple--title-overwrap sgb-box-simple--with-border">
   <div style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;color:#ffffff" class="sgb-box-simple__title">低価格マウスピース矯正の中でオススメは？</div>
-  <div class="sgb-box-simple__body" style="border-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;background-color:#FFF">
+  <div class="pt-40 sgb-box-simple__body" style="border-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;background-color:#FFF">
     <!-- wp:paragraph -->
     <p><span class="marker-yellow">「安くてもちゃんとキレイな歯並びにしたい」</span><br>
       <span class="marker-yellow">「信頼できる方法で治療したい」</span><br>という方には、キレイライン矯正がオススメ！
@@ -427,7 +416,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div style="background-color: #298BB3;">
+<div style="background-color: #FF5386;">
   <p style="color:white;" class="font-bold text-center mb-8 pt-12">■初診の詳しい内容はこちら！</p>
   <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false, "padding":0}'>
     <div class="splide__track">
@@ -455,8 +444,8 @@
       </div>
     </div>
   </div>
-  <p style="color:white;" class="px-20 py-5 text-sm">スワイプすると続きが読めます</p>
 </div>
+<p class="px-20 py-5 text-sm">※キレイライン矯正の公式サイトは<a href="<?php echo esc_url(generate_click_cta_url()); ?>">こちら</a></p>
 <!-- /wp:html -->
 
 
@@ -560,7 +549,7 @@
 
 
 <!-- wp:html -->
-<div style="background-color: #298BB3;" class="mt-20">
+<div style="background-color: #FF5386;" class="mt-20">
   <p style="color:white;" class="font-bold text-center mb-8 pt-12">出っ歯でお悩みの方はコチラもチェック↓</p>
   <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false , "padding":0}'>
     <div class="splide__track">
@@ -608,8 +597,8 @@
       </div>
     </div>
   </div>
-  <p style="color:white;" class="px-20 py-5 text-sm">スワイプすると続きが読めます</p>
 </div>
+<p class="px-20 py-5 text-sm">※キレイライン矯正の公式サイトは<a href="<?php echo esc_url(generate_click_cta_url()); ?>">こちら</a></p>
 <!-- /wp:html -->
 
 <!-- wp:sgb/headings {"headingText":"<?php echo esc_attr($atts['area']); ?>でオススメの矯正歯科一覧</span>","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"} -->
