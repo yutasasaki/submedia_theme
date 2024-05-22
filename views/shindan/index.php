@@ -10,8 +10,8 @@
 </style>
 <div class="diagnose shadow">
   <div class="diagnose_tit" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>; color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>">
-    まずはあなたに合う矯正方法をチェック
-    <div class=" label">
+    あなたに合う矯正方法がすぐに分かる診断がコチラ↓
+    <div class="label">
       カンタン5問
     </div>
   </div>
@@ -132,4 +132,4 @@
     }
   </script>
 </div>
-  <!-- /wp:html -->
+<!-- /wp:html -->

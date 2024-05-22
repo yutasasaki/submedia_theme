@@ -51,7 +51,7 @@
 }
 
 .entry-title, .single-title {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
@@ -13298,7 +13298,7 @@ html {
   font-weight: bold;
   line-height: 1.8;
   border-radius: 10px 10px 0 0;
-  padding: 3%;
+  padding: 24px 10px 10px 10px;
 }
 
 @media screen and (max-width: 640px) {
@@ -13319,7 +13319,7 @@ html {
 
 @media screen and (max-width: 1000px) {
   .diagnose .diagnose_tit .label {
-    font-size: 1.4vw;
+    font-size: 11px;
   }
 }
 
@@ -13394,14 +13394,23 @@ html {
   }
 }
 
+.diagnose #modal .options,
+.diagnose #cta_modal .options {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+
 .diagnose #modal .options button,
 .diagnose #cta_modal .options button {
   display: block;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 12px;
   color: rgb(80, 80, 80);
   border-style: unset;
   border-radius: 24px;
+  background-color: white;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
   padding: 3%;
 }
@@ -13489,7 +13498,7 @@ html {
   }
 }
 
-/* ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com */
+/* ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -13700,6 +13709,8 @@ textarea {
   /* 1 */
   line-height: inherit;
   /* 1 */
+  letter-spacing: inherit;
+  /* 1 */
   color: inherit;
   /* 1 */
   margin: 0;
@@ -13723,9 +13734,9 @@ select {
 */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -13981,6 +13992,10 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
 }
 
 ::backdrop{
@@ -14031,6 +14046,10 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
 }
 
 .absolute{
@@ -14186,8 +14205,8 @@ video {
   flex-direction: row;
 }
 
-.items-start{
-  align-items: flex-start;
+.items-center{
+  align-items: center;
 }
 
 .justify-items-start{
@@ -14243,10 +14262,6 @@ video {
 
 .text-center{
   text-align: center;
-}
-
-.text-right{
-  text-align: right;
 }
 
 .text-sm{
@@ -14308,5 +14323,12 @@ video {
 
 .shadow_c {
   box-shadow: 0px 15px 33px 0px rgba(0, 0, 0, 0.01), 0px 59px 59px 0px rgba(0, 0, 0, 0.09), 0px 133px 80px 0px rgba(0, 0, 0, 0.05), 0px 237px 95px 0px rgba(0, 0, 0, 0.01), 0px 370px 104px 0px rgba(0, 0, 0, 0);
+}
+
+.pr_content {
+  font-size: 11px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #efefef;
 }
 /*# sourceMappingURL=style.css.map */

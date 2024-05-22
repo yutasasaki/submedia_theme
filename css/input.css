@@ -50,7 +50,7 @@
 }
 
 .entry-title, .single-title {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
@@ -13269,7 +13269,7 @@ html {
   font-weight: bold;
   line-height: 1.8;
   border-radius: 10px 10px 0 0;
-  padding: 3%;
+  padding: 24px 10px 10px 10px;
 }
 @media screen and (max-width: 640px) {
   .diagnose .diagnose_tit {
@@ -13287,7 +13287,7 @@ html {
 }
 @media screen and (max-width: 1000px) {
   .diagnose .diagnose_tit .label {
-    font-size: 1.4vw;
+    font-size: 11px;
   }
 }
 .diagnose #modal,
@@ -13353,14 +13353,22 @@ html {
     font-size: 16px;
   }
 }
+.diagnose #modal .options,
+.diagnose #cta_modal .options {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
 .diagnose #modal .options button,
 .diagnose #cta_modal .options button {
   display: block;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 12px;
   color: rgb(80, 80, 80);
   border-style: unset;
   border-radius: 24px;
+  background-color: white;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
   padding: 3%;
 }
@@ -13436,7 +13444,6 @@ html {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .text-gray {
   color: #555;
 }
@@ -13451,4 +13458,11 @@ html {
 
 .shadow_c {
   box-shadow: 0px 15px 33px 0px rgba(0, 0, 0, 0.01), 0px 59px 59px 0px rgba(0, 0, 0, 0.09), 0px 133px 80px 0px rgba(0, 0, 0, 0.05), 0px 237px 95px 0px rgba(0, 0, 0, 0.01), 0px 370px 104px 0px rgba(0, 0, 0, 0);
-}/*# sourceMappingURL=tailwind.css.map */
+}
+
+.pr_content {
+  font-size: 11px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #efefef;
+}/*# sourceMappingURL=input.css.map */
