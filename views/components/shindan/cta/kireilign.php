@@ -1,22 +1,22 @@
 <section id="shindan_kireilign" style="display: none;" class="">
   <div class="bg-white rounded-2xl p-4 relative space-y-2 mb-16">
-    <p class="flex flex-row justify-items-start items-start gap-2 mb-0">
+    <p class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       <span id="answer1" class="text-sm font-bold">回答内容がこちら</span>
     </p>
-    <p class="flex flex-row justify-items-start items-start gap-2 mb-0">
+    <p class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       <span id="answer2" class="text-sm font-bold">回答内容がこちら</span>
     </p>
-    <p class="flex flex-row justify-items-start items-start gap-2 mb-0">
+    <p class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       <span id="answer3" class="text-sm font-bold">回答内容がこちら</span>
     </p>
-    <p class="flex flex-row justify-items-start items-start gap-2 mb-0">
+    <p class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       <span id="answer4" class="text-sm font-bold">回答内容がこちら</span>
     </p>
-    <p class="flex flex-row justify-items-start items-start gap-2 mb-0">
+    <p class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       <span id="answer5" class="text-sm font-bold">回答内容がこちら</span>
     </p>
@@ -25,7 +25,7 @@
   <img class="animate-bounce lazyload w-10 h-10 text-center inline-block mb-16" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/caret-down.png'); ?>" alt="下に進む">
   <div class="content_img">
     <a href="<?php echo get_custom_cta_href('/media/diagnose/kireilign_cta/'); ?>" class=" btn_booking click_cta" data-position="shindan" data-cta="kireilign">
-      <img class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/kireilign.webp'); ?>" alt="" style="width: 100%; height: auto;">
+      <img class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/kireilign.avif'); ?>" alt="" style="width: 100%; height: auto;">
     </a>
     <div class="bg-white rounded-2xl p-4 relative space-y-2 my-12">
       <p id="cost_false" style="display:none;" class="mb-0 text-left tracking-wider leading-7 font-semibold whitespace-normal">
@@ -34,8 +34,9 @@
         キレイライン矯正で治療を進められない場合は、<span class="marker-yellow">インビザラインやワイヤー矯正の提案を希望する</span>こともできます。
       </p>
       <p id="cost_true" style="display:none;" class="mb-0 text-left tracking-wider leading-7 font-semibold whitespace-normal">
-        <span class="marker-yellow">2.2万円から試せるキレイライン矯正がオススメ！</span><br>
-        透明なマウスピースを着用して矯正を進めていくので<span class="marker-yellow">周囲からバレづらく</span>、<span class="marker-yellow">ホワイトニング剤</span>も付いています。
+        <span class="marker-yellow">リーズナブルな価格で矯正ができる「キレイライン矯正」がオススメ！</span>
+        <span class="marker-yellow">12万人以上の症例</span>があり、<span class="marker-yellow">とても人気な低価格マウスピース矯正</span>です！<br><br>
+        2024年4月に大幅リニューアルされ、<span class="marker-yellow">さらに低価格＆短期間で治療</span>できるようになりました。
       </p>
     </div>
   </div>

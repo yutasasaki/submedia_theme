@@ -12,7 +12,7 @@
     font-weight: bold;
     line-height: 1.8;
     border-radius: 10px 10px 0 0;
-    padding: 3%;
+    padding: 24px 10px 10px 10px;
 
     @media screen and (max-width: 640px) {
       font-size: 18px;
@@ -28,7 +28,7 @@
       padding: 1%;
 
       @media screen and (max-width: 1000px) {
-        font-size: 1.4vw;
+        font-size: 11px;
       }
     }
   }
@@ -95,13 +95,18 @@
     }
 
     .options {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      justify-content: center;
       button {
         display: block;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 12px;
         color: rgb(80 80 80);
         border-style: unset;
         border-radius: 24px;
+        background-color: white;
         box-shadow: 2px 2px 8px rgba(0, 0, 0, .1);
         padding: 3%;
       }
