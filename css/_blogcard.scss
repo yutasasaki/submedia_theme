@@ -1,9 +1,9 @@
-.blogcard {
+.dc_blogcard {
   border: 1px solid #ddd;
   border-radius: 6px;
   overflow: hidden;
   margin: 20px 0;
-  max-width: 320px;
+  max-width: 320px!important;
   margin: auto;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .15);
 
@@ -15,7 +15,7 @@
   }
 
   .blogcard_thumbnail {
-    width: 320px;
+    width: 320px!important;
     /* 固定幅を指定 */
     height: 200px;
     /* 固定高さを指定 */
@@ -45,7 +45,7 @@
     margin: 0;
   }
 }
-  .linkcard {
+  .dc_linkcard {
     margin: 20px;
   position: relative;
   border: 1px solid #ddd;

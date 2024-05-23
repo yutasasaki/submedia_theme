@@ -14,8 +14,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
    
-	Original can be found at https://github.com/scottmac/opengraph/blob/master/OpenGraph.php
-   
+   Original can be found at https://github.com/scottmac/opengraph/blob/master/OpenGraph.php
 */
 
 class OpenGraph implements Iterator
@@ -47,7 +46,7 @@ class OpenGraph implements Iterator
    * false on error.
    *
    * @param $URI    URI to page to parse for Open Graph data
-   * @return OpenGraph
+   * @return OpenGraph|false
    */
   static public function fetch($URI)
   {
@@ -77,7 +76,7 @@ class OpenGraph implements Iterator
    * the document is at least well formed.
    *
    * @param $HTML    HTML to parse
-   * @return OpenGraph
+   * @return OpenGraph|false
    */
   static private function _parse($HTML)
   {
@@ -106,7 +105,7 @@ class OpenGraph implements Iterator
         $page->_values[$key] = $tag->getAttribute('content');
       }
 
-      //Added this if loop to retrieve description values from sites like the New York Times who have malformed it. 
+      // Added this if loop to retrieve description values from sites like the New York Times who have malformed it. 
       if (
         $tag->hasAttribute('value') && $tag->hasAttribute('property') &&
         strpos($tag->getAttribute('property'), 'og:') === 0
@@ -114,12 +113,12 @@ class OpenGraph implements Iterator
         $key = strtr(substr($tag->getAttribute('property'), 3), '-', '_');
         $page->_values[$key] = $tag->getAttribute('value');
       }
-      //Based on modifications at https://github.com/bashofmann/opengraph/blob/master/src/OpenGraph/OpenGraph.php
+      // Based on modifications at https://github.com/bashofmann/opengraph/blob/master/src/OpenGraph/OpenGraph.php
       if ($tag->hasAttribute('name') && $tag->getAttribute('name') === 'description') {
         $nonOgDescription = $tag->getAttribute('content');
       }
     }
-    //Based on modifications at https://github.com/bashofmann/opengraph/blob/master/src/OpenGraph/OpenGraph.php
+    // Based on modifications at https://github.com/bashofmann/opengraph/blob/master/src/OpenGraph/OpenGraph.php
     if (!isset($page->_values['title'])) {
       $titles = $doc->getElementsByTagName('title');
       if ($titles->length > 0) {
@@ -130,7 +129,7 @@ class OpenGraph implements Iterator
       $page->_values['description'] = $nonOgDescription;
     }
 
-    //Fallback to use image_src if ogp::image isn't set.
+    // Fallback to use image_src if ogp::image isn't set.
     if (!isset($page->values['image'])) {
       $domxpath = new DOMXPath($doc);
       $elements = $domxpath->query("//link[@rel='image_src']");
@@ -178,7 +177,7 @@ class OpenGraph implements Iterator
    *
    * @return array
    */
-  public function keys()
+  public function keys(): array
   {
     return array_keys($this->_values);
   }
@@ -188,7 +187,7 @@ class OpenGraph implements Iterator
    *
    * @param $key
    */
-  public function __isset($key)
+  public function __isset($key): bool
   {
     return array_key_exists($key, $this->_values);
   }
@@ -198,7 +197,7 @@ class OpenGraph implements Iterator
    *
    * @return boolean Check if the page has location data
    */
-  public function hasLocation()
+  public function hasLocation(): bool
   {
     if (array_key_exists('latitude', $this->_values) && array_key_exists('longitude', $this->_values)) {
       return true;
@@ -216,25 +215,35 @@ class OpenGraph implements Iterator
    * Iterator code
    */
   private $_position = 0;
-  public function rewind()
+
+  #[\ReturnTypeWillChange]
+  public function rewind(): void
   {
     reset($this->_values);
     $this->_position = 0;
   }
-  public function current()
+
+  #[\ReturnTypeWillChange]
+  public function current(): mixed
   {
     return current($this->_values);
   }
-  public function key()
+
+  #[\ReturnTypeWillChange]
+  public function key(): mixed
   {
     return key($this->_values);
   }
-  public function next()
+
+  #[\ReturnTypeWillChange]
+  public function next(): void
   {
     next($this->_values);
     ++$this->_position;
   }
-  public function valid()
+
+  #[\ReturnTypeWillChange]
+  public function valid(): bool
   {
     return $this->_position < sizeof($this->_values);
   }

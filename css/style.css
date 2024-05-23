@@ -513,51 +513,51 @@
   background: linear-gradient(transparent 60%, #FFFF99 50%);
 }
 
-.blogcard {
+.dc_blogcard {
   border: 1px solid #ddd;
   border-radius: 6px;
   overflow: hidden;
   margin: 20px 0;
-  max-width: 320px;
+  max-width: 320px !important;
   margin: auto;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
-.blogcard a {
+.dc_blogcard a {
   text-decoration: none;
   color: inherit;
   display: flex;
   flex-direction: column;
 }
-.blogcard .blogcard_thumbnail {
-  width: 320px;
+.dc_blogcard .blogcard_thumbnail {
+  width: 320px !important;
   /* 固定幅を指定 */
   height: 200px;
   /* 固定高さを指定 */
   background-size: cover;
   background-position: center;
 }
-.blogcard .blogcard_content {
+.dc_blogcard .blogcard_content {
   padding: 15px;
   flex: 1;
 }
-.blogcard .blogcard_content .blogcard_title {
+.dc_blogcard .blogcard_content .blogcard_title {
   font-size: 1rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
-.blogcard .blogcard_content .blogcard_excerpt {
+.dc_blogcard .blogcard_content .blogcard_excerpt {
   font-size: 0.8rem;
   color: #555;
 }
-.blogcard .blogcard_content .blogcard_link {
+.dc_blogcard .blogcard_content .blogcard_link {
   font-size: 0.8rem;
   color: #555;
 }
-.blogcard p {
+.dc_blogcard p {
   margin: 0;
 }
 
-.linkcard {
+.dc_linkcard {
   margin: 20px;
   position: relative;
   border: 1px solid #ddd;
@@ -566,7 +566,7 @@
   margin: auto;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
-.linkcard a {
+.dc_linkcard a {
   text-decoration: none;
   color: inherit;
   display: flex;
@@ -574,7 +574,7 @@
   gap: 10px;
   padding: 10px;
 }
-.linkcard .linkcard_label {
+.dc_linkcard .linkcard_label {
   position: absolute;
   top: -12px;
   left: 12px;
@@ -585,7 +585,7 @@
   border-radius: 100px;
   padding: 3px 5px;
 }
-.linkcard .linkcard_thumbnail {
+.dc_linkcard .linkcard_thumbnail {
   width: 120px;
   /* 固定幅を指定 */
   height: 80px;
@@ -593,14 +593,14 @@
   background-size: cover;
   background-position: center;
 }
-.linkcard .linkcard_title {
+.dc_linkcard .linkcard_title {
   font-size: 0.9rem;
   width: 160px;
   line-height: 1rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
-.linkcard p {
+.dc_linkcard p {
   margin: 0;
 }
 
