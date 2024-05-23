@@ -2,7 +2,7 @@
 add_action('rest_api_init', 'customize_api_response');
 function customize_api_response() {
   // アイキャッチ画像のレスポンスを追加する投稿タイプ
-  $post_types = ['hoge', 'fuga'];
+  $post_types = ['post'];
 
   foreach ($post_types as $post_type) {
     register_rest_field(

@@ -3,15 +3,13 @@
 @import "./base";
 @import "./sango";
 @import "./font";
-@import "./function";
 @import "./cta";
 @import "./category";
 @import "./shindan";
 @import "./animate";
+@import "./editor";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 /*# sourceMappingURL=tailwind.css.map */
 
 .text-gray{
@@ -30,4 +28,15 @@
     0px 133px 80px 0px rgba(0, 0, 0, 0.05),
     0px 237px 95px 0px rgba(0, 0, 0, 0.01),
     0px 370px 104px 0px rgba(0, 0, 0, 0.00);
+}
+figure img{
+  margin:auto;
+}
+.bg-kyosei-gradient {
+  background-image: linear-gradient(90deg, #469EDA, #46BCC6);
+  background-repeat: no-repeat;
+}
+.bg-kyosei-light-gradient{
+  background-image: linear-gradient(90deg, #CAEBFF, #fff, #CAEBFF);
+  background-repeat: no-repeat;
 }

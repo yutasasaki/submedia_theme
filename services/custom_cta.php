@@ -62,8 +62,14 @@ function generate_click_cta_url($is_check_cta = false)
 
 function get_custom_cta_href($original_cta)
 {
-  // ACFのcustom_ctaフィールドから値を取得
-  $custom_cta = get_field('custom_cta');
+  
+  if (function_exists('get_field')) {
+      $custom_cta = get_field('custom_cta');
+      // ここで$custom_ctaを使った処理を書く
+  } else {
+      // ACFが無効の場合の処理（必要に応じて）
+      return $original_cta; // デフォルトのURL
+  }
 
   // custom_ctaが空でなければその値を使用し、空であればデフォルトのURLを使用
   if (!empty($custom_cta)) {

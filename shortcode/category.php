@@ -1,14 +1,5 @@
 <?php
 
-function category_drawer_js_loader()
-{
-?>
-  <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() . '/js/category_drawer.js'; ?>"></script>
-<?php
-}
-add_action('wp_footer', 'category_drawer_js_loader');
-
-
 function parent_categories_shortcode()
 {
   $args = array(

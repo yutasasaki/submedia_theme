@@ -10,10 +10,11 @@ $custom_functions_files = array(
 // 'plugins.php',
 // 'acf-json.php',
   'css_loader.php',
+  'js_loader.php',
   'custom_cta.php',
   'splide.php',
   'breadcrumbs.php',
-  'rest_api_extend.php',
+  'rest_api.php',
 );
 foreach ($custom_functions_files as $custom_functions_file) {
   locate_template($custom_functions_dir . $custom_functions_file, true);
@@ -44,11 +45,12 @@ $custom_shortcode_dir = 'shortcode/';
 $custom_shortcode_files = array(
   'intro.php',
   'outro.php',
-  // 'shindan.php',
+  'shindan.php',
   'compare_table.php',
-  'clinic_info.php',
+  // 'clinic_info.php',
+  // 'clinic_info_api.php',
   'category.php',
-  'pr.php',
+  // 'pr.php',
 );
 foreach ($custom_shortcode_files as $custom_shortcode_file) {
   locate_template($custom_shortcode_dir . $custom_shortcode_file, true);
@@ -56,9 +58,9 @@ foreach ($custom_shortcode_files as $custom_shortcode_file) {
 
 
 
-function ns_enqueue_styles() {
-    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-}
+// function ns_enqueue_styles() {
+//     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+// }
 
-add_action( 'wp_enqueue_scripts', 'ns_enqueue_styles' );
+// add_action( 'wp_enqueue_scripts', 'ns_enqueue_styles' );
 ?>

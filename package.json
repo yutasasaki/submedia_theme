@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss styles.css -o ./css/tailwind.css",
+    "build:tailwind": "tailwindcss i ./tailwind-i.css -o ./tailwind.css --minify"
   },
   "keywords": [],
   "author": "",

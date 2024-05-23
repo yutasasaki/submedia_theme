@@ -9,7 +9,7 @@
   }
 </style>
 <div class="diagnose shadow">
-  <div class="diagnose_tit" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>; color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>">
+  <div class="diagnose_tit" style="background-color:#278bb7; color:white">
     まずはあなたに合う矯正方法をチェック
     <div class=" label">
       カンタン5問
