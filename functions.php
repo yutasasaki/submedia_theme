@@ -47,6 +47,7 @@ $custom_shortcode_files = array(
   'outro.php',
   'shindan.php',
   'compare_table.php',
+  'blogcard.php',
   // 'clinic_info.php',
   // 'clinic_info_api.php',
   'category.php',

@@ -19,7 +19,7 @@ function blogcard_shortcode($atts) {
   $date = esc_html(get_the_date('Y.m.d', $id));
 
   // ブログカードとして挿入するHTMLタグを$cardに代入
-  $card = '<div">
+  $card = '<div class="blogcard_shortcode">
     <a href="'.$url.'">
       <div style="background: url('.$img_link.') no-repeat center/cover"></div>
       <div>
