@@ -86,7 +86,7 @@
 <p class="text-center"><strong><span class="heading_slash">歯科矯正を考え始めたら<br>はじめに確認したほうがよいこと</span></strong></p><!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div style="background-color: #FF5386;" class="mt-20">
+<div style="" class="mt-20">
   <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false, "padding":0}'>
     <div class="splide__track">
       <div class="splide__list">
@@ -461,7 +461,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div style="background-color: #FF5386;" class="mt-20">
+<div style="" class="mt-20">
   <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false , "padding":0}'>
     <div class="splide__track">
       <div class="splide__list">
@@ -612,7 +612,7 @@
 <p class="text-center"><strong><span class="heading_slash">合わせてこちらも確認</span></strong></p>
 <!-- /wp:paragraph -->
 <!-- wp:html -->
-<div style="background-color: #FF5386;" class="mt-20">
+<div style="" class="mt-20">
   <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false , "padding":0}'>
     <div class="splide__track">
       <div class="splide__list">
