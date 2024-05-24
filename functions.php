@@ -15,6 +15,8 @@ $custom_functions_files = array(
   'splide.php',
   'breadcrumbs.php',
   'rest_api.php',
+  'cloudfront.php',
+  'ogp.php',
 );
 foreach ($custom_functions_files as $custom_functions_file) {
   locate_template($custom_functions_dir . $custom_functions_file, true);
