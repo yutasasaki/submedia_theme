@@ -53,7 +53,7 @@
 
 <!-- wp:html -->
 <div style="background-color: #FF5386;" class="mt-20">
-  <p style="color:white;" class="font-bold text-center mb-8 pt-12">マウスピース矯正を検討している方は<br>コチラもチェック↓</p>
+  <p style="color:white;" class="font-bold text-center mb-0 pt-4">マウスピース矯正を検討している方は<br>コチラもチェック↓</p>
   <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false, "padding":0}'>
     <div class="splide__track">
       <div class="splide__list">
@@ -272,7 +272,7 @@
 <!-- wp:sgb/block-simple {"boxTitle":"低価格マウスピース矯正の中でオススメは？","boxTitleStyle":"sgb-box-simple\u002d\u002dtitle-overwrap","boxColor":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>","boxTitleColor":"#ffffff","blockId":"id-2be6de7d-d5d6-46ff-bc42-4e3046bed0ac","css":".sgb-box-simple {\n    margin: 1.4em 0 1.4em 0.45em;\n}\n\n.sgb-box-simple\u002d\u002dtitle-overwrap .sgb-box-simple__title {\n    background: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dbg-color,<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>)!important;\n\tborder-radius: 30px;\n\tfont-size: 16px;\n    padding: 4px 16px;\n\tleft: calc(var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dfuki,-13)*1px);\n\tmin-width: 5em;\n\ttext-align: center;\n}\n\n.sgb-box-simple\u002d\u002dtitle-overwrap .sgb-box-simple__title:after {\n    border: 10px solid transparent;\n    border-top-color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dbg-color,<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>)!important;\n    content: \u0022\u0022;\n    height: 0;\n    left: 30px;\n    position: absolute;\n    top: 100%;\n    top: calc(100% - 1px);\n    width: 0;\n}","scopedCSS":"#id-2be6de7d-d5d6-46ff-bc42-4e3046bed0ac .sgb-box-simple {\n    margin: 1.4em 0 1.4em 0.45em;\n}\n\n#id-2be6de7d-d5d6-46ff-bc42-4e3046bed0ac .sgb-box-simple\u002d\u002dtitle-overwrap .sgb-box-simple__title {\n    background: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dbg-color,<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>)!important;\n\tborder-radius: 30px;\n\tfont-size: 16px;\n    padding: 4px 16px;\n\tleft: calc(var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dfuki,-13)*1px);\n\tmin-width: 5em;\n\ttext-align: center;\n}\n\n#id-2be6de7d-d5d6-46ff-bc42-4e3046bed0ac .sgb-box-simple\u002d\u002dtitle-overwrap .sgb-box-simple__title:after {\n    border: 10px solid transparent;\n    border-top-color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dbg-color,<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>)!important;\n    content: \u0022\u0022;\n    height: 0;\n    left: 30px;\n    position: absolute;\n    top: 100%;\n    top: calc(100% - 1px);\n    width: 0;\n}","customControls":[{"name":"吹き出し背景色","variableName":"bgColor","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":0,"max":0,"step":1,"label":"","variableType":"color","disableJS":true},{"name":"吹き出し位置(px)","variableName":"fuki","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":-30,"max":30,"step":1,"label":"","variableType":"number","disableJS":true,"value":8}]} -->
 <div class="wp-block-sgb-block-simple sgb-box-simple sgb-box-simple--title-overwrap sgb-box-simple--with-border">
   <div style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;color:#ffffff" class="sgb-box-simple__title">低価格マウスピース矯正の中でオススメは？</div>
-  <div class="pt-40 sgb-box-simple__body" style="border-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;background-color:#FFF">
+  <div class="sgb-box-simple__body" style="padding-top:4rem;border-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;background-color:#FFF">
     <!-- wp:paragraph -->
     <p><span class="marker-yellow">「安くてもちゃんとキレイな歯並びにしたい」</span><br>
       <span class="marker-yellow">「信頼できる方法で治療したい」</span><br>という方には、キレイライン矯正がオススメ！
@@ -417,7 +417,7 @@
 
 <!-- wp:html -->
 <div style="background-color: #FF5386;">
-  <p style="color:white;" class="font-bold text-center mb-8 pt-12">■初診の詳しい内容はこちら！</p>
+  <p style="color:white;" class="font-bold text-center mb-0 pt-4">■初診の詳しい内容はこちら！</p>
   <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false, "padding":0}'>
     <div class="splide__track">
       <div class="splide__list">
@@ -550,7 +550,7 @@
 
 <!-- wp:html -->
 <div style="background-color: #FF5386;" class="mt-20">
-  <p style="color:white;" class="font-bold text-center mb-8 pt-12">出っ歯でお悩みの方はコチラもチェック↓</p>
+  <p style="color:white;" class="font-bold text-center mb-0 pt-4">出っ歯でお悩みの方はコチラもチェック↓</p>
   <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false , "padding":0}'>
     <div class="splide__track">
       <div class="splide__list">

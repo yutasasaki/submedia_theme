@@ -34,7 +34,7 @@
         キレイライン矯正で治療を進められない場合は、<span class="marker-yellow">インビザラインやワイヤー矯正の提案を希望する</span>こともできます。
       </p>
       <p id="cost_true" style="display:none;" class="mb-0 text-left tracking-wider leading-7 font-semibold whitespace-normal">
-        <span class="marker-yellow">リーズナブルな価格で矯正ができる「キレイライン矯正」がオススメ！</span>
+        <span class="marker-yellow">リーズナブルな価格で矯正ができる「キレイライン矯正」がオススメ！</span><br>
         <span class="marker-yellow">12万人以上の症例</span>があり、<span class="marker-yellow">とても人気な低価格マウスピース矯正</span>です！<br><br>
         2024年4月に大幅リニューアルされ、<span class="marker-yellow">さらに低価格＆短期間で治療</span>できるようになりました。
       </p>
