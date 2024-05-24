@@ -32,3 +32,10 @@ function show_intro_kireilign_v3_shortcode($atts)
   return show_intro_shortcode($atts, 'kireilign_v3');
 }
 add_shortcode('show_intro_kireilign_v3', 'show_intro_kireilign_v3_shortcode');
+
+function show_dentalguide_intro_shortcode($atts)
+{
+  return show_intro_shortcode($atts, 'dentalguide_intro');
+}
+add_shortcode('show_dentalguide_intro', 'show_dentalguide_intro_shortcode');
+
