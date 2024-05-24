@@ -1,24 +1,4 @@
 <!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>本記事は当サイトが独自の基準に基づき制作しており一部取引先から金銭を受領しています。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>&lt;サムネイル画像&gt;</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 <p>歯科矯正を始めるときに、どんな矯正歯科で矯正をしたいですか？</p>
 <!-- /wp:paragraph -->
 
@@ -27,7 +7,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":868,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/1-1024x662.webp" alt="安いからという理由で選ぶのは危険です！" class="wp-image-868" /></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/1-1024x662.webp'); ?>" alt="安いからという理由で選ぶのは危険です！" class="wp-image-868" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -47,7 +27,7 @@
       <!-- /wp:list-item -->
 
       <!-- wp:list-item -->
-      <li><span class="keiko_yellow"><strong>[エリア名]の評判の良いおすすめの矯正歯科クリニック</strong></span></li>
+      <li><span class="keiko_yellow"><strong><?php echo esc_attr($atts['area']); ?>の評判の良いおすすめの矯正歯科クリニック</strong></span></li>
       <!-- /wp:list-item -->
     </ul>
     <!-- /wp:list -->
@@ -63,9 +43,9 @@
 <p></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>&lt;診断コンテンツは修正したものをそのまま&gt;</p>
-<!-- /wp:paragraph -->
+<!-- wp:html -->
+<?php include(get_stylesheet_directory() . '/views/shindan/index.php'); ?>
+<!-- /wp:html -->
 
 <!-- wp:paragraph -->
 <p></p>
@@ -80,7 +60,7 @@
   <div style="background-color:var(--wp--preset--color--sango-main);color:#FFF" class="sgb-box-simple__title"><strong>この記事の対象者</strong></div>
   <div class="sgb-box-simple__body" style="border-color:var(--wp--preset--color--sango-main);background-color:#FFF"><!-- wp:list {"className":"is-style-sango-list-circle"} -->
     <ul class="is-style-sango-list-circle"><!-- wp:list-item -->
-      <li><strong>[エリア名]</strong>の評判の良いおすすめの矯正歯科を探している</li>
+      <li><strong><?php echo esc_attr($atts['area']); ?></strong>の評判の良いおすすめの矯正歯科を探している</li>
       <!-- /wp:list-item -->
 
       <!-- wp:list-item -->
@@ -98,66 +78,61 @@
 
 <!-- wp:paragraph -->
 <p><sup>※こちらの記事の医療情報に関わる箇所は歯科医師が監修をしています。</sup></p>
+<?php include(get_stylesheet_directory() . '/views/components/intro/kansyui.php'); ?>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>監修歯科医師</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>見立英史※ちょっと変える</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p><strong><span class="keiko_yellow">■歯科矯正を考え始めたらはじめに確認したほうがよいこと</span></strong></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:gallery {"linkTo":"none"} -->
-<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":872,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/マウスピース矯正1-1024x1024.webp" alt="" class="wp-image-872" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":873,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/マウスピース矯正2-1024x1024.webp" alt="" class="wp-image-873" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":874,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/マウスピース矯正3-1024x1024.webp" alt="" class="wp-image-874" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":875,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/マウスピース矯正4-1024x1024.webp" alt="" class="wp-image-875" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":876,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/マウスピース矯正5-1024x1024.webp" alt="" class="wp-image-876" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":877,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/マウスピース矯正6-1024x1024.webp" alt="" class="wp-image-877" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":878,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/マウスピース矯正7-1024x1024.webp" alt="" class="wp-image-878" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":879,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/マウスピース矯正8-1024x1024.webp" alt="" class="wp-image-879" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":880,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/マウスピース矯正9-1024x1024.webp" alt="" class="wp-image-880" /></figure>
-  <!-- /wp:image -->
-</figure>
-<!-- /wp:gallery -->
+<!-- wp:html -->
+<div style="background-color: #FF5386;" class="mt-20">
+  <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false, "padding":0}'>
+    <div class="splide__track">
+      <div class="splide__list">
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正1-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正2-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正3-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正4-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正5-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正6-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正7-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正8-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a data-position="carousel_1" class="sng-slider-item click_cta" data-cta="kireilign" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正9-1024x1024.webp.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<p class="px-20 py-5 text-sm">※キレイライン矯正の公式サイトは<a href="<?php echo esc_url(generate_click_cta_url()); ?>">こちら</a></p>
+<!-- /wp:html -->
 
 <!-- wp:paragraph -->
 <p></p>
@@ -184,7 +159,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":110,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/02/mouthpiece-1024x639.webp" alt="インビザラインやキレイライン" class="wp-image-110" />
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/mouthpiece-1024x639.webp'); ?>" alt="インビザラインやキレイライン" class="wp-image-110" />
   <figcaption class="wp-element-caption">インビザラインやキレイライン</figcaption>
 </figure>
 <!-- /wp:image -->
@@ -210,7 +185,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":869,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/2-1024x662.webp" alt="2つのマウスピース矯正の比較" class="wp-image-869" /></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/2-1024x662.webp'); ?>" alt="2つのマウスピース矯正の比較" class="wp-image-869" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -243,7 +218,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":808,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/02/chart_light_middle.webp" alt="診断に応じた歯科矯正費用の目安" class="wp-image-808" /></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/chart_light_middle.webp'); ?>" alt="診断に応じた歯科矯正費用の目安" class="wp-image-808" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -308,7 +283,7 @@
     <!-- /wp:paragraph -->
 
     <!-- wp:image {"id":841,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/4-1-1024x768.png" alt="" class="wp-image-841" /></figure>
+    <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/4-1-1024x768'); ?>" png" alt="" class="wp-image-841" /></figure>
     <!-- /wp:image -->
 
     <!-- wp:paragraph -->
@@ -353,7 +328,7 @@
 
     <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-sango-raised"} -->
-      <div class="wp-block-button is-style-sango-raised"><a class="wp-block-button__link wp-element-button">キレイライン矯正について詳しく見てみる　&gt;</a></div>
+      <div class="wp-block-button is-style-sango-raised"><a href="<?php echo esc_url(generate_click_cta_url()); ?>" class="wp-block-button__link wp-element-button">キレイライン矯正について詳しく見てみる　&gt;</a></div>
       <!-- /wp:button -->
     </div>
     <!-- /wp:buttons -->
@@ -394,7 +369,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":809,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/02/cepharo_xray.webp" alt="レントゲン写真と歯科用CT" class="wp-image-809" /></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/cepharo_xray.webp'); ?>" alt="レントゲン写真と歯科用CT" class="wp-image-809" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:sgb/say -->
@@ -484,23 +459,23 @@
 
 <!-- wp:gallery {"linkTo":"none"} -->
 <figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":881,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/初診1-1024x1024.webp" alt="" class="wp-image-881" /></figure>
+  <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/初診1-1024x1024.webp'); ?>" alt="" class="wp-image-881" /></figure>
   <!-- /wp:image -->
 
   <!-- wp:image {"id":882,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/初診2-1024x1024.webp" alt="" class="wp-image-882" /></figure>
+  <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/初診2-1024x1024.webp'); ?>" alt="" class="wp-image-882" /></figure>
   <!-- /wp:image -->
 
   <!-- wp:image {"id":883,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/初診3-1024x1024.webp" alt="" class="wp-image-883" /></figure>
+  <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/初診3-1024x1024.webp'); ?>" alt="" class="wp-image-883" /></figure>
   <!-- /wp:image -->
 
   <!-- wp:image {"id":884,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/初診4-1018x1024.webp" alt="" class="wp-image-884" /></figure>
+  <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/初診4-1018x1024.webp'); ?>" alt="" class="wp-image-884" /></figure>
   <!-- /wp:image -->
 
   <!-- wp:image {"id":885,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/初診5-1018x1024.webp" alt="" class="wp-image-885" /></figure>
+  <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/初診5-1018x1024.webp'); ?>" alt="" class="wp-image-885" /></figure>
   <!-- /wp:image -->
 </figure>
 <!-- /wp:gallery -->
@@ -551,7 +526,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":870,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/初診料が安い-1024x662.webp" alt="初診料が安い" class="wp-image-870" /></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/初診料が安い-1024x662.webp'); ?>" alt="初診料が安い" class="wp-image-870" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -582,7 +557,7 @@
 <div class="wp-block-sgb-message">
   <div class="memo sng-shadow-0" style="border-radius:0px;background-color:whitesmoke;color:#333">
     <div class="memo_ttl dfont"><span class="sng-box-msg__icon" style="background:#333"><i class="fas fa-exclamation-circle"></i></span>
-      <div class="sng-box-msg__title">※一部例外のクリニックはありますので来院前にご確認下さい</div>
+      <span style="display:inline;" class="sng-box-msg__title">※一部例外のクリニックはありますので来院前にご確認下さい</span>
     </div>
     <div class="sng-box-msg__contents"><!-- wp:paragraph -->
       <p></p>
@@ -597,7 +572,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":871,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/他の治療-1024x662.webp" alt="他の治療" class="wp-image-871" /></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/他の治療-1024x662.webp'); ?>" alt="他の治療" class="wp-image-871" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -620,60 +595,64 @@
 <p>もちろん複数の矯正歯科をまわって比較をしたり家でじっくり考えてから決めることも出来るので、まずは全国に150ヶ所以上あるキレイライン矯正の提携クリニックに行ってみて下さい。</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":865,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/スクリーンショット-2024-05-22-14.54.57.png" alt="" class="wp-image-865" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>※スクショなので上記アセットをトンマナ揃えて挿入想定</p>
-<!-- /wp:paragraph -->
+<!-- wp:html -->
+<?php include(get_stylesheet_directory() . '/views/components/cta/kireilign.php'); ?>
+<!-- /wp:html -->
 
 <!-- wp:paragraph -->
 <p>■合わせてこちらも確認</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:gallery {"linkTo":"none"} -->
-<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":886,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/出っ歯1-1024x1024.webp" alt="" class="wp-image-886" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":887,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/出っ歯2-1024x1024.webp" alt="" class="wp-image-887" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":888,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/出っ歯3-1024x1024.webp" alt="" class="wp-image-888" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":889,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/出っ歯4-1024x1024.webp" alt="" class="wp-image-889" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":890,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/出っ歯5-1024x1024.webp" alt="" class="wp-image-890" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":891,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/出っ歯6-1024x1024.webp" alt="" class="wp-image-891" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":892,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/出っ歯7-1024x1024.webp" alt="" class="wp-image-892" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":893,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/出っ歯8-1024x1024.webp" alt="" class="wp-image-893" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":894,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/出っ歯9-1024x1024.webp" alt="" class="wp-image-894" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":895,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="https://www.kimura-shika-ujina.com/media/wp-content/uploads/2024/05/出っ歯10-1024x1024.webp" alt="" class="wp-image-895" /></figure>
-  <!-- /wp:image -->
-</figure>
-<!-- /wp:gallery -->
+<!-- wp:html -->
+<div style="background-color: #FF5386;" class="mt-20">
+  <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false , "padding":0}'>
+    <div class="splide__track">
+      <div class="splide__list">
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯1-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯2-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯3-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯4-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯5-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯6-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯7-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯8-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯9-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a data-position="carousel_2" data-cta="kireilign" class="sng-slider-item click_cta" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯10-1024x1024.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<p class="px-20 py-5 text-sm">※キレイライン矯正の公式サイトは<a href="<?php echo esc_url(generate_click_cta_url()); ?>">こちら</a></p>
+<!-- /wp:html -->
 
 <!-- wp:paragraph -->
 <p></p>
@@ -683,6 +662,11 @@
 <hr class="wp-block-separator has-alpha-channel-opacity" />
 <!-- /wp:separator -->
 
-<!-- wp:paragraph -->
-<p>クリニックカセットに続く</p>
-<!-- /wp:paragraph -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elms = document.getElementsByClassName('splide');
+    for (var i = 0; i < elms.length; i++) {
+      new Splide(elms[i]).mount();
+    }
+  });
+</script>

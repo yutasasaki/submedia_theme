@@ -612,6 +612,13 @@
   display: none;
 }
 
+.entry-content ul {
+  padding: 0;
+}
+.entry-content li {
+  padding: 0.5em 0 0.5em 34px;
+}
+
 .post-thumbnail {
   display: none;
 }
@@ -637,6 +644,6 @@ figure img {
 .pr_content {
   font-size: 11px;
   padding: 10px;
-  margin: 10px;
+  margin: 10px 0;
   background-color: #efefef;
 }/*# sourceMappingURL=style.css.map */
