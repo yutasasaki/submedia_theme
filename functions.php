@@ -49,11 +49,11 @@ $custom_shortcode_files = array(
   'outro.php',
   'shindan.php',
   'compare_table.php',
-  'blogcard.php',
-  // 'clinic_info.php',
+  'clinic_info.php',
   // 'clinic_info_api.php',
   'category.php',
   'pr.php',
+  'blogcard.php',
 );
 foreach ($custom_shortcode_files as $custom_shortcode_file) {
   locate_template($custom_shortcode_dir . $custom_shortcode_file, true);

@@ -1,4 +1,4 @@
-<section class="cta bg-cta" style="background-color: <?php echo get_theme_mod('wid_title_bc', '#009EF3'); ?>; border-radius: 10px;">
+<section class="cta bg-cta" style="background-color: <?php echo get_theme_mod('wid_title_bc', '#009EF3'); ?>; border-radius: 10px; margin-bottom: 40px;">
   <p style="letter-spacing: 0.05em;" class="has-text-align-center text-md font-bold mb-15"><span class="marker-yellow">＼通いやすい場所にきっとあるはず／</span></p>
   <p class="has-text-align-center text-sm font-bold mb-15">提携クリニック一覧は<br>公式サイトで確認できます！</p>
   <!-- wp:html -->

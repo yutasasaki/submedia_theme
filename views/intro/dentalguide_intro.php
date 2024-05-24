@@ -83,8 +83,7 @@
 
 
 <!-- wp:paragraph -->
-<p><strong><span class="keiko_yellow">■歯科矯正を考え始めたらはじめに確認したほうがよいこと</span></strong></p>
-<!-- /wp:paragraph -->
+<p class="text-center"><strong><span class="heading_slash">歯科矯正を考え始めたら<br>はじめに確認したほうがよいこと</span></strong></p><!-- /wp:paragraph -->
 
 <!-- wp:html -->
 <div style="background-color: #FF5386;" class="mt-20">
@@ -92,39 +91,39 @@
     <div class="splide__track">
       <div class="splide__list">
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正1-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/mouthpiece1-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正2-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/mouthpiece2-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正3-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/mouthpiece3-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正4-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/mouthpiece4-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正5-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/mouthpiece5-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正6-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/mouthpiece6-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正7-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/mouthpiece7-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正8-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/mouthpiece8-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a data-position="carousel_1" class="sng-slider-item click_cta" data-cta="kireilign" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/マウスピース矯正9-1024x1024.webp.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
+          <a data-position="carousel_1" class="sng-slider-item click_cta" data-cta="kireilign" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/mouthpiece9-1024x1024.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
           </a>
         </div>
       </div>
@@ -139,7 +138,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">矯正歯科を選ぶときの大事なポイント</h2>
+<h2 class="heading_underline wp-block-heading">矯正歯科を選ぶときの<br>大事なポイント</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -283,7 +282,7 @@
     <!-- /wp:paragraph -->
 
     <!-- wp:image {"id":841,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/4-1-1024x768'); ?>" png" alt="" class="wp-image-841" /></figure>
+    <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/4-1.png'); ?>" alt="" class="wp-image-841" /></figure>
     <!-- /wp:image -->
 
     <!-- wp:paragraph -->
@@ -301,7 +300,8 @@
     <!-- wp:sgb/say -->
     <div class="wp-block-sgb-say">
       <div class="sgb-block-say sgb-block-say--left">
-        <div class="sgb-block-say-avatar"><img src="https://www.gravatar.com/avatar/?d=mm" width="80" height="80" style="border-color:#eaedf2" />
+        <div class="sgb-block-say-avatar">
+          <img style="border-color: #eaedf2;" src="<?php echo esc_url(get_theme_mod('sm_intro_char_icon', get_stylesheet_directory_uri() . '/images/customize/kaisetu.webp')); ?>" alt="" width="80" height="80" />
           <div class="sgb-block-say-avatar__name"></div>
         </div>
         <div class="sgb-block-say-text">
@@ -365,7 +365,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">精密検査をするとマウスピース矯正が出来るかわかる</h2>
+<h2 class="heading_underline wp-block-heading">精密検査をすると<br>マウスピース矯正が出来るかわかる</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":809,"sizeSlug":"full","linkDestination":"none"} -->
@@ -375,7 +375,8 @@
 <!-- wp:sgb/say -->
 <div class="wp-block-sgb-say">
   <div class="sgb-block-say sgb-block-say--left">
-    <div class="sgb-block-say-avatar"><img src="https://www.gravatar.com/avatar/?d=mm" width="80" height="80" style="border-color:#eaedf2" />
+    <div class="sgb-block-say-avatar">
+      <img style="border-color: #eaedf2;" src="<?php echo esc_url(get_theme_mod('sm_intro_char_icon', get_stylesheet_directory_uri() . '/images/customize/kaisetu.webp')); ?>" alt="" width="80" height="80" />
       <div class="sgb-block-say-avatar__name"></div>
     </div>
     <div class="sgb-block-say-text">
@@ -391,7 +392,8 @@
 <!-- wp:sgb/say -->
 <div class="wp-block-sgb-say">
   <div class="sgb-block-say sgb-block-say--left">
-    <div class="sgb-block-say-avatar"><img src="https://www.gravatar.com/avatar/?d=mm" width="80" height="80" style="border-color:#eaedf2" />
+    <div class="sgb-block-say-avatar">
+      <img src="<?php echo esc_url(get_theme_mod('sm_intro_nayami_icon', get_stylesheet_directory_uri() . '/images/customize/nayami.webp')); ?>" width=" 80" height="80" style="border-color:#eaedf2" />
       <div class="sgb-block-say-avatar__name"></div>
     </div>
     <div class="sgb-block-say-text">
@@ -454,38 +456,43 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong><span class="keiko_yellow">■初診でやること</span></strong></p>
+<p class="text-center"><strong><span class="heading_slash">初診でやること</span></strong></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:gallery {"linkTo":"none"} -->
-<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":881,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/初診1-1024x1024.webp'); ?>" alt="" class="wp-image-881" /></figure>
-  <!-- /wp:image -->
+<!-- wp:html -->
+<div style="background-color: #FF5386;" class="mt-20">
+  <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false , "padding":0}'>
+    <div class="splide__track">
+      <div class="splide__list">
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/shoshin1-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/shoshin2-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/shoshin3-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/shoshin4-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+        <div class="splide__slide">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/shoshin5-1024x1024.webp'); ?>);padding-bottom:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /wp:html -->
 
-  <!-- wp:image {"id":882,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/初診2-1024x1024.webp'); ?>" alt="" class="wp-image-882" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":883,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/初診3-1024x1024.webp'); ?>" alt="" class="wp-image-883" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":884,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/初診4-1018x1024.webp'); ?>" alt="" class="wp-image-884" /></figure>
-  <!-- /wp:image -->
-
-  <!-- wp:image {"id":885,"sizeSlug":"large","linkDestination":"none"} -->
-  <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/初診5-1018x1024.webp'); ?>" alt="" class="wp-image-885" /></figure>
-  <!-- /wp:image -->
-</figure>
-<!-- /wp:gallery -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">どんな矯正歯科を見ればいい？</h2>
+<h2 class="heading_underline wp-block-heading">どんな矯正歯科を見ればいい？</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -526,7 +533,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":870,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/初診料が安い-1024x662.webp'); ?>" alt="初診料が安い" class="wp-image-870" /></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/shoshin_yasui-1024x662.webp'); ?>" alt="初診料が安い" class="wp-image-870" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -567,12 +574,13 @@
 </div>
 <!-- /wp:sgb/message -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading">②キレイライン矯正が治療ができない場合、適した治療法を提案してくれる</h2>
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">②キレイライン矯正が治療ができない場合、適した治療法を提案してくれる</h3>
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":871,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/他の治療-1024x662.webp'); ?>" alt="他の治療" class="wp-image-871" /></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/etc-1024x662.webp'); ?>" alt="他の治療" class="wp-image-871" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -600,7 +608,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>■合わせてこちらも確認</p>
+<p class="text-center"><strong><span class="heading_slash">合わせてこちらも確認</span></strong></p>
 <!-- /wp:paragraph -->
 <!-- wp:html -->
 <div style="background-color: #FF5386;" class="mt-20">
@@ -608,43 +616,43 @@
     <div class="splide__track">
       <div class="splide__list">
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯1-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/deppa1-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯2-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/deppa2-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯3-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/deppa3-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯4-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/deppa4-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯5-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/deppa5-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯6-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/deppa6-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯7-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/deppa7-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯8-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/deppa8-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯9-1024x1024.webp'); ?>);padding-bottom:100%">
+          <a class="sng-slider-item" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/deppa9-1024x1024.webp'); ?>);padding-bottom:100%">
           </a>
         </div>
         <div class="splide__slide">
-          <a data-position="carousel_2" data-cta="kireilign" class="sng-slider-item click_cta" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/出っ歯10-1024x1024.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
+          <a data-position="carousel_2" data-cta="kireilign" class="sng-slider-item click_cta" style="background-image:url(<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/deppa10-1024x1024.webp'); ?>);padding-bottom:100%" href="<?php echo esc_url(generate_click_cta_url()); ?>">
           </a>
         </div>
       </div>
