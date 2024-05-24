@@ -184,11 +184,12 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":869,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/2-1024x662.webp'); ?>" alt="2つのマウスピース矯正の比較" class="wp-image-869" /></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/compare_table.webp'); ?>" alt="2つのマウスピース矯正の比較" class="wp-image-869" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 <p>こう見ると他人から見える範囲の矯正で十分な人は<span class="keiko_yellow"><strong class="text-red">低価格マウスピース矯正</strong></span>で治療をしたいですよね。しかし多くの矯正歯科ではまず<strong><span class="keiko_yellow">普通のマウスピース矯正</span></strong>を勧められます。これには理由が2つあります。</p>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/yasui_banner.webp'); ?>" alt="安い=治療の質が悪いは間違いです！" class="wp-image-869" /></figure>
 <!-- /wp:paragraph -->
 
 <!-- wp:sgb/block-simple {"boxTitle":"\u003cstrong\u003e普通のマウスピース矯正が勧められやすい理由\u003c/strong\u003e","boxTitleStyle":"sgb-box-simple\u002d\u002dtitle-inline"} -->
@@ -564,7 +565,7 @@
 <div class="wp-block-sgb-message">
   <div class="memo sng-shadow-0" style="border-radius:0px;background-color:whitesmoke;color:#333">
     <div class="memo_ttl dfont"><span class="sng-box-msg__icon" style="background:#333"><i class="fas fa-exclamation-circle"></i></span>
-      <span style="display:inline;" class="sng-box-msg__title">※一部例外のクリニックはありますので来院前にご確認下さい</span>
+      <span style="display:inline;" class="sng-box-msg__title text-xs">一部例外のクリニックはありますので来院前にご確認下さい</span>
     </div>
     <div class="sng-box-msg__contents"><!-- wp:paragraph -->
       <p></p>
