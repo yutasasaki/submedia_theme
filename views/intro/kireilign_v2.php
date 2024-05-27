@@ -105,7 +105,7 @@
 <!-- /wp:html -->
 
 <!-- wp:sgb/headings {"headingText":"矯正歯科選びで大事なポイント2つ","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"} -->
-<h2 class="wp-block-sgb-headings sgb-heading">
+<h2 id="point" class="wp-block-sgb-headings sgb-heading">
   <span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;border-color:transparent;font-size:1.2em">
     <i class="fa fa-chevron-circle-right" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>;">
     </i>
@@ -129,7 +129,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
-<h3 class="wp-block-heading has-sango-silver-background-color  has-background sm-border-main sm-color-sub">1.複数のマウスピース矯正を扱っている所を選ぶ</h3>
+<h3 id="mouthpieces" class="wp-block-heading has-sango-silver-background-color  has-background sm-border-main sm-color-sub">1.複数のマウスピース矯正を扱っている所を選ぶ</h3>
 <!-- /wp:heading -->
 
 <!-- wp:image -->
@@ -336,7 +336,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
-<h3 class="wp-block-heading has-sango-silver-background-color  has-background sm-border-main sm-color-sub">
+<h3 id="repeat_clinic" class="wp-block-heading has-sango-silver-background-color  has-background sm-border-main sm-color-sub">
   2.定期的な通院が必要な所を選ぶ</h3>
 <!-- /wp:heading -->
 
@@ -378,7 +378,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:sgb/headings {"headingText":"マウスピース矯正を始める前には「精密検査」が必要","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"} -->
-<h2 class="wp-block-sgb-headings sgb-heading">
+<h2 id="clinic-check" class="wp-block-sgb-headings sgb-heading">
   <span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;border-color:transparent;font-size:1.2em">
     <i class="fa fa-chevron-circle-right" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>;">
     </i>
@@ -451,7 +451,7 @@
 
 
 <!-- wp:sgb/headings {"headingText":"どんな矯正歯科で初診を受ければいい？","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"} -->
-<h2 class="wp-block-sgb-headings sgb-heading">
+<h2 id="first_visit" class="wp-block-sgb-headings sgb-heading">
   <span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;border-color:transparent;font-size:1.2em">
     <i class="fa fa-chevron-circle-right" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>;">
     </i>
@@ -467,7 +467,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
-<h3 class="wp-block-heading has-sango-blue-color has-sango-silver-background-color has-text-color has-background sm-border-main">
+<h3 id="recommend-1" class="wp-block-heading has-sango-blue-color has-sango-silver-background-color has-text-color has-background sm-border-main">
   <span class="sgb-heading__text" style="color:#333">
     <strong>オススメな理由①：初診料が安い</strong>
   </span>
@@ -506,7 +506,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
-<h3 class="wp-block-heading has-sango-blue-color has-sango-silver-background-color has-text-color has-background sm-border-main">
+<h3 id="other_service" class="wp-block-heading has-sango-blue-color has-sango-silver-background-color has-text-color has-background sm-border-main">
   <span class="sgb-heading__text" style="color:#333">
     <strong>オススメな理由②：他の矯正方法も提案してくれる</strong>
   </span>
@@ -602,7 +602,7 @@
 <!-- /wp:html -->
 
 <!-- wp:sgb/headings {"headingText":"<?php echo esc_attr($atts['area']); ?>でオススメの矯正歯科一覧</span>","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"} -->
-<h2 class="wp-block-sgb-headings sgb-heading">
+<h2 id="recommend" class="wp-block-sgb-headings sgb-heading">
   <span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;border-color:transparent;font-size:1.2em">
     <i class="fa fa-chevron-circle-right" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>;">
     </i>
