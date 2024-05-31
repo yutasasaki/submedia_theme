@@ -73,7 +73,7 @@ function sibling_categories_shortcode($atts)
   $categories = get_categories($args);
   $output = '<div class="sm_category_wrapper">
   <div class="sm_category_header">
-    <h3><strong>' . $attributes['area'] . 'のおすすめクリニック</strong>はこちら</h3>
+    <p><strong>' . $attributes['area'] . 'のおすすめクリニック</strong>はこちら</p>
     <img class="caret-circle-down" src="' . esc_url(get_stylesheet_directory_uri() . '/images/icon/circle_down.png') . '">
     </div>
     <div class="sm_categories">';

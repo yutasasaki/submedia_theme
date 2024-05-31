@@ -157,20 +157,22 @@
 
 <!-- wp:image {"id":8496,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large">
-  <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/compare_table.webp'); ?>" alt="費用
+  <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v4/1_type.webp'); ?>" alt="マウスピース矯正には
+2つのタイプがあります。
+普通のマウスピース矯正
+低価格マウスピース矯正
+費用
+約 70～120万円
+約20～40万円
+全ての歯
+他人から見える範囲の歯
 治療範囲
 治療可能な
 歯並び
 代表例
-普通のマウスピース矯正
-約70～120万円
-すべての歯
 ほぼすべて
+軽度〜中度
 インビザラインなど
-低価格マウスピース矯正
-約20～40万円
-他人から見える範囲の歯
-軽度～中度
 キレイライン矯正など" class="wp-image-8496" />
 </figure>
 <!-- /wp:image -->
@@ -188,6 +190,19 @@
       <span class="color-red">"治療範囲が違うから"</span>
     </strong>であり、治療の質とは関係ありません。</span>
 </p>
+<figure class="wp-block-image size-large">
+  <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v4/2_different.webp'); ?>" alt="安い＝治療の質が悪い
+は間違いです
+値段が違う理由は...。
+治療範囲が違うから
+普通のマウスピース矯正
+低価格マウスピース矯正
+奥歯を含めた
+全ての歯を動かす
+前歯を中心に、
+他人から見える範囲
+の歯を動かす" class="wp-image-8496" />
+</figure>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":8496,"sizeSlug":"large","linkDestination":"none"} -->
@@ -214,14 +229,12 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image -->
-<figure class="wp-block-image">
-  <img style="width: 100%;height: auto;" src="<?php echo esc_url(get_theme_mod('sm_keido_chart', get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/flow.webp')); ?>" alt="軽度～中度
-と診断された場合
-2種を扱っている所
-約20～40万円
-普通の物しか
-扱っていない所
-約70～120万円" />
+<figure class="wp-block-image size-large">
+  <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v4/3_zure.webp'); ?>" alt="もし軽度～中度の
+ズレの場合...
+歯科医院治療費用を抑えられる♪
+2種を扱っている医院:約20～40万円で治せる
+普通のものしか扱っていない医院:約70～120万円かかってしまう" class="wp-image-8496" />
 </figure>
 <!-- /wp:image -->
 
@@ -354,6 +367,10 @@
     </strong>
   </span>
 </p>
+
+<figure class="wp-block-image size-large">
+  <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v4/4_ng.webp'); ?>" alt="「通院不要」はNG！矯正を成功させるには、歯科医師による定期的な調整が必須です。" class="wp-image-8496" />
+</figure>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -401,6 +418,14 @@
     <span class="color-red">全員を治すことはできない</span>
   </strong>からです。
 </p>
+<figure class="wp-block-image size-large">
+  <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v4/5_condition.webp'); ?>" alt="私の歯並びは
+低価格マウスピース矯正で治せる？
+精密検査をしないと分かりません！
+1.複数のマウスピース矯正を扱っている
+2.定期的な通院が必要
+この2つが揃っている歯科矯正で初診を受けてみましょう！+" class="wp-image-8496" />
+</figure>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -464,6 +489,13 @@
 <p>オススメは<strong>
     <span class="keiko_yellow">キレイライン矯正の提携クリニック</span>
   </strong>です！</p>
+<figure class="wp-block-image size-large">
+  <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v4/6_reason.webp'); ?>" alt="キレイライン矯正の提携クリニックで
+初診を受けるのがおすすめ
+理由は2つ！
+1.初診料が安い
+2.他の矯正方法も紹介してくれる" class="wp-image-8496" />
+</figure>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
@@ -477,6 +509,13 @@
 <!-- wp:image -->
 <figure class="wp-block-image">
   <img src="https://lh4.googleusercontent.com/N8nP1prUcsCEsQ1tyJ82SnwniCYjqKHOUFKVu3CSb_gyVG16aa5CK5Wwrzk_Ny4z49_GnEc_im8UV_XP6AFyUWUMMXcHfZQVpZFAYBA2Mt-tF0UYfd-AbgSYU_1rwYUjOMnTgKj9Yp3HnDmox27fXqM" alt="" />
+</figure>
+<!-- /wp:image -->
+
+<!-- wp:image -->
+<figure class="wp-block-image size-large">
+  <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v4/7_fee.webp'); ?>" alt="実は！歯科矯正の初診料は約2～5万円かかるのが普通ですが！
+キレイライン矯正の提携クリニックでは初診料が約3500円！安さの理由は「1人でも多くの人に治療を受けてほしい」という想いで、気軽に始めやすいような価格設定になっています。" class="wp-image-8496" />
 </figure>
 <!-- /wp:image -->
 
@@ -516,6 +555,15 @@
 <!-- wp:image -->
 <figure class="wp-block-image mb-20">
   <img alt="他の矯正方法も提案してくれる" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/reason_2.webp'); ?>" />
+</figure>
+<!-- /wp:image -->
+
+<!-- wp:image -->
+<figure class="wp-block-image size-large">
+  <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v4/8_howto.webp'); ?>" alt="初診では「キレイライン矯正で治せるかどうか！を診断するだけじゃない！
+もし治せない場合「どれが最適な矯正方法なのか」も診断してくれます！
+表側ワイヤー矯正,裏側ワイヤー矯正,普通のマウスピース矯正
+つまりキレイライン提携クリニックで診断を受ければ「自分に合った治療法・費用」が分かる！" class="wp-image-8496" />
 </figure>
 <!-- /wp:image -->
 
