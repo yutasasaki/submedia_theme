@@ -10,9 +10,9 @@ function parent_categories_shortcode()
   );
   $categories = get_categories($args);
   $output = '<div class="sm_category_wrapper">
-  <div class="sm_category_header">
-    <h2>全国にあるおすすめのクリニックはこちら</h2>
-    <img class="caret-circle-down" src="' . esc_url(get_theme_mod('sm_intro_image_1', get_stylesheet_directory_uri() . '/images/icon/circle_down.png')) . '">
+  <div class="sm_category_header closed">
+    <h3><strong>全国にあるおすすめのクリニック</strong>はこちら</h3>
+    <img class="caret-circle-down" src="'. esc_url(get_stylesheet_directory_uri() . '/images/icon/circle_down.png') .'">
   </div>
 <div class="sm_categories">';
 
@@ -26,11 +26,9 @@ function parent_categories_shortcode()
     // 最新記事があればリンクを設定、なければカテゴリページのリンクを設定
     $link = !empty($posts) ? get_permalink($posts[0]->ID) : get_category_link($category->term_id);
 
-    $output .= '<a class="inline-block" href="' . $link . '">
-  <button class="sm_category">
+    $output .= '<a class="sm_category" href="' . $link . '">
     <span class="text-wrapper">' . $category->name . '</span>
-    <img class="caret-circle-right" src="' . esc_url(get_theme_mod('sm_intro_image_1', get_stylesheet_directory_uri() . '/images/icon/circle_right.png')) . '">
-  </button>
+    <img class="caret-circle-down" src="' . esc_url(get_stylesheet_directory_uri() . '/images/icon/circle_right.png') . '">
 </a>';
   }
   $output .= '</div>
@@ -75,8 +73,8 @@ function sibling_categories_shortcode($atts)
   $categories = get_categories($args);
   $output = '<div class="sm_category_wrapper">
   <div class="sm_category_header">
-    <h2>' . $attributes['area'] . 'のおすすめクリニックはこちら</h2>
-    <img class="caret-circle-down" src="' . esc_url(get_theme_mod('sm_intro_image_1', get_stylesheet_directory_uri() . '/images/icon/circle_down.png')) . '">
+    <h3><strong>' . $attributes['area'] . 'のおすすめクリニック</strong>はこちら</h3>
+    <img class="caret-circle-down" src="' . esc_url(get_stylesheet_directory_uri() . '/images/icon/circle_down.png') . '">
     </div>
     <div class="sm_categories">';
 
@@ -91,7 +89,7 @@ function sibling_categories_shortcode($atts)
     // 最新記事のURLを取得
     $post_url = !empty($posts) ? get_permalink($posts[0]->ID) : get_category_link($category->term_id);
 
-    $output .= '<a class="inline-block" href="' . $post_url . '"><button class="sm_category"><span class="text-wrapper">' . $category->name . '</span><img class="caret-circle-right" src="' . esc_url(get_theme_mod('sm_intro_image_1', get_stylesheet_directory_uri() . '/images/icon/circle_right.png')) . '"></button></a>';
+    $output .= '<a class="sm_category" href="' . $post_url . '"><span class="text-wrapper">' . $category->name . '</span><img class="caret-circle-down" src="' . esc_url(get_stylesheet_directory_uri() . '/images/icon/circle_right.png') . '"></a>';
   }
 
   $output .= '</div></div>';

@@ -129,7 +129,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
-<h3 id="mouthpieces" class="wp-block-heading has-sango-silver-background-color  has-background sm-border-main sm-color-sub">1.複数のマウスピース矯正を扱っている所を選ぶ</h3>
+<h3 id="mouthpieces" class="wp-block-heading has-sango-silver-background-color  has-background sm-border-main sm-color-sub">①複数のマウスピース矯正を扱っている所を選ぶ</h3>
 <!-- /wp:heading -->
 
 <!-- wp:image -->
@@ -337,7 +337,7 @@
 
 <!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
 <h3 id="repeat_clinic" class="wp-block-heading has-sango-silver-background-color  has-background sm-border-main sm-color-sub">
-  2.定期的な通院が必要な所を選ぶ</h3>
+  ②定期的な通院が必要な所を選ぶ</h3>
 <!-- /wp:heading -->
 
 <!-- wp:image -->

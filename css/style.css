@@ -247,28 +247,27 @@
 }
 
 .sm_category_wrapper {
-  margin: 0rem;
+  margin: 1rem;
   padding: 1rem;
   background-color: #efefef;
   border-radius: 20px;
-  /* 画面幅が768px未満の場合に2列にする */
-  /* 画面幅が480px未満の場合に1列にする */
 }
 
 .sm_category_wrapper .sm_category_header {
   text-align: center;
   width: 100%;
   color: #111;
-  margin: 0 0 1rem 0 !important;
+  margin: 0 !important;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.sm_category_wrapper .sm_category_header h2 {
+.sm_category_wrapper .sm_category_header p {
   font-size: 1rem;
   display: inline-block;
   margin: 0 !important;
+  border-left-width: 0;
 }
 
 .sm_category_wrapper .sm_category_header .caret-circle-down {
@@ -278,14 +277,14 @@
 }
 
 .sm_category_wrapper .sm_categories {
-  overflow: hidden;
+  overflow: auto;
   text-overflow: ellipsis;
+  position: relative;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   box-sizing: content-box;
-  flex-direction: row;
   width: 100%;
-  grid-template-columns: repeat(4, 1fr);
   /* デフォルトは4列 */
   gap: 10px;
   /* グリッドアイテム間の隙間 */
@@ -298,33 +297,24 @@
   /* タイミング関数を指定 */
 }
 
-@media (max-width: 768px) {
-  .sm_category_wrapper .sm_categories {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .sm_category_wrapper .sm_categories {
-    grid-template-columns: 1fr;
-    display: none;
-  }
-}
-
 .sm_category_wrapper .sm_category {
+  width: 30%;
+  display: inline-block;
   all: unset;
   box-sizing: content-box;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 30px;
+  padding: 10px 15px;
   position: relative;
   border-radius: 10px;
   border: 2px solid;
+  font-size: 14px;
   border-color: #555;
   background-color: #fff;
+  cursor: pointer;
   /* グリッドセルに合わせて調整 */
-  min-width: 150px;
+  min-width: 100px;
   /* 最小幅を設定 */
 }
 
@@ -765,7 +755,6 @@
   border: 0;
   padding-left: 0;
   transition: max-height 0.3s ease, opacity 0.3s ease;
-  max-height: 500px;
   opacity: 1;
   overflow: hidden;
   margin-bottom: 0;

@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var content = this.nextElementSibling;
 
       if (content && content.classList.contains('sm_categories')) {
-        content.style.display = content.style.display === 'grid' ? 'none' : 'grid';
+        content.style.display = content.style.display === 'flex' ? 'none' : 'flex';
       }
     });
   });

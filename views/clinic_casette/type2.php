@@ -6,7 +6,7 @@
   background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;">
       <span class="sgb-heading__text">
         <a style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>;text-decoration: none; cursor: pointer;" href="#clinic_<?php echo esc_html($clinic_data->clinic_name_romaji); ?>">
-        <?php echo esc_html($clinic_data->clinic_name); ?>
+          <?php echo esc_html($clinic_data->clinic_name); ?>
         </a>
       </span>
     </span>
@@ -34,5 +34,5 @@
     <?php endif; ?>
     <?php include(get_stylesheet_directory() . '/views/components/default/structured_markup.php'); ?>
   </div>
-
+  <?php include(get_stylesheet_directory() . '/views/components/json_ld.php'); ?>
 </section>

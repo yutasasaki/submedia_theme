@@ -1,5 +1,5 @@
 .sm_category_wrapper {
-  margin: 0rem;
+  margin: 1rem;
   padding: 1rem;
   background-color: #efefef;
   border-radius: 20px;
@@ -8,15 +8,16 @@
     text-align: center;
     width: 100%;
     color: #111;
-    margin: 0 0 1rem 0 !important;
+    margin: 0 !important;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
 
-    h2{
+    p{
       font-size: 1rem;
       display: inline-block;
       margin:0!important;
+      border-left-width: 0;
     }
     .caret-circle-down {
       position: relative;
@@ -26,14 +27,14 @@
   }
 
   .sm_categories {
-    overflow: hidden;
+    overflow:auto;
     text-overflow: ellipsis;
+    position: relative;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     box-sizing: content-box;
-    flex-direction: row;
     width: 100%;
-    grid-template-columns: repeat(4, 1fr);
     /* デフォルトは4列 */
     gap: 10px;
     /* グリッドアイテム間の隙間 */
@@ -46,55 +47,43 @@
     /* タイミング関数を指定 */
   }
 
-  /* 画面幅が768px未満の場合に2列にする */
-  @media (max-width: 768px) {
-    .sm_categories {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  /* 画面幅が480px未満の場合に1列にする */
-  @media (max-width: 480px) {
-    .sm_categories {
-      grid-template-columns: 1fr;
-      display: none;
-    }
-  }
-
-
-  .sm_category {
-    all: unset;
-    box-sizing: content-box;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 30px;
-    position: relative;
-    border-radius: 10px;
-    border: 2px solid;
-    border-color: #555;
-    background-color: #fff;
-    /* グリッドセルに合わせて調整 */
-    min-width: 150px;
-    /* 最小幅を設定 */
-
-    .caret-circle-right {
+    .sm_category {
+      width: 30%;
+      display: inline-block;
+      all: unset;
+      box-sizing: content-box;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 15px;
       position: relative;
-      width: 24px;
-      height: 24px;
-    }
+      border-radius: 10px;
+      border: 2px solid;
+      font-size: 14px;
+      border-color: #555;
+      background-color: #fff;
+      cursor: pointer;
+      /* グリッドセルに合わせて調整 */
+      min-width: 100px;
+      /* 最小幅を設定 */
 
-    .text-wrapper {
-      position: relative;
-      width: fit-content;
-      font-family: "Noto Sans JP-Black", Helvetica;
-      font-weight: 900;
-      color: #555;
-      font-size: 1.2rem;
-      text-align: center;
-      letter-spacing: 3.36px;
-      line-height: 24px;
-      white-space: nowrap;
+      .caret-circle-right {
+        position: relative;
+        width: 24px;
+        height: 24px;
+      }
+
+      .text-wrapper {
+        position: relative;
+        width: fit-content;
+        font-family: "Noto Sans JP-Black", Helvetica;
+        font-weight: 900;
+        color: #555;
+        font-size: 1.2rem;
+        text-align: center;
+        letter-spacing: 3.36px;
+        line-height: 24px;
+        white-space: nowrap;
+      }
     }
-  }
 }
