@@ -1,25 +1,35 @@
 <section id="shindan_kireilign" style="display: none;" class="">
   <div class="bg-white rounded-2xl p-4 relative space-y-2 mb-16">
-    <p class="flex flex-row justify-items-start items-center gap-2 mb-0">
-      <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
+    <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
+      <figure class="w-5 h-5">
+        <img class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
+      </figure>
       <span id="answer1" class="text-sm font-bold">回答内容がこちら</span>
-    </p>
-    <p class="flex flex-row justify-items-start items-center gap-2 mb-0">
-      <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
+    </div>
+    <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
+      <figure class="w-5 h-5">
+        <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
+      </figure>
       <span id="answer2" class="text-sm font-bold">回答内容がこちら</span>
-    </p>
-    <p class="flex flex-row justify-items-start items-center gap-2 mb-0">
-      <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
+    </div>
+    <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
+      <figure class="w-5 h-5">
+        <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
+      </figure>
       <span id="answer3" class="text-sm font-bold">回答内容がこちら</span>
-    </p>
-    <p class="flex flex-row justify-items-start items-center gap-2 mb-0">
-      <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
+    </div>
+    <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
+      <figure class="w-5 h-5">
+        <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
+      </figure>
       <span id="answer4" class="text-sm font-bold">回答内容がこちら</span>
-    </p>
-    <p class="flex flex-row justify-items-start items-center gap-2 mb-0">
-      <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
-      <span id="answer5" class="text-sm font-bold">回答内容がこちら</span>
-    </p>
+    </div>
+    <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
+      <figure class="w-5 h-5">
+        <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
+      </figure>
+        <span id="answer5" class="text-sm font-bold">回答内容がこちら</span>
+    </div>
   </div>
   <p class="text-center font-bold">そんなあなたにおすすめなのは...</p>
   <img class="animate-bounce lazyload w-10 h-10 text-center inline-block mb-16" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/caret-down.png'); ?>" alt="下に進む">
