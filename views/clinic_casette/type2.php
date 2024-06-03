@@ -34,5 +34,6 @@
     <?php endif; ?>
     <?php include(get_stylesheet_directory() . '/views/components/default/structured_markup.php'); ?>
   </div>
-  <?php include(get_stylesheet_directory() . '/views/components/json_ld.php'); ?>
+  <?php include(get_stylesheet_directory() . '/views/components/author_json_ld.php'); ?>
+  <?php include(get_stylesheet_directory() . '/views/components/clinic_json_ld.php'); ?>
 </section>
