@@ -11,7 +11,7 @@ function parent_categories_shortcode()
   $categories = get_categories($args);
   $output = '<div class="sm_category_wrapper">
   <div class="sm_category_header closed">
-    <h3><strong>全国にあるおすすめのクリニック</strong>はこちら</h3>
+    <h3><strong>全国にあるおすすめの矯正歯科</strong>はこちら</h3>
     <img class="caret-circle-down" src="'. esc_url(get_stylesheet_directory_uri() . '/images/icon/circle_down.png') .'">
   </div>
 <div class="sm_categories">';
@@ -73,7 +73,7 @@ function sibling_categories_shortcode($atts)
   $categories = get_categories($args);
   $output = '<div class="sm_category_wrapper">
   <div class="sm_category_header">
-    <p><strong>' . $attributes['area'] . 'のおすすめクリニック</strong>はこちら</p>
+    <p><strong>' . $attributes['area'] . '周辺のおすすめの矯正歯科</strong>はこちら</p>
     <img class="caret-circle-down" src="' . esc_url(get_stylesheet_directory_uri() . '/images/icon/circle_down.png') . '">
     </div>
     <div class="sm_categories">';
