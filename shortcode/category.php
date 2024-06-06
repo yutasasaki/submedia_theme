@@ -14,7 +14,7 @@ function parent_categories_shortcode()
     <h3><strong>全国にあるおすすめの矯正歯科</strong>はこちら</h3>
     <img class="caret-circle-down" src="'. esc_url(get_stylesheet_directory_uri() . '/images/icon/circle_down.png') .'">
   </div>
-<div class="sm_categories">';
+<div class="sm_categories" style="display:none;">';
 
   foreach ($categories as $category) {
     // カテゴリの最新記事を取得
@@ -76,7 +76,7 @@ function sibling_categories_shortcode($atts)
     <p><strong>' . $attributes['area'] . '周辺のおすすめの矯正歯科</strong>はこちら</p>
     <img class="caret-circle-down" src="' . esc_url(get_stylesheet_directory_uri() . '/images/icon/circle_down.png') . '">
     </div>
-    <div class="sm_categories">';
+    <div class="sm_categories" style="display:none;">';
 
 
   foreach ($categories as $category) {
