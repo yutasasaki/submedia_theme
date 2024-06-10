@@ -12,7 +12,7 @@
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph {"align":"right"} -->
-          <p class="has-text-align-right"><span class="small">参照元 : <a href="<?php echo esc_html($clinic_data->review1_link); ?>" rel="noreferrer"><?php echo esc_html($clinic_data->review1_source); ?></a></span></p>
+          <p class="has-text-align-right"><span class="small">参照元 : <a href="<?php echo esc_html($clinic_data->review1_link); ?>" rel="nofollow noreferrer"><?php echo esc_html($clinic_data->review1_source); ?></a></span></p>
           <!-- /wp:paragraph --><span class="sgb-block-say-text__before" style="border-right-color:#555;"></span><span class="sgb-block-say-text__after" style="border-right-color:#FFF;"></span>
         </div>
       </div>
@@ -36,7 +36,7 @@
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph {"align":"right"} -->
-          <p class="has-text-align-right"><span class="small">参照元 : <a href="<?php echo esc_html($clinic_data->review2_link); ?>" rel="noreferrer"><?php echo esc_html($clinic_data->review2_source); ?></a></span></p>
+          <p class="has-text-align-right"><span class="small">参照元 : <a href="<?php echo esc_html($clinic_data->review2_link); ?>" rel="nofollow noreferrer"><?php echo esc_html($clinic_data->review2_source); ?></a></span></p>
           <!-- /wp:paragraph --><span class="sgb-block-say-text__before" style="border-right-color:#555;"></span><span class="sgb-block-say-text__after" style="border-right-color:#FFF"></span>
         </div>
       </div>
