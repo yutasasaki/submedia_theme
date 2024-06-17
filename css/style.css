@@ -766,4 +766,11 @@ figure img {
   padding: 10px;
   margin: 10px;
   background-color: #efefef;
+}
+
+.breadcrumb {
+  overflow-x: scroll;
+  ul{
+    text-wrap: nowrap;
+  }
 }/*# sourceMappingURL=style.css.map */
