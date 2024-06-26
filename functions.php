@@ -51,6 +51,7 @@ $custom_shortcode_files = array(
   'shindan.php',
   'compare_table.php',
   'clinic_info.php',
+  'clinic_info_json.php',
   'category.php',
   'blogcard.php',
 );
