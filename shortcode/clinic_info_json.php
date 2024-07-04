@@ -17,9 +17,10 @@ $recommend = $all_recommend->$recommend_media_type ?? [];
 $clinic_data = (object) array(
   'info' => $info,
   'recommend' => $recommend,
+  'cta_url' => $atts['cta_url'] ?? $info->url ?? '',
   'thumbnail' => (object) array(
-    'filepath' => WP_CONTENT_DIR . '/data/clinic/thumbnail/' . $atts['uuid'] . '.jpg',
-    'url' => home_url('/wp-content/data/clinic/thumbnail/' . $atts['uuid'] . '.jpg')
+    'filepath' => WP_CONTENT_DIR . '/data/clinic/thumbnail/' . $atts['uuid'] . '.webp',
+    'url' => home_url('/wp-content/data/clinic/thumbnail/' . $atts['uuid'] . '.webp')
   )
 );
 

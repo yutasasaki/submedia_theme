@@ -84,3 +84,13 @@ figure img{
 .breadcrumb {
   overflow-x: scroll;
 }
+
+.bq_inline{
+  margin:0 !important;
+  border:none !important;
+  padding: 0 !important;
+  font-weight: normal !important;
+  &:before{
+    content: ""!important;
+  }
+}
