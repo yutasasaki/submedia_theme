@@ -50,23 +50,44 @@ class OpenGraph implements Iterator
    */
   static public function fetch($URI)
   {
+    // キャッシュキーを生成
+    $cache_key = 'opengraph_' . md5($URI);
+    $cache_duration = 7 * DAY_IN_SECONDS; // 1週間キャッシュ
+
+    // キャッシュをチェック
+    $cached_data = get_transient($cache_key);
+    if ($cached_data !== false) {
+      $parsed_data = unserialize($cached_data);
+      if ($parsed_data !== false) {
+        return $parsed_data;
+      }
+    }
+
     $curl = curl_init($URI);
 
     curl_setopt($curl, CURLOPT_FAILONERROR, true);
     curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($curl, CURLOPT_TIMEOUT, 15);
+    curl_setopt($curl, CURLOPT_TIMEOUT, 10); // タイムアウトを10秒に設定
     curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
     curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
     curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
 
     $response = curl_exec($curl);
+    $http_code = curl_getinfo($curl, CURLINFO_HTTP_CODE);
 
     curl_close($curl);
 
-    if (!empty($response)) {
-      return self::_parse($response);
+    if ($http_code == 200 && !empty($response)) {
+      $parsed_data = self::_parse($response);
+      if ($parsed_data !== false) {
+        // キャッシュに保存
+        set_transient($cache_key, serialize($parsed_data), $cache_duration);
+      }
+      return $parsed_data;
     } else {
+      // エラーハンドリング
+      error_log("Failed to fetch OpenGraph data for URI: $URI, HTTP code: $http_code");
       return false;
     }
   }
