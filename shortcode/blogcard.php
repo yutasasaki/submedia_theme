@@ -5,6 +5,24 @@ require_once __DIR__ . '/../services/opengraph.php';
 // ショートコードを追加
 add_shortcode("blogcard", "show_blogcard");
 
+// キャッシュを使用してOpenGraph情報を取得する関数
+function fetch_opengraph_with_cache($url)
+{
+  $cache_key = 'opengraph_' . md5($url);
+  $cached_graph = get_transient($cache_key);
+
+  if ($cached_graph === false) {
+    $graph = OpenGraph::fetch($url);
+    if ($graph) {
+      set_transient($cache_key, serialize($graph), 7 * DAY_IN_SECONDS); // 1週間キャッシュ
+    }
+  } else {
+    $graph = unserialize($cached_graph);
+  }
+
+  return $graph;
+}
+
 // リンクカードを表示する関数
 function show_blogcard($atts)
 {
@@ -17,7 +35,7 @@ function show_blogcard($atts)
   ), $atts));
 
   // OGP情報を取得
-  $graph = OpenGraph::fetch($url);
+  $graph = fetch_opengraph_with_cache($url);
 
   // OGPタグからタイトルと画像URLを取得
   $Link_title = !empty($graph->title) ? esc_html($graph->title) : esc_html($title);
@@ -66,7 +84,7 @@ function show_linkcard($atts)
   ), $atts));
 
   // OGP情報を取得
-  $graph = OpenGraph::fetch($url);
+  $graph = fetch_opengraph_with_cache($url);
 
   // OGPタグからタイトルと画像URLを取得
   $Link_title = !empty($graph->title) ? esc_html($graph->title) : esc_html($title);
@@ -98,4 +116,3 @@ function show_linkcard($atts)
 
   return $sc_Linkcard;
 }
-?>

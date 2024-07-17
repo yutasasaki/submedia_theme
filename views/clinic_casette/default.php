@@ -6,6 +6,9 @@
       <span class="sgb-heading__text" style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>">
         <a style="color:white;text-decoration: none; cursor: pointer;" href="#clinic_<?php echo esc_html($clinic_data->clinic_name_romaji); ?>">
           <?php echo esc_html($clinic_data->clinic_name); ?>
+          <?php if (!empty($atts['pr'] ?? '')) : ?>
+            <span class="pr_label">【<?php echo esc_html($atts['pr'] ?? ''); ?>】</span>
+            <?php endif; ?>
         </a>
         <?php if (!empty($atts['pr'] ?? '')) : ?>
           <span class="pr_label">【<?php echo esc_html($atts['pr'] ?? ''); ?>】</span>

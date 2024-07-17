@@ -12,7 +12,7 @@ function footer_js_loader()
 ?>
   <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() . '/js/clinic_readmore.js'; ?>"></script>
   <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() . '/js/category_drawer.js'; ?>"></script>
+  <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() . '/js/blogcard.js'; ?>"></script>
 <?php
 }
 add_action('wp_footer', 'footer_js_loader');
-
