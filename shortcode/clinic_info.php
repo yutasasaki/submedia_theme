@@ -8,6 +8,7 @@ $atts = shortcode_atts(array(
 'table_id' => '', // TablePressテーブルのID
 'pr_table_id' => '', // PRがある場合のテーブルID
 'place_id' => '', // 検索したいPlaceId
+'pr' => '', // PRラベル
 'view' => 'default',
 ), $atts);
 

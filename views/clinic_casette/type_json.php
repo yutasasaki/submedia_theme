@@ -1,6 +1,12 @@
 <section id="clinic_<?php echo esc_html($clinic_data->info->id ?? ''); ?>">
 
-  <h3><a href="#clinic_<?php echo esc_html($clinic_data->info->id ?? ''); ?>"><?php echo esc_html($clinic_data->info->clinic_name ?? ''); ?></a></h3>
+  <h3>
+    <a href="#clinic_<?php echo esc_html($clinic_data->info->id ?? ''); ?>"><?php echo esc_html($clinic_data->info->clinic_name ?? ''); ?>
+      <?php if (!empty($atts['pr'] ?? '')) : ?>
+        <span class="pr_label">【<?php echo esc_html($atts['pr'] ?? ''); ?>】</span>
+      <?php endif; ?>
+    </a>
+  </h3>
   <?php if (file_exists($clinic_data->thumbnail->filepath)) : ?>
     <img src="<?php echo esc_url($clinic_data->thumbnail->url ?? ''); ?>" alt="<?php echo esc_attr($clinic_data->info->clinic_name ?? ''); ?>のウェブサイト" style="width: 100%; height: auto; max-height: 600px; object-fit: cover;" />
   <?php endif; ?>

@@ -7,6 +7,9 @@
         <a style="color:white;text-decoration: none; cursor: pointer;" href="#clinic_<?php echo esc_html($clinic_data->clinic_name_romaji); ?>">
           <?php echo esc_html($clinic_data->clinic_name); ?>
         </a>
+        <?php if (!empty($atts['pr'] ?? '')) : ?>
+          <span class="pr_label">【<?php echo esc_html($atts['pr'] ?? ''); ?>】</span>
+        <?php endif; ?>
       </span>
     </span>
   </h3>

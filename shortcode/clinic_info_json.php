@@ -6,6 +6,7 @@ $atts = shortcode_atts(array(
 'uuid' => '', // UUID(ファイル名)
 'media_id' => '1', // おすすめテキストmedia_id
 'cta_url' => '', // CTAのURL
+'pr' => '', // PRラベル
 ), $atts);
 
 
