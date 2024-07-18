@@ -1,43 +1,43 @@
-<section id="shindan_kireilign" style="display: none;" class="">
-  <div class="bg-white rounded-2xl p-4 relative space-y-2 mb-16">
+<section id="shindan_kireilign" style="display:none;" class="">
+  <div class="bg-white rounded-2xl p-4 relative flex gap-2 flex-col mb-4">
     <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <figure class="w-5 h-5">
         <img class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       </figure>
-      <span id="answer1" class="text-sm font-bold">回答内容がこちら</span>
+      <span id="answer1" class="text-md font-bold">回答内容がこちら</span>
     </div>
     <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <figure class="w-5 h-5">
         <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       </figure>
-      <span id="answer2" class="text-sm font-bold">回答内容がこちら</span>
+      <span id="answer2" class="text-md font-bold">回答内容がこちら</span>
     </div>
     <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <figure class="w-5 h-5">
         <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       </figure>
-      <span id="answer3" class="text-sm font-bold">回答内容がこちら</span>
+      <span id="answer3" class="text-md font-bold">回答内容がこちら</span>
     </div>
     <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <figure class="w-5 h-5">
         <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       </figure>
-      <span id="answer4" class="text-sm font-bold">回答内容がこちら</span>
+      <span id="answer4" class="text-md font-bold">回答内容がこちら</span>
     </div>
     <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <figure class="w-5 h-5">
         <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       </figure>
-        <span id="answer5" class="text-sm font-bold">回答内容がこちら</span>
+      <span id="answer5" class="text-md font-bold">回答内容がこちら</span>
     </div>
   </div>
-  <p class="text-center font-bold">そんなあなたにおすすめなのは...</p>
-  <img class="animate-bounce lazyload w-10 h-10 text-center inline-block mb-16" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/caret-down.png'); ?>" alt="下に進む">
-  <div class="content_img">
+  <p class="text-center font-bold text-lg">そんなあなたにおすすめなのは...</p>
+  <img class="animate-bounce lazyload w-10 h-10 text-center inline-block" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/caret-down.png'); ?>" alt="下に進む">
+  <div class="content_img my-4">
     <a href="<?php echo get_custom_cta_href('/media/diagnose/kireilign_cta/'); ?>" class=" btn_booking click_cta" data-position="shindan" data-cta="kireilign">
       <img class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/kireilign.avif'); ?>" alt="" style="width: 100%; height: auto;">
     </a>
-    <div class="bg-white rounded-2xl p-4 relative space-y-2 my-12">
+    <div class="bg-white rounded-2xl p-4 relative space-y-2">
       <p id="cost_false" style="display:none;" class="mb-0 text-left tracking-wider leading-7 font-semibold whitespace-normal">
         高くても気にしない方も、<span class="marker-yellow">安く治療を終えられる可能性があるキレイライン矯正</span>のチェックをおすすめします。<br>
         キレイライン矯正を取り扱っているクリニックの多くはインビザラインも取り扱っていますので、
@@ -56,7 +56,7 @@
         <img data-track data-value="キレイラインCTAクリック" class="lazyload mx-auto" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/btn_dia_kl.png'); ?>" alt="まずは気軽にご相談ください">
       </a>
     </div>
-    <p class="my-20 mx-10 color-gray text-left text-xs">※症状が強い場合は適応外になる場合がございます。<br>
+    <p class="my-4 color-gray text-left text-xs">※症状が強い場合は適応外になる場合がございます。<br>
       ※骨格に問題のある歯並びは矯正歯科治療のみでは修正が困難な場合がございます。<br>
       ※実際に治療を勧めるものではありません。ご自身に合った治療法については、歯科医師にご相談ください。<br>
       ※保険適用外の自由診療となります。<br>

@@ -1,0 +1,18 @@
+{
+	"folders": [
+    {
+      "name": "swell_submedia_theme",
+      "path": "."
+    }
+  ],
+	"settings": {
+		"liveSassCompile.settings.formats": [
+			{
+				"format": "expanded", // to see the original code
+				"extensionName": ".css",
+				"savePath": null
+			}
+		],
+		"liveServer.settings.useLocalIp": true,
+	}
+}

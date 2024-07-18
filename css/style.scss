@@ -10,7 +10,15 @@
 @import "./editor";
 @import "./blogcard";
 @import "./heading";
+@import "./splide";
 @import "./toc";
+@import "./grid";
+@import "./rounded";
+@import "./display";
+@import "./size";
+@import "./spaces";
+@import "./text";
+;
 
 .text-gray {
   color: #555;
@@ -19,9 +27,16 @@
 .text-red {
   color: red;
 }
+.bg-white{
+  background-color: #fff;
+}
 
 .entry-content>p:first-child {
   display: none;
+}
+.no-marker li{
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .entry-content {

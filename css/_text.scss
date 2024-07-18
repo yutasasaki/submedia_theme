@@ -1,0 +1,77 @@
+$font-sizes: (
+  xs: 0.75rem, // 12px
+  sm: 0.875rem, // 14px
+  base: 1rem, // 16px
+  lg: 1.125rem, // 18px
+  xl: 1.25rem, // 20px
+  '2xl': 1.5rem, // 24px
+  '3xl': 1.875rem, // 30px
+  '4xl': 2.25rem, // 36px
+  '5xl': 3rem // 48px
+);
+
+$font-weights: (
+  thin: 100,
+  'extra-light': 200,
+  light: 300,
+  normal: 400,
+  medium: 500,
+  'semibold': 600,
+  bold: 700,
+  'extra-bold': 800,
+  black: 900);
+
+// フォントサイズクラスの生成
+@each $name,
+$size in $font-sizes {
+  .text-#{$name} {
+    font-size: $size;
+  }
+}
+
+// フォントウェイトクラスの生成
+@each $name,
+$weight in $font-weights {
+  .font-#{"#{$name}"} {
+    font-weight: $weight;
+  }
+}
+
+// テキスト整列クラスの生成
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.break-word {
+  word-break: break-word;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-nowrap {
+  text-wrap: nowrap;
+}
+
+.text-mask {
+    display: inline-block;
+    text-align: right;
+    &:before{
+        content: '****';
+        display: inline-block
+
+    }
+}

@@ -16,7 +16,7 @@
     </div>
   </div>
   <div id="modal" class="">
-    <div id="questions-container">
+    <div id="questions-container" class="diagnose_container">
       <?php include(get_stylesheet_directory() . '/views/components/shindan/questions/q1.php'); ?>
       <?php include(get_stylesheet_directory() . '/views/components/shindan/questions/q2.php'); ?>
       <?php include(get_stylesheet_directory() . '/views/components/shindan/questions/q3.php'); ?>

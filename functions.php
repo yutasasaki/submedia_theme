@@ -17,7 +17,7 @@ $custom_functions_files = array(
   'rest_api.php',
   'cloudfront.php',
   'ogp.php',
-  'toc.php',
+  // 'toc.php',
 );
 foreach ($custom_functions_files as $custom_functions_file) {
   locate_template($custom_functions_dir . $custom_functions_file, true);
@@ -48,7 +48,9 @@ $custom_shortcode_dir = 'shortcode/';
 $custom_shortcode_files = array(
   'intro.php',
   'outro.php',
+  'carousel.php',
   'shindan.php',
+  'kansyui.php',
   'compare_table.php',
   'clinic_info.php',
   'clinic_info_api.php',
