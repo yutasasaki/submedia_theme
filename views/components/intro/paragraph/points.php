@@ -1,5 +1,5 @@
 <!-- wp:paragraph -->
-<h2 id="point" class="wp-block-sgb-headings sgb-heading">矯正歯科選びで大事なポイント2つ</h2>
+<h2 id="point" class="">矯正歯科選びで大事なポイント2つ</h2>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

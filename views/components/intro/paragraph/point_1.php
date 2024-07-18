@@ -1,5 +1,5 @@
-<!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
-<h3 id="mouthpieces" class="wp-block-heading has-sango-silver-background-color  has-background sm-border-main sm-color-sub">①複数のマウスピース矯正を扱っている所を選ぶ</h3>
+<!-- wp:heading -->
+<h3 id="mouthpieces" class="">①複数のマウスピース矯正を扱っている所を選ぶ</h3>
 <!-- /wp:heading -->
 
 <!-- wp:image -->
@@ -9,23 +9,18 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>
-</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 <p>あなたはマウスピース矯正には様々な種類があることを知っていますか？</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>実は、マウスピース矯正は2つのタイプに分けることができ、<strong>
-    <span class="keiko_yellow">「普通のマウスピース矯正」</span>
+    <span class="marker-yellow">「普通のマウスピース矯正」</span>
   </strong>と<strong>
-    <span class="keiko_yellow">「低価格マウスピース矯正」</span>
+    <span class="marker-yellow">「低価格マウスピース矯正」</span>
   </strong>があります。</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":8496,"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:image -->
 <figure class="wp-block-image size-large">
   <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v4/1_type.webp'); ?>" alt="マウスピース矯正には
 2つのタイプがあります。
@@ -56,7 +51,7 @@
 
 <!-- wp:paragraph -->
 <p class="font-bold">
-  <span class="keiko_yellow">値段が違う理由は、<strong>
+  <span class="marker-yellow">値段が違う理由は、<strong>
       <span class="color-red">"治療範囲が違うから"</span>
     </strong>であり、治療の質とは関係ありません。</span>
 </p>
@@ -75,14 +70,14 @@
 </figure>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":8496,"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:image -->
 <!-- <figure class="wp-block-image size-large">
   <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v2/yasui_banner.webp'); ?>" alt="安い = 質が悪いは間違いです！" />
 </figure> -->
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>ただ残念ながら、<span class="keiko_yellow font-bold">ほとんどの矯正歯科では普通のマウスピース矯正（インビザライン）しか扱っていません。</span>
+<p>ただ残念ながら、<span class="marker-yellow font-bold">ほとんどの矯正歯科では普通のマウスピース矯正（インビザライン）しか扱っていません。</span>
   <br>その方が歯医者にとっての利益が大きいからです。
 </p>
 <!-- /wp:paragraph -->
@@ -93,7 +88,7 @@
 
 <!-- wp:paragraph -->
 <p>
-  <span class="keiko_yellow">
+  <span class="marker-yellow">
     <strong>本来ならもっと安くできるのに、70〜120万円も払うことになる</strong>のは非常にもったいないですよね…。</span>
 </p>
 <!-- /wp:paragraph -->
@@ -116,7 +111,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そうすれば、<span class="keiko_yellow">もしあなたが<strong>"低価格マウスピース矯正で治せる"</strong>と診断された場合、<strong>治療費用を安く抑えることができますよ！</strong>
+<p>そうすれば、<span class="marker-yellow">もしあなたが<strong>"低価格マウスピース矯正で治せる"</strong>と診断された場合、<strong>治療費用を安く抑えることができますよ！</strong>
   </span>
 </p>
 <!-- /wp:paragraph -->
@@ -126,11 +121,11 @@
 </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:sgb/message {"message":"注意","boxColor":"#f88080","bgColor":"#ffffe6","icon":"fas fa-exclamation-triangle"} -->
+<!-- wp:paragraph -->
 <div class="wp-block-sgb-message">
-  <div class="memo sng-shadow-0" style="border-radius:0px;background-color:#ffffe6;color:#f88080">
-    <div class="memo_ttl dfont">
-      <span class="sng-box-msg__icon" style="background:#f88080">
+  <div class="p-4" style="background-color:#ffffe6;color:#333;">
+    <div class="">
+      <span>
         <i class="fas fa-exclamation-triangle">
         </i>
       </span>
@@ -150,4 +145,4 @@
     </div>
   </div>
 </div>
-<!-- /wp:sgb/message -->
+<!-- /wp:paragraph -->

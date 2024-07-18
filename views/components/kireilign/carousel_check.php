@@ -1,6 +1,6 @@
 <!-- wp:html -->
-<div style="background-color: #FF5386;" class="mt-20">
-  <p style="color:white;" class="font-bold text-center mb-0 pt-4">マウスピース矯正を検討している方は<br>コチラもチェック↓</p>
+<div style="background-color: #FF5386;" class="my-4">
+  <p style="color:white;" class="font-bold text-center py-2 text-md">マウスピース矯正を検討している方は<br>コチラもチェック↓</p>
   <div class="splide" data-splide='{"autoplay":"pause", "rewind":false, "lazyLoad":true , "start": 0, "clones": 0, "pagination":false, "padding":0}'>
     <div class="splide__track">
       <div class="splide__list">
@@ -49,5 +49,5 @@
     </div>
   </div>
 </div>
-<p class="px-20 py-5 text-sm">※キレイライン矯正の公式サイトは<a href="<?php echo esc_url(generate_click_cta_url()); ?>">こちら</a></p>
+<p class="py-2 text-sm">※キレイライン矯正の公式サイトは<a href="<?php echo esc_url(generate_click_cta_url()); ?>">こちら</a></p>
 <!-- /wp:html -->

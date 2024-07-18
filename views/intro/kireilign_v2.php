@@ -1,10 +1,10 @@
-<?#php include(get_stylesheet_directory() . '/views/components/intro/paragraph/first_intro.php'); ?>
+<?php include(get_stylesheet_directory() . '/views/components/intro/paragraph/first_intro.php'); ?>
 
 <!-- wp:shortcode -->
 <?php echo do_shortcode('[show_shindan]'); ?>
 <!-- /wp:shortcode -->
 
-<?php include(get_stylesheet_directory() . '/views/components/intro/paragraph/recommend.php'); ?>
+<?php include(get_stylesheet_directory() . '/views/components/intro/paragraph/recommend_kireilign.php'); ?>
 
 <!-- wp:paragraph -->
 <p>※なお、情報の信頼性を担保するため、本記事は歯科医師監修のもと執筆しています。</p>
@@ -27,12 +27,6 @@
 <?php echo do_shortcode('[show_carousel_first]'); ?>
 <!-- /wp:shortcode -->
 
-<!-- wp:html -->
-<p class="px-20 py-5 text-sm">※キレイライン矯正の公式サイトは<a href="<?php echo esc_url(generate_click_cta_url()); ?>">こちら</a></p>
-<!-- /wp:html -->
-
-<?php include(get_stylesheet_directory() . '/views/components/intro/paragraph/recommend_kireilign.php'); ?>
-
 <?php include(get_stylesheet_directory() . '/views/components/cta/kireilign.php'); ?>
 
 
@@ -40,9 +34,6 @@
 <?php echo do_shortcode('[show_carousel_deppa]'); ?>
 <!-- /wp:shortcode -->
 
-<!-- wp:html -->
-<p class="px-20 py-5 text-sm">※キレイライン矯正の公式サイトは<a href="<?php echo esc_url(generate_click_cta_url()); ?>">こちら</a></p>
-<!-- /wp:html -->
 
 <!-- wp:paragraph -->
 <h2 id="recommend"><?php echo esc_attr($atts['area']); ?>でオススメの矯正歯科一覧</h2>

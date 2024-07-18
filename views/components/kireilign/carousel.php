@@ -96,7 +96,7 @@ box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);">
 
   <!-- wp:paragraph -->
   <p>
-    <span class="keiko_yellow_full" style="color: white; font-weight: bold;">※右スワイプで続きを読めます</span>
+    <span class="marker-yellow_full" style="color: white; font-weight: bold;">※右スワイプで続きを読めます</span>
   </p>
   <!-- /wp:paragraph -->
 </section>

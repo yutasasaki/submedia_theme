@@ -127,7 +127,7 @@
 
 <!-- wp:paragraph -->
 <p>そのため歯並びのズレが<strong>
-    <span class="keiko_yellow_full">軽度〜中度</span>
+    <span class="marker-yellow_full">軽度〜中度</span>
   </strong>だとしても、普通のマウスピース矯正をすることになります。</p>
 <!-- /wp:paragraph -->
 
@@ -149,7 +149,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そうすれば、もしあなたが”<span class="keiko_yellow_full">低価格マウスピース矯正で治せる</span>”と診断された場合、治療費用を安く抑えることができますよ！</p>
+<p>そうすれば、もしあなたが”<span class="marker-yellow_full">低価格マウスピース矯正で治せる</span>”と診断された場合、治療費用を安く抑えることができますよ！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:sgb/box -->

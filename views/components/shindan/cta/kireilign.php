@@ -4,31 +4,31 @@
       <figure class="w-5 h-5">
         <img class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       </figure>
-      <span id="answer1" class="text-md font-bold">回答内容がこちら</span>
+      <span id="answer1" class="text-base font-bold">回答内容がこちら</span>
     </div>
     <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <figure class="w-5 h-5">
         <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       </figure>
-      <span id="answer2" class="text-md font-bold">回答内容がこちら</span>
+      <span id="answer2" class="text-base font-bold">回答内容がこちら</span>
     </div>
     <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <figure class="w-5 h-5">
         <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       </figure>
-      <span id="answer3" class="text-md font-bold">回答内容がこちら</span>
+      <span id="answer3" class="text-base font-bold">回答内容がこちら</span>
     </div>
     <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <figure class="w-5 h-5">
         <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       </figure>
-      <span id="answer4" class="text-md font-bold">回答内容がこちら</span>
+      <span id="answer4" class="text-base font-bold">回答内容がこちら</span>
     </div>
     <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <figure class="w-5 h-5">
         <img class="lazyload w-5 h-5" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/check.webp'); ?>" alt="回答済">
       </figure>
-      <span id="answer5" class="text-md font-bold">回答内容がこちら</span>
+      <span id="answer5" class="text-base font-bold">回答内容がこちら</span>
     </div>
   </div>
   <p class="text-center font-bold text-lg">そんなあなたにおすすめなのは...</p>

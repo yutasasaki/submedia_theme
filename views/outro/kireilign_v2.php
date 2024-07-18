@@ -1,5 +1,5 @@
-<!-- wp:sgb/headings {"headingText":"さいごに","headingStyle":"sgb-heading\u002d\u002dtype2","headingIconName":"chevron-circle-right","headingTextColor":"#FFF","headingIconColor":"rgba(255,255,255,.6)","headingBgColor1":"#009EF3"} -->
-<h2 class="wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner sgb-heading--type2 with-icon" style="background-color:#009EF3;border-color:transparent;font-size:1.2em"><i class="fa fa-chevron-circle-right" style="color:rgba(255,255,255,.6)"></i><span class="sgb-heading__text" style="color:#FFF">さいごに</span></span></h2>
+<!-- wp:headings -->
+<h2 class="">さいごに</h2>
 <!-- /wp:sgb/headings -->
 
 <!-- wp:paragraph -->
@@ -23,7 +23,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p style="text-align: center;">将来の自分が必ず<br><strong><span class="keiko_yellow">「あの</span><span class="keiko_yellow">とき</span><span class="keiko_yellow">矯正を始めてよかった！」</span></strong><br>と喜んでくれるはずです。</p>
+<p style="text-align: center;">将来の自分が必ず<br><strong><span class="marker-yellow">「あの</span><span class="marker-yellow">とき</span><span class="marker-yellow">矯正を始めてよかった！」</span></strong><br>と喜んでくれるはずです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -35,7 +35,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p style="text-align: center;"><strong><span class="keiko_yellow">少しでも矯正しようと思った"今"が<br>自分を変える最大のチャンスです！</span></strong></p>
+<p style="text-align: center;"><strong><span class="marker-yellow">少しでも矯正しようと思った"今"が<br>自分を変える最大のチャンスです！</span></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -45,6 +45,7 @@
 <!-- wp:paragraph -->
 <p style="text-align: center; font-size:0.8rem;">＼キレイライン矯正の口コミはこちらでチェック／</p>
 <!-- /wp:paragraph -->
-<!-- shortcode -->
-[linkcard url="https://kyosei-guide.co.jp/article/kireilign_review"]
-<!-- /shortcode -->
+
+<!-- wp:shortcode -->
+<?php echo do_shortcode('[linkcard url="https://kyosei-guide.co.jp/article/kireilign_review"]'); ?>
+<!-- /wp:shortcode -->

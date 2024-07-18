@@ -6,7 +6,7 @@
 
 <!-- wp:paragraph -->
 <p>しかし、矯正は難しい治療のため、<strong>
-    <span class="keiko_yellow">「安いから」という理由だけで選ぶのは危険</span>
+    <span class="marker-yellow">「安いから」という理由だけで選ぶのは危険</span>
   </strong>です。</p>
 <!-- /wp:paragraph -->
 
@@ -26,7 +26,7 @@
 <ul class="no-marker">
   <li>
     <strong>
-      <span class="keiko_yellow">✓失敗しない矯正歯科の選び方</span>
+      <span class="marker-yellow">✓失敗しない矯正歯科の選び方</span>
     </strong>
   </li>
   <li>✓<?php echo esc_attr($atts['area']); ?>のおすすめ矯正歯科</span>

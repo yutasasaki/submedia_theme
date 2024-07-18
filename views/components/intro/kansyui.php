@@ -1,46 +1,49 @@
-<!-- wp:sgb/block-simple {"boxTitle":"監修歯科医師紹介","boxTitleStyle":"sgb-box-simple\u002d\u002dtitle-overwrap","boxColor":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>","boxTitleColor":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>","icon":"fas fa-eye","blockId":"id-13d5b31b-679f-4547-a8e1-2a5f30a1cfa4","customControls":[]} -->
-<div class="wp-block-sgb-block-simple sgb-box-simple sgb-box-simple--title-overwrap sgb-box-simple--with-border">
-  <div style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>" class="sgb-box-simple__title">
-    <i class="fas fa-eye">
-    </i> 監修歯科医師紹介
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">監修医師紹介</h3>
+<!-- /wp:heading -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group flex gap-4" itemscope itemtype="https://schema.org/Person"><!-- wp:image -->
+  <figure class="wp-block-image"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/customize/kansyui.webp'); ?>" class="custom_pic" width="96" height="96" itemprop="image"></figure>
+  <!-- /wp:image -->
+
+  <!-- wp:group {"className":"u-mb-ctrl u-mb-10","layout":{"type":"constrained"}} -->
+  <div class="wp-block-group u-mb-ctrl u-mb-10">
+    <!-- wp:paragraph -->
+    <p>
+      <span itemprop="jobTitle">歯科医師</span><br>
+      <strong><span itemprop="name" class="swl-fz u-fz-l">見立 英史</span></strong><br>
+      <span itemprop="alternateName">Mitate Eiji</span><br><strong>プロフィール</strong>
+    </p>
+    <!-- /wp:paragraph -->
+
+    <!-- wp:list -->
+    <ul class="wp-block-list" itemprop="description"><!-- wp:list-item -->
+      <li>金沢医科大学医学部 顎口腔外科講師</li>
+      <!-- /wp:list-item -->
+
+      <!-- wp:list-item -->
+      <li>九州大学歯学部卒業</li>
+      <!-- /wp:list-item -->
+
+      <!-- wp:list-item -->
+      <li>日本口腔外科学会指導医・専門医</li>
+      <!-- /wp:list-item -->
+
+      <!-- wp:list-item -->
+      <li>日本口腔科学会指導医・認定医</li>
+      <!-- /wp:list-item -->
+
+      <!-- wp:list-item -->
+      <li>産業歯科医師</li>
+      <!-- /wp:list-item -->
+    </ul>
+    <!-- /wp:list -->
   </div>
-  <div class="sgb-box-simple__body" style="border-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;background-color:#FFF">
-    <!-- wp:sgb/custom {"code":"\u003csection id=\u0022editor-box\u0022\u003e\n\u003cdiv class=\u0022plof-flex\u0022\u003e\n\u003cdiv class=\u0022editorface\u0022\u003e {{#custompic}}\u003cimg class=\u0022custom_pic\u0022 src=\u0022{{custompic}}\u0022  width=\u002296\u0022 height=\u002296\u0022\u003e{{/custompic}}\u003c/div\u003e\n\u003cdiv class=\u0022editorinfo\u0022\u003e\n\u003cp class=\u0022status\u0022\u003e{{katagaki}}\u003c/p\u003e\n\u003cp class=\u0022name\u0022\u003e{{name}}\u003c/p\u003e\n\u003cp class=\u0022ruby\u0022\u003e{{yomi}}\u003c/p\u003e\n\u003cdiv class=\u0022hidden_box\u0022\u003e\u003cinput type=\u0022checkbox\u0022 id=\u0022label1\u0022\u003e\u003clabel for=\u0022label1\u0022\u003e{{checkbox}}\u003c/label\u003e\u003cp\u003e\u003c/p\u003e\n\u003cdiv class=\u0022hidden_show\u0022\u003e\n\u003cspan class=\u0022profile-title\u0022\u003e{{profiletitle}}\u003c/span\u003e\u003cp\u003e\u003c/p\u003e\n\u003cp class=\u0022editor-profile\u0022\u003e\n{{profile}}\u003c/p\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n\u003c/section\u003e","css":".plof-flex {\n    position: relative;\n    display: flex!important;\n    box-sizing: border-box;\n}\n.editorface {\n    display: inline-block;\n    min-width: 80px;\n    height: auto;\n    margin: 0;\n    vertical-align: middle;\n}\n.editorface img {\n    border-radius: 50px;\n}\n.editorinfo{\n    margin-left: 15px;\n    color: #000;\n    padding: 0;\n}\n.status {\n    font-size: 12px;\n    color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dcolor);\n    margin-bottom: 3px;\n    line-height: 1.5;\n    letter-spacing: 1px;\n}\n.name {\n    line-height: 1.5rem;\n     color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dcolor);\n    font-size: 17px;\n    font-weight: 700;\n    margin-bottom: 7px;\n    letter-spacing: 2px;\n}\n.ruby {\n    font-size: 11px;\n    line-height: .9;\n    color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dcolor);\n    letter-spacing: 1.69px;\n}\n.hidden_box {\n    margin-top: 10px;\n    padding: 0;\n}\n.hidden_box label {\n    padding: 4px 15px 4px 2px;\n    font-weight: 700;\n    background: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dbg-color);\n    border-radius: 5px;\n    cursor: pointer;\n    transition: .5s;\n    font-size: 13px;\n    color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dck-color);\n    border: solid 2px #fff;\n}\n.hidden_box input#label1 {\n    display: none;\n}\n.hidden_box label:before {\n    display: inline-block;\n    content: '\\f078';\n    font-family: \u0022Font Awesome 5 Free\u0022;\n    padding: 0 10px;\n    transition: .2s;\n}\n.hidden_box input:checked~label:before {\n    content: '\\f00d';\n    font-family: \u0022Font Awesome 5 Free\u0022;\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n\tcolor: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dck-color);\n}\n.hidden_box .hidden_show {\n    height: 0;\n    padding: 0;\n    overflow: hidden;\n    opacity: 0;\n    transition: .8s;\n    color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dcolor);\n}\n.hidden_box input:checked~.hidden_show {\n    padding: 0;\n    height: auto;\n    opacity: 1;\n}\n.profile-title {\n    display: block;\n    padding-left: 4px;\n    line-height: 1.5rem;\n    font-weight: 700;\n    border-bottom: 1px solid ;\n    margin-top: 10px;\n    margin-bottom: 0.5rem;\n    font-size: .9em;\n    color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dcolor);\n    text-align: left;\n}\n#editor-box .editor-profile {\n    font-size: .8rem;\n    text-align: left;\n    letter-spacing: 1.4px;\n}\n.sgb-custom__content:before {\n\tcontent: \u0022著者ブロック\u0022;\n}\n\n.sgb-custom__content:after {\n\tcontent: \u0022著者ブロック終わり\u0022;\n    bottom: 0px;\n    right: 0px;\n}","scopedCSS":"#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .plof-flex {\n    position: relative;\n    display: flex!important;\n    box-sizing: border-box;\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .editorface {\n    display: inline-block;\n    min-width: 80px;\n    height: auto;\n    margin: 0;\n    vertical-align: middle;\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .editorface img {\n    border-radius: 50px;\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .editorinfo{\n    margin-left: 15px;\n    color: #000;\n    padding: 0;\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .status {\n    font-size: 12px;\n    color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dcolor);\n    margin-bottom: 3px;\n    line-height: 1.5;\n    letter-spacing: 1px;\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .name {\n    line-height: 1.5rem;\n     color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dcolor);\n    font-size: 17px;\n    font-weight: 700;\n    margin-bottom: 7px;\n    letter-spacing: 2px;\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .ruby {\n    font-size: 11px;\n    line-height: .9;\n    color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dcolor);\n    letter-spacing: 1.69px;\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .hidden_box {\n    margin-top: 10px;\n    padding: 0;\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .hidden_box label {\n    padding: 4px 15px 4px 2px;\n    font-weight: 700;\n    background: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dbg-color);\n    border-radius: 5px;\n    cursor: pointer;\n    transition: .5s;\n    font-size: 13px;\n    color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dck-color);\n    border: solid 2px #fff;\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .hidden_box input#label1 {\n    display: none;\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .hidden_box label:before {\n    display: inline-block;\n    content: '\\f078';\n    font-family: \u0022Font Awesome 5 Free\u0022;\n    padding: 0 10px;\n    transition: .2s;\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .hidden_box input:checked~label:before {\n    content: '\\f00d';\n    font-family: \u0022Font Awesome 5 Free\u0022;\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n\tcolor: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dck-color);\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .hidden_box .hidden_show {\n    height: 0;\n    padding: 0;\n    overflow: hidden;\n    opacity: 0;\n    transition: .8s;\n    color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dcolor);\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .hidden_box input:checked~.hidden_show {\n    padding: 0;\n    height: auto;\n    opacity: 1;\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .profile-title {\n    display: block;\n    padding-left: 4px;\n    line-height: 1.5rem;\n    font-weight: 700;\n    border-bottom: 1px solid ;\n    margin-top: 10px;\n    margin-bottom: 0.5rem;\n    font-size: .9em;\n    color: var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dcolor);\n    text-align: left;\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 #editor-box .editor-profile {\n    font-size: .8rem;\n    text-align: left;\n    letter-spacing: 1.4px;\n}\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .sgb-custom__content:before {\n\tcontent: \u0022著者ブロック\u0022;\n}\n\n#id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2 .sgb-custom__content:after {\n\tcontent: \u0022著者ブロック終わり\u0022;\n    bottom: 0px;\n    right: 0px;\n}","blockId":"id-1ffa6b34-9ccc-4874-810d-14baf11ca3a2","customControls":[{"name":"著者画像","variableName":"custompic","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":0,"max":0,"step":1,"label":"","variableType":"image","value":"https://kyosei-guide.com/wp-content/uploads/2023/09/スクリーンショット-2023-07-07-14.07.15.png"},{"name":"肩書","variableName":"katagaki","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":0,"max":0,"step":1,"label":"","variableType":"string","disableCSS":true,"value":"歯科医師"},{"name":"著者名","variableName":"name","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":0,"max":0,"step":1,"label":"","variableType":"string","disableCSS":true,"value":"見立 英史"},{"name":"著者名よみがな","variableName":"yomi","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":0,"max":0,"step":1,"label":"","variableType":"string","disableCSS":true,"value":"Mitate Eiji"},{"name":"チェックボックスタイトル","variableName":"checkbox","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":0,"max":0,"step":1,"label":"","variableType":"string","disableCSS":true,"value":"詳しいプロフィール"},{"name":"プロフィールタイトル","variableName":"profiletitle","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":0,"max":0,"step":1,"label":"","variableType":"string","disableCSS":true,"value":"プロフィール"},{"name":"プロフィール内容","variableName":"profile","defaultValue":"","defaultType":"string","useTextarea":true,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":0,"max":0,"step":1,"label":"","variableType":"string","disableCSS":true,"value":"金沢医科大学医学部 顎口腔外科講師\n九州大学歯学部卒業\n日本口腔外科学会指導医・専門医\n日本口腔科学会指導医・認定医\n産業歯科医師"},{"name":"文字色","variableName":"Color","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":0,"max":0,"step":1,"label":"","variableType":"color","value":"#000000ad"},{"name":"チェックボックス背景色","variableName":"bgColor","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":0,"max":0,"step":1,"label":"","variableType":"color","value":"<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>"},{"name":"チェックボックス文字色","variableName":"ckColor","defaultValue":"","defaultType":"string","useTextarea":false,"useRadio":false,"useCheckbox":false,"useQuotation":false,"options":[],"min":0,"max":0,"step":1,"label":"","variableType":"color","value":"#FFF"}]} -->
-    <div class="wp-block-sgb-custom">
-      <div>
-        <section id="editor-box" itemscope itemtype="https://schema.org/Person">
-          <div class="plof-flex">
-            <div class="editorface">
-              <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/customize/kansyui.webp'); ?>" class="custom_pic" width="96" height="96" itemprop="image">
-            </div>
-            <div class="editorinfo">
-              <p class="status" itemprop="jobTitle">歯科医師</p>
-              <p class="name" itemprop="name">見立 英史</p>
-              <p class="ruby" itemprop="alternateName">Mitate Eiji</p>
-              <div class="hidden_box">
-                <input type="checkbox" id="label1">
-                <label for="label1">詳しいプロフィール</label>
-                <p></p>
-                <div class="hidden_show">
-                  <span class="profile-title">プロフィール</span>
-                  <p></p>
-                  <p class="editor-profile" itemprop="description">
-                    金沢医科大学医学部 顎口腔外科講師
-                    九州大学歯学部卒業
-                    日本口腔外科学会指導医・専門医
-                    日本口腔科学会指導医・認定医
-                    産業歯科医師
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-    <!-- /wp:sgb/custom -->
-  </div>
+  <!-- /wp:group -->
 </div>
+<!-- /wp:group -->
+
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",

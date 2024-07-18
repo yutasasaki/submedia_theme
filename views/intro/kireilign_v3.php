@@ -6,7 +6,7 @@
 
 <!-- wp:paragraph -->
 <p>しかし、矯正は難しい治療のため、<strong>
-    <span class="keiko_yellow">「安いから」という理由だけで選ぶのは危険</span>
+    <span class="marker-yellow">「安いから」という理由だけで選ぶのは危険</span>
   </strong>です。</p>
 <!-- /wp:paragraph -->
 
@@ -25,7 +25,7 @@
 <!-- wp:paragraph -->
 <p>そこでこの記事では、<br>
   <strong>
-    <span class="keiko_yellow">✓失敗しない矯正歯科の選び方<br>✓<?php echo esc_attr($atts['area']); ?>のおすすめ矯正歯科</span>
+    <span class="marker-yellow">✓失敗しない矯正歯科の選び方<br>✓<?php echo esc_attr($atts['area']); ?>のおすすめ矯正歯科</span>
   </strong>
   <br>を紹介します！
 </p>
@@ -146,13 +146,13 @@
 
 <!-- wp:paragraph -->
 <p>実は、マウスピース矯正は2つのタイプに分けることができ、<strong>
-    <span class="keiko_yellow">「歯全体を治療するマウスピース矯正」</span>
+    <span class="marker-yellow">「歯全体を治療するマウスピース矯正」</span>
   </strong>と<strong>
-    <span class="keiko_yellow">「気になる部分だけ治療できるマウスピース矯正」</span>
+    <span class="marker-yellow">「気になる部分だけ治療できるマウスピース矯正」</span>
   </strong>があります。<br>歯全体のマウスピース矯正の相場は<strong>
-    <span class="keiko_yellow">約40〜100万</span>
+    <span class="marker-yellow">約40〜100万</span>
   </strong>で、部分的なマウスピース矯正の相場は<strong>
-    <span class="keiko_yellow">約20〜45万円</span>
+    <span class="marker-yellow">約20〜45万円</span>
   </strong>です。（自社調べ）</p>
 <!-- /wp:paragraph -->
 
@@ -164,7 +164,7 @@
 
 <!-- wp:paragraph -->
 <p class="font-bold">
-  <span class="keiko_yellow">値段が違う理由は、単に<strong>
+  <span class="marker-yellow">値段が違う理由は、単に<strong>
       <span class="color-red">"治療範囲が違うから"</span>
     </strong>であり、治療の質とは関係ありません。</span>
 </p>
@@ -206,7 +206,7 @@
 
 <!-- wp:paragraph -->
 <p>
-  <span class="keiko_yellow">
+  <span class="marker-yellow">
     <strong>本来ならもっと安くできるのに、約40〜100万円も払うことになる</strong>のは非常にもったいないですよね…。</span>
 </p>
 <!-- /wp:paragraph -->
@@ -231,7 +231,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そうすれば、<span class="keiko_yellow">もしあなたが<strong>"部分的なマウスピース矯正で治せる"</strong>と診断された場合、<strong>治療費用を安く抑えることができますよ！</strong>
+<p>そうすれば、<span class="marker-yellow">もしあなたが<strong>"部分的なマウスピース矯正で治せる"</strong>と診断された場合、<strong>治療費用を安く抑えることができますよ！</strong>
   </span>
 </p>
 <!-- /wp:paragraph -->
@@ -300,8 +300,8 @@
     <!-- wp:paragraph -->
     <p>
       <strong>
-        <span class="keiko_yellow">「マウスピースを交換するたびに1回分ずつ支払う方法」</span>
-      </strong>や<span class="keiko_yellow">
+        <span class="marker-yellow">「マウスピースを交換するたびに1回分ずつ支払う方法」</span>
+      </strong>や<span class="marker-yellow">
         <strong>「月々約3,000円~の分割払い(※3)」</strong>
       </span>もでき、あなたのお財布事情に合わせた支払い方法を選択できます。
     </p>
@@ -309,7 +309,7 @@
 
     <!-- wp:paragraph -->
     <p>
-      <span class="keiko_yellow">
+      <span class="marker-yellow">
         <strong>「一気に大きな金額を支払うのは大変...」</strong>という方には嬉しい特徴ですね！</span>
     </p>
     <!-- /wp:paragraph -->
@@ -350,7 +350,7 @@
 <!-- wp:paragraph -->
 <p>近年、<span class="color-red">
     <strong>「通院不要」「オンライン治療」</strong>
-  </span>を掲げているマウスピース矯正サービスが増えています。<br>それらは一見、とても便利で手軽そうに見えますが、<strong><span class="keiko_yellow">このようなマウスピース矯正を<span class="color-red">選ぶのは避けましょう</span></span></strong>
+  </span>を掲げているマウスピース矯正サービスが増えています。<br>それらは一見、とても便利で手軽そうに見えますが、<strong><span class="marker-yellow">このようなマウスピース矯正を<span class="color-red">選ぶのは避けましょう</span></span></strong>
   </strong>
   </span>
 </p>
@@ -358,12 +358,12 @@
 
 <!-- wp:paragraph -->
 <p>なぜなら、矯正歯科治療を成功させるためには、<strong>
-    <span class="keiko_yellow">歯科医師による定期的な調整が必須</span>
+    <span class="marker-yellow">歯科医師による定期的な調整が必須</span>
   </strong>だからです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>歯の動き方は人によって異なるため、<span class="keiko_yellow">
+<p>歯の動き方は人によって異なるため、<span class="marker-yellow">
     <strong>必ずしも最初の治療計画どおりに進行するとは限りません。</strong>
   </span>
   <br>だからこそ定期的に状況をチェックして調整する必要があります。
@@ -372,7 +372,7 @@
 
 <!-- wp:paragraph -->
 <p>矯正歯科治療は決してラクなものではありません。<br>少し面倒ですが、<strong>
-    <span class="keiko_yellow">こまめな通院を必要としている矯正歯科を選びましょう。</span>
+    <span class="marker-yellow">こまめな通院を必要としている矯正歯科を選びましょう。</span>
   </strong>
 </p>
 <!-- /wp:paragraph -->
@@ -397,7 +397,7 @@
 
 <!-- wp:paragraph -->
 <p>どんなに「低価格マウスピース矯正をやりたい」と思っていたとしても、<strong>
-    <span class="keiko_yellow">あなたが対象外の歯並びの場合、残念ながら治療費用は40〜100万円程度かかってしまいます。</span>
+    <span class="marker-yellow">あなたが対象外の歯並びの場合、残念ながら治療費用は40〜100万円程度かかってしまいます。</span>
   </strong>
   <br>部分的なマウスピース矯正は治療範囲が限られており、<strong>
     <span class="color-red">全員を治すことはできない</span>
@@ -407,7 +407,7 @@
 
 <!-- wp:paragraph -->
 <p>そのため、「部分的なマウスピース矯正で治療できるかどうか」は<strong>
-    <span class="keiko_yellow">精密検査をしないと分かりません。</span>
+    <span class="marker-yellow">精密検査をしないと分かりません。</span>
   </strong>
 </p>
 <!-- /wp:paragraph -->
@@ -419,7 +419,7 @@
 <!-- wp:paragraph -->
 <p>初診を受けることで初めて<br>
   <strong>
-    <span class="keiko_yellow">✓どんな治療法が適しているか<br>✓費用はいくらかかるか<br>✓治療期間はどのくらいか<br>
+    <span class="marker-yellow">✓どんな治療法が適しているか<br>✓費用はいくらかかるか<br>✓治療期間はどのくらいか<br>
     </span>
   </strong>など詳しいことが分かりますよ。
 </p>
@@ -476,7 +476,7 @@
 
 <!-- wp:paragraph -->
 <p>オススメは<strong>
-    <span class="keiko_yellow">キレイライン矯正の提携クリニック</span>
+    <span class="marker-yellow">キレイライン矯正の提携クリニック</span>
   </strong>です！</p>
 <!-- /wp:paragraph -->
 
@@ -504,13 +504,13 @@
 
 <!-- wp:paragraph -->
 <p>中には「カウンセリング無料」と書かれている所もありますが、<strong>
-    <span class="keiko_yellow">「カウンセリング」だけが無料であって、精密検査には数万円かかるということも。</span>
+    <span class="marker-yellow">「カウンセリング」だけが無料であって、精密検査には数万円かかるということも。</span>
   </strong>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p style="margin:0;">一方、キレイライン矯正の提携クリニックでは初診料（精密検査も含む）が、<span class="keiko_yellow"><strong>なんと<span class="color-red">3,300円（税込）</span>〜！</strong></span></p>
+<p style="margin:0;">一方、キレイライン矯正の提携クリニックでは初診料（精密検査も含む）が、<span class="marker-yellow"><strong>なんと<span class="color-red">3,300円（税込）</span>〜！</strong></span></p>
 <p class="text-left text-xs text-gray">※金額はクリニックにより異なりますので、予約画面にてご確認ください。</p>
 <!-- /wp:paragraph -->
 
@@ -538,13 +538,13 @@
 
 <!-- wp:paragraph -->
 <p>そのため、初診では<strong>「キレイライン矯正で治せるかどうか」</strong>だけでなく、もし治せない場合は<strong>
-    <span class="keiko_yellow">「どれが適した治療法なのか」</span>
+    <span class="marker-yellow">「どれが適した治療法なのか」</span>
   </strong>が分かります。<br>
-  <span class="keiko_yellow">
+  <span class="marker-yellow">
     <strong>自分に合った治療法・</strong>
     <strong>費用の目安</strong>を歯科医師が教えてくれるので、</span>
   <strong>
-    <span class="keiko_yellow">わざわざ複数のクリニックに行く必要がありません！</span>
+    <span class="marker-yellow">わざわざ複数のクリニックに行く必要がありません！</span>
   </strong>
 </p>
 <!-- /wp:paragraph -->

@@ -10,7 +10,7 @@
 
 <!-- wp:paragraph -->
 <p>どんなに「低価格マウスピース矯正をやりたい」と思っていたとしても、<strong>
-    <span class="keiko_yellow">あなたが対象外の歯並びの場合、残念ながら治療費用は約100万円かかってしまいます。</span>
+    <span class="marker-yellow">あなたが対象外の歯並びの場合、残念ながら治療費用は約100万円かかってしまいます。</span>
   </strong>
   <br>低価格マウスピース矯正は治療範囲が限られており、<strong>
     <span class="color-red">全員を治すことはできない</span>
@@ -29,7 +29,7 @@
 <!-- wp:paragraph -->
 <p>初診を受けることで初めて<br>
   <strong>
-    <span class="keiko_yellow">✓どんな治療法が適しているか<br>✓費用はいくらかかるか<br>✓治療期間はどのくらいか<br>
+    <span class="marker-yellow">✓どんな治療法が適しているか<br>✓費用はいくらかかるか<br>✓治療期間はどのくらいか<br>
     </span>
   </strong>など詳しいことが分かりますよ。
 </p>

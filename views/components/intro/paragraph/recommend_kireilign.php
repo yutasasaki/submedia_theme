@@ -4,7 +4,7 @@
 
 <!-- wp:paragraph -->
 <p>オススメは<strong>
-    <span class="keiko_yellow">キレイライン矯正の提携クリニック</span>
+    <span class="marker-yellow">キレイライン矯正の提携クリニック</span>
   </strong>です！</p>
 <figure class="wp-block-image size-large">
   <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/kireilign_v4/6_reason.webp'); ?>" alt="キレイライン矯正の提携クリニックで
@@ -15,11 +15,9 @@
 </figure>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
-<h3 id="recommend-1" class="wp-block-heading has-sango-blue-color has-sango-silver-background-color has-text-color has-background sm-border-main">
-  <span class="sgb-heading__text" style="color:#333">
-    <strong>オススメな理由①：初診料が安い</strong>
-  </span>
+<!-- wp:heading -->
+<h3 id="recommend-1" class="">
+  <strong>オススメな理由①：初診料が安い</strong>
 </h3>
 <!-- /wp:heading -->
 
@@ -44,13 +42,13 @@
 
 <!-- wp:paragraph -->
 <p>中には「カウンセリング無料」と書かれている所もありますが、<strong>
-    <span class="keiko_yellow">「カウンセリング」だけが無料であって、精密検査には数万円かかるんです。</span>
+    <span class="marker-yellow">「カウンセリング」だけが無料であって、精密検査には数万円かかるんです。</span>
   </strong>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>一方、キレイライン矯正の提携クリニックでは初診料（精密検査も含む）が、<span class="keiko_yellow">
+<p>一方、キレイライン矯正の提携クリニックでは初診料（精密検査も含む）が、<span class="marker-yellow">
     <strong>なんと<span class="color-red">3,500円</span>程度！</strong>
   </span>
   <br>※クリニックによって若干異なります
@@ -61,11 +59,9 @@
 <p class="text-md font-bold"><span class="marker-yellow font-bold">この価格で他のクリニックと同じ検査内容なので、非常にオススメです！</span></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"backgroundColor":"sango_silver","textColor":"sango_blue"} -->
-<h3 id="other_service" class="wp-block-heading has-sango-blue-color has-sango-silver-background-color has-text-color has-background sm-border-main">
-  <span class="sgb-heading__text" style="color:#333">
-    <strong>オススメな理由②：他の矯正方法も提案してくれる</strong>
-  </span>
+<!-- wp:heading -->
+<h3 id="other_service" class="">
+  <strong>オススメな理由②：他の矯正方法も提案してくれる</strong>
 </h3>
 <!-- /wp:heading -->
 
@@ -90,13 +86,13 @@
 
 <!-- wp:paragraph -->
 <p>そのため、初診では<strong>「キレイライン矯正で治せるかどうか」</strong>だけでなく、もし治せない場合は<strong>
-    <span class="keiko_yellow">「どれが最適な治療法なのか」</span>
+    <span class="marker-yellow">「どれが最適な治療法なのか」</span>
   </strong>が分かります。<br>
-  <span class="keiko_yellow">
+  <span class="marker-yellow">
     <strong>自分に合った治療法・</strong>
     <strong>費用</strong>がその場で分かるので、</span>
   <strong>
-    <span class="keiko_yellow">わざわざ複数のクリニックに行く必要がありません！</span>
+    <span class="marker-yellow">わざわざ複数のクリニックに行く必要がありません！</span>
   </strong>
 </p>
 <!-- /wp:paragraph -->

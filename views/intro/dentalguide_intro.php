@@ -3,7 +3,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":""} -->
-<p>歯科矯正はどんな歯科クリニックでも出来る簡単な治療ではないため、<span class="keiko_yellow text-red"><strong>「価格」</strong>だけで選ぶのはおすすめしません。</span></p>
+<p>歯科矯正はどんな歯科クリニックでも出来る簡単な治療ではないため、<span class="marker-yellow text-red"><strong>「価格」</strong>だけで選ぶのはおすすめしません。</span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":868,"sizeSlug":"large","linkDestination":"none"} -->
@@ -23,11 +23,11 @@
   <div style="background-color:var(--wp--preset--color--sango-main);color:#FFF" class="sgb-box-simple__title"><strong>この記事で分かること</strong></div>
   <div class="sgb-box-simple__body" style="border-color:var(--wp--preset--color--sango-main);background-color:#FFF"><!-- wp:list {"className":"is-style-sango-list-circle"} -->
     <ul class="is-style-sango-list-circle"><!-- wp:list-item -->
-      <li><span class="keiko_yellow"><strong>「安さ」だけでない矯正歯科クリニックの選び方</strong></span></li>
+      <li><span class="marker-yellow"><strong>「安さ」だけでない矯正歯科クリニックの選び方</strong></span></li>
       <!-- /wp:list-item -->
 
       <!-- wp:list-item -->
-      <li><span class="keiko_yellow"><strong><?php echo esc_attr($atts['area']); ?>の評判の良いおすすめの矯正歯科クリニック</strong></span></li>
+      <li><span class="marker-yellow"><strong><?php echo esc_attr($atts['area']); ?>の評判の良いおすすめの矯正歯科クリニック</strong></span></li>
       <!-- /wp:list-item -->
     </ul>
     <!-- /wp:list -->
@@ -168,11 +168,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>大きくは2つに分けられていて「奥歯まで対応出来る<span class="keiko_yellow"><strong>普通のマウスピース矯正</strong></span>」と「前歯のみ対応の<span class="keiko_yellow"><strong class="text-red">低価格マウスピース矯正</strong></span>」があります。</p>
+<p>大きくは2つに分けられていて「奥歯まで対応出来る<span class="marker-yellow"><strong>普通のマウスピース矯正</strong></span>」と「前歯のみ対応の<span class="marker-yellow"><strong class="text-red">低価格マウスピース矯正</strong></span>」があります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>奥歯まで対応出来る普通のマウスピース矯正は<span class="keiko_yellow">70万円〜120万円</span>程度で、前歯のみ対応の低価格マウスピース矯正は<span class="keiko_yellow">20万円〜40万円</span>程度が相場の価格です。</p>
+<p>奥歯まで対応出来る普通のマウスピース矯正は<span class="marker-yellow">70万円〜120万円</span>程度で、前歯のみ対応の低価格マウスピース矯正は<span class="marker-yellow">20万円〜40万円</span>程度が相場の価格です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -188,7 +188,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>こう見ると他人から見える範囲の矯正で十分な人は<span class="keiko_yellow"><strong class="text-red">低価格マウスピース矯正</strong></span>で治療をしたいですよね。しかし多くの矯正歯科ではまず<strong><span class="keiko_yellow">普通のマウスピース矯正</span></strong>を勧められます。これには理由が2つあります。</p>
+<p>こう見ると他人から見える範囲の矯正で十分な人は<span class="marker-yellow"><strong class="text-red">低価格マウスピース矯正</strong></span>で治療をしたいですよね。しかし多くの矯正歯科ではまず<strong><span class="marker-yellow">普通のマウスピース矯正</span></strong>を勧められます。これには理由が2つあります。</p>
 <figure class="wp-block-image size-large"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/intro/dentalguide_intro/yasui_banner.webp'); ?>" alt="安い=治療の質が悪いは間違いです！" class="wp-image-869" /></figure>
 <!-- /wp:paragraph -->
 
@@ -214,7 +214,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そのため本当は<strong><span class="keiko_yellow text-red">低価格マウスピース矯正</span></strong>で治療が出来る人も、<span class="keiko_yellow"><strong>普通のマウスピース矯正</strong></span>で治療を進めることになって<span class="keiko_yellow text-red">支払う金額が<strong>30万円〜100万円</strong>も増えてしまいます。。</span></p>
+<p>そのため本当は<strong><span class="marker-yellow text-red">低価格マウスピース矯正</span></strong>で治療が出来る人も、<span class="marker-yellow"><strong>普通のマウスピース矯正</strong></span>で治療を進めることになって<span class="marker-yellow text-red">支払う金額が<strong>30万円〜100万円</strong>も増えてしまいます。。</span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":808,"sizeSlug":"full","linkDestination":"none"} -->
@@ -226,7 +226,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>この記事を読んでくれている人には残念な思いをしてほしくないので、必ず矯正歯科クリニックがが<strong class="text-red"><span class="keiko_yellow">普通のマウスピース矯正</span>と<span class="keiko_yellow">低価格マウスピース矯正</span>の2つを導入しているか</strong>、確認をして下さい。</p>
+<p>この記事を読んでくれている人には残念な思いをしてほしくないので、必ず矯正歯科クリニックがが<strong class="text-red"><span class="marker-yellow">普通のマウスピース矯正</span>と<span class="marker-yellow">低価格マウスピース矯正</span>の2つを導入しているか</strong>、確認をして下さい。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -234,7 +234,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><span class="keiko_yellow"><strong>低価格マウスピース矯正</strong>で治療が可能な人は、<strong class="text-red">低価格マウスピース</strong>で歯科矯正を行って費用を抑えてくださいね。</span></p>
+<p><span class="marker-yellow"><strong>低価格マウスピース矯正</strong>で治療が可能な人は、<strong class="text-red">低価格マウスピース</strong>で歯科矯正を行って費用を抑えてくださいね。</span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -350,7 +350,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>しかし歯科矯正をやるうえで<strong class="text-red"><span class="keiko_yellow">歯科医師の経過観察</span></strong>と<strong class="text-red"><span class="keiko_yellow">治療計画の調整</span></strong>が治療結果を大きく左右するのです。</p>
+<p>しかし歯科矯正をやるうえで<strong class="text-red"><span class="marker-yellow">歯科医師の経過観察</span></strong>と<strong class="text-red"><span class="marker-yellow">治療計画の調整</span></strong>が治療結果を大きく左右するのです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -358,7 +358,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>「<strong class="text-red">通院をしなくていい</strong>」または「<strong class="text-red">通院回数が極端に少ない</strong>」という宣伝を行っているマウスピース矯正サービスもありますが、歯科矯正治療に近道はありません。<span class="keiko_yellow">そのため<strong class="text-red">定期的な通院が必要</strong>で<strong class="text-red">信頼できる矯正歯科</strong>をしっかりと選んで下さい。</span></p>
+<p>「<strong class="text-red">通院をしなくていい</strong>」または「<strong class="text-red">通院回数が極端に少ない</strong>」という宣伝を行っているマウスピース矯正サービスもありますが、歯科矯正治療に近道はありません。<span class="marker-yellow">そのため<strong class="text-red">定期的な通院が必要</strong>で<strong class="text-red">信頼できる矯正歯科</strong>をしっかりと選んで下さい。</span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -420,7 +420,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>しかし低価格マウスピース矯正は、普通のマウスピース矯正よりも矯正を出来る範囲と対応する歯並びが限定されています。そのため初診で<span class="keiko_yellow"><strong class="text-red">精密検査をしないとどちらのマウスピース矯正で治療が出来るかわかりません</strong></span>。</p>
+<p>しかし低価格マウスピース矯正は、普通のマウスピース矯正よりも矯正を出来る範囲と対応する歯並びが限定されています。そのため初診で<span class="marker-yellow"><strong class="text-red">精密検査をしないとどちらのマウスピース矯正で治療が出来るかわかりません</strong></span>。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":""} -->
@@ -432,15 +432,15 @@
   <div style="background-color:var(--wp--preset--color--sango-main);color:#FFF" class="sgb-box-simple__title">初診で精密検査をすると分かること</div>
   <div class="sgb-box-simple__body" style="border-color:var(--wp--preset--color--sango-main);background-color:#FFF"><!-- wp:list {"className":"is-style-sango-list-circle"} -->
     <ul class="is-style-sango-list-circle"><!-- wp:list-item -->
-      <li><strong><span class="keiko_yellow">自分にあった矯正方法</span></strong></li>
+      <li><strong><span class="marker-yellow">自分にあった矯正方法</span></strong></li>
       <!-- /wp:list-item -->
 
       <!-- wp:list-item -->
-      <li><strong><span class="keiko_yellow">矯正が終わるまでにいくら掛かるか</span></strong></li>
+      <li><strong><span class="marker-yellow">矯正が終わるまでにいくら掛かるか</span></strong></li>
       <!-- /wp:list-item -->
 
       <!-- wp:list-item -->
-      <li><strong><span class="keiko_yellow">治療期間がどれぐらいかかるか</span></strong></li>
+      <li><strong><span class="marker-yellow">治療期間がどれぐらいかかるか</span></strong></li>
       <!-- /wp:list-item -->
     </ul>
     <!-- /wp:list -->
@@ -522,7 +522,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>以上を踏まえてオススメのクリニックは<span class="keiko_yellow"><strong class="text-red">キレイライン矯正</strong></span>の提携クリニックです。</p>
+<p>以上を踏まえてオススメのクリニックは<span class="marker-yellow"><strong class="text-red">キレイライン矯正</strong></span>の提携クリニックです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -542,7 +542,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><span class="keiko_yellow">「カウンセリング無料」と広告をしている矯正歯科でも、実は精密検査代として別途5万円を取るところもあります。。</span></p>
+<p><span class="marker-yellow">「カウンセリング無料」と広告をしている矯正歯科でも、実は精密検査代として別途5万円を取るところもあります。。</span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -585,7 +585,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>低価格マウスピース矯正を代表するキレイライン矯正ですが、キレイライン矯正だけを扱っている矯正歯科はないため、キレイライン矯正で治療ができない場合、<span class="keiko_yellow">どんな矯正治療なら出来るのか</span>提案をしてもらえます。</p>
+<p>低価格マウスピース矯正を代表するキレイライン矯正ですが、キレイライン矯正だけを扱っている矯正歯科はないため、キレイライン矯正で治療ができない場合、<span class="marker-yellow">どんな矯正治療なら出来るのか</span>提案をしてもらえます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -593,7 +593,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そのため<span class="keiko_yellow"><strong class="text-red">先生が信頼できて治療計画に納得が出来れば</strong>、わざわざ複数の矯正歯科を回る必要がなくなります！</span></p>
+<p>そのため<span class="marker-yellow"><strong class="text-red">先生が信頼できて治療計画に納得が出来れば</strong>、わざわざ複数の矯正歯科を回る必要がなくなります！</span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

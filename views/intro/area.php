@@ -28,7 +28,7 @@
 <!-- wp:paragraph -->
 <p>そこでこの記事では、<br>
   <strong>
-    <span class="keiko_yellow">✓安く矯正したい人のための、失敗しない矯正歯科の選び方<br>✓<?php echo esc_attr($atts['area']); ?>のおすすめ矯正歯科</span>
+    <span class="marker-yellow">✓安く矯正したい人のための、失敗しない矯正歯科の選び方<br>✓<?php echo esc_attr($atts['area']); ?>のおすすめ矯正歯科</span>
   </strong>
   <br>を紹介します！
 </p>
@@ -127,7 +127,7 @@
 
 <!-- wp:paragraph -->
 <p>そのため歯並びのズレが<strong>
-    <span class="keiko_yellow_full">軽度〜中度</span>
+    <span class="marker-yellow_full">軽度〜中度</span>
   </strong>だとしても、普通のマウスピース矯正をすることになります。</p>
 <!-- /wp:paragraph -->
 
@@ -146,7 +146,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そうすれば、もしあなたが”<span class="keiko_yellow_full">低価格マウスピース矯正で治せる</span>”と診断された場合、治療費用を安く抑えることができますよ！</p>
+<p>そうすれば、もしあなたが”<span class="marker-yellow_full">低価格マウスピース矯正で治せる</span>”と診断された場合、治療費用を安く抑えることができますよ！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:sgb/box -->

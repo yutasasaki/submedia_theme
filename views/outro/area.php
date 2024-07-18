@@ -15,7 +15,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">ぜひ<span class="keiko_yellow">”今”、初診の予約を取ること</span>をオススメします。</p>
+<p class="has-text-align-center">ぜひ<span class="marker-yellow">”今”、初診の予約を取ること</span>をオススメします。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -43,7 +43,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><span class="keiko_yellow">“予約をする”</span>という小さな一歩を踏み出せたら、</p>
+<p class="has-text-align-center"><span class="marker-yellow">“予約をする”</span>という小さな一歩を踏み出せたら、</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -91,7 +91,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><span class="keiko_yellow">自分を変える最大のチャンス</span>です！</p>
+<p class="has-text-align-center"><span class="marker-yellow">自分を変える最大のチャンス</span>です！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center"} -->
