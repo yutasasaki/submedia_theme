@@ -1,20 +1,12 @@
 <section id="clinic_<?php echo esc_html($clinic_data->clinic_name_romaji); ?>">
-  <!-- wp:sgb/headings {"headingText":"<?php echo esc_html($clinic_data->clinic_name); ?>","headingStyle":"hh hh13","headingIconName":"","headingTextColor":"","headingBgColor1":"","headingBorderColor1":""} -->
-  <h3 class="wp-block-sgb-headings sgb-heading">
-    <span class="sgb-heading__inner hh hh13" style="font-size:1.2em; 
-  box-shadow:0 0 0 5px <?php echo get_theme_mod('submedia_light_color_setting', '#009EF3'); ?>;
-  background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>;">
-      <span class="sgb-heading__text">
-        <a style="color:<?php echo get_theme_mod('submedia_main_text_color_setting', '#009EF3'); ?>;text-decoration: none; cursor: pointer;" href="#clinic_<?php echo esc_html($clinic_data->clinic_name_romaji); ?>">
-          <?php echo esc_html($clinic_data->clinic_name); ?>
-          <?php if (!empty($atts['pr'] ?? '')) : ?>
-            <span class="pr_label">【<?php echo esc_html($atts['pr'] ?? ''); ?>】</span>
-          <?php endif; ?>
-        </a>
-      </span>
-    </span>
+  <h3>
+    <a style="color:#333;" href="#clinic_<?php echo esc_html($clinic_data->clinic_name_romaji); ?>">
+      <?php echo esc_html($clinic_data->clinic_name); ?>
+      <?php if (!empty($atts['pr'] ?? '')) : ?>
+        <span class="pr_label">【<?php echo esc_html($atts['pr'] ?? ''); ?>】</span>
+      <?php endif; ?>
+    </a>
   </h3>
-  <!-- /wp:sgb/headings -->
   <div style=" padding: 20px; border: 1.5px solid #d8d8d8; border-radius: 0.5rem; margin-top:20px;">
     <?php include(get_stylesheet_directory() . '/views/components/default/screenshot.php'); ?>
     <?php include(get_stylesheet_directory() . '/views/components/type2/catchcopy.php'); ?>

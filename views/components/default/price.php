@@ -1,9 +1,8 @@
 <!-- wp:heading {"level":4,"className":"wp-block-sgb-headings sgb-heading"} -->
-<h4 class="wp-block-heading wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner hh hh18 sm-hh18"
-    style="font-size:1.2em"><span class="sgb-heading__text">対応している矯正内容・費用</span></span></h4>
+<h4>対応している矯正内容・費用</h4>
 <!-- /wp:heading -->
 
-<!-- wp:table {"className":"is-style-sango-table-scroll-hint","headingFirstCol":true,"headingColor":"#333","headingBgColor":"#f4f4f4","tableWidth":800,"cellMinWidth":"50","cellMaxWidth":"1000","iconSize":2,"css":"table tr th:first-child,\ntable tr td:first-child {\n\twidth: 30px;\n    font-size: 14px;\n}\n\n.sng-inline-btn {\n\tfont-size: 12px;\n}\n\nthead th {\n\tfont-size: 14px;\n}\n\n.scroll-hint-icon-wrap {\n\tz-index: 10;\n}\n\n.sgb-table-icon:before {\n\topacity: calc(var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dicon-opacity, 100) / 100);\n}","scopedCSS":"#id-b7eee274-1578-4c6d-86d2-6d7999bdd1e6 table tr th:first-child,\n#id-b7eee274-1578-4c6d-86d2-6d7999bdd1e6 table tr td:first-child {\n\twidth: 30px;\n    font-size: 14px;\n}\n\n#id-b7eee274-1578-4c6d-86d2-6d7999bdd1e6 .sng-inline-btn {\n\tfont-size: 12px;\n}\n\n#id-b7eee274-1578-4c6d-86d2-6d7999bdd1e6 thead th {\n\tfont-size: 14px;\n}\n\n#id-b7eee274-1578-4c6d-86d2-6d7999bdd1e6 .scroll-hint-icon-wrap {\n\tz-index: 10;\n}\n\n#id-b7eee274-1578-4c6d-86d2-6d7999bdd1e6 .sgb-table-icon:before {\n\topacity: calc(var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dicon-opacity, 100) / 100);\n}","blockId":"id-124b8ebc-36e6-46d3-add6-ba920bbdfc94","customControls":[{"name":"アイコンの透明度","variableName":"iconOpacity","defaultValue":"","defaultType":"string","options":[],"min":0,"max":100,"variableType":"number","disableJS":true,"value":80}]} -->
+<!-- wp:table -->
 <figure class="wp-block-table is-style-sango-table-scroll-hint">
   <table>
     <thead>
@@ -58,7 +57,7 @@
 </figure>
 <!-- /wp:table -->
 
-<!-- wp:table {"className":"is-style-sango-table-scroll-hint","headingFirstCol":true,"headingColor":"#333","headingBgColor":"#f4f4f4","tableWidth":400,"cellMinWidth":"50","cellMaxWidth":"1000","iconSize":2,"css":"table tr th:first-child,\ntable tr td:first-child {\n\twidth: 300px;\n    font-size: 14px;\n}\n\n.sng-inline-btn {\n\tfont-size: 12px;\n}\n\nthead th {\n\tfont-size: 14px;\n}\n\n.scroll-hint-icon-wrap {\n\tz-index: 10;\n}\n\n.sgb-table-icon:before {\n\topacity: calc(var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dicon-opacity, 100) / 100);\n}","scopedCSS":"#id-b7eee274-1578-4c6d-86d2-6d7999bdd1e6 table tr th:first-child,\n#id-b7eee274-1578-4c6d-86d2-6d7999bdd1e6 table tr td:first-child {\n\twidth: 300px;\n    font-size: 14px;\n}\n\n#id-b7eee274-1578-4c6d-86d2-6d7999bdd1e6 .sng-inline-btn {\n\tfont-size: 12px;\n}\n\n#id-b7eee274-1578-4c6d-86d2-6d7999bdd1e6 thead th {\n\tfont-size: 14px;\n}\n\n#id-b7eee274-1578-4c6d-86d2-6d7999bdd1e6 .scroll-hint-icon-wrap {\n\tz-index: 10;\n}\n\n#id-b7eee274-1578-4c6d-86d2-6d7999bdd1e6 .sgb-table-icon:before {\n\topacity: calc(var(\u002d\u002dsgb\u002d\u002dcustom\u002d\u002dicon-opacity, 100) / 100);\n}","blockId":"id-124b8ebc-36e6-46d3-add6-ba920bbdfc94","customControls":[{"name":"アイコンの透明度","variableName":"iconOpacity","defaultValue":"","defaultType":"string","options":[],"min":0,"max":100,"variableType":"number","disableJS":true,"value":80}]} -->
+<!-- wp:table -->
 <figure class="wp-block-table is-style-sango-table-scroll-hint">
   <table>
     <thead>

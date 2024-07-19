@@ -1,8 +1,4 @@
-<!-- wp:sgb/headings {"headingText":"お支払い方法","headingStyle":"hh hh1","headingTag":"h4","headingIconName":"","headingTextColor":"","headingBgColor1":"","headingBorderColor1":"","headingTextAlign":"center"} -->
-<h4 class="wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner hh hh1 sgb-heading__inner--center" style="font-size:1.2em;text-align:center"><span class="sgb-heading__text">お支払い方法</span></span></h4>
-<!-- /wp:sgb/headings -->
-
-<!-- wp:table {"className":"is-style-sango-table-responsive","headingColor":"var(\u002d\u002dsgb-main-color)","blockId":"id-fc9e19f6-e135-4980-b345-b52a37a00051"} -->
+<h4>お支払い方法</h4>
 <figure class="wp-block-table is-style-sango-table-responsive">
   <table>
     <thead>
@@ -27,4 +23,3 @@
     </tbody>
   </table>
 </figure>
-<!-- /wp:table -->
