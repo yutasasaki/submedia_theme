@@ -1,0 +1,28 @@
+/* 閉じる状態 */
+.toc-chk+.p-toc__ttl+ol li,
+.toc-chk+.p-toc__ttl+ul li {
+  display: none;
+}
+
+/* 開く状態 */
+.toc-chk:checked+.p-toc__ttl+ol li,
+.toc-chk:checked+.p-toc__ttl+ul li {
+  display: block;
+}
+
+/* dummyチェックボックス */
+.toc-chk {
+  display: none;
+}
+
+/* 開く・閉じる */
+.toc-chk:checked+.p-toc__ttl>.toc-ttl::after {
+  content: '[閉じる]';
+}
+
+.toc-ttl::after {
+  content: '[開く]';
+  cursor: pointer;
+  margin-left: .5em;
+  font-size: .8em;
+}

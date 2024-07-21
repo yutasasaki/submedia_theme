@@ -18,8 +18,10 @@
 <?php echo do_shortcode('[show_carousel_check]'); ?>
 <!-- /wp:shortcode -->
 
+<?php include(get_stylesheet_directory() . '/views/components/cta/kireilign.php'); ?>
 
 <?php include(get_stylesheet_directory() . '/views/components/intro/paragraph/points.php'); ?>
+
 
 <?php include(get_stylesheet_directory() . '/views/components/intro/paragraph/seimitsu.php'); ?>
 
@@ -27,7 +29,6 @@
 <?php echo do_shortcode('[show_carousel_first]'); ?>
 <!-- /wp:shortcode -->
 
-<?php include(get_stylesheet_directory() . '/views/components/cta/kireilign.php'); ?>
 
 
 <!-- wp:shortcode -->

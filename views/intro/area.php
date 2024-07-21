@@ -290,3 +290,5 @@
     <?php echo esc_attr($atts['area'] ?? '全国'); ?>でおすすめの矯正歯科一覧</span>
 </h2>
 <!-- /wp:sgb/headings -->
+
+<h2><?php echo esc_attr($atts['area']); ?>のおすすめ矯正歯科一覧</h2>

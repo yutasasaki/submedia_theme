@@ -1,11 +1,11 @@
-<!-- wp:heading {"level":4} -->
-<h4<?php echo esc_html($clinic_data->clinic_name); ?>の診療時間</h4>
-<!-- /wp:heading -->
-<figure class="wp-block-table">
+<!-- wp:sgb/headings {"headingText":"<?php echo esc_html($clinic_data->clinic_name); ?>の診療時間","headingStyle":"hh hh1","headingTag":"h4","headingIconName":"","headingTextColor":"","headingBgColor1":"","headingBorderColor1":"","headingTextAlign":"center"} -->
+<h4 class="wp-block-sgb-headings sgb-heading"><span class="sgb-heading__inner hh hh1 sgb-heading__inner--center" style="font-size:1.2em;text-align:center"><span class="sgb-heading__text"><?php echo esc_html($clinic_data->clinic_name); ?>の診療時間</span></span></h4>
+<!-- /wp:sgb/headings -->
+<figure class="wp-block-table overflow-x-scroll">
   <table>
     <thead>
       <tr>
-        <th>診療時間</th>
+        <th class="whitespace-nowrap">診療時間</th>
         <th>月</th>
         <th>火</th>
         <th>水</th>
@@ -18,7 +18,7 @@
     </thead>
     <tbody>
       <tr>
-        <td class="has-text-align-center" data-align="center"><span><?php echo esc_html($clinic_data->morning_hours); ?></span></td>
+        <td class="whitespace-nowrap has-text-align-center" data-align="center"><span><?php echo esc_html($clinic_data->morning_hours); ?></span></td>
         <td class="has-text-align-center" data-align="center"><span><?php echo esc_html($clinic_data->monday_morning); ?></span></td>
         <td class="has-text-align-center" data-align="center"><span><?php echo esc_html($clinic_data->tuesday_morning); ?></span></td>
         <td class="has-text-align-center" data-align="center"><span><?php echo esc_html($clinic_data->wednesday_morning); ?></span></td>

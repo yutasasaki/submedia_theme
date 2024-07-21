@@ -185,7 +185,7 @@
   margin: 10px auto;
   padding: 10px 20px;
   border-radius: 50px;
-  font-size: 1.25em;
+  font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
   color: white;
@@ -202,8 +202,8 @@
   content: url("../images/icon/external.svg");
   display: inline-block;
   margin-left: 8px;
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   padding-bottom: 4px;
   color: white;
 }
@@ -227,6 +227,36 @@
 }
 .sm-area-cta-btn:hover {
   margin-top: 3px;
+}
+
+.sm-web-cta-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background: radial-gradient(circle, rgb(65, 150, 255) 0%, rgb(0, 76, 255) 100%);
+  box-shadow: 0px 4px 8px rgba(100, 149, 237, 0.5);
+  text-shadow: -1px -1px 1px rgba(0, 0, 139, 0.6);
+  border-bottom: 5px solid rgba(0, 0, 139, 0.24);
+  transition: margin-top 0.2s;
+}
+.sm-web-cta-btn:hover {
+  margin-top: 3px;
+}
+.sm-web-cta-btn:after {
+  content: url("../images/icon/external.svg");
+  display: inline-block;
+  margin-left: 8px;
+  width: 22px;
+  height: 22px;
+  padding-bottom: 4px;
+  color: white;
 }
 
 .sm_category_wrapper {
@@ -1113,6 +1143,10 @@
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .flex {
@@ -2667,6 +2701,151 @@
 .text-mask:before {
   content: "****";
   display: inline-block;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-visible {
+  overflow: visible;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-x-visible {
+  overflow-x: visible;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.overflow-y-visible {
+  overflow-y: visible;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+/* 閉じる状態 */
+.toc-chk + .p-toc__ttl + ol li,
+.toc-chk + .p-toc__ttl + ul li {
+  display: none;
+}
+
+/* 開く状態 */
+.toc-chk:checked + .p-toc__ttl + ol li,
+.toc-chk:checked + .p-toc__ttl + ul li {
+  display: block;
+}
+
+/* dummyチェックボックス */
+.toc-chk {
+  display: none;
+}
+
+/* 開く・閉じる */
+.toc-chk:checked + .p-toc__ttl > .toc-ttl::after {
+  content: "[閉じる]";
+}
+
+.toc-ttl::after {
+  content: "[開く]";
+  cursor: pointer;
+  margin-left: 0.5em;
+  font-size: 0.8em;
+}
+
+.whitespace-normal {
+  white-space: normal;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.whitespace-pre {
+  white-space: pre;
+}
+
+.whitespace-pre-line {
+  white-space: pre-line;
+}
+
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+
+.overflow-wrap-normal {
+  overflow-wrap: normal;
+}
+
+.overflow-wrap-anywhere {
+  overflow-wrap: anywhere;
+}
+
+.overflow-wrap-break-word {
+  overflow-wrap: break-word;
+}
+
+.sgb-acc {
+  margin-bottom: 20px;
+}
+
+.sgb-acc__input {
+  display: none;
+}
+
+.sgb-acc__title {
+  display: block;
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  color: #333;
+  cursor: pointer;
+}
+
+.sgb-acc__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.sgb-acc__input:checked + .sgb-acc__title + .sgb-acc__content {
+  max-height: 1000px;
+  /* 大きな値を設定して、コンテンツを完全に表示 */
+}
+
+.listing-item {
+  margin: 10px 0;
+}
+
+blockquote::before {
+  content: none !important;
 }
 
 .text-gray {

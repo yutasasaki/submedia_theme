@@ -1,14 +1,14 @@
 <h4>お支払い方法</h4>
-<figure class="wp-block-table is-style-sango-table-responsive">
+<figure class="wp-block-table is-style-sango-table-responsive overflow-x-auto">
   <table>
     <thead>
       <tr>
-        <th style="color:#333;">現金</th>
-        <th style="color:#333;">クレジットカード</th>
-        <th style="color:#333;">デンタルローン</th>
-        <th style="color:#333;">デビット・銀聯カード</th>
-        <th style="color:#333;">電子マネー</th>
-        <th style="color:#333;">銀行振込</th>
+        <th class="whitespace-nowrap">現金</th>
+        <th class="whitespace-nowrap">クレジットカード</th>
+        <th class="whitespace-nowrap">デンタルローン</th>
+        <th class="whitespace-nowrap">デビット・銀聯カード</th>
+        <th class="whitespace-nowrap">電子マネー</th>
+        <th class="whitespace-nowrap">銀行振込</th>
       </tr>
     </thead>
     <tbody>

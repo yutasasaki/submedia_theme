@@ -1,0 +1,31 @@
+.sgb-acc {
+  margin-bottom: 20px;
+}
+
+.sgb-acc__input {
+  display: none;
+}
+
+.sgb-acc__title {
+  display: block;
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  color: #333;
+  cursor: pointer;
+}
+
+.sgb-acc__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.sgb-acc__input:checked+.sgb-acc__title+.sgb-acc__content {
+  max-height: 1000px;
+  /* 大きな値を設定して、コンテンツを完全に表示 */
+}
+
+.listing-item {
+  margin: 10px 0;
+}

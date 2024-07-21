@@ -18,6 +18,7 @@ $custom_functions_files = array(
   'cloudfront.php',
   'ogp.php',
   // 'toc.php',
+  'swell_toc.php',
 );
 foreach ($custom_functions_files as $custom_functions_file) {
   locate_template($custom_functions_dir . $custom_functions_file, true);

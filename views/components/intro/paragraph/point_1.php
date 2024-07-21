@@ -124,10 +124,9 @@
 <!-- wp:paragraph -->
 <div class="wp-block-sgb-message">
   <div class="p-4" style="background-color:#ffffe6;color:#333;">
-    <div class="">
+    <div class="flex">
       <span>
-        <i class="fas fa-exclamation-triangle">
-        </i>
+        <i class="fas fa-exclamation-triangle"></i>
       </span>
       <div class="sng-box-msg__title">注意</div>
     </div>

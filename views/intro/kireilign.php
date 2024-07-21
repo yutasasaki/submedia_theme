@@ -416,3 +416,5 @@
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center">一番良いと思ったところに、ぜひ話を聞きに行ってみてください！</p>
 <!-- /wp:paragraph -->
+
+<h2><?php echo esc_attr($atts['area']); ?>のおすすめ矯正歯科一覧</h2>

@@ -642,3 +642,5 @@
     }
   });
 </script>
+
+<h2><?php echo esc_attr($atts['area']); ?>のおすすめ矯正歯科一覧</h2>

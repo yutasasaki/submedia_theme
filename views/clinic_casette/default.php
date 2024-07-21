@@ -6,9 +6,6 @@
         <span class="pr_label">【<?php echo esc_html($atts['pr'] ?? ''); ?>】</span>
       <?php endif; ?>
     </a>
-    <?php if (!empty($atts['pr'] ?? '')) : ?>
-      <span class="pr_label">【<?php echo esc_html($atts['pr'] ?? ''); ?>】</span>
-    <?php endif; ?>
   </h3>
 
   <?php include(get_stylesheet_directory() . '/views/components/default/screenshot.php'); ?>
