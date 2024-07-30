@@ -22,6 +22,8 @@
 @import "./swell_toc";
 @import "./wrap";
 @import "./related_items";
+@import "./author";
+@import "./dc_clinics";
 ;
 blockquote::before {
   content: none!important;

@@ -1,0 +1,78 @@
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.inline{
+  display: inline;
+}
+.inline-block{
+  display: inline-block;
+}
+.block{
+  display: block;
+}
+.hidden{
+  display: none;
+}
+.contents {
+  display: contents;
+}
+
+$justify-values: (start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+  around: space-around,
+  evenly: space-evenly);
+
+$align-values: (start: flex-start,
+  end: flex-end,
+  center: center,
+  baseline: baseline,
+  stretch: stretch);
+
+// justify-contentクラスの生成
+@each $name,
+$value in $justify-values {
+  .justify-#{$name} {
+    justify-content: $value !important;
+  }
+}
+
+// align-itemsクラスの生成
+@each $name,
+$value in $align-values {
+  .items-#{$name} {
+    align-items: $value;
+  }
+}
+
+$vertical-alignments: ('baseline': baseline,
+  'top': top,
+  'middle': middle,
+  'bottom': bottom,
+  'text-top': text-top,
+  'text-bottom': text-bottom,
+  'sub': sub,
+  'super': super);
+
+@each $name,
+$value in $vertical-alignments {
+  .align-#{$name} {
+    vertical-align: $value;
+  }
+}

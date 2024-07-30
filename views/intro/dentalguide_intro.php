@@ -19,11 +19,11 @@
 <!-- /wp:html -->
 
 <!-- wp:html -->
-<?php include(get_stylesheet_directory() . '/views/components/intro/paragraph/dentalguide/carousel_syoshin.php'); ?>
+<?php include(get_stylesheet_directory() . '/views/components/intro/paragraph/dentalguide/seimitsu.php'); ?>
 <!-- /wp:html -->
 
 <!-- wp:html -->
-<?php include(get_stylesheet_directory() . '/views/components/intro/paragraph/dentalguide/seimitsu.php'); ?>
+<?php include(get_stylesheet_directory() . '/views/components/intro/paragraph/dentalguide/carousel_syoshin.php'); ?>
 <!-- /wp:html -->
 
 <!-- wp:html -->

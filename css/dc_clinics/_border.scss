@@ -1,0 +1,45 @@
+$border-widths: ("0": 0,
+  "2": 2px,
+  "4": 4px,
+  "8": 8px);
+
+$border-colors: ("gray-400": #cbd5e0,
+  "red-400": #fc8181,
+  "blue-400": #63b3ed,
+  "green-400": #48bb78,
+  "slate-50": #f8fafc,
+  "slate-100": #f1f5f9,
+  "slate-200": #edf2f7);
+
+$border-styles: ("solid": solid,
+  "dashed": dashed,
+  "dotted": dotted);
+
+@each $name,
+$width in $border-widths {
+  .border-#{$name} {
+    border-width: $width;
+  }
+}
+
+@each $color-name,
+$color in $border-colors {
+  .border-#{$color-name} {
+    border-color: $color;
+  }
+}
+
+@each $style-name,
+$style in $border-styles {
+  .border-#{$style-name} {
+    border-style: $style;
+  }
+}
+
+/* Example of base border utility */
+.border {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  /* Default border color similar to Tailwind's default */
+}
