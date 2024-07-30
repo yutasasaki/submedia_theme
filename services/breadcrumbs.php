@@ -3,7 +3,7 @@ function motoki_swell_breadcrumb_add($list_data)
 {
   // ドメインのURLと名前を追加
   $domain_data = [
-    'url'  => home_url('/'),
+    'url'  => site_url('/'),
     'name' => 'Home',  // ドメインの名前
   ];
 
