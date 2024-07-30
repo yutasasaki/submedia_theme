@@ -1,4 +1,10 @@
 <?php
+// 親テーマのパンくずリスト関数を無効化
+remove_action( 'swell_breadcrumb_list_data', 'SWELL_Theme::breadcrumb_list_data' );
+
+// カスタマイズされたパンくずリスト関数を追加
+add_filter('swell_breadcrumb_list_data', 'motoki_swell_breadcrumb_add');
+
 function motoki_swell_breadcrumb_add( $list_data ) {
     // ドメインのURLと名前を追加
     $site_url = home_url('/');
@@ -76,17 +82,11 @@ function motoki_swell_breadcrumb_add( $list_data ) {
         ];
     }
 
-    // 「ホーム」データを追加
-    if ($home_data) {
-        array_unshift($list_data, $home_data);
-    }
-
     // ドメインのパンクズを先頭に追加
     array_unshift($list_data, $domain_data);
 
     return $list_data;
 }
-add_filter('swell_breadcrumb_list_data', 'motoki_swell_breadcrumb_add');
 
 function handle_single_post($wp_obj, $home_data, $custom_data) {
     $list_data = [];
@@ -228,18 +228,18 @@ function handle_date_archive() {
             'name' => $month . '月',
         ];
     } else {
-        $list_data[] = [
-            'url'  => '',
-            'name' => $y . '年',
-        ];
-    }
-    return $list_data;
+        $list_data[] =[
+'url'  => '',
+'name' => $y . ‘年’,
+];
+}
+return $list_data;
 }
 
 function handle_archive($wp_obj, $home_data, $custom_data) {
-    $list_data = [];
-    if ($custom_data) {
-        $list_data[] = $custom_data;  // 固定記事を追加
+$list_data = [];
+if ($custom_data) {
+$list_data[] = $custom_data;  // 固定記事を追加
 }
 if ($home_data && (is_category() || is_tag())) {
 $list_data[] = $home_data;
