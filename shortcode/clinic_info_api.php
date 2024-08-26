@@ -12,7 +12,7 @@ function fetch_api_clinic($request)
   // キャッシュが存在する場合は、それを返す
   $cachedResponse = get_transient($cacheKey);
   if ($cachedResponse) {
-    return '<section id="dc_response"><div id="dc_response_' . $request["slug"] . '" >' . $cachedResponse . '</div></section>';
+    return '<section id="dc_response" class="dc_response"><div id="dc_response_' . $request["slug"] . '" >' . $cachedResponse . '</div></section>';
   }
 
   // APIのURLを設定
@@ -29,9 +29,9 @@ function fetch_api_clinic($request)
   if ($response) {
     // 成功した場合、レスポンスをキャッシュに保存
     set_transient($cacheKey, $response, $cacheExpiration);
-    return '<section id="dc_response"><div id="dc_response_' . $request["slug"] . '" >' . $response . '</div></section>';
+    return '<section id="dc_response" class="dc_response"><div id="dc_response_' . $request["slug"] . '" >' . $response . '</div></section>';
   } else {
-    return '<section id="dc_response"><div id="dc_response_' . $request["slug"] . '" >APIからデータを取得できませんでした。</div></section>';
+    return '<section id="dc_response" class="dc_response"><div id="dc_response_' . $request["slug"] . '" >APIからデータを取得できませんでした。</div></section>';
   }
 }
 add_shortcode('api_clinic', 'fetch_api_clinic');
@@ -49,7 +49,7 @@ function fetch_api_prefecture($request)
   // キャッシュが存在する場合は、それを返す
   $cachedResponse = get_transient($cacheKey);
   if ($cachedResponse) {
-    return '<section id="dc_response"><div id="dc_response_' . $request["slug"] . '" >' . $cachedResponse . '</div></section>';
+    return '<section id="dc_response" class="dc_response"><div id="dc_response_' . $request["slug"] . '" >' . $cachedResponse . '</div></section>';
   }
 
   $is_reservable = $request['is_reservable'] ?? false;
@@ -68,9 +68,9 @@ function fetch_api_prefecture($request)
   if ($response) {
     // 成功した場合、レスポンスをキャッシュに保存
     set_transient($cacheKey, $response, $cacheExpiration);
-    return '<section id="dc_response"><div id="dc_response_' . $request["slug"] . '" >' . $response . '</div></section>';
+    return '<section id="dc_response" class="dc_response"><div id="dc_response_' . $request["slug"] . '" >' . $response . '</div></section>';
   } else {
-    return '<section id="dc_response"><div id="dc_response_' . $request["slug"] . '" >APIからデータを取得できませんでした。</div></section>';
+    return '<section id="dc_response" class="dc_response"><div id="dc_response_' . $request["slug"] . '" >APIからデータを取得できませんでした。</div></section>';
   }
 }
 add_shortcode('api_prefecture', 'fetch_api_prefecture');
