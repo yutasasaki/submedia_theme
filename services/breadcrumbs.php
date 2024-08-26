@@ -83,7 +83,6 @@ function motoki_swell_breadcrumb_add( $list_data ) {
     }
 
     // ドメインのパンクズを先頭に追加
-    array_unshift($list_data, $domain_data);
 
     return $list_data;
 }
