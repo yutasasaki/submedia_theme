@@ -3,9 +3,9 @@
 remove_action( 'swell_breadcrumb_list_data', 'SWELL_Theme::breadcrumb_list_data' );
 
 // カスタマイズされたパンくずリスト関数を追加
-add_filter('swell_breadcrumb_list_data', 'motoki_swell_breadcrumb_add');
+add_filter('swell_breadcrumb_list_data', 'swell_breadcrumb_add');
 
-function motoki_swell_breadcrumb_add( $list_data ) {
+function swell_breadcrumb_add( $list_data ) {
     // ドメインのURLと名前を追加
     $site_url = home_url('/');
     $parsed_url = parse_url($site_url);
@@ -13,7 +13,7 @@ function motoki_swell_breadcrumb_add( $list_data ) {
     
     $domain_data = [
         'url'  => $domain_url,
-        'name' => 'Home',  // ドメインの名前
+        'name' => '矯正歯科ガイド',  // ドメインの名前
     ];
     
     // 差し込みたい固定ページのスラッグ名を取得
