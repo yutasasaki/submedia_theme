@@ -8,7 +8,7 @@ function fetch_api_clinic($request)
   // キャッシュが存在する場合は、それを返す
   $cachedResponse = get_transient($cacheKey);
   if ($cachedResponse) {
-    return '<section id="dc_response"><div id="dc_response_' . $request["slug"] . '" >' . $cachedResponse . '</div></section>';
+    return '<section id="dc_response" class="dc_response"><div id="dc_response_' . $request["slug"] . '" >' . $cachedResponse . '</div></section>';
   }
 
 
@@ -30,7 +30,7 @@ function fetch_api_clinic($request)
   if ($response) {
     // 成功した場合、レスポンスをキャッシュに保存
     set_transient($cacheKey, $response, $cacheExpiration);
-    $output .= '<div id="dc_response">' . $response . '</div>';
+    $output .= '<div id="dc_response" class="dc_response">' . $response . '</div>';
   } else {
     $output .= '<div id="dc_response_' . $request["slug"] . '" >APIからデータを取得できませんでした。</div>';
   }
@@ -48,13 +48,13 @@ function fetch_api_prefecture($request)
   // キャッシュが存在する場合は、それを返す
   $cachedResponse = get_transient($cacheKey);
   if ($cachedResponse) {
-    return '<section id="dc_response"><div id="dc_response_' . $request["slug"] . '" >' . $cachedResponse . '</div></section>';
+    return '<section id="dc_response" class="dc_response"><div id="dc_response_' . $request["slug"] . '" >' . $cachedResponse . '</div></section>';
   }
 
   $is_reservable = $request['is_reservable'] ?? false;
 
   // 初期のローディングメッセージを返す
-  $output = '<section id="dc_response"><div id="dc_response_' . $request["slug"] . '">読み込み中...</div></section>';
+  $output = '<section id="dc_response" class="dc_response"><div id="dc_response_' . $request["slug"] . '">読み込み中...</div></section>';
 
   // APIのURLを設定
   $api_url = 'https://kyosei-guide.co.jp/a/api/prefecture/' . $request["slug"] ?? '' . '?is_reservable=' . $is_reservable;

@@ -418,3 +418,9 @@ th {
   text-align: left;
   font-weight: bold;
 }
+
+th,
+h2 {
+  background: transparent !important;
+  background-color: transparent !important;
+}
