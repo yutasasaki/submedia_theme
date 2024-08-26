@@ -13,7 +13,7 @@ function fetch_api_clinic($request)
 
 
   // 初期のローディングメッセージを返す
-  $output = '<section id="dc_response"><div id="dc_response_' . $request["slug"] . '">読み込み中...</div></section>';
+  $output = "";
 
   // APIのURLを設定
   $api_url = 'https://kyosei-guide.co.jp/a/api/clinic/index/' . $request["slug"] ?? '';
@@ -30,7 +30,7 @@ function fetch_api_clinic($request)
   if ($response) {
     // 成功した場合、レスポンスをキャッシュに保存
     set_transient($cacheKey, $response, $cacheExpiration);
-    $output .= '<div id="dc_response_' . $request["slug"] . '" >' . $response . '</div>';
+    $output .= '<div id="dc_response">' . $response . '</div>';
   } else {
     $output .= '<div id="dc_response_' . $request["slug"] . '" >APIからデータを取得できませんでした。</div>';
   }
