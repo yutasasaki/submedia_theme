@@ -30,3 +30,6 @@
     <?php include(get_stylesheet_directory() . '/views/components/default/structured_markup.php'); ?>
   </div>
 </section>
+<?php if ($clinic_data->json_ld) : ?>
+  <?php echo ($clinic_data->catchphrase); ?>
+<?php endif; ?>
