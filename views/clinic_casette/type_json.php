@@ -88,5 +88,5 @@
   </div>
 </section>
 <?php if ($clinic_data->json_ld) : ?>
-  <?php echo ($clinic_data->catchphrase); ?>
+  <?php echo ($clinic_data->json_ld); ?>
 <?php endif; ?>
