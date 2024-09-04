@@ -79,55 +79,56 @@ class ClinicData {
       $this->json_ld = $this->replace_categories_in_json_ld($row[75]);
 
     }
-    function replace_categories_in_json_ld($base_ld_json) {
-        // JSON_LDのデータを取得
-        $json_ld = $base_ld_json ?? null;
+  function replace_categories_in_json_ld($base_ld_json)
+  {
+    // JSON_LDのデータを取得
+    $json_ld = $base_ld_json ?? null;
 
-        // json_ldがnullまたは空の場合はそのまま返す
-        if (empty($json_ld)) {
-            return $json_ld;
-        }
-
-        // 投稿IDを取得（例：投稿がカスタムフィールドに基づいている場合）
-        $post_id = get_the_ID();
-
-        // 投稿の全てのカテゴリを取得
-        $categories = get_the_category($post_id);
-
-        // カテゴリがない場合はそのまま返す
-        if (empty($categories)) {
-            return $json_ld;
-        }
-
-        // 親カテゴリと子カテゴリを識別する
-        $parent_category = null;
-        $child_category = null;
-
-        foreach ($categories as $category) {
-            if ($category->parent == 0) {
-                $parent_category = $category->name;
-            } else {
-                $child_category = $category->name;
-            }
-
-            // 両方のカテゴリが見つかった場合はループを終了
-            if ($parent_category && $child_category) {
-                break;
-            }
-        }
-
-        // 親カテゴリがない場合はそのまま返す
-        if (!$parent_category) {
-            return $json_ld;
-        }
-
-        // JSON_LDの中のカテゴリをラベルで置換
-        $json_ld = str_replace($parent_category, '[エリア]', $json_ld);
-        
-        if ($child_category) {
-            $json_ld = str_replace($child_category, '[都道府県]', $json_ld);
-        }
-
-        return $json_ld;
+    // json_ldがnullまたは空の場合はそのまま返す
+    if (empty($json_ld)) {
+      return $json_ld;
     }
+
+    // 投稿IDを取得（例：投稿がカスタムフィールドに基づいている場合）
+    $post_id = get_the_ID();
+
+    // 投稿の全てのカテゴリを取得
+    $categories = get_the_category($post_id);
+
+    // カテゴリがない場合はそのまま返す
+    if (empty($categories)) {
+      return $json_ld;
+    }
+
+    // 親カテゴリと子カテゴリを識別する
+    $parent_category = null;
+    $child_category = null;
+
+    foreach ($categories as $category) {
+      if ($category->parent == 0) {
+        $parent_category = $category->name;
+      } else {
+        $child_category = $category->name;
+      }
+
+      // 両方のカテゴリが見つかった場合はループを終了
+      if ($parent_category && $child_category) {
+        break;
+      }
+    }
+
+    // 親カテゴリまたは子カテゴリがない場合は「なし」を設定
+    if (!$parent_category) {
+      $parent_category = 'なし';
+    }
+    if (!$child_category) {
+      $child_category = 'なし';
+    }
+
+    // JSON_LDの中のラベルをカテゴリ名で置換
+    $json_ld = str_replace('[エリア]', $parent_category, $json_ld);
+    $json_ld = str_replace('[都道府県]', $child_category, $json_ld);
+
+    return $json_ld;
+  }
 }
