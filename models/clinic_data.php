@@ -284,13 +284,12 @@ class ClinicData {
         return json_encode($json_ld, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
     }
 
-  // 営業時間を設定するためのメソッド
-  private function addOpeningHours($day, $morning, $afternoon, $global_morning, $global_afternoon)
+  private function addOpeningHours($day, $morning_status, $afternoon_status, $global_morning, $global_afternoon)
   {
     $closed_symbols = ['×', 'ー', '-'];
 
     // 閉店記号の場合は営業時間外として処理
-    if (in_array($morning, $closed_symbols) || in_array($afternoon, $closed_symbols)) {
+    if (in_array($morning_status, $closed_symbols) || in_array($afternoon_status, $closed_symbols)) {
       return [
         "@type" => "OpeningHoursSpecification",
         "dayOfWeek" => $day,
@@ -299,11 +298,17 @@ class ClinicData {
       ];
     } else {
       // "～" で時間を分ける
+      $opens = '';
+      $closes = '';
+
       if (strpos($global_morning, '～') !== false) {
-        list($opens, $closes) = explode('～', $global_morning);
-      } else {
-        $opens = $global_morning;  // 分割できない場合はそのまま
-        $closes = '';
+        list($morning_opens, $morning_closes) = explode('～', $global_morning);
+        $opens = $morning_opens;
+      }
+
+      if (strpos($global_afternoon, '～') !== false) {
+        list($afternoon_opens, $afternoon_closes) = explode('～', $global_afternoon);
+        $closes = $afternoon_closes;
       }
 
       return [
