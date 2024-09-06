@@ -166,7 +166,7 @@ class ClinicData {
                 ],
                 "author" => [
                     "@type" => "Person",
-                    "name" => $this->review1_source
+                    "name" => "匿名"
                 ]
             ];
         }
@@ -177,12 +177,11 @@ class ClinicData {
                 "description" => $this->review2,
                 "reviewRating" => [
                     "@type" => "Rating",
-                    "ratingValue" => 5,
-                    "bestRating" => 5
+                    "ratingValue" => 5
                 ],
                 "author" => [
                     "@type" => "Person",
-                    "name" => $this->review2_source
+                    "name" => "匿名"
                 ]
             ];
         }
@@ -204,77 +203,148 @@ class ClinicData {
         $offers = [];
         $position = 1; // ListItemの位置を追跡するための変数
 
-        if ($this->type1 && $this->type1_cost) {
-          $offers[] = [
-            "@type" => "ListItem",
-            "position" => $position++,
-            "item" => [
-              "@type" => "Service",
-              "name" => $this->type1,
-              "offers" => [
-                "@type" => "Offer",
-                "price" => $this->type1_cost,
-                "priceCurrency" => "JPY"
-              ]
-            ]
-          ];
-        }
+    // 提供されるサービスのリストが存在する場合のみ追加
+    $offers = [];
+    $position = 1; // ListItemの位置を追跡するための変数
 
-        if ($this->type2 && $this->type2_cost) {
-          $offers[] = [
-            "@type" => "ListItem",
-            "position" => $position++,
-            "item" => [
-              "@type" => "Service",
-              "name" => $this->type2,
-              "offers" => [
-                "@type" => "Offer",
-                "price" => $this->type2_cost,
-                "priceCurrency" => "JPY"
-              ]
+    // 新しいデータを先に追加
+    if ($this->orthodontics_front) {
+      $offers[] = [
+          "@type" => "ListItem",
+          "position" => $position++,
+          "item" => [
+            "@type" => "Service",
+            "name" => "表側矯正",
+            "offers" => [
+              "@type" => "Offer",
+              "price" => $this->orthodontics_front,
+              "priceCurrency" => "JPY"
             ]
-          ];
-        }
+          ]
+        ];
+    }
 
-        if ($this->type3 && $this->type3_cost) {
-          $offers[] = [
-            "@type" => "ListItem",
-            "position" => $position++,
-            "item" => [
-              "@type" => "Service",
-              "name" => $this->type3,
-              "offers" => [
-                "@type" => "Offer",
-                "price" => $this->type3_cost,
-                "priceCurrency" => "JPY"
-              ]
+    if ($this->orthodontics_back) {
+      $offers[] = [
+          "@type" => "ListItem",
+          "position" => $position++,
+          "item" => [
+            "@type" => "Service",
+            "name" => "裏側矯正",
+            "offers" => [
+              "@type" => "Offer",
+              "price" => $this->orthodontics_back,
+              "priceCurrency" => "JPY"
             ]
-          ];
-        }
+          ]
+        ];
+    }
 
-        if ($this->type4 && $this->type4_cost) {
-          $offers[] = [
-            "@type" => "ListItem",
-            "position" => $position++,
-            "item" => [
-              "@type" => "Service",
-              "name" => $this->type4,
-              "offers" => [
-                "@type" => "Offer",
-                "price" => $this->type4_cost,
-                "priceCurrency" => "JPY"
-              ]
+    if ($this->invisalign) {
+      $offers[] = [
+          "@type" => "ListItem",
+          "position" => $position++,
+          "item" => [
+            "@type" => "Service",
+            "name" => "インビザライン",
+            "offers" => [
+              "@type" => "Offer",
+              "price" => $this->invisalign,
+              "priceCurrency" => "JPY"
             ]
-          ];
-        }
+          ]
+        ];
+    }
 
-        if (!empty($offers)) {
-          $json_ld['hasOfferCatalog'] = [
-            "@type" => "OfferCatalog",
-            "name" => "施術メニュー",
-            "itemListElement" => $offers
-          ];
-        }
+    if ($this->kireilign_orthodontics) {
+      $offers[] = [
+        "@type" => "ListItem",
+        "position" => $position++,
+        "item" => [
+          "@type" => "Service",
+          "name" => "キレイライン矯正",
+          "offers" => [
+            "@type" => "Offer",
+            "price" => $this->kireilign_orthodontics,
+            "priceCurrency" => "JPY"
+          ]
+        ]
+      ];
+    }
+
+    // 既存のデータを追加
+    if ($this->type1 && $this->type1_cost) {
+      $offers[] = [
+        "@type" => "ListItem",
+        "position" => $position++,
+        "item" => [
+          "@type" => "Service",
+          "name" => $this->type1,
+          "offers" => [
+            "@type" => "Offer",
+            "price" => $this->type1_cost,
+            "priceCurrency" => "JPY"
+          ]
+        ]
+      ];
+    }
+
+    if ($this->type2 && $this->type2_cost) {
+      $offers[] = [
+        "@type" => "ListItem",
+        "position" => $position++,
+        "item" => [
+          "@type" => "Service",
+          "name" => $this->type2,
+          "offers" => [
+            "@type" => "Offer",
+            "price" => $this->type2_cost,
+            "priceCurrency" => "JPY"
+          ]
+        ]
+      ];
+    }
+
+    if ($this->type3 && $this->type3_cost) {
+      $offers[] = [
+        "@type" => "ListItem",
+        "position" => $position++,
+        "item" => [
+          "@type" => "Service",
+          "name" => $this->type3,
+          "offers" => [
+            "@type" => "Offer",
+            "price" => $this->type3_cost,
+            "priceCurrency" => "JPY"
+          ]
+        ]
+      ];
+    }
+
+    if ($this->type4 && $this->type4_cost) {
+      $offers[] = [
+        "@type" => "ListItem",
+        "position" => $position++,
+        "item" => [
+          "@type" => "Service",
+          "name" => $this->type4,
+          "offers" => [
+            "@type" => "Offer",
+            "price" => $this->type4_cost,
+            "priceCurrency" => "JPY"
+          ]
+        ]
+      ];
+    }
+
+    // 追加されたデータが存在する場合のみ hasOfferCatalog を追加
+    if (!empty($offers)) {
+      $json_ld['hasOfferCatalog'] = [
+        "@type" => "OfferCatalog",
+        "name" => "施術メニュー",
+        "itemListElement" => $offers
+      ];
+    }
 
         // @idが設定されていない場合は削除
         if (empty($json_ld["@id"])) {
