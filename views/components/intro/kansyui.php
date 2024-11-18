@@ -13,33 +13,22 @@
       <div class="wp-block-group u-mb-ctrl u-mb-10">
         <!-- wp:paragraph -->
         <p>
-          <span itemprop="jobTitle">歯科医師</span><br>
-          <strong><span itemprop="name" class="swl-fz u-fz-l">見立 英史</span></strong><br>
-          <span itemprop="alternateName">Mitate Eiji</span><br><strong>プロフィール</strong>
+          <span itemprop="jobTitle">現役歯科衛生士</span><br>
+          <strong><span itemprop="name" class="swl-fz u-fz-l">DentalPlus編集部</span></strong><br>
+          <strong>プロフィール</strong>
         </p>
         <!-- /wp:paragraph -->
 
         <!-- wp:list -->
         <ul class="wp-block-list" itemprop="description">
           <!-- wp:list-item -->
-          <li>金沢医科大学医学部 顎口腔外科講師</li>
+          <li><a href="https://www.jdha.or.jp/training/school.html" target="_blank">歯科衛生士学校</a>を卒業後、総合病院の口腔外科で勤務。</li>
           <!-- /wp:list-item -->
 
           <!-- wp:list-item -->
-          <li>九州大学歯学部卒業</li>
+          <li>歯科クリニックでの勤務をしつつ、<a href="https://www.jdha.or.jp/aboutdh/" target="_blank">歯科衛生士</a>の経験を活かし、当メディアに参画し監修/編集業務を担当。</li>
           <!-- /wp:list-item -->
 
-          <!-- wp:list-item -->
-          <li>日本口腔外科学会指導医・専門医</li>
-          <!-- /wp:list-item -->
-
-          <!-- wp:list-item -->
-          <li>日本口腔科学会指導医・認定医</li>
-          <!-- /wp:list-item -->
-
-          <!-- wp:list-item -->
-          <li>産業歯科医師</li>
-          <!-- /wp:list-item -->
         </ul>
         <!-- /wp:list -->
       </div>
@@ -53,15 +42,14 @@
   {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "見立 英史",
-    "alternateName": "Mitate Eiji",
-    "jobTitle": "歯科医師",
+    "name": "現役歯科衛生士",
+    "jobTitle": "歯科衛生士",
     "image": "<?php echo esc_url(get_stylesheet_directory_uri() . '/images/customize/kansyui.webp'); ?>",
-    "description": "金沢医科大学医学部 顎口腔外科講師 九州大学歯学部卒業 日本口腔外科学会指導医・専門医 日本口腔科学会指導医・認定医 産業歯科医師",
+    "description": "歯科衛生士学校を卒業後、総合病院の口腔外科で勤務。歯科クリニックでの勤務をしつつ、歯科衛生士の経験を活かし、当メディアに参画し監修/編集業務を担当。",
     "knowsAbout": "歯科矯正, 顎口腔外科, 口腔科学",
     "affiliation": {
       "@type": "MedicalOrganization",
-      "name": "金沢医科大学医学部"
+      "name": "現役歯科衛生士"
     }
   }
 </script>
