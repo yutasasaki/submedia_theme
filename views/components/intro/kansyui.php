@@ -1,6 +1,6 @@
 <section class="accordion">
   <input id="block-01" type="checkbox" class="toggle">
-  <label class="Label" for="block-01">監修医師紹介</label>
+  <label class="Label" for="block-01">監修者紹介</label>
   <div class="content">
     <div class="wp-block-group flex gap-4" itemscope itemtype="https://schema.org/Person">
       <!-- wp:image -->
@@ -14,7 +14,7 @@
         <!-- wp:paragraph -->
         <p>
           <span itemprop="jobTitle">現役歯科衛生士</span><br>
-          <strong><span itemprop="name" class="swl-fz u-fz-l">DentalPlus編集部</span></strong><br>
+          <strong><span itemprop="name" class="swl-fz u-fz-l"><?php echo get_bloginfo('name'); ?>編集部</span></strong><br>
           <strong>プロフィール</strong>
         </p>
         <!-- /wp:paragraph -->
