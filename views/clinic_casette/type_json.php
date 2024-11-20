@@ -87,6 +87,6 @@
     <?php endif; ?>
   </div>
 </section>
-<?php if ($clinic_data->json_ld) : ?>
-  <?php echo ($clinic_data->json_ld); ?>
+<?php if (property_exists($clinic_data, 'json_ld') && $clinic_data->json_ld) : ?>
+  <?php echo esc_html($clinic_data->json_ld); ?>
 <?php endif; ?>
