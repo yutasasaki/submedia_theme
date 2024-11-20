@@ -65,9 +65,8 @@ foreach ($custom_shortcode_files as $custom_shortcode_file) {
 
 
 
-// function ns_enqueue_styles() {
-//     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-// }
-
-// add_action( 'wp_enqueue_scripts', 'ns_enqueue_styles' );
+function ns_enqueue_styles() {
+    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+}
+add_action( 'wp_enqueue_scripts', 'ns_enqueue_styles' );
 ?>
