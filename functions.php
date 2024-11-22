@@ -1,5 +1,9 @@
 <?php
 
+function ns_enqueue_styles() {
+    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+}
+add_action( 'wp_enqueue_scripts', 'ns_enqueue_styles' );
 /**
  * services
  */
@@ -57,16 +61,10 @@ $custom_shortcode_files = array(
   'clinic_info_api.php',
   'clinic_info_json.php',
   'category.php',
+  'related_category.php',
   'blogcard_js.php',
 );
 foreach ($custom_shortcode_files as $custom_shortcode_file) {
   locate_template($custom_shortcode_dir . $custom_shortcode_file, true);
 }
-
-
-
-function ns_enqueue_styles() {
-    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-}
-add_action( 'wp_enqueue_scripts', 'ns_enqueue_styles' );
 ?>
