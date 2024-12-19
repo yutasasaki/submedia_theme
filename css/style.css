@@ -5052,4 +5052,9 @@ figure img {
 }
 .bq_inline:before {
   content: "" !important;
+}
+
+.wp-block-flexible-table-block-table > table {
+  max-width: 100% !important;
+  width: 100% !important;
 }/*# sourceMappingURL=style.css.map */

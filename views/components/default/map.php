@@ -7,7 +7,7 @@
       <div>
         <?php if (!empty($clinic_data->place_id)) : ?>
           <div class="gmap">
-            <iframe width="400" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=<?php echo esc_html(get_theme_mod('google_place_api_key', '')); ?>
+            <iframe width="400" height="250" frameborder="0" loading="lazy" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=<?php echo esc_html(get_theme_mod('google_place_api_key', '')); ?>
 &maptype=roadmap&zoom=15&q=place_id:<?php echo esc_html($clinic_data->place_id); ?>" allowfullscreen>
             </iframe>
           </div>

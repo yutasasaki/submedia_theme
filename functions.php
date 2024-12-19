@@ -67,4 +67,39 @@ $custom_shortcode_files = array(
 foreach ($custom_shortcode_files as $custom_shortcode_file) {
   locate_template($custom_shortcode_dir . $custom_shortcode_file, true);
 }
+
+function custom_disable_fixed_headers_and_apply_styles() {
+    //現在のURLのパスを取得
+    $current_url = $_SERVER['REQUEST_URI'];
+
+   //ディレクトリorthodontics以下のorthodonticsを除くページにのみ適用
+    if (preg_match('~^/orthodontics/(.+)$~', $current_url)) {
+        echo '<style>
+            /* 追従ヘッダーを無効化 */
+            .l-header.-series.-series-right,
+            .l-fixHeader__inner.l-container,
+            .l-fixHeader.-series.-series-right {
+                position: static !important;
+                top: auto !important;
+                box-shadow: none !important;
+            }
+
+            /* fix_headerの追加スタイル */
+            .fix_header {
+                margin: 0 !important;
+                position: relative !important;
+            }
+
+            /* l-fixHeader__inner l-containerの非表示 */
+            .l-fixHeader__inner.l-container {
+                display: none !important;
+            }
+        </style>';
+    }
+}
+add_action('wp_head', 'custom_disable_fixed_headers_and_apply_styles');
+
+
+
+
 ?>
