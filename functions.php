@@ -23,6 +23,7 @@ $custom_functions_files = array(
   'ogp.php',
   // 'toc.php',
   'swell_toc.php',
+  'avif_upload.php'
 );
 foreach ($custom_functions_files as $custom_functions_file) {
   locate_template($custom_functions_dir . $custom_functions_file, true);
@@ -55,6 +56,7 @@ $custom_shortcode_files = array(
   'outro.php',
   'carousel.php',
   'shindan.php',
+  'shindan_leon.php',
   'kansyui.php',
   'compare_table.php',
   'clinic_info.php',
@@ -100,6 +102,53 @@ function custom_disable_fixed_headers_and_apply_styles() {
 add_action('wp_head', 'custom_disable_fixed_headers_and_apply_styles');
 
 
+function import_images_to_media_library() {
+    $base_dir = wp_upload_dir()['basedir'] . '/clinic_images/'; // 画像フォルダの基準ディレクトリ
+    $start_chunk = 46; // 開始チャンク番号
+    $end_chunk = 52; // 終了チャンク番号
 
+    for ($chunk = $start_chunk; $chunk <= $end_chunk; $chunk++) {
+        $folder = $base_dir . "chunk" . $chunk; // チャンクフォルダパス
+
+        if (!is_dir($folder)) {
+            error_log("フォルダが存在しません: " . $folder);
+            continue; // フォルダがない場合はスキップ
+        }
+
+        $files = scandir($folder);
+
+        foreach ($files as $file) {
+            if (in_array($file, ['.', '..'])) continue; // ドットファイルを無視
+
+            $file_path = $folder . '/' . $file;
+            $file_type = wp_check_filetype($file_path);
+
+            // 画像ファイルのみ処理
+            if (in_array($file_type['ext'], ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                // 添付ファイルとして登録
+                $attachment = [
+                    'guid'           => wp_upload_dir()['baseurl'] . '/clinic_images/chunk' . $chunk . '/' . $file,
+                    'post_mime_type' => $file_type['type'],
+                    'post_title'     => pathinfo($file, PATHINFO_FILENAME),
+                    'post_content'   => '',
+                    'post_status'    => 'inherit',
+                ];
+                $attach_id = wp_insert_attachment($attachment, $file_path);
+
+                // 画像メタデータを生成して登録
+                require_once(ABSPATH . 'wp-admin/includes/image.php');
+                $attach_data = wp_generate_attachment_metadata($attach_id, $file_path);
+                wp_update_attachment_metadata($attach_id, $attach_data);
+
+                error_log("画像を登録しました: " . $file_path);
+            }
+        }
+    }
+
+    error_log("すべての処理が完了しました。");
+}
+
+// 実行する場合に以下を有効化（1度だけ有効化する想定）
+// add_action('init', 'import_images_to_media_library');
 
 ?>

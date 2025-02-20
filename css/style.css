@@ -5057,4 +5057,8 @@ figure img {
 .wp-block-flexible-table-block-table > table {
   max-width: 100% !important;
   width: 100% !important;
+}
+
+#wpfooter {
+  bottom: auto !important;
 }/*# sourceMappingURL=style.css.map */
