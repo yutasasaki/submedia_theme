@@ -1,41 +1,50 @@
 /* ------------------------------------
 診断
 ------------------------------------ */
-.diagnose {
+.clinic_shindan_l {
   text-align: center;
   margin: auto;
   border-radius: 10px;
+
   .diagnose_tit {
     position: relative;
     color: rgb(255, 255, 255);
+    background-color: #FFA929;
     font-size: 20px;
     font-weight: bold;
     line-height: 1.8;
     border-radius: 10px 10px 0 0;
-    padding: 24px 10px 10px 10px;
+    padding: 10px;
 
     @media screen and (max-width: 640px) {
       font-size: 18px;
     }
-    .label {
-      position: absolute;
-      top: 0;
-      left: 0;
-      font-size: 14px;
-      border-radius: 10px 0 10px 0;
-      background-color: rgb(252 144 150);
-      padding: 1%;
+  }
 
-      @media screen and (max-width: 1000px) {
-        font-size: 11px;
-      }
+  .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    border-radius: 10px 0 10px 0;
+    background-color: #FB67BD;
+    padding: 1%;
+
+    @media screen and (max-width: 1000px) {
+      font-size: 11px;
     }
   }
 
-  #modal,
-  #cta_modal {
-    background-color: rgb(233 244 252);
-    padding: 4% clamp(10px, 5%, 60px);
+  .diagnose_container {
+    background-color: #FFEED2;
+    border-radius: 10px;
+    padding: 2%;
+
+  }
+
+  #shindan_container {
+    background-color: #FFEED2;
+    padding: 2% ;
     margin: auto;
     border-radius: 0 0 10px 10px;
 
@@ -50,7 +59,7 @@
       font-size: 16px;
       color: white;
       font-weight: 700;
-      background-color: #0097d8;
+      background-color: #FB67BD;
       border-radius: 100%;
       margin: auto;
 
@@ -61,7 +70,7 @@
         left: 50%;
         margin-left: -10px;
         border: 10px solid transparent;
-        border-top: 10px solid #0097d8;
+        border-top: 10px solid #FB67BD;
       }
 
       &::after {
@@ -86,17 +95,21 @@
     .question-text {
       font-size: 20px;
       line-height: 1.8;
-      border-bottom: 2px dashed rgb(0 151 216);
+      border-bottom: 2px solid #FFA929;
 
       @media screen and (max-width: 640px) {
         font-size: 16px;
       }
     }
 
+    .options-grid{
+      display: grid!important;
+    }  
     .options {
       display: flex;
       flex-direction: column;
       justify-content: center;
+
       button {
         display: block;
         font-weight: bold;
@@ -111,43 +124,6 @@
     }
   }
 
-  #cta_modal {
-    padding: 0;
-    background-color: rgb(255, 255, 255);
-
-    .result_message {
-      margin-bottom: 4%;
-      font-weight: bold;
-    }
-
-    .content_img {
-      margin-bottom: 0;
-
-      img {
-        max-width: 100%;
-        width: 100%;
-      }
-    }
-
-    .cta_text_before {
-      font-size: 20px;
-      font-weight: bold;
-      margin-bottom: 0;
-
-      @media screen and (max-width: 640px) {
-        font-size: 15px;
-      }
-    }
-
-    .cta_link {
-      text-align: right;
-      padding: 2%;
-
-      a {
-        color: rgb(2, 142, 209);
-      }
-    }
-  }
   /* CSSでフェードイン・フェードアウトのキーフレームを定義 */
   @keyframes fadeIn {
     from {

@@ -346,13 +346,13 @@
 /* ------------------------------------
 診断
 ------------------------------------ */
-.diagnose {
+.shindan_default {
   text-align: center;
   margin: auto;
   border-radius: 10px;
   /* CSSでフェードイン・フェードアウトのキーフレームを定義 */
 }
-.diagnose .diagnose_tit {
+.shindan_default .diagnose_tit {
   position: relative;
   color: rgb(255, 255, 255);
   font-size: 20px;
@@ -362,11 +362,11 @@
   padding: 24px 10px 10px 10px;
 }
 @media screen and (max-width: 640px) {
-  .diagnose .diagnose_tit {
+  .shindan_default .diagnose_tit {
     font-size: 18px;
   }
 }
-.diagnose .diagnose_tit .label {
+.shindan_default .diagnose_tit .label {
   position: absolute;
   top: 0;
   left: 0;
@@ -376,23 +376,23 @@
   padding: 1%;
 }
 @media screen and (max-width: 1000px) {
-  .diagnose .diagnose_tit .label {
+  .shindan_default .diagnose_tit .label {
     font-size: 11px;
   }
 }
-.diagnose #modal,
-.diagnose #cta_modal {
+.shindan_default #modal,
+.shindan_default #cta_modal {
   background-color: rgb(233, 244, 252);
   padding: 4% clamp(10px, 5%, 60px);
   margin: auto;
   border-radius: 0 0 10px 10px;
 }
-.diagnose #modal .content,
-.diagnose #cta_modal .content {
+.shindan_default #modal .content,
+.shindan_default #cta_modal .content {
   display: block;
 }
-.diagnose #modal .diag-question-balloon,
-.diagnose #cta_modal .diag-question-balloon {
+.shindan_default #modal .diag-question-balloon,
+.shindan_default #cta_modal .diag-question-balloon {
   position: relative;
   display: inline-block;
   padding: 15px 18px;
@@ -403,8 +403,8 @@
   border-radius: 100%;
   margin: auto;
 }
-.diagnose #modal .diag-question-balloon::before,
-.diagnose #cta_modal .diag-question-balloon::before {
+.shindan_default #modal .diag-question-balloon::before,
+.shindan_default #cta_modal .diag-question-balloon::before {
   content: "";
   position: absolute;
   top: 90%;
@@ -413,8 +413,8 @@
   border: 10px solid transparent;
   border-top: 10px solid #0097d8;
 }
-.diagnose #modal .diag-question-balloon::after,
-.diagnose #cta_modal .diag-question-balloon::after {
+.shindan_default #modal .diag-question-balloon::after,
+.shindan_default #cta_modal .diag-question-balloon::after {
   content: "";
   color: rgb(255, 255, 255);
   position: absolute;
@@ -422,8 +422,8 @@
   left: 20%;
   font-weight: bold;
 }
-.diagnose #modal .diag-question-balloon p,
-.diagnose #cta_modal .diag-question-balloon p {
+.shindan_default #modal .diag-question-balloon p,
+.shindan_default #cta_modal .diag-question-balloon p {
   margin: 0 auto;
   padding: 0;
   text-align: center;
@@ -431,26 +431,26 @@
   color: #fff;
   line-height: 1.85;
 }
-.diagnose #modal .question-text,
-.diagnose #cta_modal .question-text {
+.shindan_default #modal .question-text,
+.shindan_default #cta_modal .question-text {
   font-size: 20px;
   line-height: 1.8;
   border-bottom: 2px dashed rgb(0, 151, 216);
 }
 @media screen and (max-width: 640px) {
-  .diagnose #modal .question-text,
-  .diagnose #cta_modal .question-text {
+  .shindan_default #modal .question-text,
+  .shindan_default #cta_modal .question-text {
     font-size: 16px;
   }
 }
-.diagnose #modal .options,
-.diagnose #cta_modal .options {
+.shindan_default #modal .options,
+.shindan_default #cta_modal .options {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.diagnose #modal .options button,
-.diagnose #cta_modal .options button {
+.shindan_default #modal .options button,
+.shindan_default #cta_modal .options button {
   display: block;
   font-weight: bold;
   font-size: 14px;
@@ -461,36 +461,36 @@
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
 }
-.diagnose #cta_modal {
+.shindan_default #cta_modal {
   padding: 0;
   background-color: rgb(255, 255, 255);
 }
-.diagnose #cta_modal .result_message {
+.shindan_default #cta_modal .result_message {
   margin-bottom: 4%;
   font-weight: bold;
 }
-.diagnose #cta_modal .content_img {
+.shindan_default #cta_modal .content_img {
   margin-bottom: 0;
 }
-.diagnose #cta_modal .content_img img {
+.shindan_default #cta_modal .content_img img {
   max-width: 100%;
   width: 100%;
 }
-.diagnose #cta_modal .cta_text_before {
+.shindan_default #cta_modal .cta_text_before {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0;
 }
 @media screen and (max-width: 640px) {
-  .diagnose #cta_modal .cta_text_before {
+  .shindan_default #cta_modal .cta_text_before {
     font-size: 15px;
   }
 }
-.diagnose #cta_modal .cta_link {
+.shindan_default #cta_modal .cta_link {
   text-align: right;
   padding: 2%;
 }
-.diagnose #cta_modal .cta_link a {
+.shindan_default #cta_modal .cta_link a {
   color: rgb(2, 142, 209);
 }
 @keyframes fadeIn {
@@ -509,7 +509,7 @@
     opacity: 0;
   }
 }
-.diagnose .question {
+.shindan_default .question {
   animation: fadeIn 1s forwards;
   /* 質問が表示されるときのアニメーション */
 }
@@ -517,13 +517,13 @@
 /* ------------------------------------
 診断
 ------------------------------------ */
-.clinic_shindan {
+.clinic_shindan_prt {
   text-align: center;
   margin: auto;
   border-radius: 10px;
   /* CSSでフェードイン・フェードアウトのキーフレームを定義 */
 }
-.clinic_shindan .diagnose_tit {
+.clinic_shindan_prt .diagnose_tit {
   position: relative;
   color: rgb(255, 255, 255);
   background-color: #FFA929;
@@ -534,11 +534,11 @@
   padding: 24px 10px 10px 10px;
 }
 @media screen and (max-width: 640px) {
-  .clinic_shindan .diagnose_tit {
+  .clinic_shindan_prt .diagnose_tit {
     font-size: 18px;
   }
 }
-.clinic_shindan .label {
+.clinic_shindan_prt .label {
   position: absolute;
   top: 0;
   left: 0;
@@ -548,25 +548,25 @@
   padding: 1%;
 }
 @media screen and (max-width: 1000px) {
-  .clinic_shindan .label {
+  .clinic_shindan_prt .label {
     font-size: 11px;
   }
 }
-.clinic_shindan .diagnose_container {
+.clinic_shindan_prt .diagnose_container {
   background-color: #FFEED2;
   border-radius: 10px;
   padding: 2%;
 }
-.clinic_shindan #shindan_container {
+.clinic_shindan_prt #shindan_container {
   background-color: #FFEED2;
   padding: 2%;
   margin: auto;
   border-radius: 0 0 10px 10px;
 }
-.clinic_shindan #shindan_container .content {
+.clinic_shindan_prt #shindan_container .content {
   display: block;
 }
-.clinic_shindan #shindan_container .diag-question-balloon {
+.clinic_shindan_prt #shindan_container .diag-question-balloon {
   position: relative;
   display: inline-block;
   padding: 15px 18px;
@@ -577,7 +577,7 @@
   border-radius: 100%;
   margin: auto;
 }
-.clinic_shindan #shindan_container .diag-question-balloon::before {
+.clinic_shindan_prt #shindan_container .diag-question-balloon::before {
   content: "";
   position: absolute;
   top: 90%;
@@ -586,7 +586,7 @@
   border: 10px solid transparent;
   border-top: 10px solid #FB67BD;
 }
-.clinic_shindan #shindan_container .diag-question-balloon::after {
+.clinic_shindan_prt #shindan_container .diag-question-balloon::after {
   content: "";
   color: rgb(255, 255, 255);
   position: absolute;
@@ -594,7 +594,7 @@
   left: 20%;
   font-weight: bold;
 }
-.clinic_shindan #shindan_container .diag-question-balloon p {
+.clinic_shindan_prt #shindan_container .diag-question-balloon p {
   margin: 0 auto;
   padding: 0;
   text-align: center;
@@ -602,22 +602,22 @@
   color: #fff;
   line-height: 1.85;
 }
-.clinic_shindan #shindan_container .question-text {
+.clinic_shindan_prt #shindan_container .question-text {
   font-size: 20px;
   line-height: 1.8;
   border-bottom: 2px solid #FFA929;
 }
 @media screen and (max-width: 640px) {
-  .clinic_shindan #shindan_container .question-text {
+  .clinic_shindan_prt #shindan_container .question-text {
     font-size: 16px;
   }
 }
-.clinic_shindan #shindan_container .options {
+.clinic_shindan_prt #shindan_container .options {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.clinic_shindan #shindan_container .options button {
+.clinic_shindan_prt #shindan_container .options button {
   display: block;
   font-weight: bold;
   font-size: 14px;
@@ -644,7 +644,145 @@
     opacity: 0;
   }
 }
-.clinic_shindan .question {
+.clinic_shindan_prt .question {
+  animation: fadeIn 1s forwards;
+  /* 質問が表示されるときのアニメーション */
+}
+
+/* ------------------------------------
+診断
+------------------------------------ */
+.clinic_shindan_l {
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  /* CSSでフェードイン・フェードアウトのキーフレームを定義 */
+}
+.clinic_shindan_l .diagnose_tit {
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: #FFA929;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.8;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+}
+@media screen and (max-width: 640px) {
+  .clinic_shindan_l .diagnose_tit {
+    font-size: 18px;
+  }
+}
+.clinic_shindan_l .label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  border-radius: 10px 0 10px 0;
+  background-color: #FB67BD;
+  padding: 1%;
+}
+@media screen and (max-width: 1000px) {
+  .clinic_shindan_l .label {
+    font-size: 11px;
+  }
+}
+.clinic_shindan_l .diagnose_container {
+  background-color: #FFEED2;
+  border-radius: 10px;
+  padding: 2%;
+}
+.clinic_shindan_l #shindan_container {
+  background-color: #FFEED2;
+  padding: 2%;
+  margin: auto;
+  border-radius: 0 0 10px 10px;
+}
+.clinic_shindan_l #shindan_container .content {
+  display: block;
+}
+.clinic_shindan_l #shindan_container .diag-question-balloon {
+  position: relative;
+  display: inline-block;
+  padding: 15px 18px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  background-color: #FB67BD;
+  border-radius: 100%;
+  margin: auto;
+}
+.clinic_shindan_l #shindan_container .diag-question-balloon::before {
+  content: "";
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-left: -10px;
+  border: 10px solid transparent;
+  border-top: 10px solid #FB67BD;
+}
+.clinic_shindan_l #shindan_container .diag-question-balloon::after {
+  content: "";
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 24%;
+  left: 20%;
+  font-weight: bold;
+}
+.clinic_shindan_l #shindan_container .diag-question-balloon p {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.85;
+}
+.clinic_shindan_l #shindan_container .question-text {
+  font-size: 20px;
+  line-height: 1.8;
+  border-bottom: 2px solid #FFA929;
+}
+@media screen and (max-width: 640px) {
+  .clinic_shindan_l #shindan_container .question-text {
+    font-size: 16px;
+  }
+}
+.clinic_shindan_l #shindan_container .options-grid {
+  display: grid !important;
+}
+.clinic_shindan_l #shindan_container .options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.clinic_shindan_l #shindan_container .options button {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(80, 80, 80);
+  border-style: unset;
+  border-radius: 24px;
+  background-color: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.clinic_shindan_l .question {
   animation: fadeIn 1s forwards;
   /* 質問が表示されるときのアニメーション */
 }

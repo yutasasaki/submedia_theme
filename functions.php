@@ -56,7 +56,6 @@ $custom_shortcode_files = array(
   'outro.php',
   'carousel.php',
   'shindan.php',
-  'shindan_leon.php',
   'kansyui.php',
   'compare_table.php',
   'clinic_info.php',
