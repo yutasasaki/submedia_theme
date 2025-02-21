@@ -1,34 +1,23 @@
 <!-- wp:html -->
-<style>
-  .diag-question-balloon::before {
-    border-top: 10px solid <?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?> !important;
-  }
-
-  #question {
-    border-bottom: 2px dashed <?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?> !important;
-  }
-</style>
-<div class="diagnose shadow">
-  <div class="diagnose_tit" style="background-color:<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>; color:#ffffff;">
-    あなたに合う矯正方法がすぐに分かる診断がコチラ↓
+<div class="clinic_shindan shadow">
+  <div class="diagnose_tit">
+    あなたに合うクリニックを診断！
     <div class="label">
-      カンタン5問
+      1分でわかる！
     </div>
   </div>
-  <div id="modal" class="">
+  <div id="shindan_container" class="">
     <div id="questions-container" class="diagnose_container">
-      <?php include(get_stylesheet_directory() . '/views/components/shindan/questions/q1.php'); ?>
-      <?php include(get_stylesheet_directory() . '/views/components/shindan/questions/q2.php'); ?>
-      <?php include(get_stylesheet_directory() . '/views/components/shindan/questions/q3.php'); ?>
-      <?php include(get_stylesheet_directory() . '/views/components/shindan/questions/q4.php'); ?>
-      <?php include(get_stylesheet_directory() . '/views/components/shindan/questions/q5.php'); ?>
+      <?php include(get_stylesheet_directory() . '/views/components/shindan/leon/questions/q1.php'); ?>
+      <?php include(get_stylesheet_directory() . '/views/components/shindan/leon/questions/q2.php'); ?>
+      <?php include(get_stylesheet_directory() . '/views/components/shindan/leon/questions/q3.php'); ?>
     </div>
-    <?php include(get_stylesheet_directory() . '/views/components/shindan/cta/kireilign.php'); ?>
+    <?php include(get_stylesheet_directory() . '/views/components/shindan/leon/cta/kireilign.php'); ?>
   </div>
 
   <script>
     let currentQuestionIndex = 1;
-    const totalQuestions = 5; // ここで質問の総数を設定
+    const totalQuestions = 3; // ここで質問の総数を設定
     let selectedOptions = {};
     document.addEventListener("DOMContentLoaded", function() {
       // 全ての質問を一旦非表示にする
@@ -56,8 +45,8 @@
 
           // クリックされたボタンにボーダースタイルを適用
           this.style.border = "4px solid";
-          this.style.borderColor = "<?php echo get_theme_mod('submedia_main_color_setting', '#009EF3'); ?>";
-          this.style.backgroundColor = "<?php echo get_theme_mod('submedia_light_color_setting', '#009EF3'); ?>";
+          this.style.borderColor = "#FFA929";
+          this.style.backgroundColor = "#fff";
 
           // 次の質問へ移動する関数を呼び出す（存在する場合）
           goToNextQuestion();
@@ -127,8 +116,6 @@
       document.getElementById('answer1').textContent = selectedOptions['question1'] || '未回答';
       document.getElementById('answer2').textContent = selectedOptions['question2'] || '未回答';
       document.getElementById('answer3').textContent = selectedOptions['question3'] || '未回答';
-      document.getElementById('answer4').textContent = selectedOptions['question4'] || '未回答';
-      document.getElementById('answer5').textContent = selectedOptions['question5'] || '未回答';
     }
   </script>
 </div>
