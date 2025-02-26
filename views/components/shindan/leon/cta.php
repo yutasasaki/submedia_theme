@@ -22,14 +22,25 @@
   <p class="text-center font-bold text-lg">そんなあなたにおすすめなのは...</p>
   <img class="animate-bounce lazyload w-10 h-10 text-center inline-block" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/caret-down.png'); ?>" alt="下に進む">
   <div class="content_img my-4">
-    <a href="https://leon-ortho.com/lp/lp01/" class=" btn_booking click_cta" data-position="shindan" data-cta="leon">
+    <a href="https://leon-ortho.com/lp/lp01/" class=" btn_booking click_cta" data-position="shindan" data-cta="leon_lp">
       <img class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/leon/lp.webp'); ?>" alt="" style="width: 100%; height: auto;">
     </a>
   </div>
+   <div class="cta_writing">
+	<p class="text-center font-bold text-lg">
+	  LINEで写真を送るだけで、<br>
+無料で治療費用を見積もりできます！<br><br>
+しかも見積もりを担当するのは、<br>
+日本で約10人と言われている<br>
+「ブラックダイヤモンドプロバイダー」<br>
+を受賞したDr.瀬川憂樹。<br><br>
+自分の歯並びを矯正する費用を知りたい方は、<br>
+ぜひチェックしてみてください！<br></p>
+  </div>	   
   <div class="cta_button">
     <div class="btn poyo">
-      <a href="<?php echo get_custom_cta_href('/media/diagnose/kireilign_cta/'); ?>" class="btn_booking click_cta" data-position="shindan" data-cta="kireilign">
-        <img data-track data-value="キレイラインCTAクリック" class="lazyload mx-auto" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/leon/btn_dia.webp'); ?>" alt="まずは気軽にご相談ください">
+      <a href="https://leon-ortho.com/lp/lp01/" class="btn_booking click_cta" data-position="shindan" data-cta="leon_lp">
+        <img data-track data-value="レオンCTAクリック" class="lazyload mx-auto" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/leon/btn_dia.webp'); ?>" alt="まずは気軽にご相談ください">
       </a>
     </div>
     <p class="my-4 color-gray text-left text-xs">※症状が強い場合は適応外になる場合がございます。<br>

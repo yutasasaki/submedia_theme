@@ -1,7 +1,7 @@
 <!-- wp:html -->
 <div class="clinic_shindan_l shadow">
   <div class="diagnose_tit">
-    あなたが矯正するのにかかる費用を診断してみよう↓
+    あなたが矯正するのに<br>かかる費用を診断してみよう↓
   </div>
   <div id="shindan_container" class="">
     <div id="questions-container" class="diagnose_container">
