@@ -1,7 +1,7 @@
 <!-- question1.php -->
 <div id="question2" class="question">
   <div class="bg-white rounded-lg p-2 mb-4">
-    <p class="text-3xl font-semibold mb-2"><span class="marker-red">知っていますか？</span></p>
+    <p class="text-3xl font-semibold my-2">知っていますか？</p>
     <p class="font-semibold mb-2 text-base text-left">実は、<span class="marker-yellow">歯を本来の色より白くできるのは</span><br>
       歯科クリニックで行う<span class="marker-yellow">医療ホワイトニング</span>だけ。</p>
     <p class="font-semibold mb-2 text-base text-left">サロンやセルフで行うホワイトニングには、<br>
@@ -21,7 +21,7 @@
     <div id="question-number" class="diag-question-balloon">
       <p>Q2</p>
     </div>
-    <p class="question-text font-semibold mb-8">どんなホワイトニングがしたいですか？</p>
+    <p class="question-text font-semibold mb-8 mt-2">どんなホワイトニングがしたいですか？</p>
     <div class="options grid grid-cols-2 gap-2">
       <button class="option bg-white w-full click_diagnose" data-question="2" data-answer="high"
         data-selected-answer="すぐに白くなる"><strong class="font-bold">すぐに白くなる</strong><span>(即効性がある)</span></button>
