@@ -12,7 +12,7 @@
       <?php include(get_stylesheet_directory() . '/views/components/shindan/omt/questions/q2.php'); ?>
       <?php include(get_stylesheet_directory() . '/views/components/shindan/omt/questions/q3.php'); ?>
     </div>
-    <?php include(get_stylesheet_directory() . '/views/components/shindan/omt/cta/kireilign.php'); ?>
+    <?php include(get_stylesheet_directory() . '/views/components/shindan/omt/cta.php'); ?>
   </div>
 
   <script>

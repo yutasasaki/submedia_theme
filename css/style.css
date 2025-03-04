@@ -787,6 +787,280 @@
   /* 質問が表示されるときのアニメーション */
 }
 
+/* ------------------------------------
+診断
+------------------------------------ */
+.clinic_shindan_whitening {
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  /* CSSでフェードイン・フェードアウトのキーフレームを定義 */
+}
+.clinic_shindan_whitening .diagnose_tit {
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: #007aff;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.8;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+}
+@media screen and (max-width: 640px) {
+  .clinic_shindan_whitening .diagnose_tit {
+    font-size: 18px;
+  }
+}
+.clinic_shindan_whitening .label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  border-radius: 10px 0 10px 0;
+  background-color: #007aff;
+  padding: 1%;
+}
+@media screen and (max-width: 1000px) {
+  .clinic_shindan_whitening .label {
+    font-size: 11px;
+  }
+}
+.clinic_shindan_whitening .diagnose_container {
+  background-color: #e6f5fc;
+  border-radius: 10px;
+  padding: 2%;
+}
+.clinic_shindan_whitening #shindan_container {
+  background-color: #e6f5fc;
+  padding: 2%;
+  margin: auto;
+  border-radius: 0 0 10px 10px;
+}
+.clinic_shindan_whitening #shindan_container .content {
+  display: block;
+}
+.clinic_shindan_whitening #shindan_container .diag-question-balloon {
+  position: relative;
+  display: inline-block;
+  padding: 15px 18px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  background-color: #007aff;
+  border-radius: 100%;
+  margin: auto;
+}
+.clinic_shindan_whitening #shindan_container .diag-question-balloon::before {
+  content: "";
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-left: -10px;
+  border: 10px solid transparent;
+  border-top: 10px solid #007aff;
+}
+.clinic_shindan_whitening #shindan_container .diag-question-balloon::after {
+  content: "";
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 24%;
+  left: 20%;
+  font-weight: bold;
+}
+.clinic_shindan_whitening #shindan_container .diag-question-balloon p {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.85;
+}
+.clinic_shindan_whitening #shindan_container .question-text {
+  font-size: 20px;
+  line-height: 1.8;
+  border-bottom: 2px solid #007aff;
+}
+@media screen and (max-width: 640px) {
+  .clinic_shindan_whitening #shindan_container .question-text {
+    font-size: 16px;
+  }
+}
+.clinic_shindan_whitening #shindan_container .options-grid {
+  display: grid !important;
+}
+.clinic_shindan_whitening #shindan_container .options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.clinic_shindan_whitening #shindan_container .options button {
+  display: block;
+  color: rgb(80, 80, 80);
+  border-style: unset;
+  border-radius: 24px;
+  background-color: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.clinic_shindan_whitening .question {
+  animation: fadeIn 1s forwards;
+  /* 質問が表示されるときのアニメーション */
+}
+
+/* ------------------------------------
+診断
+------------------------------------ */
+.clinic_shindan_omt {
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  /* CSSでフェードイン・フェードアウトのキーフレームを定義 */
+}
+.clinic_shindan_omt .diagnose_tit {
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: #FFA929;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.8;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+}
+@media screen and (max-width: 640px) {
+  .clinic_shindan_omt .diagnose_tit {
+    font-size: 18px;
+  }
+}
+.clinic_shindan_omt .label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  border-radius: 10px 0 10px 0;
+  background-color: #FB67BD;
+  padding: 1%;
+}
+@media screen and (max-width: 1000px) {
+  .clinic_shindan_omt .label {
+    font-size: 11px;
+  }
+}
+.clinic_shindan_omt .diagnose_container {
+  background-color: #FFEED2;
+  border-radius: 10px;
+  padding: 2%;
+}
+.clinic_shindan_omt #shindan_container {
+  background-color: #FFEED2;
+  padding: 2%;
+  margin: auto;
+  border-radius: 0 0 10px 10px;
+}
+.clinic_shindan_omt #shindan_container .content {
+  display: block;
+}
+.clinic_shindan_omt #shindan_container .diag-question-balloon {
+  position: relative;
+  display: inline-block;
+  padding: 15px 18px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  background-color: #FB67BD;
+  border-radius: 100%;
+  margin: auto;
+}
+.clinic_shindan_omt #shindan_container .diag-question-balloon::before {
+  content: "";
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-left: -10px;
+  border: 10px solid transparent;
+  border-top: 10px solid #FB67BD;
+}
+.clinic_shindan_omt #shindan_container .diag-question-balloon::after {
+  content: "";
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 24%;
+  left: 20%;
+  font-weight: bold;
+}
+.clinic_shindan_omt #shindan_container .diag-question-balloon p {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.85;
+}
+.clinic_shindan_omt #shindan_container .question-text {
+  font-size: 20px;
+  line-height: 1.8;
+  border-bottom: 2px solid #FFA929;
+}
+@media screen and (max-width: 640px) {
+  .clinic_shindan_omt #shindan_container .question-text {
+    font-size: 16px;
+  }
+}
+.clinic_shindan_omt #shindan_container .options-grid {
+  display: grid !important;
+}
+.clinic_shindan_omt #shindan_container .options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.clinic_shindan_omt #shindan_container .options button {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(80, 80, 80);
+  border-style: unset;
+  border-radius: 24px;
+  background-color: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.clinic_shindan_omt .question {
+  animation: fadeIn 1s forwards;
+  /* 質問が表示されるときのアニメーション */
+}
+
 .poyo {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;

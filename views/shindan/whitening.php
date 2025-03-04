@@ -1,25 +1,21 @@
 <!-- wp:html -->
 <div class="clinic_shindan_whitening shadow">
   <div class="diagnose_tit">
-    あなたに合うクリニックを診断！
-    <div class="label">
-      1分でわかる！
-    </div>
+    <p>あなたにぴったりなホワイトニングクリニック<span>が分かる診断がこちら↓</span></p>
   </div>
   <div id="shindan_container" class="">
     <div id="questions-container" class="diagnose_container">
       <?php include(get_stylesheet_directory() . '/views/components/shindan/whitening/questions/q1.php'); ?>
       <?php include(get_stylesheet_directory() . '/views/components/shindan/whitening/questions/q2.php'); ?>
-      <?php include(get_stylesheet_directory() . '/views/components/shindan/whitening/questions/q3.php'); ?>
     </div>
-    <?php include(get_stylesheet_directory() . '/views/components/shindan/whitening/cta/kireilign.php'); ?>
+    <?php include(get_stylesheet_directory() . '/views/components/shindan/whitening/cta.php'); ?>
   </div>
 
   <script>
     (function() {
       const container = document.querySelector('.clinic_shindan_whitening');
       let currentQuestionIndex = 1;
-      const totalQuestions = 3; // ここで質問の総数を設定
+      const totalQuestions = 2; // ここで質問の総数を設定
       let selectedOptions = {};
 
       document.addEventListener("DOMContentLoaded", function() {
@@ -48,7 +44,7 @@
 
             // クリックされたボタンにボーダースタイルを適用
             this.style.border = "4px solid";
-            this.style.borderColor = "#FFA929";
+            this.style.borderColor = "#007aff";
             this.style.backgroundColor = "#fff";
 
             // 次の質問へ移動する関数を呼び出す（存在する場合）
@@ -97,15 +93,8 @@
         // 回答に基づいて表示するCTAを決定
         container.querySelector("#questions-container").style.display = 'none'; // 質問を非表示
 
-        // ここでfinalAnswerの値に基づいて、どのCTAを表示するか決定する
-        if (selectedOptions['question1'] == "矯正の費用はなるべく安くしたい") {
-          container.querySelector("#cost_true").style.display = 'block'; // CTAを表示
-        } else {
-          container.querySelector("#cost_false").style.display = 'block'; // CTAを表示
-        }
-
         // 結果セクションをフェードインで表示
-        const resultsSection = container.querySelector("#shindan_kireilign");
+        const resultsSection = container.querySelector("#shindan_whitening");
         resultsSection.style.display = 'block';
         resultsSection.style.opacity = 0; // アニメーションのために透明度を0に設定
         setTimeout(() => {
@@ -118,7 +107,6 @@
         // 選択されたオプションに基づいてテキストを更新
         container.querySelector('#answer1').textContent = selectedOptions['question1'] || '未回答';
         container.querySelector('#answer2').textContent = selectedOptions['question2'] || '未回答';
-        container.querySelector('#answer3').textContent = selectedOptions['question3'] || '未回答';
       }
     })();
   </script>
