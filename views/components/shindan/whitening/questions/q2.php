@@ -1,19 +1,20 @@
 <!-- question1.php -->
 <div id="question2" class="question">
   <div class="bg-white rounded-lg p-2 mb-4">
-    <p class="text-xl font-semibold mb-2">知っていますか？</p>
-    <p class="font-semibold mb-2 text-base">実は、<span class="marker-yellow">歯を本来の色より白くできるのは</span><br>
+    <p class="text-3xl font-semibold mb-2"><span class="marker-red">知っていますか？</span></p>
+    <p class="font-semibold mb-2 text-base text-left">実は、<span class="marker-yellow">歯を本来の色より白くできるのは</span><br>
       歯科クリニックで行う<span class="marker-yellow">医療ホワイトニング</span>だけ。</p>
-    <p class="font-semibold mb-2 text-base">サロンやセルフで行うホワイトニングには、<br>
+    <p class="font-semibold mb-2 text-base text-left">サロンやセルフで行うホワイトニングには、<br>
       <span class="marker-yellow">歯を白くする効果は無いんです。</span><br>
       <span class="text-sm">※汚れ・着色を落とすだけ</span>
     </p>
-    <img class="w-full h-auto mx-auto rounded-xl mb-2"
+    <img class="w-full h-auto mx-auto mb-2"
       src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/whitening/q2.avif'); ?>"
       alt="医療ホワイトニングの仕組み">
-    <p class="font-semibold mb-2">本来の歯よりも白くしたい方は、<br>
+    <p class="font-semibold mb-4 text-left">本来の歯よりも白くしたい方は、<br>
       <span class="marker-yellow">必ず医療ホワイトニングを選びましょう！</span>
     </p>
+    <p class="font-semibold mb-2 text-sm">次の質問</p>
     <img class="animate-bounce lazyload w-10 h-10 text-center inline-block" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/caret-down.png'); ?>" alt="下に進む">
   </div>
   <div class="">

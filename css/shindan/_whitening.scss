@@ -5,7 +5,10 @@
   text-align: center;
   margin: auto;
   border-radius: 10px;
-
+  .color-attention{
+    color: #ff5151;
+  }
+  
   .diagnose_tit {
     position: relative;
     color: rgb(255, 255, 255);
@@ -21,13 +24,29 @@
     }
   }
 
+  .cta_tit {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: #58B2F9;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.8;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+
+    @media screen and (max-width: 640px) {
+      font-size: 18px;
+    }
+  }
+
+
   .label {
     position: absolute;
     top: 0;
     left: 0;
     font-size: 14px;
     border-radius: 10px 0 10px 0;
-    background-color: #007aff;
+    background-color: #58B2F9;
     padding: 1%;
 
     @media screen and (max-width: 1000px) {
@@ -44,10 +63,15 @@
 
   #shindan_container {
     background-color: #e6f5fc;
-    padding: 2% ;
     margin: auto;
     border-radius: 0 0 10px 10px;
 
+    .course_detail {
+        border: 2px solid #007aff;
+        border-radius: 12px;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+        background-color: #fff;
+    }
     .content {
       display: block;
     }
@@ -59,7 +83,7 @@
       font-size: 16px;
       color: white;
       font-weight: 700;
-      background-color: #007aff;
+      background-color: #ff5151;
       border-radius: 100%;
       margin: auto;
 
@@ -70,7 +94,7 @@
         left: 50%;
         margin-left: -10px;
         border: 10px solid transparent;
-        border-top: 10px solid #007aff;
+        border-top: 10px solid #ff5151;
       }
 
       &::after {
@@ -95,7 +119,7 @@
     .question-text {
       font-size: 20px;
       line-height: 1.8;
-      border-bottom: 2px solid #007aff;
+      border-bottom: 2px solid #58B2F9;
 
       @media screen and (max-width: 640px) {
         font-size: 16px;

@@ -5,7 +5,7 @@
 
 /* 赤文字 */
 .color-red {
-  color: red;
+  color: #ff5151;
 }
 
 /* マーカー（黄色背景） */
@@ -14,6 +14,19 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100% 60%;
+}
+/* マーカー（黄色背景） */
+.marker-blue {
+  background-image: linear-gradient(180deg, #007aff, #007aff);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 40%;
+}
+.marker-red {
+  background-image: linear-gradient(180deg, #ff5151a9, #ff5151a9);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 30%;
 }
 
 /* 大きいテキスト */

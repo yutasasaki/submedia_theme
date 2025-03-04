@@ -90,7 +90,7 @@
 
 /* 赤文字 */
 .color-red {
-  color: red;
+  color: #ff5151;
 }
 
 /* マーカー（黄色背景） */
@@ -99,6 +99,21 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100% 60%;
+}
+
+/* マーカー（黄色背景） */
+.marker-blue {
+  background-image: linear-gradient(180deg, #007aff, #007aff);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 40%;
+}
+
+.marker-red {
+  background-image: linear-gradient(180deg, rgba(255, 81, 81, 0.662745098), rgba(255, 81, 81, 0.662745098));
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 30%;
 }
 
 /* 大きいテキスト */
@@ -796,6 +811,9 @@
   border-radius: 10px;
   /* CSSでフェードイン・フェードアウトのキーフレームを定義 */
 }
+.clinic_shindan_whitening .color-attention {
+  color: #ff5151;
+}
 .clinic_shindan_whitening .diagnose_tit {
   position: relative;
   color: rgb(255, 255, 255);
@@ -811,13 +829,28 @@
     font-size: 18px;
   }
 }
+.clinic_shindan_whitening .cta_tit {
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: #58B2F9;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.8;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+}
+@media screen and (max-width: 640px) {
+  .clinic_shindan_whitening .cta_tit {
+    font-size: 18px;
+  }
+}
 .clinic_shindan_whitening .label {
   position: absolute;
   top: 0;
   left: 0;
   font-size: 14px;
   border-radius: 10px 0 10px 0;
-  background-color: #007aff;
+  background-color: #58B2F9;
   padding: 1%;
 }
 @media screen and (max-width: 1000px) {
@@ -832,9 +865,14 @@
 }
 .clinic_shindan_whitening #shindan_container {
   background-color: #e6f5fc;
-  padding: 2%;
   margin: auto;
   border-radius: 0 0 10px 10px;
+}
+.clinic_shindan_whitening #shindan_container .course_detail {
+  border: 2px solid #007aff;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
 }
 .clinic_shindan_whitening #shindan_container .content {
   display: block;
@@ -846,7 +884,7 @@
   font-size: 16px;
   color: white;
   font-weight: 700;
-  background-color: #007aff;
+  background-color: #ff5151;
   border-radius: 100%;
   margin: auto;
 }
@@ -857,7 +895,7 @@
   left: 50%;
   margin-left: -10px;
   border: 10px solid transparent;
-  border-top: 10px solid #007aff;
+  border-top: 10px solid #ff5151;
 }
 .clinic_shindan_whitening #shindan_container .diag-question-balloon::after {
   content: "";
@@ -878,7 +916,7 @@
 .clinic_shindan_whitening #shindan_container .question-text {
   font-size: 20px;
   line-height: 1.8;
-  border-bottom: 2px solid #007aff;
+  border-bottom: 2px solid #58B2F9;
 }
 @media screen and (max-width: 640px) {
   .clinic_shindan_whitening #shindan_container .question-text {
