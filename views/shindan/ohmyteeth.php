@@ -1,16 +1,15 @@
 <!-- wp:html -->
-<div class="clinic_shindan_omt shadow">
+<div id="omt_shindan_top" class="clinic_shindan_omt shadow">
   <div class="diagnose_tit">
-    あなたに合うクリニックを診断！
-    <div class="label">
-      1分でわかる！
-    </div>
+    <p class="text-base"><span class="marker-red">あなたに合う<span class="text-lg font-bold">矯正方法</span></span><br>を診断↓</p>
   </div>
   <div id="shindan_container" class="">
     <div id="questions-container" class="diagnose_container">
       <?php include(get_stylesheet_directory() . '/views/components/shindan/omt/questions/q1.php'); ?>
       <?php include(get_stylesheet_directory() . '/views/components/shindan/omt/questions/q2.php'); ?>
       <?php include(get_stylesheet_directory() . '/views/components/shindan/omt/questions/q3.php'); ?>
+      <?php include(get_stylesheet_directory() . '/views/components/shindan/omt/questions/q4.php'); ?>
+      <?php include(get_stylesheet_directory() . '/views/components/shindan/omt/questions/q5.php'); ?>
     </div>
     <?php include(get_stylesheet_directory() . '/views/components/shindan/omt/cta.php'); ?>
   </div>
@@ -19,7 +18,7 @@
     (function() {
       const container = document.querySelector('.clinic_shindan_omt');
       let currentQuestionIndex = 1;
-      const totalQuestions = 3; // ここで質問の総数を設定
+      const totalQuestions = 5; // ここで質問の総数を設定
       let selectedOptions = {};
 
       document.addEventListener("DOMContentLoaded", function() {
@@ -40,6 +39,14 @@
             // 選択したオプションのdata属性を保存
             selectedOptions[questionId] = selectedAnswer;
 
+            // #omt_shindan_topにスムーズスクロール
+            const shindanContainer = document.getElementById('omt_shindan_top');
+            if (shindanContainer) {
+              shindanContainer.scrollIntoView({
+                behavior: 'smooth'
+              });
+            }
+
 
             // 全てのオプションから選択スタイルをリセット
             document.querySelectorAll(`#${questionId} .option`).forEach(button => {
@@ -48,7 +55,7 @@
 
             // クリックされたボタンにボーダースタイルを適用
             this.style.border = "4px solid";
-            this.style.borderColor = "#FFA929";
+            this.style.borderColor = "#007aff";
             this.style.backgroundColor = "#fff";
 
             // 次の質問へ移動する関数を呼び出す（存在する場合）
@@ -97,15 +104,8 @@
         // 回答に基づいて表示するCTAを決定
         container.querySelector("#questions-container").style.display = 'none'; // 質問を非表示
 
-        // ここでfinalAnswerの値に基づいて、どのCTAを表示するか決定する
-        if (selectedOptions['question1'] == "矯正の費用はなるべく安くしたい") {
-          container.querySelector("#cost_true").style.display = 'block'; // CTAを表示
-        } else {
-          container.querySelector("#cost_false").style.display = 'block'; // CTAを表示
-        }
-
         // 結果セクションをフェードインで表示
-        const resultsSection = container.querySelector("#shindan_kireilign");
+        const resultsSection = container.querySelector("#shindan_omt");
         resultsSection.style.display = 'block';
         resultsSection.style.opacity = 0; // アニメーションのために透明度を0に設定
         setTimeout(() => {
@@ -119,6 +119,8 @@
         container.querySelector('#answer1').textContent = selectedOptions['question1'] || '未回答';
         container.querySelector('#answer2').textContent = selectedOptions['question2'] || '未回答';
         container.querySelector('#answer3').textContent = selectedOptions['question3'] || '未回答';
+        container.querySelector('#answer4').textContent = selectedOptions['question4'] || '未回答';
+        container.querySelector('#answer5').textContent = selectedOptions['question5'] || '未回答';
       }
     })();
   </script>

@@ -6,10 +6,14 @@
   margin: auto;
   border-radius: 10px;
 
+  .color-attention {
+    color: #ff5151;
+  }
+
   .diagnose_tit {
     position: relative;
     color: rgb(255, 255, 255);
-    background-color: #FFA929;
+    background-color: #007aff;
     font-size: 20px;
     font-weight: bold;
     line-height: 1.8;
@@ -21,13 +25,29 @@
     }
   }
 
+  .cta_tit {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: #007aff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.8;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+
+    @media screen and (max-width: 640px) {
+      font-size: 18px;
+    }
+  }
+
+
   .label {
     position: absolute;
     top: 0;
     left: 0;
     font-size: 14px;
     border-radius: 10px 0 10px 0;
-    background-color: #FB67BD;
+    background-color: #e6f5fc;
     padding: 1%;
 
     @media screen and (max-width: 1000px) {
@@ -36,17 +56,22 @@
   }
 
   .diagnose_container {
-    background-color: #FFEED2;
+    background-color: #e6f5fc;
     border-radius: 10px;
     padding: 2%;
 
   }
 
   #shindan_container {
-    background-color: #FFEED2;
-    padding: 2% ;
+    background-color: #e6f5fc;
     margin: auto;
     border-radius: 0 0 10px 10px;
+
+    .course_detail {
+      border-radius: 12px;
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+      background-color: #fff;
+    }
 
     .content {
       display: block;
@@ -59,7 +84,7 @@
       font-size: 16px;
       color: white;
       font-weight: 700;
-      background-color: #FB67BD;
+      background-color: #ff5151;
       border-radius: 100%;
       margin: auto;
 
@@ -70,7 +95,7 @@
         left: 50%;
         margin-left: -10px;
         border: 10px solid transparent;
-        border-top: 10px solid #FB67BD;
+        border-top: 10px solid #ff5151;
       }
 
       &::after {
@@ -95,16 +120,17 @@
     .question-text {
       font-size: 20px;
       line-height: 1.8;
-      border-bottom: 2px solid #FFA929;
+      border-bottom: 2px solid #e6f5fc;
 
       @media screen and (max-width: 640px) {
         font-size: 16px;
       }
     }
 
-    .options-grid{
-      display: grid!important;
-    }  
+    .options-grid {
+      display: grid !important;
+    }
+
     .options {
       display: flex;
       flex-direction: column;
@@ -112,8 +138,6 @@
 
       button {
         display: block;
-        font-weight: bold;
-        font-size: 14px;
         color: rgb(80 80 80);
         border-style: unset;
         border-radius: 24px;

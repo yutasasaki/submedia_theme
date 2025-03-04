@@ -970,10 +970,13 @@
   border-radius: 10px;
   /* CSSでフェードイン・フェードアウトのキーフレームを定義 */
 }
+.clinic_shindan_omt .color-attention {
+  color: #ff5151;
+}
 .clinic_shindan_omt .diagnose_tit {
   position: relative;
   color: rgb(255, 255, 255);
-  background-color: #FFA929;
+  background-color: #007aff;
   font-size: 20px;
   font-weight: bold;
   line-height: 1.8;
@@ -985,13 +988,28 @@
     font-size: 18px;
   }
 }
+.clinic_shindan_omt .cta_tit {
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: #007aff;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.8;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+}
+@media screen and (max-width: 640px) {
+  .clinic_shindan_omt .cta_tit {
+    font-size: 18px;
+  }
+}
 .clinic_shindan_omt .label {
   position: absolute;
   top: 0;
   left: 0;
   font-size: 14px;
   border-radius: 10px 0 10px 0;
-  background-color: #FB67BD;
+  background-color: #e6f5fc;
   padding: 1%;
 }
 @media screen and (max-width: 1000px) {
@@ -1000,15 +1018,19 @@
   }
 }
 .clinic_shindan_omt .diagnose_container {
-  background-color: #FFEED2;
+  background-color: #e6f5fc;
   border-radius: 10px;
   padding: 2%;
 }
 .clinic_shindan_omt #shindan_container {
-  background-color: #FFEED2;
-  padding: 2%;
+  background-color: #e6f5fc;
   margin: auto;
   border-radius: 0 0 10px 10px;
+}
+.clinic_shindan_omt #shindan_container .course_detail {
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
 }
 .clinic_shindan_omt #shindan_container .content {
   display: block;
@@ -1020,7 +1042,7 @@
   font-size: 16px;
   color: white;
   font-weight: 700;
-  background-color: #FB67BD;
+  background-color: #ff5151;
   border-radius: 100%;
   margin: auto;
 }
@@ -1031,7 +1053,7 @@
   left: 50%;
   margin-left: -10px;
   border: 10px solid transparent;
-  border-top: 10px solid #FB67BD;
+  border-top: 10px solid #ff5151;
 }
 .clinic_shindan_omt #shindan_container .diag-question-balloon::after {
   content: "";
@@ -1052,7 +1074,7 @@
 .clinic_shindan_omt #shindan_container .question-text {
   font-size: 20px;
   line-height: 1.8;
-  border-bottom: 2px solid #FFA929;
+  border-bottom: 2px solid #e6f5fc;
 }
 @media screen and (max-width: 640px) {
   .clinic_shindan_omt #shindan_container .question-text {
@@ -1069,8 +1091,6 @@
 }
 .clinic_shindan_omt #shindan_container .options button {
   display: block;
-  font-weight: bold;
-  font-size: 14px;
   color: rgb(80, 80, 80);
   border-style: unset;
   border-radius: 24px;
