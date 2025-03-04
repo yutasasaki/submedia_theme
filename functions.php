@@ -23,7 +23,11 @@ $custom_functions_files = array(
   'ogp.php',
   // 'toc.php',
   'swell_toc.php',
+<<<<<<< HEAD
   'avif_upload.php'
+=======
+  'script_tags.php',
+>>>>>>> e2adb22 (whitening blog)
 );
 foreach ($custom_functions_files as $custom_functions_file) {
   locate_template($custom_functions_dir . $custom_functions_file, true);

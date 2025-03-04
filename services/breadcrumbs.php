@@ -11,24 +11,25 @@ function swell_breadcrumb_add( $list_data ) {
     $parsed_url = parse_url($site_url);
     $domain_url = $parsed_url['scheme'] . '://' . $parsed_url['host'];
     
+    // 「ホーム」用のデータ
     $domain_data = [
         'url'  => $domain_url,
-        'name' => '矯正歯科ガイド',  // ドメインの名前
+        'name' => 'ホーム',
     ];
     
-    // 差し込みたい固定ページのスラッグ名を取得
-    $page_data = get_page_by_path('wordpress-customize');  
-    $custom_data = $page_data ? [
-        'url'  => get_permalink($page_data->ID),
-        'name' => get_the_title($page_data->ID),
-    ] : [];
+    // 「ホワイトニング」用のデータ（`/whitening` を固定で指定）
+    $whitening_data = [
+        'url'  => $domain_url . '/whitening',
+        'name' => 'ホワイトニング',
+    ];
 
     // トップページでは何も出力しない
     if ( \SWELL_Theme::is_top() ) return false;
 
     $SETTING = \SWELL_Theme::get_setting();
-    $wp_obj = get_queried_object();  // そのページのWPオブジェクトを取得
+    $wp_obj = get_queried_object();
     $list_data = [];
+    $custom_data = [];
 
     // 「投稿ページ」をパンくずリストに入れる場合
     $home_data = null;
@@ -48,6 +49,7 @@ function swell_breadcrumb_add( $list_data ) {
             'name' => apply_filters('the_title', $wp_obj->post_title),
         ];
     } elseif ( is_single() ) {
+        // $list_data = array_merge($list_data, handle_single_post($wp_obj, $home_data));
         $list_data = array_merge($list_data, handle_single_post($wp_obj, $home_data, $custom_data));
     } elseif ( is_page() || is_home() ) {
         $list_data = array_merge($list_data, handle_page($wp_obj));
@@ -64,7 +66,7 @@ function swell_breadcrumb_add( $list_data ) {
             'name' => $wp_obj->display_name . ' の執筆記事',
         ];
     } elseif ( is_archive() ) {
-        $list_data = array_merge($list_data, handle_archive($wp_obj, $home_data, $custom_data));
+        $list_data = array_merge($list_data, handle_archive($wp_obj, $home_data));
     } elseif ( is_search() ) {
         $list_data[] = [
             'url'  => '',
@@ -82,7 +84,17 @@ function swell_breadcrumb_add( $list_data ) {
         ];
     }
 
-    // ドメインのパンクズを先頭に追加
+    // **カスタムパンくずを追加**
+    array_unshift($list_data, $whitening_data); // 「ホワイトニング」を先頭に追加
+    array_unshift($list_data, $domain_data); // 「メディケアさいたま新都心（ホーム）」を先頭に追加
+    // Home & メディケア歯科クリニック さいたま新都心 を削除
+    // $list_data = array_filter($list_data, function ($item) {
+    //     return !in_array($item['name'], ['Home', 'メディケア歯科クリニック さいたま新都心']);
+    // });
+
+    // 配列のキーを振り直す（JSONエンコード時の問題を防ぐ）
+    $list_data = array_values($list_data);
+    
 
     return $list_data;
 }
