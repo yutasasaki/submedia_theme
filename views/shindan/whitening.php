@@ -1,5 +1,5 @@
 <!-- wp:html -->
-<div class="clinic_shindan_whitening shadow">
+<div id="whitening_shindan_top" class="clinic_shindan_whitening shadow">
   <div class="diagnose_tit">
     <p class="text-base">あなたにぴったりなホワイトニングクリニックが<br>分かる診断がこちら↓</p>
   </div>
@@ -35,6 +35,12 @@
 
             // 選択したオプションのdata属性を保存
             selectedOptions[questionId] = selectedAnswer;
+            
+            // #whitening_shindan_topにスムーズスクロール
+            const shindanContainer = document.getElementById('whitening_shindan_top');
+            if (shindanContainer) {
+              shindanContainer.scrollIntoView({ behavior: 'smooth' });
+            }
 
 
             // 全てのオプションから選択スタイルをリセット
