@@ -1,4 +1,4 @@
-<section id="shindan_whitening" class="">
+<section id="shindan_whitening" class="" style="display: none;">
   <div class="bg-white rounded-2xl p-4 relative flex gap-2 flex-col mb-4">
     <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <figure class="w-5 h-5">
