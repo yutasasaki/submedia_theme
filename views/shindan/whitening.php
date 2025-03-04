@@ -1,7 +1,7 @@
 <!-- wp:html -->
 <div class="clinic_shindan_whitening shadow">
   <div class="diagnose_tit">
-    <p>あなたにぴったりなホワイトニングクリニック<span>が分かる診断がこちら↓</span></p>
+    <p class="text-base">あなたにぴったりなホワイトニングクリニックが<br>分かる診断がこちら↓</p>
   </div>
   <div id="shindan_container" class="">
     <div id="questions-container" class="diagnose_container">
