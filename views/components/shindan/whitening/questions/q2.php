@@ -1,10 +1,10 @@
 <!-- question1.php -->
 <div id="question2" class="question">
-  <div class="bg-white rounded-lg p-4 mb-4">
+  <div class="bg-white rounded-lg p-2 mb-4">
     <p class="text-xl font-semibold mb-2">知っていますか？</p>
-    <p class="font-semibold mb-2">実は、<span class="marker-yellow">歯を本来の色より白くできるのは</span><br>
+    <p class="font-semibold mb-2 text-base">実は、<span class="marker-yellow">歯を本来の色より白くできるのは</span><br>
       歯科クリニックで行う<span class="marker-yellow">医療ホワイトニング</span>だけ。</p>
-    <p class="font-semibold mb-2">サロンやセルフで行うホワイトニングには、<br>
+    <p class="font-semibold mb-2 text-base">サロンやセルフで行うホワイトニングには、<br>
       <span class="marker-yellow">歯を白くする効果は無いんです。</span><br>
       <span class="text-sm">※汚れ・着色を落とすだけ</span>
     </p>
