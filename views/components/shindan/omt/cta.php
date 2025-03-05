@@ -1,4 +1,4 @@
-<section id="shindan_omt" class="p-2">
+<section id="shindan_omt" class="p-2" style="display:none;">
   <div class="bg-white rounded-2xl p-2 relative flex gap-2 flex-col mb-2">
     <div class="flex flex-row justify-items-start items-center gap-2 mb-0">
       <figure class="w-5 h-5">
@@ -53,6 +53,8 @@
       <p class="text-base mb-4 color-gray text-left font-semibold">
         <span class="marker-yellow">リーズナブルな費用と圧倒的な手軽さ</span>から、
         今まで矯正を諦めていた方に選ばれています✨
+      </p>
+      <p class="text-base mb-4 color-gray font-semibold">
         \3万円相当の初診料が無料！/
       </p>
       <div class="cta_button">
