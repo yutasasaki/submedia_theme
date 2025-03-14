@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* --- テーブルの基本スタイル --- */
+.wp-block-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* --- すべての <td> に適用（基本設定） --- */
+.wp-block-table td {
+  border: 1px solid var(--color_gray);
+  padding: 8px;
+}
+
+/* --- 最初の <td>（ラベル部分）に nowrap を適用 --- */
+.wp-block-table td:first-child {
+  white-space: nowrap;
+  font-weight: bold;
+  background-color: #004ea2;
+  /* ラベルの背景色を統一 */
+  color: white;
+}
+
+/* --- スマホ時に横スクロールを許可 --- */
+@media (max-width: 767px) {
+  .wp-block-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .wp-block-table table {
+    min-width: 600px;
+    /* テーブルが小さくなりすぎないように */
+  }
+}

@@ -24,6 +24,7 @@ $custom_functions_files = array(
   // 'toc.php',
   'swell_toc.php',
   'avif_upload.php',
+  'iframe.php',
   'script_tags.php'
 );
 foreach ($custom_functions_files as $custom_functions_file) {
