@@ -66,7 +66,7 @@ function swell_breadcrumb_add( $list_data ) {
             'name' => $wp_obj->display_name . ' の執筆記事',
         ];
     } elseif ( is_archive() ) {
-        $list_data = array_merge($list_data, handle_archive($wp_obj, $home_data));
+        $list_data = array_merge($list_data, handle_archive($wp_obj, $home_data, $custom_data));
     } elseif ( is_search() ) {
         $list_data[] = [
             'url'  => '',
