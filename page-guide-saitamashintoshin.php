@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: ホワイトニングトップ - さいたま新都心ガイド
  * Description: さいたま新都心の歯科医院・ホワイトニングトップ・記事一覧ページ
@@ -35,45 +36,6 @@ get_header('guide-saitamashintoshin'); ?>
     <p>綺麗な白い歯は清潔感があり、好印象を与えます。ホワイトニングとは歯を削ることなく天然歯の本来の白さを引き出すものです。ホワイトニングの効果には個人差がありますが、元々の歯の色が濃い人や、変色してしまっている人などはホワイトニングの効果が出にくいと言われています。</p>
     <p>&nbsp;</p>
   </section>
-
-  <!-- ここに最新記事を表示 -->
-  <?php
-  // 最新記事を5件取得
-  $args = array(
-    'post_type' => 'post',
-    'posts_per_page' => 5,
-    'orderby' => 'date',
-    'order' => 'DESC'
-  );
-  $latest_posts = get_posts($args);
-
-  if (!empty($latest_posts)) :
-  ?>
-    <section>
-      <h2>最新記事</h2>
-      <ul class="latest-posts">
-        <?php foreach ($latest_posts as $post) : setup_postdata($post); ?>
-          <li>
-            <a href="<?php the_permalink(); ?>">
-              <?php if (has_post_thumbnail()) : ?>
-                <div class="post-thumbnail">
-                  <?php the_post_thumbnail('thumbnail'); ?>
-                </div>
-              <?php endif; ?>
-              <div class="post-content">
-                <h3><?php the_title(); ?></h3>
-                <p class="post-date"><?php echo get_the_date(); ?></p>
-                <div class="post-excerpt"><?php the_excerpt(); ?></div>
-              </div>
-            </a>
-          </li>
-        <?php endforeach; ?>
-      </ul>
-    </section>
-  <?php
-    wp_reset_postdata();
-  endif;
-  ?>
 
   <section>
     <h2 id="anker1">ホワイトニングとは？</h2>
@@ -289,7 +251,48 @@ get_header('guide-saitamashintoshin'); ?>
       <div class="item_img"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/img/common/002.jpg'); ?>" width="100%" alt="ホワイトニング"></div>
     </div>
   </section>
+
+  <!-- ここに最新記事を表示 -->
+  <?php
+  // 最新記事を5件取得
+  $args = array(
+    'post_type' => 'post',
+    'posts_per_page' => 5,
+    'orderby' => 'date',
+    'order' => 'DESC'
+  );
+  $latest_posts = get_posts($args);
+
+  if (!empty($latest_posts)) :
+  ?>
+    <section>
+      <h2>最新記事</h2>
+      <ul class="latest-posts">
+        <?php foreach ($latest_posts as $post) : setup_postdata($post); ?>
+          <li>
+            <a href="<?php the_permalink(); ?>">
+              <?php if (has_post_thumbnail()) : ?>
+                <div class="post-thumbnail">
+                  <?php the_post_thumbnail('thumbnail'); ?>
+                </div>
+              <?php endif; ?>
+              <div class="post-content">
+                <h3><?php the_title(); ?></h3>
+                <p class="post-date"><?php echo get_the_date(); ?></p>
+                <div class="post-excerpt"><?php the_excerpt(); ?></div>
+              </div>
+            </a>
+          </li>
+        <?php endforeach; ?>
+      </ul>
+    </section>
+  <?php
+    wp_reset_postdata();
+  endif;
+  ?>
 </main>
+
+
 <!-- /sub_content -->
 
 <?php get_footer('guide-saitamashintoshin'); ?>

@@ -34,6 +34,7 @@
   <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/css/style.css'); ?>">
   <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/css/style_sp.css'); ?>">
   <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/css/sub.css'); ?>">
+  <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/css/latest-posts.css'); ?>">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet">
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>

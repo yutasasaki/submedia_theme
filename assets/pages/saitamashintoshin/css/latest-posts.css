@@ -1,0 +1,75 @@
+/* 最新記事一覧のスタイル */
+.latest-posts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.latest-posts li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.latest-posts li a {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+}
+
+.latest-posts .post-thumbnail {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.latest-posts .post-thumbnail img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.latest-posts .post-content {
+  width: 70%;
+}
+
+/* 優先度を上げるためにセレクタを詳細化 */
+#sub .latest-posts h3,
+.sub_content .latest-posts h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+  background: none;
+  padding: 0;
+  letter-spacing: normal;
+}
+
+.latest-posts .post-date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.latest-posts .post-excerpt {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* レスポンシブデザイン */
+@media screen and (max-width: 768px) {
+  .latest-posts li a {
+    flex-direction: column;
+  }
+  
+  .latest-posts .post-thumbnail {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  
+  .latest-posts .post-content {
+    width: 100%;
+  }
+}
