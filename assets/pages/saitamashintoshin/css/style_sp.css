@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (max-width:599px){
+	
+	section{width: 100%;}
+	
+	.pc{display: none;}
+	.sp{display: initial;}
+	
+	
+	/* HEADER--------------------*/
+	header{padding: 20px 20px 0;}
+	header .h_cv{display: none;}
+	header .header_box .logo img{width: 70vw;}
+	header:after{
+		width: 100%;
+		top: auto;
+		bottom: -15px;}
+	
+	/* NAV-----------------------*/
+	
+	nav label{
+		display: inline-block;
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 99;
+		background: #f08c00;
+		color: #fff;
+		font-size: 0.85em;
+		letter-spacing: 0.1em;
+		padding: 10px;
+		transition-duration: .3s;
+		transition-timing-function: cubic-bezier(0,1,1,1);}
+	nav label span{display: block;}
+	nav label span:before{
+		display: block;
+		content: "";
+		width: 30px;
+		height: 1px;
+		background: #fff;
+		margin:0 auto 8px;
+		transition-duration: .5s;
+		transition-timing-function: cubic-bezier(0,1,1,1);}
+	
+	nav label:after{content: "MENU";}
+	
+	nav ul{
+		position: fixed;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+		background: rgba(240,150,0,.9);
+		top: 0;
+		left: 0;
+		z-index: 9;
+		opacity: 0;
+		visibility: hidden;	
+		transition-duration: .3s;
+		transition-timing-function: cubic-bezier(0,1,1,1);}
+	
+	nav li{
+		width: auto;
+		color: #fff;}
+	nav li:not(:last-child):after{
+		display: block;
+		content: "";
+		width: 6px;
+		height: 6px;
+		background: #fff;
+		border-radius: 10px;
+		margin: 2.5vh auto;
+		position: static;
+		transform: none;}
+	nav li a{
+		font-size:1.15em;
+		font-weight:bold;
+	}
+	nav li span{
+		display: inline-block;}
+	nav li span:before{
+		content: "-";
+		letter-spacing: 0;
+		margin: 0 6px;}
+	
+	nav input:checked + label{
+		background: #fff;
+		color: #f08c00;}
+	nav input:checked + label span:before{
+		background: #f08c00;
+		width: 20px;}
+	nav input:checked + label span:first-of-type:before{transform: rotate(45deg) translate(4px,4px);}
+	nav input:checked + label span:last-of-type:before{transform: rotate(-45deg) translate(2px,-2px);}
+	
+	nav input:checked + label:after{content: "CLOSE";}
+	nav input:checked ~ ul{
+		opacity: 1;
+		visibility: inherit;}
+	
+	/* FOOTER--------------------*/
+	
+	footer .footer_wrap{display: block;}
+	footer .footer_wrap .f_info_in{
+		text-align: center;}
+	footer .footer_wrap .map{height: 400px;}
+	footer .f_photo{height: 30vh;}
+	footer .group li{margin: 5px;}
+	footer .group li a{
+		background: none;
+		color: #fff;
+		border: none;
+		padding: 0;
+		text-decoration: underline;}
+	footer .group{padding-bottom: 60px;}
+
+	.sp_fix{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		background: #fff;
+		border-top: 1px solid #f08c00;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+    padding: 0;
+    }
+
+		.sp_fix li{
+		width: calc(100%/3);
+		text-align: center;
+		color: #f08c00;}
+		.sp_fix li:not(:last-child){border-right: 1px solid;}
+
+		.sp_fix li a{
+		display: block;
+		font-weight: 900;
+		letter-spacing: 0.1em;
+		padding:10px 0;}
+
+		.sp_fix li a i{margin-right: 3px;}
+		
+		/* haru_css 2020.1.15---------------------------------*/
+
+	footer .footer_wrap .f_info {
+    padding: 45px 5vw;
+    text-align: center;
+	}
+
+	
+	/* SUB---------------------------------*/
+	
+	#sub header .mv{
+		height: 200px;}
+	#sub header .mv img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;}
+	#sub .pankuzu{
+		width: 100%;
+		padding: 0 0px;}
+	#sub main.sub_content{
+		width: 100%;
+		padding: 0 10px;
+		box-sizing: border-box;
+		margin-bottom: 60px;}
+	#sub main.sub_content section{
+		padding: 60px 5vw;}
+	
+	#sub main .flow_box{padding: 60px 20px 15px;}
+	#sub main .flow_box:before{
+		font-size: 8vw;
+		width: calc(100% - 20px);
+		height: 40px;}
+	#sub main .flow_box:not(:last-child):after{
+		left: calc(50% - 16px);}
+	
+	#sub main table.normal tr:not(:last-child) td{
+		border-bottom: none;}
+	
+	#sub main table.normal tr th,
+	#sub main table.normal tr td{
+		display: block;}
+	#sub main table.normal tr th{
+		text-align: center;
+		width: 100%;}
+	#sub h1, p.add_doctor{
+		line-height:normal;
+		letter-spacing:0.06em;
+	}
+	#sub h3 {
+		margin: 40px 0 15px;
+		}
+	
+	.jidv_banner_sp {
+		display:block;
+		width:80%;
+		margin:0 auto;
+		margin-top:30px;
+	}
+	
+	.jidv_banner_pc {
+		display:none;
+	}
+	
+}
+
+
+@media screen and (max-width:320px){
+footer .add {
+    letter-spacing: 0.05em;
+}
+footer .footer_wrap .f_info_in p{
+    letter-spacing: 0.05em;
+	line-height:normal;
+}
+#sub h3 {
+    font-size: 1.18em;
+    letter-spacing: 0.05em;
+    background: #fff;
+    padding: 10px 13px;
+}
+}
+
+@media screen and (max-width:599px){
+    #top header .mv_txt {
+    font-size: 6.2vw;
+    padding: 20px 0px 10px;
+    position: static;
+    text-align: center;
+    line-height: 2.1em;
+}
+    #top header .mv_txt span {
+    font-size: 6.5vw;
+    letter-spacing: 0.014em;
+}
+    #top header .mv_txt em {
+    font-size: 90%;
+}
+    .header_box h1{
+    font-size: 5px;
+}
+    
+    
+}

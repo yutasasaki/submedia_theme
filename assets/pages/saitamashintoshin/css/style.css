@@ -1,0 +1,556 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{font-size: 87.5%;
+	padding: 0;
+	margin: 0;}
+
+body{font-family:'Lato', "游ゴシック体", YuGothic, "YuGothic M", "Hiragino Kaku Gothic ProN",
+	"Hiragino Kaku Gothic Pro", "メイリオ", sans-serif;
+	font-size:1em;
+	color:#232323;}
+
+section{
+	width:900px;
+	margin: 0 auto;}
+
+main{display: block;}
+
+a{
+transition-duration: .3s;
+transition-timing-function: cubic-bezier(0,1,1,1);
+color: inherit;}
+
+
+/* COMMON--------------------------------------------------*/
+img{max-width: 100%;}
+.sp{display: none;}
+
+/* header----------------------*/
+header{
+	padding: 30px 50px 0;
+	position: relative;
+	margin-bottom: 30px;}
+
+header .header_box{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;}
+
+header .h_cv{text-align: right;}
+header .h_cv .tel{
+	font-weight: 900;
+	font-size: 2.28em;
+	letter-spacing: 0.1em;
+	color: #fff;
+	margin-bottom: 10px;}
+header .h_cv .tel i{font-size: 2rem;}
+
+header .h_cv .mail a{
+	display: inline-block;
+	background: #fff;
+	color: #f08c00;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	padding: 5px 20px;
+	border: 1px solid #f08c00;
+	border-radius: 50px;}
+
+header .h_cv .mail a:hover{
+	background: #f08c00;
+	border-color: #fff;
+	color: #fff;}
+
+header .h_cv i{margin-right: 2px;}
+
+header .mv {
+	position: relative;
+	z-index: 1;
+	line-height: 0;}a
+header .mv img{
+	border-radius:4px;}
+
+header:after{
+	content: "";
+	width: 420px;
+	height: 100%;
+	background: #f08c00;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;}
+
+/* nav----------------------*/
+
+nav ul{
+	width: 1000px;
+	margin: auto;
+	display: flex;
+	justify-content: center;}
+
+nav li{
+	width: calc(100%/7);
+	text-align: center;
+	letter-spacing: 0.1em;
+	position: relative;}
+
+nav li:not(:last-child):after{
+	content: "";
+	width: 1px;
+	height: 30px;
+	background: #d3d3d3;
+	position: absolute;
+	right:0;
+	top: 5px;
+	transform: rotate(30deg);}
+
+nav li span{
+	display: block;
+	font-size: 0.85em;
+	margin-top: 5px;}
+
+nav li a:hover{color: #f08c00;}
+
+nav input,
+nav label{display: none;}
+
+/* footer----------------------*/
+footer .pagetop{
+	text-align: center;}
+
+footer .pagetop a{
+	color: #f08c00;
+	background: #faf7f5;
+	display: block;
+	font-size: 2em;}
+
+footer .pagetop a:hover{
+	background: #f08c00;
+	color: #fff;}
+
+footer .footer_wrap{
+	display: flex;
+	letter-spacing: 0.1em;}
+footer .footer_wrap > div{flex-basis: 50%;}
+
+footer .footer_wrap .f_info{
+	padding: 80px 5vw;
+	text-align: center;}
+footer .footer_wrap .f_info_in{
+	display: inline-block;
+	text-align: left;}
+footer .f_logo{margin-bottom: 30px;}
+footer .add{margin-bottom: 10px;}
+footer .tel{
+	color: #f08c00;
+	font-size: 2.28em;
+	letter-spacing: 0.1em;
+	font-weight: 900;
+	margin-bottom: 10px;}
+footer .tel i{
+	font-size: 2rem;
+	margin-right: 2px;}
+
+footer .mail{
+	margin-bottom: 20px;}
+footer .mail a{
+	display: inline-block;
+	background: #f08c00;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px 20px;
+	border-radius: 20px;
+	border: 1px solid #f08c00;}
+
+footer .mail a:hover{
+	background: #fff;
+	color: #f08c00;}
+
+footer .mail a i{margin-right: 2px;}
+footer .hour{
+	line-height: 1.8;
+	margin-bottom: 5px;}
+
+footer .f_photo{
+	width: 100%;
+	height: 450px;
+	overflow: hidden;
+	line-height: 0;}
+footer .f_photo img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	}
+
+footer .group{
+	background: #f08c00;
+	text-align: center;
+	padding: 20px 0 35px;
+	letter-spacing: 0.1em;}
+
+footer .group p{
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.14em;
+	margin-bottom: 20px;}
+footer .group p:after{
+	content: "";
+	display: block;
+	margin: 15px auto 0;
+	width: 50px;
+	height: 2px;
+	background: #fff;
+	border-radius: 5px;}
+
+footer .group p span{
+	font-size: 1.5em;
+	margin-left: 5px;}
+
+footer .group li{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;}
+
+footer .group li a{
+	display: block;
+	background: #fff;
+	color: #f08c00;
+	font-weight: bold;
+	padding: 3px 10px;
+	border-radius: 20px;
+	border: 1px solid #fff;}
+
+footer .group li a:hover{
+	color: #fff;
+	background: #f08c00;
+	border-radius: 0;}
+.sp_fix{display: none;}
+
+/* SUB--------------------------------------------------*/
+#sub header:after{
+	height: calc(100% - 120px);}
+
+#sub .pankuzu{
+	width: 900px;
+	margin: 40px auto 20px;
+	text-align: right;}
+
+#sub .pankuzu li{
+	letter-spacing: 0.1em;
+	display: inline-block;}
+
+#sub .pankuzu li:not(:last-child):after{
+	content: "-";
+	margin: 0 5px;}
+
+#sub .pankuzu li:first-child a:hover{color: #f08c00;}
+#sub .pankuzu li:not(:first-child) a{
+	text-decoration: underline;
+	text-decoration-color:#fff;}
+#sub .pankuzu li:not(:first-child) a:hover{text-decoration-color:#ccc;}
+
+#sub main.sub_content{
+	width: 900px;
+	margin:0 auto 80px;}
+
+#sub main.sub_content section{
+	background: #faf7f5;
+	padding: 80px 100px;}
+
+#sub main.sub_content section:not(:last-child){
+	margin-bottom: 40px;}
+
+
+/* h1~h4-------------------- */
+#sub h1,p.add_doctor{
+	color: #f08c00;
+	font-size: 1.28em;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 0.1em;
+	margin-bottom: 50px;}
+
+p.add_doctor{
+	margin-bottom: 50px!important;
+	text-align: center!important;
+}
+
+#sub h1 span,p.add_doctor span{
+	display: block;
+	font-size: 1.2em;
+	font-weight: 900;
+	margin-top: 5px;}
+
+#sub h1:before,
+#sub h1:after,
+p.add_doctor:before,
+p.add_doctor:after{
+	display: block;
+	content: "";
+	width:180px;
+	height: 1px;
+	background: #f08c00;
+	margin: auto;}
+
+#sub h1:before,p.add_doctor:before{margin-bottom: 10px;}
+#sub h1:after,p.add_doctor:after{margin-top: 10px;}
+
+#sub h2{
+	text-align: center;
+	font-size: 1.57em;
+	letter-spacing: 0.15em;
+	margin: 0px auto 40px;}
+
+#sub h2:after{
+	display: block;
+	content: "";
+	width:180px;
+	height: 1px;
+	background: #232323;
+	margin:5px auto 0;}
+
+#sub h3{
+	font-size: 1.28em;
+	letter-spacing: 0.15em;
+	background: #fff;
+	padding: 10px 20px;
+	margin: 40px  0 30px;}
+
+#sub h4{
+	font-size: 1.14em;
+	color: #f08c00;
+	letter-spacing: 0.15em;
+	margin: 30px 0 10px;}
+
+/* 各パーツ-------------------- */
+#sub main.sub_content p{
+	text-align: justify;
+	letter-spacing: 0.1em;
+	line-height: 1.8;
+	margin-bottom: 0.667em;}
+
+
+#sub main.sub_content *:last-child{margin-bottom: 0px;}
+
+#sub main table{
+	letter-spacing: 0.1em;
+	line-height: 1.8;
+	margin-bottom: 40px;
+	width: 100%;}
+
+#sub main table.normal th{
+	background: #f08c00;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px 15px;
+	width: 30%;}
+
+#sub main table.normal td{
+	background: #fff;
+	padding: 10px 15px;
+	vertical-align: middle;}
+
+#sub main table.normal tr:not(:last-child) th{border-bottom: 1px solid #fff;}
+#sub main table.normal tr:not(:last-child) td{border-bottom: 1px solid #232323;}
+
+#sub main .flow{margin-bottom: 40px;}
+#sub main .flow_box{
+	background: #fff;
+	padding: 15px 20px 15px 130px;
+	letter-spacing: 0.1em;
+	text-align: justify;
+	position: relative;
+	counter-increment: flow;}
+
+#sub main .flow_box:not(:last-child){margin-bottom: 35px;}
+
+#sub main .flow_box:before{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	content: "0 " counter(flow);
+	background: #f08c00;
+	color: #fff;
+	font-size: 2.57em;
+	letter-spacing: normal;
+	font-weight: 900;
+	width: 100px;
+	height: calc(100% - 20px);
+	position: absolute;
+	left: 10px;
+	top: 10px;}
+
+#sub main .flow_box:not(:last-child):after{
+	content: "";
+	border: 16px solid;
+	border-color: #f08c00 transparent transparent transparent;
+	position: absolute;
+	left: 44px;
+	bottom: -42px;}
+
+#sub main ul.list li{
+	letter-spacing: 0.1em;
+	line-height: 1.8;
+	margin-bottom: 20px;
+	padding-left: 18px;
+	text-indent: -18px;}
+
+#sub main ul.list li:before{
+	display: inline-block;
+	content: "";
+	width: 10px;
+	height: 10px;
+	background: #f08c00;
+	border-radius: 20px;
+	margin-right: 8px;}
+	
+/* haru 2020.1.15CSS Document */
+.mb_10{
+	margin-bottom:10px !important;
+}
+#sub #blog_css p{
+	margin-bottom:1.5em;
+	line-height:normal;
+}
+
+
+.jidv_banner_pc {
+	text-align: center;
+	display:block;
+	margin-top:30px;
+}
+
+.jidv_banner_sp {
+		display:none;
+		
+	}
+
+/*20210112 add*/
+#formWrap table {
+    margin: 0 auto;
+}
+
+#formWrap table tr {
+    border-top: solid 1px;
+}
+
+#formWrap table th{
+     vertical-align: middle;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+
+#formWrap table td {
+    vertical-align: middle;
+    padding: 10px 15px 10px 60px;
+    text-align: left;
+}
+
+#formWrap .form-btn {
+    display: flex;
+    margin: 20px auto;
+}
+
+input.btn {
+display: inline-block;
+    background: #f08c00;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 50px;
+    border-radius: 20px;
+    border: 1px solid #f08c00;
+    margin: 0 50px;
+}
+
+.title_h2{
+	color: #f08c00;
+	font-size: 1.28em;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 0.1em;
+	margin-bottom: 50px;}
+
+
+.title_h2 span{
+	display: block;
+	font-size: 1.2em;
+	font-weight: 900;
+	margin-top: 5px;}
+
+.title_h2:before,
+.title_h2:after{
+	display: block;
+	content: "";
+	width:180px;
+	height: 1px;
+	background: #f08c00 !important;
+	margin: auto;}
+
+.title_h2:before{margin-bottom: 10px;}
+.title_h2:after{margin-top: 10px;}
+
+#top header .mv_txt{
+    background: #f08c00;
+    color: #fff;
+    font-size: 1.714em;
+    padding: 25px 25px;
+    letter-spacing: 0.2em;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    z-index: 2;
+    line-height: 2.5em;
+    text-align: center;
+}
+
+#top header .mv_txt span {
+    font-size: 120%;
+    letter-spacing: 0.05em;
+}
+
+#top header .mv_txt em {
+    font-style: normal;
+    border: 2px solid #fff;
+    margin: 0 10px;
+    padding: 7px 12px;
+    letter-spacing: 0.05em;
+}
+
+#top header .mv_txt {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.header_box h1{
+    font-size: 10px!important;
+    padding: 0px!important;
+    text-align: center;
+}
+
+#top .video{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.houjin-banner {
+    display: block;
+    max-width: 690px;
+    margin: 20px auto;
+}
+.houjin-banner:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 699px) {
+    .houjin-banner {
+        width: 90%;
+    }
+}

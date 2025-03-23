@@ -1,0 +1,630 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* TOP--------------------------------------------------*/
+
+#top{letter-spacing: 0.1em;}
+
+#top .btn a{
+	display: inline-block;
+	min-width: 200px;
+	text-align: center;
+	background: #f08c00;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px 30px;
+	border-radius: 50px;
+	box-sizing: border-box;
+	border: 1px solid #f08c00;}
+
+#top .btn a:hover{
+	background: #fff;
+	color: #f08c00;}
+
+#top h2{
+	color: #f08c00;
+	font-size: 1.28em;
+	text-align: center;
+	font-weight: normal;
+	letter-spacing: 0.15em;
+	position: relative;
+	padding: 10px 0;
+	margin-bottom: 30px;}
+
+#top h2 span{
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	display: block;
+	font-weight: bold;}
+
+#top h2:before,
+#top h2:after{
+	content: "";
+	width: 180px;
+	height: 1px;
+	background: #f08c00;
+	position: absolute;
+	left: calc(50% - 90px);}
+
+#top h2:before{top: 0;}
+#top h2:after{bottom: 0;}
+
+/* header--------------------*/
+#top header .mv{
+	height: 600px;
+	overflow: hidden;
+	border-radius: 4px;}
+
+#top header .mv p,
+#top header .mv div{
+	width:100%;
+	height:100%;}
+#top header .mv p img{
+	width:100%;
+	height:100%;
+	 object-fit:cover;}
+/*
+
+#top header h1{
+	background: #f08c00;
+	color: #fff;
+	font-size: 1.714em;
+	padding: 25px 25px;
+	letter-spacing: 0.2em;
+	position: absolute;
+	right: 30px;
+	bottom: 0;
+	z-index: 2;
+	line-height: 2.5em;
+	text-align:center;}
+	#top header h1 span{
+		font-size:150%;
+		letter-spacing:0.05em;
+	}
+*/
+
+
+/* clinc_information--------------------*/
+#top main{margin-top: 30px;}
+#top .clinc_information{
+	background: #faf7f5;
+	padding: 35px;}
+
+#top .clinc_information .news{
+	background: #fff;
+	border-radius: 4px;
+	padding: 25px 25px 15px;
+	width: 48%;
+	margin-bottom: 15px;
+}
+#top .clinc_information .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	margin: 0 auto;
+	width: 900px;
+}
+#top .clinc_information .news .tit{
+	text-align: center;
+	font-size: 1.142em;
+	letter-spacing: 0.1em;
+	margin-bottom: 25px;}
+
+#top .clinc_information .news .tit span{
+	display: block;
+	position: relative;
+	padding-top: 5px;
+	margin-top: 5px;}
+
+#top .clinc_information .news .tit span:before{
+	content: "";
+	width: 140px;
+	height: 1px;
+	background: #232323;
+	position: absolute;
+	left: calc(50% - 70px);
+	top: 0;}
+
+#top .clinc_information .news ul{
+	width: 370px;
+	margin: auto;}
+
+#top .clinc_information .news li{
+	margin-bottom: 15px;
+	letter-spacing: 0.1em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;}
+
+#top .clinc_information .news li p{
+	display:inline-block;
+	width:auto;
+	background: #e9e9e9;
+	font-size: 0.857em;
+	text-align: center;
+	border-radius: 2px;
+	padding: 5px 10px;
+	margin-right: 10px;}
+#top .clinc_information .news li p.event{
+	background: #fdf3e5;
+	color: #f08c00;}
+#top .clinc_information .news li span{ margin-right: 1em; }
+#top .clinc_information .news li a{text-decoration: underline;text-decoration-color:#fff;}
+#top .clinc_information .news li a:hover{text-decoration-color:#ccc;}
+
+#top .clinc_information .news p.more_btn{text-align: right;}
+
+#top .clinc_information .news p.more_btn a{
+	display: inline-block;
+	background: #f08c00;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	padding:5px 18px;
+	border-radius: 50px;
+	border: 1px solid #f08c00;}
+#top .clinc_information .news p.more_btn a:hover{
+	background: #fff;
+	color: #f08c00;}
+#top .clinc_information .news li p a{ text-decoration: none; }
+#top .clinc_information .info{
+	display: flex;
+	justify-content: space-between;}
+
+#top .clinc_information .info > div{
+	width: 50%;
+	padding: 20px;
+    line-height: 1.8;
+}
+
+#top .clinc_information .info h3{
+	font-size: 1.285em;
+	color:#f08c00;
+	margin-bottom: 10px;}
+
+#top .clinc_information .info h3:before{
+	content: "■";
+	display: inline-block;
+	margin-right: 5px;}
+
+#top .clinc_information .info p:not([class]){line-height: 2;}
+#top .clinc_information .info .access p:first-of-type{margin-bottom: 20px;}
+
+
+
+/* for_first--------------------*/
+#top .for_first{
+	display: flex;
+	padding: 60px 0;}
+
+#top .for_first img{border-radius: 4px;}
+#top .for_first div{
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;}
+
+#top .for_first div p:first-of-type{
+	line-height: 2;
+	margin-bottom: 20px;}
+
+/* feature--------------------*/
+#top .feature{
+	background:linear-gradient(to bottom,#f08c00 390px,#fff 390px);}
+
+#top .feature .about{
+	position: relative;
+	padding: 60px 0;}
+
+#top .feature h2{
+	font-size: 1.4em;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	background: #fff;
+	position: absolute;
+	top: 50px;
+	left: -20px;
+	padding: 20px 50px;}
+
+#top .feature h2:before,
+#top .feature h2:after{content: none;}
+
+#top .feature .photo{margin-bottom: 20px;}
+#top .feature .photo img{border-radius: 4px;}
+
+#top .feature .photo + p{
+	text-align: center;
+	line-height: 2;}
+#top .feature .photo + p span{
+	font-size:2em;
+	color:#f08c00;
+	font-weight:bold;
+}
+#top .feature .feature_list{
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+	padding: 40px 0 30px;}
+
+#top .feature .feature_list:after{
+	content: "";
+	background: url("../img/top/feature_bg_img.jpg") no-repeat center rgba(35,35,35,.4);
+	background-blend-mode: multiply;
+	background-size: 100%;
+	filter: blur(5px);
+	width: 110%;
+	height: 110%;
+	position: absolute;
+	top: -5%;
+	right: 0;
+	bottom:-5%;
+	left: 0;
+	z-index: -2;}
+
+#top .feature .feature_list ul{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;}
+#top .feature .feature_list li{
+	flex-basis: calc(100%/4 - 60px/4);
+	background: #fff;
+	border-radius: 4px;
+	overflow: hidden;
+	transition-duration: .3s;
+	transition-timing-function: cubic-bezier(0,1,1,1);}
+#top .feature .feature_list li:hover{opacity: .5;}
+#top .feature .feature_list li:hover h3{color: #f08c00;}
+
+#top .feature .feature_list li img{width: 100%;}
+#top .feature .feature_list li h3{
+	font-size: 1em;
+	text-align: center;
+	padding: 20px 10px;}
+
+#top .feature .feature_list .btn{text-align: center;}
+
+/* doctor--------------------*/
+#top .doctor{
+	display:flex;
+	justify-content: space-between;}
+
+#top .doctor .photo{
+	flex-basis: 380px;
+	flex-shrink: 0;
+	line-height: 0;}
+
+#top .doctor .photo img{
+	width: 130%;
+    height: 100%;
+    max-width: 130%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';}
+
+#top .doctor .txt{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: calc(100% - 380px);
+	padding: 50px;}
+
+#top .doctor .txt .doctor_box p{text-align: center;}
+
+#top .doctor .name{
+	font-size: 1.57em;
+	font-weight: bold;
+	line-height: 2;}
+#top .doctor  .name_eng{
+	color: #f08c00;
+	margin-bottom: 30px;}
+
+#top .doctor p:not([class]){
+	line-height: 1.7;
+	margin-bottom: 30px;}
+
+#top .doctor  .career{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;}
+
+#top .doctor  .career .box{
+	margin: 0 20px;
+	min-width: 195px;}
+#top .doctor  .career .box h3{
+	background: none;
+	padding: 0 0 10px;
+	border-bottom: 1px solid;
+	margin-bottom: 20px;}
+
+#top .doctor .career .box li{
+	font-size: 0.92em;
+	letter-spacing: 0.1em;
+	margin-bottom: 10px;}
+
+#top .doctor .btn{text-align: center;}
+
+
+/* treatment--------------------*/
+#top .treatment{
+	background: #faf7f5;
+	padding: 90px 0;}
+
+#top .treatment .treatment_box{
+	width: 700px;
+	margin: auto;
+	display: flex;
+	justify-content: center;}
+
+#top .treatment .treatment_box .box{
+	background: #fff;
+	text-align: center;
+	border-radius: 4px;
+	margin: 10px;
+	overflow: hidden;}
+
+#top .treatment .treatment_box .box a{display: block;}
+#top .treatment .treatment_box .box a:hover{
+	filter: brightness(1.2);
+	color: #f08c00;}
+
+#top .treatment .treatment_box h3{
+	font-weight: normal;
+	font-size: 1rem;}
+
+#top .treatment .treatment_box.first .box{
+	width: 210px;
+	position: relative;}
+#top .treatment .treatment_box.first h3{padding: 30px 10px 15px;}
+#top .treatment .treatment_box.first .ico{
+	width: 70px;
+	height: 70px;
+	background: #fff;
+	padding: 10px 0;
+	border-radius: 100px;
+	position: absolute;
+	top: 75px;
+	left: calc(50% - 35px);}
+
+#top .treatment .treatment_box.last{flex-wrap: wrap;}
+#top .treatment .treatment_box.last .box{width: 150px;}
+#top .treatment .treatment_box.last .box a{padding: 30px 10px 15px;}
+#top .treatment .treatment_box.last .ico{margin-bottom: 10px;}
+
+
+
+/* price--------------------*/
+#top .price{
+	background: linear-gradient(to bottom,#faf7f5 85%,#fff 85%);
+	margin-bottom: 30px; padding-bottom: 150px;}
+
+#top .price section{display:flex;}
+
+#top .price .txt{
+	flex-basis: 50%;
+	text-align: center;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;}
+
+#top .price .txt h2 + p{
+	line-height: 2;
+	margin-bottom: 30px;}
+
+#top .price .photo {flex-basis: 50%;}
+#top .price .photo img{
+	border-radius: 4px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;}
+	
+	#top header h1 em{
+	font-style:normal;
+	border:2px solid #fff;
+	margin:0 10px;
+	padding:7px 12px;
+	letter-spacing:0.05em;
+	}
+
+/* clinic_slide--------------------*/
+#top .clinc_slide{
+	overflow: hidden;
+	margin: 60px 0 70px;}
+
+#top .clinc_slide ul{white-space: nowrap;}
+#top .clinc_slide li{
+	display: inline-block;
+	margin: 0 10px;}
+
+#top .clinc_slide img{
+	width: 280px;
+	border-radius: 4px;}
+
+
+@media screen and (max-width:599px){
+	
+	/* TOP----------------*/
+	#top header .mv{height: 35vh;}
+	#top header .mv img{width:100%;height:100%;object-fit:cover;}
+	#top header h1{
+		font-size: 6.2vw;
+		padding: 20px 0px 10px;
+		position: static;
+		text-align: center;
+		line-height:2.1em;}
+	#top header:after{height: 50%;}
+	
+	#top .clinc_information{padding: 35px 20px;}
+	#top .clinc_information .flex{width: 100%;}
+	#top .clinc_information .news ul{width: 100%;}
+	#top .clinc_information .news li p{
+		display: block;
+		margin-bottom: 5px;}
+	#top .clinc_information .info{display: block;}
+	#top .clinc_information .info > div{width: 100%;}
+	
+	#top .for_first{
+		display: block;
+		padding: 40px 20px 60px;}
+	#top .for_first > p{
+		text-align: center;
+		margin-bottom: 30px;}
+	#top .for_first div{width: 100%;}
+	
+	#top .feature {background: linear-gradient(to bottom,#f08c00 24vh,#fff 24vh);}
+	#top .feature .photo{height: 30vh;}
+	#top .feature .photo img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;}
+	#top .feature .about{padding: 40px 20px;}
+	#top .feature h2{top: 10px;}
+	#top .feature .feature_list ul{
+		flex-wrap: wrap;
+		padding:0 10px;}
+	#top .feature .feature_list li{
+		flex-basis: calc(100%/2 - 5px);
+		margin-bottom: 10px;}
+	
+	#top .doctor{display: block;}
+	#top .doctor .photo{
+		width: 100%;
+		height: 410px;}
+	#top .doctor .photo img{object-position: 50% 0;}
+	#top .doctor .txt{padding: 30px 10px 50px;}
+	#top .doctor .career{display: block;}
+	#top .doctor .career .box:first-child{margin-bottom: 30px;}
+	
+	#top .treatment{padding: 60px 0;}
+	#top .treatment .treatment_box{width: 100%;}
+	#top .treatment .treatment_box.first{display: block;}
+	#top .treatment .treatment_box.first .box{margin:0 auto 20px;}
+	#top .treatment .treatment_box.last .box {width: 40%;}
+	
+	#top .price section{
+		display: block;
+		padding: 0 20px;}
+	#top .price .txt{padding: 0 0 20px;}
+	
+	
+	/* haru_css 2020.1.15---------------------------------*/
+	#top header h1 span{
+				font-size:112%;
+				letter-spacing:0.014em;
+	}
+	#top .feature .photo + p span{
+	font-size:1.5em;
+	line-height:normal;
+	}
+	
+	#top .feature .feature_list li h3 {
+    letter-spacing: 0.05em;
+}
+
+#top .clinc_slide {
+    overflow: hidden;
+    margin: 35px 0 35px;
+}
+#top .clinc_information .news p.more_btn a {
+    display: block;
+    text-align: center;
+    width: 70%;
+    letter-spacing: 0.1em;
+    padding: 5px 18px;
+    border-radius: 50px;
+    border: 1px solid #f08c00;
+    margin: 30px auto 20px;
+}
+#top .clinc_information .news li a span{
+	font-size:80%;
+}
+#top .clinc_information .news li {
+    margin-bottom: 23px;
+}
+#top .clinc_information .news li a{
+	font-size:13px;
+	letter-spacing:0;
+}
+#top .doctor .photo img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+#top .feature .feature_list li h3 {
+    padding: 20px 0px;
+}
+#top .feature h2 {
+    letter-spacing: 0.07em;
+    background: #fff;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+#top .doctor .career .box li {
+    letter-spacing: 0.01em;
+}
+#top h2 {
+    margin-bottom: 20px;
+}
+#top header h1 em {
+    font-size: 90%;
+}
+#top .clinc_information .news{width: 100%;}
+
+}
+
+/*2021 01 19*/
+	#top header h2{
+        
+		font-size: 6.2vw;
+		padding: 20px 0px 10px;
+		position: static;
+		text-align: center;
+		line-height:2.1em;
+}
+#top header h2{
+	background: #f08c00;
+	color: #fff;
+	font-size: 1.714em;
+	padding: 25px 25px;
+	letter-spacing: 0.2em;
+	position: absolute;
+	right: 30px;
+	bottom: 0;
+	z-index: 2;
+	line-height: 2.5em;
+	text-align:center;
+}
+	#top header h2 span{
+		font-size:150%;
+		letter-spacing:0.05em;
+	}
+#top header h2 {
+    background: #f08c00;
+    color: #fff;
+    font-size: 1.714em;
+    padding: 25px 25px;
+    letter-spacing: 0.2em;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    z-index: 2;
+    line-height: 2.5em;
+    text-align: center;
+}
+#top header h2 em {
+    font-style: normal;
+    border: 2px solid #fff;
+    margin: 0 10px;
+    padding: 7px 12px;
+    letter-spacing: 0.05em;
+}
+
+	#top header h2 span{
+				font-size:112%;
+				letter-spacing:0.014em;
+	}
