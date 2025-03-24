@@ -1,0 +1,435 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 各ページ個別のcssはこっちに記述してください */
+
+/* DOCTOR---------------------------------------------- */
+#sub main.doctor{}
+
+#sub main.doctor .doctor_box p{text-align: center;letter-spacing: 0.05em;}
+#sub main.doctor .doctor_box div.aisatsu p{text-align: left;}
+
+#sub main.doctor .doctor_box .post,
+#sub main.doctor .doctor_box .name{margin-bottom: 10px;}
+
+#sub main.doctor .doctor_box .name{
+	font-size: 1.57em;
+	font-weight: bold;
+	line-height: 1;}
+
+#sub main.doctor .doctor_box .name_eng{
+	color: #f08c00;
+	margin-bottom: 30px;}
+
+#sub main.doctor .career{
+	display: flex;
+	justify-content: center;}
+
+#sub main.doctor .career .box{
+	margin: 0 20px;
+	min-width: 195px;}
+
+#sub main.doctor .career .box h3{
+	background: none;
+	padding: 0 0 10px;
+	border-bottom: 1px solid;
+	margin-bottom: 20px;}
+
+#sub main.doctor .career .box li{
+	font-size: 0.92em;
+	letter-spacing: 0.02em;
+	margin-bottom: 10px;}
+
+.flex_box{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 30px;}
+
+.flex_box .item{
+	flex-basis: 55%;}
+
+.flex_box .item_img{
+	flex-basis: 40%;}
+
+.flex_box .half{
+	flex-basis: 48%;}
+
+.flow_box p span {
+	font-size: 1.2em;
+	font-weight: 600;}
+
+.flow_box p span:before{
+	content: "●";
+	color: #f08c00;
+	padding-right: 0.2em;}
+
+.container_btn {
+	font-family: "Yu Gothic", YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
+	text-align: center;
+	padding-top: 40px;}
+
+/* ここから下がボタンのCSS　*/
+.btn-border {
+	display: inline-block;
+	max-width: 200px;
+	text-align: left;
+	border: 2px solid #f08c00;
+	font-size: 16px;
+	color: #f08c00;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 8px 16px;
+	border-radius: 4px;
+	transition: .4s;
+	margin: 10px 0 0;
+}
+
+.btn-border:hover {
+	background-color: #f08c00;
+	border-color: #f08c0073;
+	color: #FFF;}
+
+strong{
+	font-size: 1.2em;
+	color: #f08c00;
+	padding: 0 .2em;}
+
+.narrow_box {
+	width: 600px;
+	margin: 0 auto;}
+
+table.normal.price td {
+	text-align: right;}
+
+table.normal.price td span {
+	font-size: 1.4em;
+	font-weight: 500;
+	padding: 0 .2em;}
+
+/* treatment--------------------*/
+#sub .treatment{
+	background: #faf7f5;}
+
+#sub .treatment .treatment_box{
+	width: 700px;
+	margin: auto;
+	display: flex;
+	justify-content: center;}
+
+#sub .treatment .treatment_box .box{
+	background: #fff;
+	text-align: center;
+	border-radius: 4px;
+	margin: 10px;
+	overflow: hidden;}
+
+#sub .treatment .treatment_box .box a{display: block;}
+
+#sub .treatment .treatment_box .box a:hover{
+	filter: brightness(1.2);
+	color: #f08c00;}
+
+#sub .treatment .treatment_box h3{
+	font-weight: normal;
+	font-size: 1rem;
+	margin-top: 0;
+	letter-spacing:0;
+	padding: 10px 0px;}
+
+#sub .treatment .treatment_box.first .box{
+	width: 210px;
+	position: relative;}
+
+#sub .treatment .treatment_box.first h3{padding: 30px 10px 15px;}
+
+#sub .treatment .treatment_box.first .ico{
+	width: 70px;
+	height: 70px;
+	background: #fff;
+	padding: 10px 0;
+	border-radius: 100px;
+	position: absolute;
+	top: 75px;
+	left: calc(50% - 35px);}
+
+#sub .treatment .treatment_box.last{flex-wrap: wrap;}
+
+#sub .treatment .treatment_box.last .box{width: 150px;}
+
+#sub .treatment .treatment_box.last .box a{padding: 30px 10px 15px;}
+
+#sub .treatment .treatment_box.last .ico{margin-bottom: 10px;text-align: center;}
+
+.flex_box .half:nth-of-type(1){
+	position: relative;
+}
+
+.flex_box.video .half:nth-of-type(1):before{
+	content: none;
+}
+
+.flex_box.video .half:nth-of-type(2):before{
+	content: none;
+}
+
+.flex_box.video .half iframe{
+	height: 260px;}
+
+.flex_box .half:nth-of-type(2){
+	position: relative;
+}
+
+.flex_box .half:nth-of-type(1):before{
+	position: absolute;
+	content: "before";
+	background-color: #f08c00;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 15px;
+	top: -10px;
+	left: -10px;
+}
+
+.flex_box .half:nth-of-type(2):before{
+	position: absolute;
+	content: "after";
+	background-color: #f08c00;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 15px;
+	top: -10px;
+	left: -10px;
+}
+
+.flex_box.decay .half:nth-of-type(1):before{
+	position: absolute;
+	content: "保険治療";
+	background-color: #f08c00;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 15px;
+	top: -10px;
+	left: -10px;
+}
+
+.flex_box.decay .half:nth-of-type(2):before{
+	position: absolute;
+	content: "自費治療";
+	background-color: #f08c00;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 15px;
+	top: -10px;
+	left: -10px;
+}
+
+/* contact--------------------*/
+#sub main .contact table{
+	margin-top: 60px;
+}
+
+#sub main .contact table td input[type="text"],
+#sub main .contact table td input[type="email"],
+#sub main .contact table td select,
+#sub main .contact table td textarea{
+	width: 100%;
+	height: 100%;
+	border: none;
+	border: solid 1px #ccc;
+}
+
+#sub main .contact table td select{
+	border: none;
+}
+
+#sub main .contact table td input[type="text"],
+#sub main .contact table td input[type="email"],
+#sub main .contact table td select{
+	height: 30px;
+}
+
+#sub main .contact input[type="submit"]{
+	-webkit-appearance: none;
+	background-color: transparent;
+	background-image: none;
+	border: solid 2px #f08c00;
+	border-radius: 0;
+	color: #f08c00;
+	cursor: pointer;
+	display: flex;
+	font-size: 1em;
+	margin: 0 auto;
+	text-decoration: none;
+	width: 300px;
+	height: 60px;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	font-weight: bold;
+	transition: .3s;
+}
+
+#sub main .contact input[type="submit"]:hover{
+	background: #f08c00;
+	color: #fff;
+}
+
+/* お知らせ--------------------*/
+#nav-below{
+	margin-top: 50px;
+}
+
+#nav-below a{
+	color: #f08c00;
+	text-decoration: underline;
+}
+
+.category-archive{
+	margin-top: 60px;
+}
+
+.category-archive .article {
+	background: #fff;
+	padding: 30px 30px 15px;
+}
+
+.category-archive .article li{
+	margin-bottom: 15px;
+	letter-spacing: 0.1em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.category-archive .article li p{
+	display: inline-block;
+	width: 110px;
+	background: #e9e9e9;
+	font-size: 0.857em;
+	text-align: center !important;
+	border-radius: 2px;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+.category-archive .article li p.event {
+	background: #fdf3e5;
+	color: #f08c00;
+}
+
+.category-archive .article li span{
+	margin-right: 1em;
+}
+
+@media screen and (max-width:599px){
+	#sub main.doctor .career{display: block;}
+	
+	.flex_box .item,.flex_box .item_img{flex-basis: 100%;}
+	
+	.flex_box .item p strong{
+		margin-top: 0.667em;
+		display: inline-block;}
+	
+	.flex_box .item_img{order: 0;}
+	.flex_box .item{order: 1;}
+	
+	.flow_box p span {
+		margin-top: 0.667em;
+		display: block;}
+	
+	.flex_box.video .half, .flex_box.decay .half{
+		flex-basis: 100%;
+		margin-bottom: 15px;}
+	
+	.flex_box.video .half iframe{
+		height: auto;}
+	
+	.container_btn{
+		padding-top: 15px;}
+	
+	.narrow_box {
+		width: 100%;}
+	
+	.narrow_box table.normal.price td {
+		text-align: center;}
+	
+	#sub .treatment{padding: 0px 0 0;}
+	#sub .treatment h2{margin: 0 auto 15px;}
+	#sub .treatment h3{margin: 10px 0;}
+	#sub .treatment .treatment_box{width: 100%;}
+	#sub .treatment .treatment_box.first{display: block;}
+	#sub .treatment .treatment_box.first .box{margin:0 auto 20px;}
+	#sub .treatment .treatment_box.last .box {width: 40%;}
+	
+	.category-archive .article li{
+		margin-bottom: 23px;
+	}
+	
+	.category-archive .article li p{
+		display: block;
+		margin-bottom: 5px;
+	}
+	
+	.category-archive .article li a{
+		font-size: 13px;
+		letter-spacing:
+	}
+	
+	.category-archive .article{
+		padding: 25px 25px 25px;
+	}
+}
+
+/* SAMPLE---------------------------------------------- */
+#sub main.sample{}
+
+@media screen and (max-width:599px){
+	#sub main.doctor .career .box {
+		margin: 0;
+	}
+}
+
+/*料金表*/
+.flex_case{display: flex;flex-wrap: wrap;justify-content: space-between;margin-bottom: 100px;}
+.flex_case .item30{flex-basis: 30%; margin: 40px 0 0;}
+.flex_case .door{position: relative;}
+.flex_case .door img{width: 100%; box-shadow: 10px 10px 15px -10px;margin-bottom: 0px;}
+.flex_case .door p{position: absolute; top: 50%; left: 10px; font-weight: 600;}
+.flex_case li.half.door {margin-bottom: 20px;}
+.flex_case .item30.door p{color: #fff;text-shadow: #505050 1px 1px 0, #505050 -1px -1px 0, #505050 -1px 1px 0, #505050 1px -1px 0, #505050 0px 1px 0, #505050 0-1px 0, #505050 -1px 0px 0, #505050 1px 0px 0;}
+.flex_case .item30.door p span{font-size: 1.5em; display: block;}
+.flex_case .item30 h3{margin-top: 0;}
+.flex_case .item30 h3 span{font-size: 0.8em; display: block; font-weight: normal;}
+.flex_case .item30 h3 span.price{font-size: 1.2em; display: block; font-weight: bold; color: #f08c00;}
+.flex_case .item30 h3 span.price small{font-size: 0.6em;}
+.flex_case .item30 h3 span.price.free{color: #232323;}
+.flex_case .item30 h3 span.price.free small{font-size: 0.8em;}
+.flex_case .item30 p{text-align: left !important;}
+.flex_case .item30 p.center{text-align: center !important;}
+.flex_case .item30 p.center a{color: #f08c00; text-decoration: underline;}
+.flex_case .item30 p.center a:hover{text-decoration: none;}
+.flex_case .item30 p.center a i{margin-right: 5px;}
+.flex_case .item30 p.center a:hover i{animation: arrow 1s;}
+@keyframes arrow {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(10px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@media screen and (max-width:599px){
+	.flex_case .item30{flex-basis: 100%; margin: 20px 0 0;}
+	.flex_case .item30 h3{margin-top: 10px;}
+	.flex_case .item30 h3 span.price{font-size: 1em;}
+	.flex_case .item30 h3 span.price small{font-size: 0.7em;}
+	.flex_case .item30 h3 span.price.free small{font-size: 0.7em;}
+	.flex_case .item30 p.center{margin-bottom: 30px;}
+	.flex_case .item30.door p{font-size: 0.8em;}
+	.flex_case .item30.door p span{font-size: 1.2em;}
+}
