@@ -38,7 +38,7 @@
       <p class="text-center font-bold text-xl" style="color:#fff;">\検索トレンドNo.1の“スマート矯正“/</p>
       <p class="text-center font-bold text-2xl mb-4" style="color:#fff;">Oh my teeth</p>
     </div>
-    <a href="<?php echo get_custom_cta_href('/media/ohmyteeth_cta'); ?>" class=" btn_booking click_cta" data-position="shindan" data-cta="ohmyteeth">
+    <a href="/media/ohmyteeth_cta/" class=" btn_booking click_cta" data-position="shindan" data-cta="ohmyteeth">
       <img class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/omt/omt_banner.webp'); ?>" alt="" style="width: 100%; height: auto;">
     </a>
 
@@ -59,7 +59,7 @@
       </p>
       <div class="cta_button">
         <div class="btn poyo">
-          <a href="<?php echo get_custom_cta_href('	/media/ohmyteeth_cta'); ?>" class="btn_booking click_cta" data-position="shindan" data-cta="ohmyteeth">
+          <a href="/media/ohmyteeth_cta/" class="btn_booking click_cta" data-position="shindan" data-cta="ohmyteeth">
             <img data-track data-value="ohmyteethCTAクリック" class="lazyload mx-auto" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/omt/btn_dia_omt.webp'); ?>" alt="まずは気軽にご相談ください">
           </a>
         </div>

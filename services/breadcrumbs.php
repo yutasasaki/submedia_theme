@@ -12,19 +12,21 @@ function swell_breadcrumb_add( $list_data ) {
     $domain_url = $parsed_url['scheme'] . '://' . $parsed_url['host'];
     
     // 「ホーム」用のデータ
-    $domain_data = [
+    $home_data = [
         'url'  => $domain_url,
         'name' => 'ホーム',
     ];
     
-    // 「ホワイトニング」用のデータ（`/whitening` を固定で指定）
-    $whitening_data = [
-        'url'  => $domain_url . '/whitening',
-        'name' => 'ホワイトニング',
+    // 「media」用のデータ
+    $media_data = [
+        'url'  => $domain_url . '/media',
+        'name' => 'media',
     ];
 
-    // トップページでは何も出力しない
-    if ( \SWELL_Theme::is_top() ) return false;
+    // トップページ（/media）の場合は「ホーム > media」だけを表示
+    if (is_front_page() || $_SERVER['REQUEST_URI'] == '/media/') {
+        return [$home_data, $media_data];
+    }
 
     $SETTING = \SWELL_Theme::get_setting();
     $wp_obj = get_queried_object();
@@ -32,11 +34,11 @@ function swell_breadcrumb_add( $list_data ) {
     $custom_data = [];
 
     // 「投稿ページ」をパンくずリストに入れる場合
-    $home_data = null;
+    $home_page_data = null;
     if ( $SETTING['breadcrumb_set_home'] ) {
         $home_page_id = (int) get_option('page_for_posts');
         if ( $home_page_id ) {
-            $home_data = [
+            $home_page_data = [
                 'url'  => get_permalink($home_page_id),
                 'name' => get_the_title($home_page_id),
             ];
@@ -49,8 +51,7 @@ function swell_breadcrumb_add( $list_data ) {
             'name' => apply_filters('the_title', $wp_obj->post_title),
         ];
     } elseif ( is_single() ) {
-        // $list_data = array_merge($list_data, handle_single_post($wp_obj, $home_data));
-        $list_data = array_merge($list_data, handle_single_post($wp_obj, $home_data, $custom_data));
+        $list_data = array_merge($list_data, handle_single_post($wp_obj, $home_page_data, $custom_data));
     } elseif ( is_page() || is_home() ) {
         $list_data = array_merge($list_data, handle_page($wp_obj));
     } elseif ( is_post_type_archive() ) {
@@ -66,7 +67,7 @@ function swell_breadcrumb_add( $list_data ) {
             'name' => $wp_obj->display_name . ' の執筆記事',
         ];
     } elseif ( is_archive() ) {
-        $list_data = array_merge($list_data, handle_archive($wp_obj, $home_data, $custom_data));
+        $list_data = array_merge($list_data, handle_archive($wp_obj, $home_page_data, $custom_data));
     } elseif ( is_search() ) {
         $list_data[] = [
             'url'  => '',
@@ -84,17 +85,17 @@ function swell_breadcrumb_add( $list_data ) {
         ];
     }
 
-    // **カスタムパンくずを追加**
-    array_unshift($list_data, $whitening_data); // 「ホワイトニング」を先頭に追加
-    array_unshift($list_data, $domain_data); // 「メディケアさいたま新都心（ホーム）」を先頭に追加
-    // Home & メディケア歯科クリニック さいたま新都心 を削除
-    // $list_data = array_filter($list_data, function ($item) {
-    //     return !in_array($item['name'], ['Home', 'メディケア歯科クリニック さいたま新都心']);
-    // });
+    // パンくずリストの先頭に「ホーム > media」を追加
+    array_unshift($list_data, $media_data); // 「media」を先頭に追加
+    array_unshift($list_data, $home_data); // 「ホーム」を先頭に追加
+
+    // 「ホワイトニング」というパンくずを削除（2階層目以下の場合）
+    $list_data = array_filter($list_data, function ($item) {
+        return $item['name'] !== 'ホワイトニング';
+    });
 
     // 配列のキーを振り直す（JSONエンコード時の問題を防ぐ）
     $list_data = array_values($list_data);
-    
 
     return $list_data;
 }
@@ -239,43 +240,45 @@ function handle_date_archive() {
             'name' => $month . '月',
         ];
     } else {
-        $list_data[] =[
-'url'  => '',
-'name' => $y . ‘年’,
-];
-}
-return $list_data;
+        $list_data[] = [
+            'url'  => '',
+            'name' => $y . '年',
+        ];
+    }
+    return $list_data;
 }
 
 function handle_archive($wp_obj, $home_data, $custom_data) {
-$list_data = [];
-if ($custom_data) {
-$list_data[] = $custom_data;  // 固定記事を追加
-}
-if ($home_data && (is_category() || is_tag())) {
-$list_data[] = $home_data;
-}$term_id = $wp_obj->term_id;
-$term_name = $wp_obj->name;
-$tax_name = $wp_obj->taxonomy;
-
-if ($wp_obj->parent !== 0) {
-    $parent_array = array_reverse(get_ancestors($term_id, $tax_name));
-    foreach ($parent_array as $parent_id) {
-        $parent_term = get_term($parent_id, $tax_name);
-        $parent_link = get_term_link($parent_id, $tax_name);
-        $parent_name = $parent_term->name;
-
-        $list_data[] = [
-            'url'  => $parent_link,
-            'name' => $parent_name,
-        ];
+    $list_data = [];
+    if ($custom_data) {
+        $list_data[] = $custom_data;  // 固定記事を追加
     }
-}
+    if ($home_data && (is_category() || is_tag())) {
+        $list_data[] = $home_data;
+    }
+    
+    $term_id = $wp_obj->term_id;
+    $term_name = $wp_obj->name;
+    $tax_name = $wp_obj->taxonomy;
 
-$list_data[] = [
-    'url'  => '',
-    'name' => $term_name,
-];
+    if ($wp_obj->parent !== 0) {
+        $parent_array = array_reverse(get_ancestors($term_id, $tax_name));
+        foreach ($parent_array as $parent_id) {
+            $parent_term = get_term($parent_id, $tax_name);
+            $parent_link = get_term_link($parent_id, $tax_name);
+            $parent_name = $parent_term->name;
 
-return $list_data;
+            $list_data[] = [
+                'url'  => $parent_link,
+                'name' => $parent_name,
+            ];
+        }
+    }
+
+    $list_data[] = [
+        'url'  => '',
+        'name' => $term_name,
+    ];
+
+    return $list_data;
 }

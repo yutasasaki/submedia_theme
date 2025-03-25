@@ -34,7 +34,7 @@
   <p class="text-center font-bold text-lg">そんなあなたにおすすめなのは...</p>
   <img class="animate-bounce lazyload w-10 h-10 text-center inline-block" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/caret-down.png'); ?>" alt="下に進む">
   <div class="content_img my-4">
-    <a href="<?php echo get_custom_cta_href('/media/diagnose/kireilign_cta/'); ?>" class=" btn_booking click_cta" data-position="shindan" data-cta="kireilign">
+    <a href="/media/diagnose/kireilign_cta/" class=" btn_booking click_cta" data-position="shindan" data-cta="kireilign">
       <img class="lazyload" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/kireilign.avif'); ?>" alt="" style="width: 100%; height: auto;">
     </a>
     <div class="bg-white rounded-2xl p-4 relative space-y-2">
@@ -52,7 +52,7 @@
   </div>
   <div class="cta_button">
     <div class="btn poyo">
-      <a href="<?php echo get_custom_cta_href('/media/diagnose/kireilign_cta/'); ?>" class="btn_booking click_cta" data-position="shindan" data-cta="kireilign">
+      <a href="/media/diagnose/kireilign_cta/" class="btn_booking click_cta" data-position="shindan" data-cta="kireilign">
         <img data-track data-value="キレイラインCTAクリック" class="lazyload mx-auto" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/images/shindan/btn_dia_kl.png'); ?>" alt="まずは気軽にご相談ください">
       </a>
     </div>
