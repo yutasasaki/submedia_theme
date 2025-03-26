@@ -32,8 +32,12 @@ get_header('guide-saitamashintoshin'); ?>
 
   <section>
     <h1><?php echo get_bloginfo('name'); ?>の<br class="sp">ホワイトニング<span>WHITENING</span></h1>
-    <p><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/img/guidance/whitening/002.jpg'); ?>" width="100%" alt="ホワイトニング"></p>
-    <p>綺麗な白い歯は清潔感があり、好印象を与えます。ホワイトニングとは歯を削ることなく天然歯の本来の白さを引き出すものです。ホワイトニングの効果には個人差がありますが、元々の歯の色が濃い人や、変色してしまっている人などはホワイトニングの効果が出にくいと言われています。</p>
+    <p><img
+        src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/img/guidance/whitening/002.jpg'); ?>"
+        width="100%" alt="ホワイトニング"></p>
+    <p>
+      綺麗な白い歯は清潔感があり、好印象を与えます。ホワイトニングとは歯を削ることなく天然歯の本来の白さを引き出すものです。ホワイトニングの効果には個人差がありますが、元々の歯の色が濃い人や、変色してしまっている人などはホワイトニングの効果が出にくいと言われています。
+    </p>
     <p>&nbsp;</p>
   </section>
 
@@ -44,13 +48,17 @@ get_header('guide-saitamashintoshin'); ?>
         <p>綺麗な白い歯は清潔感があり、好印象を与えます。ホワイトニングとは歯を削ることなく天然歯の本来の白さを引き出すものです。</p>
         <p>ホワイトニングの効果には個人差がありますが、元々の歯の色が濃い人や、変色してしまっている人などはホワイトニングの効果が出にくいと言われています。</p>
       </div>
-      <div class="item_img"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/img/guidance/esthetic/008.jpg'); ?>" width="100%" alt="ホワイトニング"></div>
+      <div class="item_img"><img
+          src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/img/guidance/esthetic/008.jpg'); ?>"
+          width="100%" alt="ホワイトニング"></div>
     </div>
     <p>また、ホワイトニングの種類には、ホームホワイトニングとオフィスホワイトニングがありますが当院ではホームホワイトニングを取り扱っています。</p>
   </section>
   <section>
     <h2 id="anker2">オフィスホワイトニング</h2>
-    <p><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/img/guidance/whitening/002.jpg'); ?>" width="100%" alt="ホワイトニング"></p>
+    <p><img
+        src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/img/guidance/whitening/002.jpg'); ?>"
+        width="100%" alt="ホワイトニング"></p>
     <p>オフィスホワイトニングは、歯科医院にて行うホワイトニングです。ホワイトニングの薬剤を歯に塗り、特殊な光をあててホワイトニングを行います。</p>
     <p>1回の施術で白さをご実感頂けるので忙しい方やすぐに白くしたい方にもおすすめです。当院で行なっているオフィスホワイトニングの詳細をご案内いたします。</p>
     <h3>オフィスホワイトニング施術の流れ</h3>
@@ -59,13 +67,17 @@ get_header('guide-saitamashintoshin'); ?>
 
     <ul class="list">
       <h4>STEP1.来院初日・歯・お口の状態の検査</h4>
-      <li>ホワイトニングをされる方は、はじめにお口の検査をいたします。せっかくホワイトニングをした歯なのに実は虫歯になっていてすぐに削らなくてはならなくなってしまった...<br>こういったことがないよう虫歯や歯周病の確認をいたします。もし優先すべき治療があった場合は、その治療後にホワイトニングをする可能性があること予めご了承ください。</li>
+      <li>
+        ホワイトニングをされる方は、はじめにお口の検査をいたします。せっかくホワイトニングをした歯なのに実は虫歯になっていてすぐに削らなくてはならなくなってしまった...<br>こういったことがないよう虫歯や歯周病の確認をいたします。もし優先すべき治療があった場合は、その治療後にホワイトニングをする可能性があること予めご了承ください。
+      </li>
       <h4>STEP2.歯のお色の確認と写真撮影</h4>
       <li>まずは今現在の歯の状態とお色の確認をさせていただきます。ホワイトニング前後の色の変化がわかるよう写真撮影をさせて頂きます。<br>またどれだけの白さをご希望されるかを伺った上で、白さの目標を設定します。</li>
       <h4>STEP3.歯のクリーニング</h4>
       <li>歯の表面の汚れをきれいに落とします。汚れがついていると歯の漂白効果が薄まるためきれいな状態にしてホワイトニングを開始いたします。</li>
       <h4>STEP4.唇と歯肉の保護</h4>
-      <li>ホワイトニング中は口を開けた状態となるため、唇が乾燥します。そのため乾燥から唇を保護する目的で専用のリップを使用します。<br>またそれと同時に歯肉に薬剤がつかないように特殊なプラスチックで保護をします。出来るだけ不快感を与えないよう十分に配慮した上でホワイトニングを実施していきます。</li>
+      <li>
+        ホワイトニング中は口を開けた状態となるため、唇が乾燥します。そのため乾燥から唇を保護する目的で専用のリップを使用します。<br>またそれと同時に歯肉に薬剤がつかないように特殊なプラスチックで保護をします。出来るだけ不快感を与えないよう十分に配慮した上でホワイトニングを実施していきます。
+      </li>
       <h4>STEP5.ホワイトニングジェルを歯に塗布</h4>
       <li>唇・歯肉の保護が終わりましたらジェル状のホワイトニング剤を歯の表面に塗布します。オフィスホワイトニングは一般的に前歯上下計12本が対象となります。</li>
       <h4>STEP6.特殊な光を照射</h4>
@@ -121,13 +133,17 @@ get_header('guide-saitamashintoshin'); ?>
 
   <section>
     <h2 id="anker3">ホームホワイトニング</h2>
-    <p><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/img/guidance/whitening/002.jpg'); ?>" width="100%" alt="ホワイトニング"></p>
+    <p><img
+        src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/img/guidance/whitening/002.jpg'); ?>"
+        width="100%" alt="ホワイトニング"></p>
     <p>ホームホワイトニングは、はじめに歯科医院にてホワイトニングについてのご説明とご自身の歯型に合うマウスピース（カスタムトレイ）を作製したのち、専用の薬剤でご自身でホワイトニングを行っていただきます。</p>
     <h3>ホームホワイトニングの施術の流れ</h3>
     <p><?php echo get_bloginfo('name'); ?>で行うオフィスホワイトニングの流れです。</p>
     <ul class="list">
       <h4>STEP1.来院初日</h4>
-      <li>現在の歯のお色やご希望の白さを伺います。その後、ホームホワイトニングに使用するマウスピース（カスタムトレイ）製作のため、歯型の型取りを行います。マウスピースの製作はおおよそ1週間程度かかりますので、次回来院のご予約をお取りして終了です。</li>
+      <li>
+        現在の歯のお色やご希望の白さを伺います。その後、ホームホワイトニングに使用するマウスピース（カスタムトレイ）製作のため、歯型の型取りを行います。マウスピースの製作はおおよそ1週間程度かかりますので、次回来院のご予約をお取りして終了です。
+      </li>
       <h4>STEP2.来院2回目</h4>
       <li>完成したマウスピース（カスタムトレイ）と、専用ジェル4本（2週間分）をお渡しします。使用方法・ホームホワイトニング期間の注意事項を細かくご説明差し上げます。</li>
       <h4>STEP3.自宅でのホワイトニングの方法</h4>
@@ -225,7 +241,9 @@ get_header('guide-saitamashintoshin'); ?>
 
   <section>
     <h2 id="anker5">ホワイトニング後でも白さに影響が出ない食べ物</h2>
-    <p><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/img/guidance/whitening/005.webp'); ?>" width="100%" alt="ホワイトニング"></p>
+    <p><img
+        src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/img/guidance/whitening/005.webp'); ?>"
+        width="100%" alt="ホワイトニング"></p>
     <div class="flex_box">
       <div class="item">
         <ul class="list">
@@ -246,18 +264,20 @@ get_header('guide-saitamashintoshin'); ?>
     <div class="flex_box">
       <div class="item">
         <p>私達は患者様からお口の健康を任せていただけるように、頼りがいのある歯科医院を目指しています。お口のトラブルがございましたら、お気軽にご相談ください。</p>
-        <div class="container_btn"><a href="<?php echo esc_url(home_url('/guidance/')); ?>" class="btn-border">診療内容はこちら</a></div>
+        <div class="container_btn"><a href="<?php echo esc_url(home_url('/guidance/')); ?>"
+            class="btn-border">診療内容はこちら</a></div>
       </div>
-      <div class="item_img"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/img/common/002.jpg'); ?>" width="100%" alt="ホワイトニング"></div>
+      <div class="item_img"><img
+          src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/pages/saitamashintoshin/img/common/002.jpg'); ?>"
+          width="100%" alt="ホワイトニング"></div>
     </div>
   </section>
 
   <!-- ここに最新記事を表示 -->
   <?php
-  // 最新記事を5件取得
   $args = array(
     'post_type' => 'post',
-    'posts_per_page' => 5,
+    'posts_per_page' => -1,
     'orderby' => 'date',
     'order' => 'DESC'
   );
@@ -265,27 +285,16 @@ get_header('guide-saitamashintoshin'); ?>
 
   if (!empty($latest_posts)) :
   ?>
-    <section>
-      <h2>最新記事</h2>
-      <ul class="latest-posts">
-        <?php foreach ($latest_posts as $post) : setup_postdata($post); ?>
-          <li>
-            <a href="<?php the_permalink(); ?>">
-              <?php if (has_post_thumbnail()) : ?>
-                <div class="post-thumbnail">
-                  <?php the_post_thumbnail('thumbnail'); ?>
-                </div>
-              <?php endif; ?>
-              <div class="post-content">
-                <h3><?php the_title(); ?></h3>
-                <p class="post-date"><?php echo get_the_date(); ?></p>
-                <div class="post-excerpt"><?php the_excerpt(); ?></div>
-              </div>
-            </a>
-          </li>
-        <?php endforeach; ?>
-      </ul>
-    </section>
+  <section>
+    <h2>歯科矯正に関する当院のコラム</h2>
+    <ul class="wp-block-latest-posts__list wp-block-latest-posts">
+      <?php foreach ($latest_posts as $post) : setup_postdata($post); ?>
+      <li><a class="wp-block-latest-posts__post-title"
+          href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+      </li>
+      <?php endforeach; ?>
+    </ul>
+  </section>
   <?php
     wp_reset_postdata();
   endif;

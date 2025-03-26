@@ -99,19 +99,22 @@
       <li><a href="<?php echo esc_url(home_url('/access.html')); ?>">アクセス<span>ACCESS</span></a></li>
     </ul>
   </nav>
+  <?php 
+  $domain_url = htmlspecialchars((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/', ENT_QUOTES, 'UTF-8');
+  ?>
   <ul itemscope itemtype="http://schema.org/BreadcrumbList" class="pankuzu">
     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-      <a itemprop="item" href="<?php echo esc_url(home_url('/')); ?>">
+    <a itemprop="item" href="<?php echo $domain_url;?>">
         <span itemprop="name">TOP</span></a>
       <meta itemprop="position" content="1" />
     </li>
     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-      <a itemprop="item" href="<?php echo esc_url(home_url('/guidance/')); ?>">
+      <a itemprop="item" href="<?php echo $domain_url . 'guidance/'; ?>">
         <span itemprop="name">診療内容</span></a>
       <meta itemprop="position" content="2" />
     </li>
     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-      <a itemprop="item" href="<?php echo esc_url(home_url('/guidance/whitening.html')); ?>">
+      <a itemprop="item" href="<?php echo $domain_url . 'whitening/'; ?>">
         <span itemprop="name">ホワイトニング</span></a>
       <meta itemprop="position" content="3" />
     </li>
