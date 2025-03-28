@@ -286,7 +286,7 @@ get_header('guide-saitamashintoshin'); ?>
   if (!empty($latest_posts)) :
   ?>
   <section>
-    <h2>歯科矯正に関する当院のコラム</h2>
+    <h2>歯科矯正に関するコラム</h2>
     <ul class="wp-block-latest-posts__list wp-block-latest-posts">
       <?php foreach ($latest_posts as $post) : setup_postdata($post); ?>
       <li><a class="wp-block-latest-posts__post-title"
